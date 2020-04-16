@@ -1,5 +1,6 @@
 ---
-title: Home
+title: Urban-PLUMBER Project
+is_project_page: false
 ---
 
 ## Welcome to GitHub Pages
