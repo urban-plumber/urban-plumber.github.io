@@ -1,5 +1,6 @@
 ---
 title: Home
+is_project_page: true
 ---
 
 ## Welcome to GitHub Pages
