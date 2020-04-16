@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
+title: [The title of your site]
+description: [A short description of your site's purpose]
+google_analytics: UA-99077988-1
 github: 
   is_project_page: false
+  is_user_page: false
