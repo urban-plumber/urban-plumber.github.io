@@ -1,3 +1,8 @@
+---
+layout: default
+title: Hank Quinlan, Horrible Cop
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/urban-plumber/urban-plumber.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
