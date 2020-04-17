@@ -4,7 +4,7 @@ title: Home
 
 **How have new developments in urban climate models affected performance over the last 10 years, and how do different modelling approaches compare across a range of urban conditions?**
 
-We invite you to help answer these questions by participating in the Urban-PLUMBER project, starting in May 2020 and running for 12 months.
+We invite you to help answer these questions by participating in the Urban-PLUMBER project - a multi-site urban land surface model evaluation project, starting in May 2020 and running for 12 months.
 
 ![](/img/schematic_v2.png)
 
