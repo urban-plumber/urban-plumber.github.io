@@ -2,11 +2,11 @@
 title: Home
 ---
 
-![](/img/schematic_v2.png)
-
 **How have new developments in urban climate models affected performance over the last 10 years, and how do different modelling approaches compare across a range of urban conditions?**
 
 We invite you to help answer these questions by participating in the Urban-PLUMBER project, starting in May 2020 and running for 12 months.
+
+![](/img/schematic_v2.png)
 
 ## Who should get involved?
 Both modellers and those with urban flux tower observations are invited to participate.
@@ -22,7 +22,11 @@ Both modellers and those with urban flux tower observations are invited to parti
 4. Are models utilising available meteorological information effectively?
 
 ## Key outputs
-We expect at least two papers from this project. The first will focus on how developments have affected urban model performance since the last major comparison at a single site. The second will assess how different models perform at different points along the urban/vegetation fraction continuum. Analysis will draw on methods of other recent LSM evaluation projects like SUBLIME (Steeneveld et al., 2017) and PLUMBER (Best et al., 2015).
+We expect at least two papers from this project:
+1. How developments have affected urban model performance since the last major comparison at a single site. 
+2. How different models perform at different points along the urban/vegetation fraction continuum. 
+
+Analysis will draw on methods of other recent LSM evaluation projects like PILPS-Urban (Grimmond et al. 2011), PLUMBER (Best et al., 2015) and SUBLIME (Steeneveld et al., 2017).
 
 ## Resources to make participation simpler
 Often the most time-consuming aspects of evaluation projects is getting inputs and outputs in complying form. We offer the following to streamline this process:
@@ -33,7 +37,7 @@ Often the most time-consuming aspects of evaluation projects is getting inputs a
 This project is challenging as it will include about 20 sites, and will include a wide variety of models with different standards. We hope the above steps make participation simpler, and that you will join us to help push forward the latest in urban land surface modelling.
 
 ## What to do to get involved
-Email [met-urban-plumber@reading.ac.uk](met-urban-plumber@reading.ac.uk) to register your interest, either as a modeller or by providing flux tower data. We can then provide you with full instructions for participation.
+Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) to register your interest, either as a modeller or by providing flux tower data. We can then provide you with full instructions for participation.
 
 ## Acknowledgments
 We gratefully acknowledge those who have supported this project, provided valuable feedback, and offered observational datasets including Gab Abramowitz, Andrew Coutts, Helen Ward, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Martin De Kauwe and Andrew Pitman.
