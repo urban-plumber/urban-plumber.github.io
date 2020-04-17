@@ -20,12 +20,13 @@
             >{{ site.title | default: site.github.repository_name }}</a></h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
-          {% if site.show_downloads %}
             <section id="downloads">
               <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
-          {% endif %}
+
+            <h5 id="authors"> <a href="mailto:m.lipson@unsw.edu.au">Mat Lipson</h5>
+
         </header>
     </div>
 

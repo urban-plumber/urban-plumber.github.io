@@ -2,12 +2,6 @@
 title: Home
 ---
 
-<h4 align="center">
-	This is some text in a paragraph.Mathew Lipson^1^, Sue Grimmond^2^, Martin Best^3^
-	^1^UNSW Sydney, ^2^University of Reading, ^3^UK Met Office
-</h4>
-
-
 **How have new developments in urban climate models affected performance over the last 10 years, and how do different modelling approaches compare across a range of urban conditions?**
 
 We invite you to help answer these questions by participating in the Urban-PLUMBER project, starting in May 2020 and running for 12 months.
