@@ -32,7 +32,7 @@
   height:70px;
   text-indent: -4000px;
   overflow: hidden;
-  background: url(../images/sprite_download2.png) no-repeat bottom left;
+  background: url(../images/sprite_download2.png) no-repeat bottom right;
 }
 
 .tar_download_link {
@@ -40,16 +40,16 @@
   float: right;
   width: 90px;
   height:70px;
-  text-indent: -4000px;
+  text-indent: -8000px;
   overflow: hidden;
-  background: url(../images/sprite_download2.png) no-repeat bottom right;
+  background: url(../images/sprite_download2.png) no-repeat bottom left;
   margin-left: 10px;
 }
 
 .zip_download_link:hover {
-  background: url(../images/sprite_download2.png) no-repeat top left;
+  background: url(../images/sprite_download2.png) no-repeat top right;
 }
 
 .tar_download_link:hover {
-  background: url(../images/sprite_download2.png) no-repeat top right;
+  background: url(../images/sprite_download2.png) no-repeat top left;
 }
