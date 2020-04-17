@@ -11,11 +11,9 @@ We invite you to help answer these questions by participating in the Urban-PLUMB
 ## Who should get involved?
 Both modellers and those with urban flux tower observations are invited to participate.
 
-### Modelling participants
-Urban climate models that simulate neighbourhood-scale radiant and turbulent fluxes representative of above roof height exchange can participate. Both specialised urban land surface models (LSM) and LSM without an explicit urban representation (e.g. vegetation-focussed models) are of interest. LSM will be run offline (i.e. uncoupled to an atmospheric model) at a range of sites. Those who provide model outputs will be invited as authors on relevant papers.
+**Modelling participants:** Urban climate models that simulate neighbourhood-scale radiant and turbulent fluxes representative of above roof height exchange can participate. Both specialised urban land surface models (LSM) and LSM without an explicit urban representation (e.g. vegetation-focussed models) are of interest. LSM will be run offline (i.e. uncoupled to an atmospheric model) at a range of sites. Those who provide model outputs will be invited as authors on relevant papers.
 
-### Flux tower data participants
-Local-scale urban flux tower observations will be used to both drive models and evaluate outputs. Meteorological information (air temperature, pressure, humidity, precipitation) as well as downwelling short and longwave fluxes will be provided to participants. Evaluation data (turbulent and upwelling radiant fluxes) will be used by the core team to evaluate model output, but will not be distributed to modelling participants.  Those who provide observational data will be invited as authors on relevant papers.
+**Flux tower data participants:** Local-scale urban flux tower observations will be used to both drive models and evaluate outputs. Meteorological information (air temperature, pressure, humidity, precipitation) as well as downwelling short and longwave fluxes will be provided to participants. Evaluation data (turbulent and upwelling radiant fluxes) will be used by the core team to evaluate model output, but will not be distributed to modelling participants.  Those who provide observational data will be invited as authors on relevant papers.
 
 ## What are the key science questions?
 1. How have new developments affected model performance since PILPS-Urban? 
@@ -28,14 +26,14 @@ We expect at least two papers from this project. The first will focus on how dev
 
 ## Resources to make participation simpler
 Often the most time-consuming aspects of evaluation projects is getting inputs and outputs in complying form. We offer the following to streamline this process:
-1. Input forcing available in either netCDF or text format: Two equivalent metrological forcing files will be provided: text and netCDF. The text file is formatted per the PILPS-Urban project, while the netCDF file is formatted per the PLUMBER project.
-2. Example scripts available to convert output data into complying netCDF: We require output to be in a standard netCDF form to allow evaluation. As some groups may not have used netCDF, we will provide a Python script to translate model output (in text form, for example) to a complying netCDF file with appropriate metadata.
-3. Example scripts available to automate model configuration in the multi-site phase:  To speed up application to ~20 sites and reduce inconsistencies of how site information is used, we encourage participants to use a script which reads the provided standard site data information table and writes model configuration files. We will provide an example script that does this, and provide help if required.
-4. Immediate feedback provided on output to help identify issues: Through an online portal model output can be checked for compliance, basic performance analysed, and immediate feedback provided. This allows participants to spot obvious errors (e.g. mislabelled or wrongly-signed variables) and resubmit if required.
+1. **Input forcing available in either netCDF or text format:** Two equivalent metrological forcing files will be provided: text and netCDF. The text file is formatted per the PILPS-Urban project, while the netCDF file is formatted per the PLUMBER project.
+2. **Example scripts available to convert output data into complying netCDF:** We require output to be in a standard netCDF form to allow evaluation. As some groups may not have used netCDF, we will provide a Python script to translate model output (in text form, for example) to a complying netCDF file with appropriate metadata.
+3. **Example scripts available to automate model configuration in the multi-site phase:**  To speed up application to ~20 sites and reduce inconsistencies of how site information is used, we encourage participants to use a script which reads the provided standard site data information table and writes model configuration files. We will provide an example script that does this, and provide help if required.
+4. **Immediate feedback provided on output to help identify issues:** Through an online portal model output can be checked for compliance, basic performance analysed, and immediate feedback provided. This allows participants to spot obvious errors (e.g. mislabelled or wrongly-signed variables) and resubmit if required.
 This project is challenging as it will include about 20 sites, and will include a wide variety of models with different standards. We hope the above steps make participation simpler, and that you will join us to help push forward the latest in urban land surface modelling.
 
 ## What to do to get involved
-Email met-urban-plumber@reading.ac.uk to register your interest, either as a modeller or by providing flux tower data. We can then provide you with full instructions for participation.
+Email [met-urban-plumber@reading.ac.uk](met-urban-plumber@reading.ac.uk) to register your interest, either as a modeller or by providing flux tower data. We can then provide you with full instructions for participation.
 
 ## Acknowledgments
 We gratefully acknowledge those who have supported this project, provided valuable feedback, and offered observational datasets including Gab Abramowitz, Andrew Coutts, Helen Ward, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Martin De Kauwe and Andrew Pitman.
