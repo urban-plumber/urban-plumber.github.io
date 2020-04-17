@@ -1,6 +1,5 @@
 ---
 title: Instructions
-is_project_page: false
 ---
 
 ### Support or Contact
