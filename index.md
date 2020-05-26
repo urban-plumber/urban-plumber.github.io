@@ -26,7 +26,11 @@ The project has two phases:
 
 **Flux tower data participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs.
 
-Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) to register your interest and get detailed instructions.
+Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) to register your interest.
+
+Read the project protocol for detailed information about requirements [coming soon]
+
+View the [available resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
 <!-- ## Resources to make participation simpler
 The project includes the following resources:
@@ -42,9 +46,8 @@ See example resources here: https://bitbucket.org/matlipson/urban-plumber/src/ma
 <!-- 4. **Immediate feedback provided on output to help identify issues:** An online portal: [modelevaluation.org](https://modelevaluation.org/), is used to distribute site data and 
 
  Through an online portal model output can be checked for compliance, basic performance analysed, and immediate feedback provided. This allows participants to spot obvious errors (e.g. mislabelled or wrongly-signed variables) and resubmit if required.
-This project is challenging as it will include about 20 sites, and will include a wide variety of models with different standards. We hope the above steps make participation simpler, and that you will join us to help push forward the latest in urban land surface modelling -->.
+This project is challenging as it will include about 20 sites, and will include a wide variety of models with different standards. We hope the above steps make participation simpler, and that you will join us to help push forward the latest in urban land surface modelling -->
 
-![](/img/schematic_v2.png)
 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback, and offered observational datasets including Gab Abramowitz, Andrew Coutts, Helen Ward, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Martin De Kauwe and Andrew Pitman.
@@ -56,5 +59,5 @@ We gratefully acknowledge those who have supported this project, provided valuab
 3. Steeneveld, G., Tsiringakis, A., Barlow, J., Bohnenstengel, S., Grimmond, S., Halios, C., van Haren, R., Kotthaus, S., Masson, V., van den Oord, G. and others: Single-column urban boundary layer inter-comparison modelling experiment (SUBLIME): Call for participation, Urban Climate News: Quarterly Newsletter of the IAUC, 66, 21–26, 2017.
 4. Best, M. J., Abramowitz, G., Johnson, H. R., Pitman, A. J., Balsamo, G., Boone, A., Cuntz, M., Decharme, B., Dirmeyer, P. A., Dong, J., Ek, M., Guo, Z., Haverd, V., van den Hurk, B. J. J., Nearing, G. S., Pak, B., Peters-Lidard, C., Santanello, J. A., Stevens, L. and Vuichard, N.: The Plumbing of Land Surface Models: Benchmarking Model Performance, J. Hydrometeor, 16(3), 1425–1442, doi:10.1175/JHM-D-14-0158.1, 2015.
 
-
+![](/img/schematic_v2.png)
 
