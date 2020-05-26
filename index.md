@@ -13,14 +13,14 @@ Previous urban surface model evaluation projects have assessed how model complex
 3. How does more detailed morphology information affect model performance? 
 4. Are models utilising available meteorological information effectively?
 
-The project uses [modelevaluation.org](https://modelevaluation.org/) for distribution, submission and evaluation of data.
-
 ## Scope
 
 The project has two phases:
 
 - Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process.
 - Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
+
+![](/img/UP_Timeline.png)
 
 ## Who should get involved?
 
@@ -37,6 +37,8 @@ Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) 
 Read the project protocol for detailed information about requirements [coming soon].
 
 View the [available resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
+
+The project uses [modelevaluation.org](https://modelevaluation.org/) for distribution, submission and evaluation of data.
 
 <!-- ## Resources to make participation simpler
 The project includes the following resources:
