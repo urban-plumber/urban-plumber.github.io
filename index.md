@@ -13,6 +13,8 @@ Previous international model evaluation projects have assessed how model complex
 3. How does more detailed morphology information affect model performance? 
 4. Are models utilising available meteorological information effectively?
 
+The project uses [modelevaluation.org](https://modelevaluation.org/) for distribution, submission and evaluation of data.
+
 ## Scope
 
 The project has two phases:
@@ -26,9 +28,13 @@ The project has two phases:
 
 **Flux tower data participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs.
 
+Those who provide modelling or observational data will be invited as authors on relevant papers.
+
+## More information
+
 Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) to register your interest.
 
-Read the project protocol for detailed information about requirements [coming soon]
+Read the project protocol for detailed information about requirements [coming soon].
 
 View the [available resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
@@ -52,12 +58,12 @@ This project is challenging as it will include about 20 sites, and will include 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback, and offered observational datasets including Gab Abramowitz, Andrew Coutts, Helen Ward, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Martin De Kauwe and Andrew Pitman.
 
+![](/img/schematic_v2.png)
+
 ## References
 
 1. Grimmond, C. S. B., Blackett, M., Best, M. J., Barlow, J., Baik, J.-J., Belcher, S. E., Bohnenstengel, S. I., Calmet, I., Chen, F., Dandou, A., Fortuniak, K., Gouvea, M. L., Hamdi, R., Hendry, M., Kawai, T., Kawamoto, Y., Kondo, H., Krayenhoff, E. S., Lee, S.-H. and Loridan, T.: The International Urban Energy Balance Models Comparison Project: First Results from Phase 1, Journal of Applied Meteorology & Climatology, 49(6), 1268–1292, doi:10.1175/2010JAMC2354.1, 2010.
 2. Grimmond, C. S. B., Blackett, M., Best, M. J., Baik, J.-J., Belcher, S. E., Beringer, J., Bohnenstengel, S. I., Calmet, I., Chen, F., Coutts, A., Dandou, A., Fortuniak, K., Gouvea, M. L., Hamdi, R., Hendry, M., Kanda, M., Kawai, T., Kawamoto, Y., Kondo, H., Krayenhoff, E. S., Lee, S.-H., Loridan, T., Martilli, A., Masson, V., Miao, S., Oleson, K., Ooka, R., Pigeon, G., Porson, A., Ryu, Y.-H., Salamanca, F., Steeneveld, G. j., Tombrou, M., Voogt, J. A., Young, D. T. and Zhang, N.: Initial results from Phase 2 of the international urban energy balance model comparison, International Journal of Climatology, 31(2), 244–272, doi:10.1002/joc.2227, 2011.
 3. Steeneveld, G., Tsiringakis, A., Barlow, J., Bohnenstengel, S., Grimmond, S., Halios, C., van Haren, R., Kotthaus, S., Masson, V., van den Oord, G. and others: Single-column urban boundary layer inter-comparison modelling experiment (SUBLIME): Call for participation, Urban Climate News: Quarterly Newsletter of the IAUC, 66, 21–26, 2017.
 4. Best, M. J., Abramowitz, G., Johnson, H. R., Pitman, A. J., Balsamo, G., Boone, A., Cuntz, M., Decharme, B., Dirmeyer, P. A., Dong, J., Ek, M., Guo, Z., Haverd, V., van den Hurk, B. J. J., Nearing, G. S., Pak, B., Peters-Lidard, C., Santanello, J. A., Stevens, L. and Vuichard, N.: The Plumbing of Land Surface Models: Benchmarking Model Performance, J. Hydrometeor, 16(3), 1425–1442, doi:10.1175/JHM-D-14-0158.1, 2015.
-
-![](/img/schematic_v2.png)
 
