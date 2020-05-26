@@ -6,7 +6,7 @@ title: Home
 
 Previous urban surface model evaluation projects have assessed how model complexity affects performance at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from land surface only simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
 
-**Building on these methods, Urban-PLUMBER will ask**: 
+Building on these methods, Urban-PLUMBER will ask: 
 
 1. How have the last decade of model development affected performance? 
 2. Where do different modelling approaches excel across the urbanised/vegetated continnuum?
@@ -38,7 +38,7 @@ Read the project protocol for detailed information about requirements [coming so
 
 View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
-The project uses [modelevaluation.org](https://modelevaluation.org/) for distribution, submission and evaluation of data.
+View [modelevaluation.org](https://modelevaluation.org/), a portal used for distributing, submitting and evaluating project data.
 
 <!-- ## Resources to make participation simpler
 The project includes the following resources:
