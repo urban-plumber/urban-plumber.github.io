@@ -4,8 +4,6 @@ title: Home
 
 ## A new urban model evaluation project
 
-![](/img/schematic_v2.png)
-
 Previous international model evaluation projects have assessed how model complexity affects performance at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from land surface only simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
 
 **Building on these methods, Urban-PLUMBER will ask**: 
@@ -45,6 +43,8 @@ See example resources here: https://bitbucket.org/matlipson/urban-plumber/src/ma
 
  Through an online portal model output can be checked for compliance, basic performance analysed, and immediate feedback provided. This allows participants to spot obvious errors (e.g. mislabelled or wrongly-signed variables) and resubmit if required.
 This project is challenging as it will include about 20 sites, and will include a wide variety of models with different standards. We hope the above steps make participation simpler, and that you will join us to help push forward the latest in urban land surface modelling -->.
+
+![](/img/schematic_v2.png)
 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback, and offered observational datasets including Gab Abramowitz, Andrew Coutts, Helen Ward, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Martin De Kauwe and Andrew Pitman.
