@@ -36,7 +36,7 @@ Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) 
 
 Read the project protocol for detailed information about requirements [coming soon].
 
-View the [available resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
+View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
 The project uses [modelevaluation.org](https://modelevaluation.org/) for distribution, submission and evaluation of data.
 
