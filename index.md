@@ -4,7 +4,7 @@ title: Home
 
 ## A new urban model evaluation project
 
-Previous international model evaluation projects have assessed how model complexity affects performance at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from land surface only simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
+Previous urban surface model evaluation projects have assessed how model complexity affects performance at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from land surface only simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
 
 **Building on these methods, Urban-PLUMBER will ask**: 
 
