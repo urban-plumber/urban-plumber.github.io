@@ -2,6 +2,8 @@
 title: Home
 ---
 
+## A new urban model evaluation project
+
 ![](/img/schematic_v2.png)
 
 Previous international model evaluation projects have assessed how model complexity affects performance at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from land surface only simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
@@ -13,12 +15,12 @@ Previous international model evaluation projects have assessed how model complex
 3. How does more detailed morphology information affect model performance? 
 4. Are models utilising available meteorological information effectively?
 
-## Scope summary
+## Scope
 
 The project has two phases:
 
--Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process.
--Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
+- Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process.
+- Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
 
 ## Who should get involved?
 
