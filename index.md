@@ -34,11 +34,11 @@ Those who provide modelling or observational data will be invited as authors on 
 
 Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) to register your interest.
 
-Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed information about requirements.
+Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed information about participating.
 
 View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
-View [modelevaluation.org](https://modelevaluation.org/), a portal used for distributing, submitting and evaluating project data.
+View [modelevaluation.org](https://modelevaluation.org/), a website used for distributing, submitting and evaluating project data.
 
 <!-- ## Resources to make participation simpler
 The project includes the following resources:
