@@ -32,7 +32,7 @@ Those who provide modelling or observational data will be invited as authors on 
 
 ## More information
 
-Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@lists.reading.ac.uk) to register your interest.
+Email [met-urban-plumber@lists.reading.ac.uk](mailto:met-urban-plumber@lists.reading.ac.uk) to register your interest.
 
 Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed information about participating.
 
