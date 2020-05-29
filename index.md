@@ -60,7 +60,8 @@ This project is challenging as it will include about 20 sites, and will include 
 
 
 ## Acknowledgements
-We gratefully acknowledge those who have supported this project, provided valuable feedback, and offered observational datasets including Gab Abramowitz, Andrew Coutts, Helen Ward, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Martin De Kauwe and Andrew Pitman.
+We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Matthias Demuzere, 
+Helen Ward, Andrew Coutts, Andrew Pitman, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed and Andreas Christen.
 
 ![](/img/schematic_v2.png)
 
