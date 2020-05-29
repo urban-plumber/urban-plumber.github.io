@@ -133,7 +133,7 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
+  max-width: 640px;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
@@ -380,6 +380,8 @@ Small Device Styles
     font-size:14px;
   }
 
+  img {max-width: 480px}
+
   #downloads {
     display: none;
   }
@@ -427,6 +429,8 @@ Small Device Styles
   body {
     font-size:14px;
   }
+
+  img {max-width: 320px}
 
   #downloads {
     display: none;
