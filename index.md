@@ -40,6 +40,8 @@ View the [available scripts and resources](https://bitbucket.org/matlipson/urban
 
 View [modelevaluation.org](https://modelevaluation.org/), a website used for distributing, submitting and evaluating project data.
 
+Visit the [Q&A page](/qanda/) for questions and clarifications on the project.
+
 <!-- ## Resources to make participation simpler
 The project includes the following resources:
 1. **Input forcing available in either netCDF or text format:** Two equivalent meteorological forcing files will be provided: text and netCDF. The text file is formatted per the PILPS-Urban project, while the netCDF file is formatted per the PLUMBER project.
