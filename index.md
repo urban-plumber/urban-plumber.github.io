@@ -20,7 +20,7 @@ The project has two phases:
 - Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process.
 - Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
 
-![](/img/UP_Timeline.png)
+![](/img/UP_Timeline_website.png)
 
 ## Who should get involved?
 
@@ -34,7 +34,7 @@ Those who provide modelling or observational data will be invited as authors on 
 
 Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) to register your interest.
 
-Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed information about requirements [coming soon].
+Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed information about requirements.
 
 View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
