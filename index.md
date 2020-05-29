@@ -9,7 +9,7 @@ Previous urban surface model evaluation projects have assessed how model complex
 Building on these methods, Urban-PLUMBER will ask: 
 
 1. How have the last decade of model development affected performance? 
-2. Where do different modelling approaches excel across the urbanised/vegetated continnuum?
+2. Where do different modelling approaches excel across the urbanised/vegetated continuum?
 3. How does more detailed morphology information affect model performance? 
 4. Are models utilising available meteorological information effectively?
 
@@ -34,7 +34,7 @@ Those who provide modelling or observational data will be invited as authors on 
 
 Email [met-urban-plumber@reading.ac.uk](mailto:met-urban-plumber@reading.ac.uk) to register your interest.
 
-Read the project protocol for detailed information about requirements [coming soon].
+Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed information about requirements [coming soon].
 
 View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
