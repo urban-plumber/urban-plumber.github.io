@@ -15,6 +15,15 @@ Building on these methods, Urban-PLUMBER will ask:
 3. How does more detailed morphology information affect model performance? 
 4. Are models utilising available meteorological information effectively?
 
+## Scope
+
+The project has two phases:
+
+- Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process.
+- Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
+
+Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for more information.
+
 ## Who should get involved?
 
 **Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Specialised urban land surface models, and general vegetation-focussed models are welcome.
@@ -22,13 +31,6 @@ Building on these methods, Urban-PLUMBER will ask:
 **Flux tower data participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs.
 
 Those who provide modelling or observational data will be invited as authors on relevant papers.
-
-## Scope
-
-The project has two phases:
-
-- Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process.
-- Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
 
 ## More information
 
