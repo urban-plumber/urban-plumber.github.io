@@ -2,6 +2,8 @@
 title: Home
 ---
 
+![](/img/schematic.png)
+
 ## A new urban model evaluation project
 
 Previous urban surface model evaluation projects have assessed how model complexity affects performance at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from offline simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
@@ -20,7 +22,7 @@ The project has two phases:
 - Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process.
 - Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
 
-![](/img/UP_Timeline_website.png)
+<!-- ![](/img/UP_Timeline_website.png) -->
 
 ## Who should get involved?
 
@@ -38,9 +40,9 @@ Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed 
 
 View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
-View [modelevaluation.org](https://modelevaluation.org/), a website used for distributing, submitting and evaluating project data.
+Visit [modelevaluation.org](https://modelevaluation.org/), a website used for distributing, submitting and evaluating project data.
 
-Visit the [Q&A page](/qanda/) for questions and clarifications on the project.
+Check the [Q&A page](/qanda/) for questions and clarifications on the project.
 
 <!-- ## Resources to make participation simpler
 The project includes the following resources:
@@ -62,8 +64,6 @@ This project is challenging as it will include about 20 sites, and will include 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Matthias Demuzere, 
 Helen Ward, Andrew Coutts, Andrew Pitman, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed and Andreas Christen.
-
-![](/img/schematic_v2.png)
 
 ## References
 
