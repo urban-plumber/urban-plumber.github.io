@@ -26,7 +26,7 @@ The project has two phases:
 
 ## Who should get involved?
 
-**Modelling participants:** Urban climate models that simulate neighbourhood-scale radiant and turbulent fluxes representative of above roof height exchange.
+**Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Specialised urban land surface models, and general vegetation-focussed models are welcome.
 
 **Flux tower data participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs.
 
