@@ -16,6 +16,11 @@ Correct ALMA variables in Table 4:
 - Acond -> ACond
 
 ### create_netcdf_EXAMPLE_v1.py
+
+**2020-05-29: v1**
+Initial issue
+
+**2020-06-02: v1.01**
 Correct RootMoist long_name, standard_name and units
 
 

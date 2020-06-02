@@ -44,6 +44,8 @@ Visit [modelevaluation.org](https://modelevaluation.org/), a website used for di
 
 Check the [Q&A page](/qanda/) for questions and clarifications on the project.
 
+See the [changelog](/changelog/) listing any changes to project documents or resources.
+
 <!-- ## Resources to make participation simpler
 The project includes the following resources:
 1. **Input forcing available in either netCDF or text format:** Two equivalent meteorological forcing files will be provided: text and netCDF. The text file is formatted per the PILPS-Urban project, while the netCDF file is formatted per the PLUMBER project.
