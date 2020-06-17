@@ -24,6 +24,6 @@ Initial issue
 Correct RootMoist long_name, standard_name and units
 
 **2020-06-17: v1.02**
-add x,y dimensions to all variables to align with ALMA
+Includes x and y spatial dimension for all variables. This aligns with ALMA protocol and will make multi-site phase easier to process.
 
 
