@@ -23,4 +23,7 @@ Initial issue
 **2020-06-02: v1.01**
 Correct RootMoist long_name, standard_name and units
 
+**2020-06-17: v1.02**
+add x,y dimensions to all variables to align with ALMA
+
 

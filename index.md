@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Project home
 ---
 
 ![](/img/schematic.png)
