@@ -26,4 +26,12 @@ Correct RootMoist long_name, standard_name and units
 **2020-06-17: v1.02**
 Includes x and y spatial dimension for all variables. This aligns with ALMA protocol and will make multi-site phase easier to process.
 
+### Experiment script on modelevaluation.org
+
+**2020-05-29: v1**
+Initial issue, check critical variables only
+
+**2020-05-29: v2**
+check all requested variables
+
 
