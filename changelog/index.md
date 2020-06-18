@@ -34,7 +34,7 @@ Change time datatype from i8 (64bit) to i4 (32bit) for ncview compatibility, add
 **v1 (2020-05-29)**
 Initial issue, check critical variables only
 
-**v2 (2020-05-29)**
-check all requested variables
+**v2 (2020-06-16)**
+check all variables requested in Table 4 of the protocol
 
 
