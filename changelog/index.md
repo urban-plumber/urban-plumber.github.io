@@ -6,10 +6,10 @@ This page records changes made to instructions or resources.
 
 ### Protocol
 
-**2020-05-29: v1**
+**v1 (2020-05-29)**
 Initial issue
 
-**2020-06-02: v1.01**
+**v1.01 (2020-06-02)**
 Correct ALMA variables in Table 4: 
 - Tveg -> TVeg
 - Esoil -> ESoil
@@ -17,24 +17,24 @@ Correct ALMA variables in Table 4:
 
 ### create_netcdf_EXAMPLE_v1.py
 
-**2020-05-29: v1**
+**v1 (2020-05-29)**
 Initial issue
 
-**2020-06-02: v1.01**
+**v1.01 (2020-06-02)**
 Correct RootMoist long_name, standard_name and units
 
-**2020-06-16: v1.02**
+**v1.02 (2020-06-16**
 Includes x and y spatial dimension for all variables. This aligns with ALMA protocol and will make multi-site phase easier to process.
 
-**2020-06-18: v1.03**
+**v1.03 (2020-06-18)**
 Change time datatype from i8 (64bit) to i4 (32bit) for ncview compatibility, add history
 
 ### Experiment script on modelevaluation.org
 
-**2020-05-29: v1**
+**v1 (2020-05-29)**
 Initial issue, check critical variables only
 
-**2020-05-29: v2**
+**v2 (2020-05-29)**
 check all requested variables
 
 
