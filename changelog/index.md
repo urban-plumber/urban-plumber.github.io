@@ -10,7 +10,7 @@ This page records changes made to instructions or resources.
 Initial issue
 
 **v1.01 (2020-06-02)**
-Correct ALMA variables in Table 4: 
+Correct capitalisation of ALMA variables in Table 4:
 - Tveg -> TVeg
 - Esoil -> ESoil
 - Acond -> ACond
