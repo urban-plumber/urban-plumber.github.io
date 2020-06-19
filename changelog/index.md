@@ -29,6 +29,9 @@ Includes x and y spatial dimension for all variables. This aligns with ALMA prot
 **v1.03 (2020-06-18)**
 Change time datatype from i8 (64bit) to i4 (32bit) for ncview compatibility, add history
 
+**v1.04 (2020-06-19)**
+Added x,y dimension variable definitions
+
 ### Submission analysis on modelevaluation.org
 
 **v1 (2020-05-29)**
