@@ -26,7 +26,7 @@ Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for more info
 
 ## Who should get involved?
 
-**Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Specialised urban land surface models, and general vegetation-focussed models are welcome.
+**Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Both specialised urban land surface models and those without an explicit urban representation (e.g. vegetation focussed models) are invited.
 
 **Flux tower data participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs.
 
