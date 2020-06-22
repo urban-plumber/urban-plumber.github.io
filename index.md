@@ -22,13 +22,11 @@ The project has two phases:
 - Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
 - Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
 
-Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for more information.
-
 ## Who should get involved?
 
-**Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Both specialised urban land surface models and those without an explicit urban representation (e.g. vegetation focussed models) are invited.
+**Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Both specialised urban land surface models and those without an explicit urban representation are invited. Read the modelling [protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for more information.
 
-**Flux tower data participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs.
+**Observations participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs. Read the observations [requirements](/static/Urban-PLUMBER_observations_v1.pdf) for more information
 
 Those who provide modelling or observational data will be invited as authors on relevant papers.
 
@@ -36,7 +34,7 @@ Those who provide modelling or observational data will be invited as authors on 
 
 Email [met-urban-plumber@lists.reading.ac.uk](mailto:met-urban-plumber@lists.reading.ac.uk) to register your interest.
 
-Read the [project protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for detailed information about participating.
+Read the [modelling](/static/Urban-PLUMBER_protocol_v1.pdf) or [observations](/static/Urban-PLUMBER_observations_v1.pdf) protocols for detailed information.
 
 View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
