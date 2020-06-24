@@ -24,9 +24,9 @@ The project has two phases:
 
 ## Who should get involved?
 
-**Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Both specialised urban land surface models and those without an explicit urban representation are invited. Read the modelling [protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for more information.
+**Modelling participants:** Models able to predict land-atmosphere radiant and turbulent heat flux exchange from meteorological inputs. Both specialised urban land surface models and those without an explicit urban representation are invited. Read the [modelling protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for more information.
 
-**Observations participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs. Read the observations [requirements](/static/Urban-PLUMBER_observations_v1.pdf) for more information
+**Observations participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs. Read the [observations requirements](/static/Urban-PLUMBER_observations_v1.pdf) for more information
 
 Those who provide modelling or observational data will be invited as authors on relevant papers.
 
