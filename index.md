@@ -30,6 +30,14 @@ The project has two phases:
 
 Those who provide modelling or observational data will be invited as authors on relevant papers.
 
+## Project resources
+
+A series of scripts and resources are provided with the aim of making participation easier - especially for the multi-site phase. These include:
+
+- scripts to automate model configuration, convert forcing and create complying output
+- online portal for accessing site files, and for submitting model data
+- immediate compliance checks and simple analysis on submission, with ability to resubmit if required
+
 ## More information
 
 Email [met-urban-plumber@lists.reading.ac.uk](mailto:met-urban-plumber@lists.reading.ac.uk) to register your interest.
@@ -44,17 +52,6 @@ Check the [Q&A page](/qanda/) for questions and clarifications on the project.
 
 See the [changelog](/changelog/) listing any changes to project documents or resources.
 
-<!-- ## Resources to make participation simpler
-The project includes the following resources:
-1. **Input forcing available in either netCDF or text format:** Two equivalent meteorological forcing files will be provided: text and netCDF. The text file is formatted per the PILPS-Urban project, while the netCDF file is formatted per the PLUMBER project.
-2. **Example scripts available to convert output data into complying netCDF:** We provide a Python scripts to translate model output (in text form, for example) to a netCDF file with appropriate structure.
-3. **Example scripts available to automate model configuration in the multi-site phase:** We provide example scripts which read standard site data tables and forcing files and write model configuration and alternative forcing files for each site.
-
-See example resources here: https://bitbucket.org/matlipson/urban-plumber/src/master/
-
-## An online portal for evaluating and benchmarking models
-[modelevaluation.org](https://modelevaluation.org/) will be used to distribute and accept project files. The site allows submissions to be immediately checked for compliance, and provide simple analysis to  -->
-
 <!-- 4. **Immediate feedback provided on output to help identify issues:** An online portal: [modelevaluation.org](https://modelevaluation.org/), is used to distribute site data and 
 
  Through an online portal model output can be checked for compliance, basic performance analysed, and immediate feedback provided. This allows participants to spot obvious errors (e.g. mislabelled or wrongly-signed variables) and resubmit if required.
@@ -62,8 +59,7 @@ This project is challenging as it will include about 20 sites, and will include 
 
 
 ## Acknowledgements
-We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Matthias Demuzere, 
-Helen Ward, Andrew Coutts, Andrew Pitman, Gert-Jan Steeneveld, Denise Hertwig, Natalie Theeuwes, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed and Andreas Christen.
+We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Valéry Masson, Helen Ward, Andrew Coutts, Andrew Pitman, Denise Hertwig, Matthias Demuzere, Natalie Theeuwes, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed and Andreas Christen.
 
 ## References
 
