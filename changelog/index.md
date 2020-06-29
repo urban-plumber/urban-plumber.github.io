@@ -15,6 +15,9 @@ Correct capitalisation of ALMA variables in Table 4:
 - Esoil -> ESoil
 - Acond -> ACond
 
+**v1.02 (2020-06-27)**
+Update acknowledgements, correct registration address.
+
 ### create_netcdf_EXAMPLE_v1.py
 
 **v1 (2020-05-29)**
