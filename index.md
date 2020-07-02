@@ -12,7 +12,7 @@ Building on these methods, Urban-PLUMBER will ask:
 
 1. How have the last decade of model development affected performance? 
 2. Where do different modelling approaches excel across the urbanised/vegetated continuum?
-3. How does more detailed morphology information affect model performance? 
+3. How does more detailed morphology information affect model performance?
 4. Are models utilising available meteorological information effectively?
 
 ## Scope
@@ -52,11 +52,7 @@ Check the [Q&A page](/qanda/) for questions and clarifications on the project.
 
 See the [changelog](/changelog/) listing any changes to project documents or resources.
 
-<!-- 4. **Immediate feedback provided on output to help identify issues:** An online portal: [modelevaluation.org](https://modelevaluation.org/), is used to distribute site data and 
-
- Through an online portal model output can be checked for compliance, basic performance analysed, and immediate feedback provided. This allows participants to spot obvious errors (e.g. mislabelled or wrongly-signed variables) and resubmit if required.
-This project is challenging as it will include about 20 sites, and will include a wide variety of models with different standards. We hope the above steps make participation simpler, and that you will join us to help push forward the latest in urban land surface modelling -->
-
+![Timeline](/img/UP_Timeline_website.png)
 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Valéry Masson, Helen Ward, Andrew Coutts, Andrew Pitman, Denise Hertwig, Matthias Demuzere, Natalie Theeuwes, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed and Andreas Christen.
