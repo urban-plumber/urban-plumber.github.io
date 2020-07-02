@@ -31,7 +31,7 @@ This page records questions or clarifications for the project.
 
 > **Q:** Is spinup compulsory?
 
-**A:** No, but highly recommended to allow soil hydrology to reach local conditions based on historical rainfall. If the 10-year spinup is a) not feasible, or b) not useful for your model, you may chose a shorter spinup. The submission checking system (modelevaluation.org) will expect a netcdf over the full simulation period (spinup+analysis). To use that system begin the netcdf at the beginning of "time_coverage_start" and fill with the missing_float (\_FillValue)
+**A:** No, but highly recommended to allow soil hydrology to reach local conditions based on historical rainfall. If the 10-year spinup is a) not feasible, or b) not useful for your model, you may chose a shorter spinup. The submission checking system (modelevaluation.org) will expect a netCDF over the full simulation period (spinup+analysis). To use that system begin the netCDF at the beginning of "time_coverage_start" and fill with the missing float value (\_FillValue or missing_value in netCDF).
 
 > **Q:** Should automatic (repeating) spin up be used?
 
