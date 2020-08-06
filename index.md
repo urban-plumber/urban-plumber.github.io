@@ -55,7 +55,7 @@ See the [changelog](/changelog/) listing any changes to project documents or res
 ![Timeline](/img/UP_Timeline_website.png)
 
 ## Acknowledgements
-We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Valéry Masson, Helen Ward, Andrew Coutts, Andrew Pitman, Denise Hertwig, Matthias Demuzere, Natalie Theeuwes, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed, Andreas Christen, Matthias Roth, Fred Meier, Dieter Scherer, Leena Järvi, Włodzimierz Pawlak, Eric Velasco, Hirofumi Sugawara, Shiguang Miao, Junxia Dou, Stevan Earl, Nigel Tapper, Yuya Takane, Winston Chow and David Sailor.
+We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Valéry Masson, Helen Ward, Andrew Coutts, Andrew Pitman, Denise Hertwig, Matthias Demuzere, Natalie Theeuwes, David Meyer, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed, Andreas Christen, Matthias Roth, Fred Meier, Dieter Scherer, Leena Järvi, Włodzimierz Pawlak, Eric Velasco, Hirofumi Sugawara, Shiguang Miao, Junxia Dou, Stevan Earl, Nigel Tapper, Yuya Takane, Winston Chow and David Sailor.
 
 ## References
 

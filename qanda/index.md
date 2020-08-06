@@ -26,6 +26,9 @@ This page records questions or clarifications for the project.
 **A:** *Baseline*: Use default tree type, or plant functional type (PFT) for that geographic location (if your modelling system has that capability). 
 *Detailed*: Use tree type(s) you think best represents the location.
 
+> **Q:** What are the assumptions I should use for the baseline?
+
+**A:** Where parameters are not provided in the baseline case (e.g. building height), models should use their default values, or values which modellers believe represent a generic, or average urban surface. These default values will be used in all baseline cases in the multi-site stage.
 
 ### Spinup
 
