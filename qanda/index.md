@@ -11,13 +11,7 @@ This page records questions or clarifications for the project.
 
 > **Q:** what is "**impervious_area_fraction**" (site parameter 5)
 
-**A:** impervious_area_fraction is the total area of urban “hard surfaces” i.e (roof + road + footpath) = impervious, and (impervious + tree + grass + bare soil + water) = 1.
-
----
-
-> **Q:** For models without urban land types, what should "**impervious_area_fraction**" be?
-
-**A:** Use whatever land type the model would normally apply to urban land points in a typical regional simulation (some use bare soil, some use grassland etc.). In the "detailed" experiment, change surface albedo so that overall albedo close to "average_albedo_at_midday".
+**A:** impervious_area_fraction is the total area of urban “hard surfaces” i.e (roof + road + footpath) = impervious_area_fraction
 
 ---
 
@@ -37,6 +31,12 @@ This page records questions or clarifications for the project.
 > **Q:** What are the assumptions I should use for the **baseline**?
 
 **A:** Where parameters are not provided in the baseline case (e.g. building height), models should use their default values, or values which modellers believe represent a generic, or average urban surface. These default values will be used in all baseline cases in the multi-site stage.
+
+---
+
+> **Q:** For models without explicit urban representation, what should "**impervious_area_fraction**" be?
+
+**A:** Use whatever land type the model would normally apply to urban land points in a typical regional simulation (some use bare soil, some use grassland etc.). In the "detailed" experiment, surface albedo could be altered to match more closely with "average_albedo_at_midday".
 
 ---
 
