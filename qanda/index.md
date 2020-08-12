@@ -17,7 +17,7 @@ This page records questions or clarifications for the project.
 
 > **Q:** what is "**impervious_area_fraction**" (site parameter 5)
 
-**A:** impervious_area_fraction is the total area of urban “hard surfaces”. roof + road + footpaths = impervious_area_fraction
+**A:** impervious_area_fraction is the total plan area of surfaces which are "hard", or not water permeable. Roof + road + footpaths = impervious_area_fraction
 
 ---
 
@@ -53,4 +53,3 @@ This page records questions or clarifications for the project.
 **A:** Repeated spinup is not necessary. The spinup and analysis period should be run together without repetition.
 
 ---
-
