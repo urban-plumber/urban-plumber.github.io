@@ -9,15 +9,21 @@ This page records questions or clarifications for the project.
 
 ### Site data parameters
 
-> **Q:** what is "**impervious_area_fraction**" (site parameter 5)
+> **Q:** what is "**footpath_area_fraction**" (site parameter 12)
 
-**A:** impervious_area_fraction is the total area of urban “hard surfaces” i.e (roof + road + footpath) = impervious_area_fraction
+**A:** footpath_area_fraction could have been better named as “paved_area_fraction” or similar, as it is intended to include paths, courts, plazas, parking areas and any other hard ground covering.
 
 ---
 
-> **Q:** what is "**footpath_area_fraction**" (site parameter 12)
+> **Q:** what is "**impervious_area_fraction**" (site parameter 5)
 
-**A:** footpath_area_fraction is all hard surfaces that are not roads or roofs, e.g. paths, sidewalks, paving etc.
+**A:** impervious_area_fraction is the total area of urban “hard surfaces”. roof + road + footpaths = impervious_area_fraction
+
+---
+
+> **Q:** For models without explicit urban representation, what should "**impervious_area_fraction**" be?
+
+**A:** Use whatever land type the model would normally apply to urban land points in a typical regional simulation (some use bare soil, some use grassland etc.). In the "detailed" experiment, surface albedo could be altered to match more closely with "average_albedo_at_midday".
 
 ---
 
@@ -34,17 +40,11 @@ This page records questions or clarifications for the project.
 
 ---
 
-> **Q:** For models without explicit urban representation, what should "**impervious_area_fraction**" be?
-
-**A:** Use whatever land type the model would normally apply to urban land points in a typical regional simulation (some use bare soil, some use grassland etc.). In the "detailed" experiment, surface albedo could be altered to match more closely with "average_albedo_at_midday".
-
----
-
 ### Spinup
 
 > **Q:** Is **spinup** compulsory?
 
-**A:** No, but highly recommended to allow soil hydrology to reach local conditions based on historical rainfall. If the 10-year spinup is a) not feasible, or b) not useful for your model, you may choose a shorter spinup. The submission checking system (modelevaluation.org) will expect a netCDF over the full simulation period (spinup+analysis). To use that system begin the netCDF at the beginning of "time_coverage_start" and fill with the missing float value (\_FillValue or missing_value in netCDF).
+**A:** The protocol recommends 10yr spinup to allow model soil state to equilibrate with local climate conditions, however this may not be a) useful or b) feasible for some models. If this is the case you may choose a reduced spinup. The submission checking system (on modelevaluation.org) will still expect a netCDF over the full forcing period (spinup + analysis, so for Preston starting 1993-01-01). If some/all spinup is not undertaken, submitted file should still begin at start of forcing, with non-simulated intervals being filled with the missing_float value (set as -9999. in the provided script). This will satisfy the automatic check on submission, and will record for us whether models undertook spinup. The primary analysis will still begin at “time_analysis_start” (2003-08-12 for Preston).
 
 ---
 
