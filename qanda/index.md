@@ -11,7 +11,7 @@ This page records questions or clarifications for the project.
 
 > **Q:** what is "**footpath_area_fraction**" (site parameter 12)
 
-**A:** footpath_area_fraction could have been better named as “paved_area_fraction” or similar, as it is intended to include paths, courts, plazas, parking areas and any other hard ground covering.
+**A:** footpath_area_fraction could have been better named as “paved_area_fraction” or similar, as it is intended to include paths, courts, plazas, parking areas and any other hard ground coverings that are **not** roads.
 
 ---
 
@@ -50,7 +50,7 @@ This page records questions or clarifications for the project.
 
 > **Q:** Should automatic (repeating) **spinup** be used?
 
-**A:** No. Spinup and analysis periods should be run together without repetition.
+**A:** Repeated spinup is not necessary. The spinup and analysis period should be run together without repetition.
 
 ---
 
