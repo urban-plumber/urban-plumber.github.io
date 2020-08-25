@@ -53,3 +53,13 @@ This page records questions or clarifications for the project.
 **A:** Repeated spinup is not necessary. The spinup and analysis period should be run together without repetition.
 
 ---
+
+### Submission
+
+> **Q:** Is possible to have the **observations** to compare the outputs of our model?
+
+**A:** The analysis component of observations are not directly distributed as part of the agreement with data owners, however you are able to get comparison with observations if you upload your output to modelevaluation.org. On upload you will see plots comparing your output with observations, along with some basic error metrics. You are able to re-upload/replace your output at any time up until November.
+
+---
+
+
