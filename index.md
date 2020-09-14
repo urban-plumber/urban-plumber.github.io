@@ -2,7 +2,7 @@
 title: Project home
 ---
 
-**The Urban-PLUMBER project will evaluate the performance of land surface models used in in meteorological or climatic simulations of urban areas. The project is open to any group that wishes to gain a better understanding of how their model performs in a wide range of urban environments.**
+**Urban-PLUMBER will evaluate the performance of land surface models used in in meteorological or climatic simulations of urban areas. The project is open to any group that wishes to gain a better understanding of how their model performs in a wide range of urban environments.**
 
 ![](/img/schematic.png)
 
