@@ -2,13 +2,9 @@
 title: Project home
 ---
 
+**The Urban-PLUMBER project will evaluate the performance of land surface models used in in meteorological or climatic simulations of urban areas. The project is open to any group that wishes to gain a better understanding of how their model performs in a wide range of urban environments.**
+
 ![](/img/schematic.png)
-
-<!-- ## A new urban model evaluation project -->
-
-The Urban-PLUMBER project will evaluate the performance of land surface models used in in meteorological or climatic simulations of urban areas. The project is open to any group that wishes to gain a better understanding of how their model performs in a wide range of urban environments.
-
----
 
 Previous urban model evaluation projects have assessed how model complexity affects prediction of land-atmosphere energy exchange at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from offline simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
 
