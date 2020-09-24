@@ -18,6 +18,12 @@ Correct capitalisation of ALMA variables in Table 4:
 **v1.02 (2020-06-27)**
 Update acknowledgements, correct registration address.
 
+**v1.03 (2020-09-24)**
+- include project website address in instructions
+- indicate spinup is not compulsory
+- re-order modelevaluation instructions, indicate benchmarking disabled
+- update acknowledgements
+
 ### create_netcdf_EXAMPLE_v1.py
 
 **v1 (2020-05-29)**
