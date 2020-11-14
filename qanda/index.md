@@ -11,7 +11,7 @@ This page records questions or clarifications for the project.
 
 > **Q:** Is **spinup** compulsory?
 
-**A:** The protocol recommends 10yr spinup to allow model soil state to equilibrate with local climate conditions, however this may not be a) useful or b) feasible for some models. If this is the case you may choose a reduced spinup. The submission checking system (on modelevaluation.org) will still expect a netCDF over the full forcing period (spinup + analysis, so for Preston starting 1993-01-01). If some/all spinup is not undertaken, submitted file should still begin at start of forcing, with non-simulated intervals being filled with the missing_float value (set as -9999. in the provided script). This will satisfy the automatic check on submission, and will record for us whether models undertook spinup. The primary analysis will still begin at “time_analysis_start” (2003-08-12 for Preston).
+**A:** The protocol recommends 10yr spinup to allow model soil state to equilibrate with local climate conditions, however this may not be a) useful or b) feasible for some models. If this is the case you may choose a reduced spinup. The submission checking system (on modelevaluation.org) will still expect a netCDF over the full forcing period (spinup + analysis, so for Preston starting 1993-01-01). If some/all spinup is not undertaken, submitted netcdf should still begin at start of spinup period, with non-simulated intervals being filled with the missing_float value (set as -9999. in the provided script). This will satisfy the automatic check on submission, and will record for us whether models undertook spinup. The primary analysis will still begin at “time_analysis_start” (2003-08-12 for Preston).
 
 ---
 
