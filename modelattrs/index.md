@@ -1,15 +1,18 @@
 Submitted variables
 -------------------
-Upper triangle shows submitted variables for the **baseline** experiment.
-Lower triangle shows submitted variables for the **detailed** experiment.
-Submitted data above or below 100% likely to be using incorrect timesteps
-[![Variables](submitted_variables.png)](submitted_variables.png)
 
-[Link to variable definitions](variable_definitions.md)
+- Upper triangle shows submitted variables for the **baseline** experiment.
+- Lower triangle shows submitted variables for the **detailed** experiment.
+- Orange indicates more data than forcing (i.e. shorter than expected timesteps)
+- Lighter green may indicate longer than expected timesteps
+- Click figure to expand.
+- [Link to variable definitions](variable_definitions.md)
+
+[![Variables](submitted_variables.png)](submitted_variables.png)
 
 Submitted metadata
 --------
-Metadata as submitted for each experiment
+Metadata as submitted for baseline and detailed experiments
 
 |               | baseline                                                    | detailed                                              |
 |:--------------|:------------------------------------------------------------|:------------------------------------------------------|
