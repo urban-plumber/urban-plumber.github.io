@@ -1,11 +1,16 @@
 Submitted variables
 -------------------
-Upper triangle shows submitted variables for the **baseline** experiment.Lower triangle shows submitted variables for the **detailed** experiment.Submitted data above or below 100% likely to be using incorrect timesteps[![Variables](submitted_variables.png)](submitted_variables.png)
+Upper triangle shows submitted variables for the **baseline** experiment.
+Lower triangle shows submitted variables for the **detailed** experiment.
+Submitted data above or below 100% likely to be using incorrect timesteps
+[![Variables](submitted_variables.png)](submitted_variables.png)
 
 [Link to variable definitions](variable_definitions.md)
+
 Submitted metadata
 --------
 Metadata as submitted for each experiment
+
 |               | baseline                                                    | detailed                                              |
 |:--------------|:------------------------------------------------------------|:------------------------------------------------------|
 | ASLUMv2.0     | [ASLUMv2.0](ASLUMv2.0_AU-Preston_baseline_attrs.md)         | [ASLUMv2.0](ASLUMv2.0_AU-Preston_detailed_attrs.md)   |
