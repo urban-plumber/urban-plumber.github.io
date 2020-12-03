@@ -3,8 +3,8 @@ Submitted variables
 
 - Upper triangle shows submitted variables for the **baseline** experiment.
 - Lower triangle shows submitted variables for the **detailed** experiment.
-- Orange indicates more data than forcing (i.e. shorter than expected timesteps)
-- Lighter green may indicate longer than expected timesteps
+- Orange indicates more data than forcing (i.e. shorter than expected timesteps).
+- Lighter green may indicate longer than expected timesteps, or partial data.
 - Click figure to expand.
 - [Link to variable definitions](variable_definitions.md)
 
