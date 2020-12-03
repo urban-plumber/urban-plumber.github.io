@@ -1,8 +1,8 @@
 Submitted variables
 -------------------
-![Variables](submitted_variables.png)
+[![Variables](submitted_variables.png)](submitted_variables.png)
 
-Metadata
+Submitted metadata
 --------
 
 |               | baseline                                                    | detailed                                              |
