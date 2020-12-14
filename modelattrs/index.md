@@ -24,9 +24,11 @@ Metadata as submitted for baseline and detailed experiments
 | CLMU5         | [CLMU5](CLMU5_AU-Preston_baseline_attrs.md)                 | [CLMU5](CLMU5_AU-Preston_detailed_attrs.md)           |
 | CM-BEM        | [CM-BEM](CM-BEM_AU-Preston_baseline_attrs.md)               | [CM-BEM](CM-BEM_AU-Preston_detailed_attrs.md)         |
 | CM            | [CM](CM_AU-Preston_baseline_attrs.md)                       | [CM](CM_AU-Preston_detailed_attrs.md)                 |
+| K-UCMv1       | [K-UCMv1](K-UCMv1_AU-Preston_baseline_attrs.md)             | [K-UCMv1](K-UCMv1_AU-Preston_detailed_attrs.md)       |
 | Lodz-SUEB     | [Lodz-SUEB](Lodz-SUEB_AU-Preston_baseline_attrs.md)         | [Lodz-SUEB](Lodz-SUEB_AU-Preston_detailed_attrs.md)   |
 | NOAH-SLAB     | [NOAH-SLAB](NOAH-SLAB_AU-Preston_baseline_attrs.md)         |                                                       |
 | NOAH-SLUCM    | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_baseline_attrs.md)       | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_detailed_attrs.md) |
+| SNUUCM        | [SNUUCM](SNUUCM_AU-Preston_baseline_attrs.md)               | [SNUUCM](SNUUCM_AU-Preston_detailed_attrs.md)         |
 | SUEWS         | [SUEWS](SUEWS_AU-Preston_baseline_attrs.md)                 |                                                       |
 | TEB           | [TEB](TEB_AU-Preston_baseline_attrs.md)                     | [TEB](TEB_AU-Preston_detailed_attrs.md)               |
 | TERRA         | [TERRA](TERRA_AU-Preston_baseline_attrs.md)                 |                                                       |
