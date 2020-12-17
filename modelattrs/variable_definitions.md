@@ -1,15 +1,15 @@
-
-Variable definitions
---------------------
+# Variable definitions
 
 | short_name   | long_name (positive direction)                      | units   |
-|--------------|-----------------------------------------------------|---------|
+|:-------------|:----------------------------------------------------|:--------|
 | SWnet        | Net shortwave radiation (downward)                  | W/m2    |
 | LWnet        | Net longwave radiation (downward)                   | W/m2    |
 | Qle          | Latent heat flux (upward)                           | W/m2    |
 | Qh           | Sensible heat flux (upward)                         | W/m2    |
 | Qanth        | Anthropogenic heat flux (upward)                    | W/m2    |
 | Qstor        | Net storage heat flux in all materials (increase)   | W/m2    |
+| SWup         | Upwelling shortwave radiation flux (downward)       | W/m2    |
+| LWup         | Upwelling longwave radiation flux (upward)          | W/m2    |
 | Qg           | Ground heat flux (downward)                         | W/m2    |
 | Qanth_Qh     | Anthropogenic sensible heat flux (upward)           | W/m2    |
 | Qanth_Qle    | Anthropogenic latent heat flux (upward)             | W/m2    |
@@ -27,7 +27,7 @@ Variable definitions
 | Qirrig       | Anthropogenic water flux from irrigation (increase) | kg/m2/s |
 | SnowT        | Snow surface temperature                            | K       |
 | VegT         | Vegetation canopy temperature                       | K       |
-| BaresoilT    | Temperature of bare soil (skin)                     | K       |
+| BaresoilT    | Temperature of bare soil                            | K       |
 | AvgSurfT     | Average surface temperature (skin)                  | K       |
 | RadT         | Surface radiative temperature                       | K       |
 | Albedo       | Surface albedo                                      | 1       |
@@ -37,7 +37,7 @@ Variable definitions
 | SAlbedo      | Snow albedo                                         | 1       |
 | CAlbedo      | Vegetation canopy albedo                            | 1       |
 | UAlbedo      | Urban canopy albedo                                 | 1       |
-| LAI          | Leaf area index                                     | m2/m2   |
+| LAI          | Leaf area index                                     | 1       |
 | RoofSurfT    | Roof surface temperature (skin)                     | K       |
 | WallSurfT    | Wall surface temperature (skin)                     | K       |
 | RoadSurfT    | Road surface temperature (skin)                     | K       |
@@ -51,9 +51,10 @@ Variable definitions
 | RootMoist    | Root zone soil moisture                             | kg/m2   |
 | SoilWet      | Total soil wetness                                  | 1       |
 | ACond        | Aerodynamic conductance                             | m/s     |
-| SWdown       | Downward shortwave radiation                        | W/m2    |
-| LWdown       | Downward longwave radiation                         | W/m2    |
-| Tair         | Air temperature                                     | K       |
-| Qair         | Specific humidity                                   | kg/kg   |
-| PSurf        | Air pressure                                        | Pa      |
-| Wind         | Wind speed                                          | m/s     |
+| SWdown       | Downward shortwave radiation at measurement height  | W/m2    |
+| LWdown       | Downward longwave radiation at measurement height   | W/m2    |
+| Tair         | Air temperature at measurement height               | K       |
+| Qair         | Specific humidity at measurement height             | 1       |
+| PSurf        | Air pressure at measurement height                  | Pa      |
+| Wind         | Wind speed at measurement height                    | m/s     |
+| alb          | implied albedo calculated from forcing              | 1       |
