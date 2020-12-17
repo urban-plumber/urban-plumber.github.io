@@ -1,15 +1,15 @@
 |                   | baseline                                            |
 |:------------------|:----------------------------------------------------|
-| file              | CHTESSEL_CTL_1_chtessel_AU-Pre_baseline_v1.nc       |
-| history           | Created Fri Nov 20 13:41:28 2020                    |
+| file              | CHTESSEL_AU-Pre_baseline_v1.nc                      |
+| history           | Created Tue Dec 15 09:39:15 2020                    |
 | creation          | post_plumber2.py                                    |
-| title             | chtessel model output for the Urban-PLUMBER project |
+| title             | CHTESSEL model output for the Urban-PLUMBER project |
 | site              | AU-Pre                                              |
 | experiment        | baseline                                            |
 | institution       | ECMWF                                               |
 | primary_contact   | Joe McNorton                                        |
 | secondary_contact | Gabriele Arduini, Souhail Boussetta                 |
-| model             | TESSEL-CTL                                          |
+| model             | CHTESSEL                                            |
 | source            | CHTESSEL-IFS-CY47R1                                 |
 | references        | -                                                   |
 | repository        | -                                                   |
