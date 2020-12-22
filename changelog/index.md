@@ -24,6 +24,10 @@ Update acknowledgements, correct registration address.
 - re-order modelevaluation instructions, indicate benchmarking disabled
 - update acknowledgements
 
+**v1.04 (2020-12-22)**
+- match lat/lon decimal precision in Table 2 and AU-Preston_sitedata_v1.csv 
+- clarify language in section 6.3 for which variables to use in experiments
+
 ### create_netcdf_EXAMPLE_v1.py
 
 **v1 (2020-05-29)**
@@ -40,6 +44,9 @@ Change time datatype from i8 (64bit) to i4 (32bit) for ncview compatibility, add
 
 **v1.04 (2020-06-19)**
 Added x,y dimension variable definitions
+
+**v1.05 (2020-12-22)**
+Add compression to example (reduces filesize by 2/3) and SWup/LWup.
 
 ### Submission analysis on modelevaluation.org
 
