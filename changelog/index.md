@@ -48,6 +48,9 @@ Added x,y dimension variable definitions
 **v1.05 (2020-12-22)**
 Add compression to example (reduces filesize by 2/3) and SWup/LWup.
 
+**v1.06 (2020-12-22)**
+Clarify "positive" upward/downward etc in long_name
+
 ### Submission analysis on modelevaluation.org
 
 **v1 (2020-05-29)**
