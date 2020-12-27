@@ -17,6 +17,7 @@ Metadata as submitted for baseline and detailed experiments
 |:-----------|:------------------------------------------------------|:------------------------------------------------------|
 | ASLUMv2.0  | [ASLUMv2.0](ASLUMv2.0_AU-Preston_baseline_attrs.md)   | [ASLUMv2.0](ASLUMv2.0_AU-Preston_detailed_attrs.md)   |
 | ASLUMv3.1  | [ASLUMv3.1](ASLUMv3.1_AU-Preston_baseline_attrs.md)   | [ASLUMv3.1](ASLUMv3.1_AU-Preston_detailed_attrs.md)   |
+| BEPCOL     | [BEPCOL](BEPCOL_AU-Preston_baseline_attrs.md)         | [BEPCOL](BEPCOL_AU-Preston_detailed_attrs.md)         |
 | CABLE      | [CABLE](CABLE_AU-Preston_baseline_attrs.md)           |                                                       |
 | CHTESSEL_U | [CHTESSEL_U](CHTESSEL_U_AU-Preston_baseline_attrs.md) | [CHTESSEL_U](CHTESSEL_U_AU-Preston_detailed_attrs.md) |
 | CHTESSEL   | [CHTESSEL](CHTESSEL_AU-Preston_baseline_attrs.md)     |                                                       |
