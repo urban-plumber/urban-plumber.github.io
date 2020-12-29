@@ -32,6 +32,9 @@ Update acknowledgements, correct registration address.
 - Added to ACond description "*Vegetation canopy*" aerodynamic conductance and updated subgrid in Table 4.
 - Changed SoilMoist, SoilTemp, RootMoist & SoilWet subgrids to "soil" from "all".
 
+**v1.06 (2020-12-29)**
+- ammended variable names in Table 4 to include (positive [direction]), added SWup/LWup
+
 ### create_netcdf_EXAMPLE_v1.py
 
 **v1 (2020-05-29)**
