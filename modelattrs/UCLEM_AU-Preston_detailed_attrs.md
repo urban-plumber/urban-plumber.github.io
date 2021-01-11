@@ -1,6 +1,6 @@
 |                   | detailed                                                                  |
 |:------------------|:--------------------------------------------------------------------------|
-| file              | UCLEM_AU-Preston_detailed.nc                                              |
+| file              | UCLEM_AU-Preston_detailed_v1.nc                                           |
 | title             | UCLEM output for the Urban-PLUMBER project                                |
 | site              | AU-Preston                                                                |
 | experiment        | detailed                                                                  |
@@ -14,4 +14,4 @@
 | site_experience   | Yes                                                                       |
 | additional_data   | No                                                                        |
 | comment           |                                                                           |
-| history           | Created with create_netcdf_UCLEM_v1.py at 2020-12-10 14:29:26.558349      |
+| history           | Created with create_netcdf_UCLEM_v1.py at 2020-12-31 13:51:21.163996      |

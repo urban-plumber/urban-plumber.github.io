@@ -17,8 +17,9 @@ Metadata as submitted for baseline and detailed experiments
 |:-----------|:------------------------------------------------------|:------------------------------------------------------|
 | ASLUMv2.0  | [ASLUMv2.0](ASLUMv2.0_AU-Preston_baseline_attrs.md)   | [ASLUMv2.0](ASLUMv2.0_AU-Preston_detailed_attrs.md)   |
 | ASLUMv3.1  | [ASLUMv3.1](ASLUMv3.1_AU-Preston_baseline_attrs.md)   | [ASLUMv3.1](ASLUMv3.1_AU-Preston_detailed_attrs.md)   |
+| BEPCOL     | [BEPCOL](BEPCOL_AU-Preston_baseline_attrs.md)         | [BEPCOL](BEPCOL_AU-Preston_detailed_attrs.md)         |
 | CABLE      | [CABLE](CABLE_AU-Preston_baseline_attrs.md)           |                                                       |
-| CHTESSEL-U | [CHTESSEL-U](CHTESSEL-U_AU-Preston_baseline_attrs.md) |                                                       |
+| CHTESSEL_U | [CHTESSEL_U](CHTESSEL_U_AU-Preston_baseline_attrs.md) | [CHTESSEL_U](CHTESSEL_U_AU-Preston_detailed_attrs.md) |
 | CHTESSEL   | [CHTESSEL](CHTESSEL_AU-Preston_baseline_attrs.md)     |                                                       |
 | CLMU5      | [CLMU5](CLMU5_AU-Preston_baseline_attrs.md)           | [CLMU5](CLMU5_AU-Preston_detailed_attrs.md)           |
 | CM-BEM     | [CM-BEM](CM-BEM_AU-Preston_baseline_attrs.md)         | [CM-BEM](CM-BEM_AU-Preston_detailed_attrs.md)         |
@@ -29,8 +30,9 @@ Metadata as submitted for baseline and detailed experiments
 | NOAH-SLUCM | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_baseline_attrs.md) | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_detailed_attrs.md) |
 | SNUUCM     | [SNUUCM](SNUUCM_AU-Preston_baseline_attrs.md)         | [SNUUCM](SNUUCM_AU-Preston_detailed_attrs.md)         |
 | SUEWS      | [SUEWS](SUEWS_AU-Preston_baseline_attrs.md)           |                                                       |
-| TEB        | [TEB](TEB_AU-Preston_baseline_attrs.md)               | [TEB](TEB_AU-Preston_detailed_attrs.md)               |
-| TERRA      | [TERRA](TERRA_AU-Preston_baseline_attrs.md)           |                                                       |
+| SURFEX-TEB | [SURFEX-TEB](SURFEX-TEB_AU-Preston_baseline_attrs.md) | [SURFEX-TEB](SURFEX-TEB_AU-Preston_detailed_attrs.md) |
+| TEB-4.1.0  | [TEB-4.1.0](TEB-4.1.0_AU-Preston_baseline_attrs.md)   | [TEB-4.1.0](TEB-4.1.0_AU-Preston_detailed_attrs.md)   |
+| TERRA_4.11 | [TERRA_4.11](TERRA_4.11_AU-Preston_baseline_attrs.md) | [TERRA_4.11](TERRA_4.11_AU-Preston_detailed_attrs.md) |
 | UCLEM      | [UCLEM](UCLEM_AU-Preston_baseline_attrs.md)           | [UCLEM](UCLEM_AU-Preston_detailed_attrs.md)           |
 | UT&C       | [UT&C](UT&C_AU-Preston_baseline_attrs.md)             | [UT&C](UT&C_AU-Preston_detailed_attrs.md)             |
 | TARGET     |                                                       | [TARGET](TARGET_AU-Preston_detailed_attrs.md)         |
