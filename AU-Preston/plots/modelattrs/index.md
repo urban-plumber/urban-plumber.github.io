@@ -1,3 +1,7 @@
+# AU-Preston simulation duration
+
+[![spinup](spinup_periods.png)](spinup_periods.png)
+
 # Submitted variables
 
 - Upper triangle shows submitted variables for the **baseline** experiment.
@@ -8,10 +12,6 @@
 - [Link to variable definitions](variable_definitions.md)
 
 [![Variables](submitted_variables.png)](submitted_variables.png)
-
-# Simulation duration
-
-[![spinup](spinup_periods.png)](spinup_periods.png)
 
 # Submitted metadata
 
