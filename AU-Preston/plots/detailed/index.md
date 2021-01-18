@@ -57,7 +57,6 @@
 [PSurf](#psurf)
 [Wind](#wind)
 
-<<<<<<< HEAD
 ### <a name="swnet"></a>SWnet: Net shortwave radiation (positive downward)
 [![SWnet](AU-Preston_detailed_SWnet.png)](AU-Preston_detailed_SWnet.png)
 
@@ -71,27 +70,11 @@
 [![Qh](AU-Preston_detailed_Qh.png)](AU-Preston_detailed_Qh.png)
 
 ### <a name="qanth"></a>Qanth: Anthropogenic heat flux (positive upward)
-=======
-### <a name="swnet"></a>SWnet: Net shortwave radiation (downward)
-[![SWnet](AU-Preston_detailed_SWnet.png)](AU-Preston_detailed_SWnet.png)
-
-### <a name="lwnet"></a>LWnet: Net longwave radiation (downward)
-[![LWnet](AU-Preston_detailed_LWnet.png)](AU-Preston_detailed_LWnet.png)
-
-### <a name="qle"></a>Qle: Latent heat flux (upward)
-[![Qle](AU-Preston_detailed_Qle.png)](AU-Preston_detailed_Qle.png)
-
-### <a name="qh"></a>Qh: Sensible heat flux (upward)
-[![Qh](AU-Preston_detailed_Qh.png)](AU-Preston_detailed_Qh.png)
-
-### <a name="qanth"></a>Qanth: Anthropogenic heat flux (upward)
->>>>>>> 03ba03e953912bddddcde3daed6a7d4e368d4817
 [![Qanth](AU-Preston_detailed_Qanth.png)](AU-Preston_detailed_Qanth.png)
 
 ### <a name="qstor"></a>Qstor: Net storage heat flux in all materials (increase)
 [![Qstor](AU-Preston_detailed_Qstor.png)](AU-Preston_detailed_Qstor.png)
 
-<<<<<<< HEAD
 ### <a name="swup"></a>SWup: Upwelling shortwave radiation flux (positive upward)
 [![SWup](AU-Preston_detailed_SWup.png)](AU-Preston_detailed_SWup.png)
 
@@ -123,39 +106,6 @@
 [![Qs](AU-Preston_detailed_Qs.png)](AU-Preston_detailed_Qs.png)
 
 ### <a name="qsb"></a>Qsb: Subsurface runoff (positive out of gridcell)
-=======
-### <a name="swup"></a>SWup: Upwelling shortwave radiation flux (downward)
-[![SWup](AU-Preston_detailed_SWup.png)](AU-Preston_detailed_SWup.png)
-
-### <a name="lwup"></a>LWup: Upwelling longwave radiation flux (upward)
-[![LWup](AU-Preston_detailed_LWup.png)](AU-Preston_detailed_LWup.png)
-
-### <a name="qg"></a>Qg: Ground heat flux (downward)
-[![Qg](AU-Preston_detailed_Qg.png)](AU-Preston_detailed_Qg.png)
-
-### <a name="qanth_qh"></a>Qanth_Qh: Anthropogenic sensible heat flux (upward)
-[![Qanth_Qh](AU-Preston_detailed_Qanth_Qh.png)](AU-Preston_detailed_Qanth_Qh.png)
-
-### <a name="qanth_qle"></a>Qanth_Qle: Anthropogenic latent heat flux (upward)
-[![Qanth_Qle](AU-Preston_detailed_Qanth_Qle.png)](AU-Preston_detailed_Qanth_Qle.png)
-
-### <a name="qtau"></a>Qtau: Momentum flux (downward)
-[![Qtau](AU-Preston_detailed_Qtau.png)](AU-Preston_detailed_Qtau.png)
-
-### <a name="snowf"></a>Snowf: Snowfall rate (downward)
-[![Snowf](AU-Preston_detailed_Snowf.png)](AU-Preston_detailed_Snowf.png)
-
-### <a name="rainf"></a>Rainf: Rainfall rate (downward)
-[![Rainf](AU-Preston_detailed_Rainf.png)](AU-Preston_detailed_Rainf.png)
-
-### <a name="evap"></a>Evap: Total evapotranspiration (upward)
-[![Evap](AU-Preston_detailed_Evap.png)](AU-Preston_detailed_Evap.png)
-
-### <a name="qs"></a>Qs: Surface runoff (out of gridcell)
-[![Qs](AU-Preston_detailed_Qs.png)](AU-Preston_detailed_Qs.png)
-
-### <a name="qsb"></a>Qsb: Subsurface runoff (out of gridcell)
->>>>>>> 03ba03e953912bddddcde3daed6a7d4e368d4817
 [![Qsb](AU-Preston_detailed_Qsb.png)](AU-Preston_detailed_Qsb.png)
 
 ### <a name="qsm"></a>Qsm: Snowmelt (solid to liquid)
