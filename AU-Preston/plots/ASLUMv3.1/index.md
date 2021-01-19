@@ -1,6 +1,6 @@
 # ASLUMv3.1
 
-**NOTE:** *Results presented here are highly dependent on how models are configured in this experiment, and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve approaches in different urban environments.*
+**NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
 ### baseline_LWnet
 [![ASLUMv3.1_AU-Preston_baseline_LWnet.png](ASLUMv3.1_AU-Preston_baseline_LWnet.png)](ASLUMv3.1_AU-Preston_baseline_LWnet.png.png)
