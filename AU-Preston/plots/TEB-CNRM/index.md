@@ -1,5 +1,7 @@
 # TEB-CNRM
 
+**NOTE:** *Results presented here are highly dependent on how models are configured in this experiment, and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve approaches in different urban environments.*
+
 ### baseline_LWnet
 [![TEB-CNRM_AU-Preston_baseline_LWnet.png](TEB-CNRM_AU-Preston_baseline_LWnet.png)](TEB-CNRM_AU-Preston_baseline_LWnet.png.png)
 

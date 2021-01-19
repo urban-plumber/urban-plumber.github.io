@@ -1,3 +1,4 @@
+
 # AU-Preston simulation duration
 
 [![spinup](spinup_periods.png)](spinup_periods.png)
@@ -9,7 +10,6 @@
 - Orange indicates more data than forcing (i.e. shorter than expected timesteps).
 - Lighter green may indicate longer than expected timesteps, or partial data.
 - Click figure to expand.
-- [Link to variable definitions](variable_definitions.md)
 
 [![Variables](submitted_variables.png)](submitted_variables.png)
 
@@ -41,3 +41,5 @@ Metadata as submitted for baseline and detailed experiments
 | UT&C        | [UT&C](UT&C_AU-Preston_baseline_attrs.md)               | [UT&C](UT&C_AU-Preston_detailed_attrs.md)               |
 | TARGET      |                                                         | [TARGET](TARGET_AU-Preston_detailed_attrs.md)           |
 | VTUF-3D     |                                                         | [VTUF-3D](VTUF-3D_AU-Preston_detailed_attrs.md)         |
+
+    
