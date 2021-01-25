@@ -61,7 +61,8 @@ Phase 2 of the project (beginning December 2020) will include a range of sites w
 ![Phase 2](/img/UP_potential_sites.png)
 
 ## Acknowledgements
-We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including Gab Abramowitz, Martin De Kauwe, Aristofanis Tsiringakis, Gert-Jan Steeneveld, Valéry Masson, Helen Ward, Andrew Coutts, Andrew Pitman, Denise Hertwig, Matthias Demuzere, Natalie Theeuwes, David Meyer, Mengyuan Mu, Zutao Yang, David Reed, Yurong Shi, David Reed, Andreas Christen, Matthias Roth, Fred Meier, Dieter Scherer, Leena Järvi, Włodzimierz Pawlak, Eric Velasco, Hirofumi Sugawara, Shiguang Miao, Junxia Dou, Stevan Earl, Nigel Tapper, Yuya Takane, Winston Chow and David Sailor.
+We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including 
+Ahmed Balogun, Alberto Martilli, Andreas Christen, Andres Simon, Andy Coutts, Andy Pitman, Aristofanis Tsiringakis, Aude Lemonsu, Beom-Soon Han, Chenghao Wang, Cécile De Munck, David Meyer, David Reed, Dieter Scherer, Doo-Il Lee, Eric Velasco, Fred Meier, Gab Abramowitz, Gabriel Manoli, Gert-Jan Steeneveld, Helen Ward, Hendrik Wouters, Hirofumi Sugawara, Ian Strachan, Je-Woo Hong, Jenny Salmond, Jimmy Adegoke, Jinkyu Hong, Joe McFadden, Joe McNorton, Jong-Jin Baik, Junxia Dou, Keith Oleson, Kerry Nice, Kim Novick, Krzysztof Fortuniak, Leena Järvi, Lena Weissert, Maggie Hendry, Marcus Thatcher, Martin De Kauwe, Matthias Demuzere, Matthias Roth, Meiring Beyers, Michael Roth, Naika Meili, Nektarios Chrysoulakis, Nigel Tapper, Ning Zhang, Rachel Spronken-Smith, Robert Schoetter, Sang-Hyun Lee, Seung-Bu Park, Shiguang Miao, Simone Fatichi, Simone Kotthaus, Souhail Boussetta, Stevan Earl, Tiago Machado, Ting Sun, Valéry Masson, Winston Chow, Włodzimierz Pawlak, Yurong Shi, Yuya Takane, Zhihua Wang, Zutao Yang 
 
 ## References
 
