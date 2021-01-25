@@ -1,6 +1,10 @@
 
 # AU-Preston submission summary
 
+ - [Baseline results](../baseline/index.md)
+ - [Detailed results](../detailed/index.md)
+ - [Error metric summary](../index.md)
+
 ## Submitted variables
 
 - Upper triangle shows submitted variables for the **baseline** experiment.
