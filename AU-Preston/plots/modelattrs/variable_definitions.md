@@ -1,5 +1,7 @@
 # Variable definitions
 
+for more details refer to the [ALMA protocol definitions](https://www.lmd.jussieu.fr/~polcher/ALMA/convention_output_3.html)
+
 | short_name   | long_name (positive direction)                       | units   |  min.  |  max. | 
 |:-------------|:-----------------------------------------------------|:--------|-----------:|------------:|
 | SWnet        | Net shortwave radiation (positive downward)          | W/m2    |     0      |   1200      |

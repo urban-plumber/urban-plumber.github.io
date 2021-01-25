@@ -59,6 +59,8 @@
 [PSurf](#psurf)
 [Wind](#wind)
 
+[variable definitions](../modelattrs/variable_definitions.md)
+
 ### <a name="swnet"></a>SWnet: Net shortwave radiation (positive downward)
 [![SWnet](AU-Preston_baseline_SWnet.png)](AU-Preston_baseline_SWnet.png)
 
@@ -281,4 +283,6 @@
 [Qair](#qair)
 [PSurf](#psurf)
 [Wind](#wind)
+
+[variable definitions](../modelattrs/variable_definitions.md)
 
