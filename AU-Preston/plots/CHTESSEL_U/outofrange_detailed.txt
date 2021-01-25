@@ -1,3 +1,3 @@
-CHTESSEL_U Qh value of 651.2963 is greater than expected 600.0 [W/m2]
-CHTESSEL_U SWup value of -345.7458 is less than expected 0.0 [W/m2]
-CHTESSEL_U alb value of -0.9943 is less than expected 0.0 [1]
+CHTESSEL_U Qh max value of 651.2963 is greater than expected 600.0 [W/m2]
+CHTESSEL_U SWup min value of -345.7458 is less than expected 0.0 [W/m2]
+CHTESSEL_U alb min value of -0.9943 is less than expected 0.0 [1]

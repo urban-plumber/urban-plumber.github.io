@@ -91,13 +91,13 @@
 
 ### out of range: baseline
 
- - CM SWnet value of -7.7000 is less than expected 0.0 [W/m2]
- - CM SWup value of -437.2001 is less than expected 0.0 [W/m2]
- - CM alb value of -0.9987 is less than expected 0.0 [1]
+ - CM SWnet min value of -7.7000 is less than expected 0.0 [W/m2]
+ - CM SWup min value of -437.2001 is less than expected 0.0 [W/m2]
+ - CM alb min value of -0.9987 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - CM SWnet value of -7.7000 is less than expected 0.0 [W/m2]
- - CM SWup value of -437.2001 is less than expected 0.0 [W/m2]
- - CM alb value of -0.9987 is less than expected 0.0 [1]
+ - CM SWnet min value of -7.8000 is less than expected 0.0 [W/m2]
+ - CM SWup min value of -436.0201 is less than expected 0.0 [W/m2]
+ - CM alb min value of -0.9995 is less than expected 0.0 [1]
 

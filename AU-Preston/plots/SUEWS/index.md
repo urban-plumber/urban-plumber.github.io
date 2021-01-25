@@ -99,13 +99,13 @@
 
 ### out of range: baseline
 
- - SUEWS SWnet value of -9.1000 is less than expected 0.0 [W/m2]
- - SUEWS AvgSurfT value of 3.1500 is less than expected 213.0 [K]
- - SUEWS TairSurf value of 2.5300 is less than expected 213.0 [K]
+ - SUEWS SWnet min value of -9.1000 is less than expected 0.0 [W/m2]
+ - SUEWS AvgSurfT min value of 3.1500 is less than expected 213.0 [K]
+ - SUEWS TairSurf min value of 2.5300 is less than expected 213.0 [K]
 
 ### out of range: detailed
 
- - SUEWS SWnet value of -9.1000 is less than expected 0.0 [W/m2]
- - SUEWS AvgSurfT value of 3.1500 is less than expected 213.0 [K]
- - SUEWS TairSurf value of 2.5300 is less than expected 213.0 [K]
+ - SUEWS SWnet min value of -8.7500 is less than expected 0.0 [W/m2]
+ - SUEWS AvgSurfT min value of -1.1900 is less than expected 213.0 [K]
+ - SUEWS TairSurf min value of -1.4200 is less than expected 213.0 [K]
 

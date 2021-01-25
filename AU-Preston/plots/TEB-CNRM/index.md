@@ -91,21 +91,21 @@
 
 ### out of range: baseline
 
- - TEB-CNRM SWup value of -422.2044 is less than expected 0.0 [W/m2]
- - TEB-CNRM Qanth_Qle value of 1067.2183 is greater than expected 1000.0 [W/m2]
- - TEB-CNRM Qanth_Qle value of -97.7584 is less than expected 0.0 [W/m2]
- - TEB-CNRM RoofSurfT value of 343.1270 is greater than expected 343.0 [K]
- - TEB-CNRM ESoil value of 825.4787 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM ESoil value of -4.0382 is less than expected -0.0003 [kg/m2/s]
- - TEB-CNRM alb value of -1.0000 is less than expected 0.0 [1]
+ - TEB-CNRM SWup min value of -422.2044 is less than expected 0.0 [W/m2]
+ - TEB-CNRM Qanth_Qle max value of 1067.2183 is greater than expected 1000.0 [W/m2]
+ - TEB-CNRM Qanth_Qle min value of -97.7584 is less than expected 0.0 [W/m2]
+ - TEB-CNRM RoofSurfT max value of 343.1270 is greater than expected 343.0 [K]
+ - TEB-CNRM ESoil max value of 825.4787 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil min value of -4.0382 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM alb min value of -1.0000 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - TEB-CNRM SWup value of -422.2044 is less than expected 0.0 [W/m2]
- - TEB-CNRM Qanth_Qle value of 1067.2183 is greater than expected 1000.0 [W/m2]
- - TEB-CNRM Qanth_Qle value of -97.7584 is less than expected 0.0 [W/m2]
- - TEB-CNRM RoofSurfT value of 343.1270 is greater than expected 343.0 [K]
- - TEB-CNRM ESoil value of 825.4787 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM ESoil value of -4.0382 is less than expected -0.0003 [kg/m2/s]
- - TEB-CNRM alb value of -1.0000 is less than expected 0.0 [1]
+ - TEB-CNRM Qanth min value of -2.7572 is less than expected 0.0 [W/m2]
+ - TEB-CNRM SWup min value of -408.3740 is less than expected 0.0 [W/m2]
+ - TEB-CNRM Qanth_Qle min value of -50.3338 is less than expected 0.0 [W/m2]
+ - TEB-CNRM RoofSurfT max value of 343.1945 is greater than expected 343.0 [K]
+ - TEB-CNRM TVeg max value of 240.2591 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil max value of 646.0301 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM alb min value of -0.9997 is less than expected 0.0 [1]
 

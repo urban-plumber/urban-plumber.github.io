@@ -54,4 +54,5 @@
 
 ### out of range: detailed
 
+ - VTUF-3D SWnet min value of -0.0002 is less than expected 0.0 [W/m2]
 

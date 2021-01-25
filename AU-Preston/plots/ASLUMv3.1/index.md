@@ -91,13 +91,13 @@
 
 ### out of range: baseline
 
- - ASLUMv3.1 SWup value of -393.3918 is less than expected 0.0 [W/m2]
- - ASLUMv3.1 ESoil value of 0.0009 is greater than expected 0.0003 [kg/m2/s]
- - ASLUMv3.1 alb value of -0.9984 is less than expected 0.0 [1]
+ - ASLUMv3.1 SWup min value of -393.3918 is less than expected 0.0 [W/m2]
+ - ASLUMv3.1 ESoil max value of 0.0009 is greater than expected 0.0003 [kg/m2/s]
+ - ASLUMv3.1 alb min value of -0.9984 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - ASLUMv3.1 SWup value of -393.3918 is less than expected 0.0 [W/m2]
- - ASLUMv3.1 ESoil value of 0.0009 is greater than expected 0.0003 [kg/m2/s]
- - ASLUMv3.1 alb value of -0.9984 is less than expected 0.0 [1]
+ - ASLUMv3.1 SWup min value of -400.1762 is less than expected 0.0 [W/m2]
+ - ASLUMv3.1 ESoil max value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
+ - ASLUMv3.1 alb min value of -0.9997 is less than expected 0.0 [1]
 

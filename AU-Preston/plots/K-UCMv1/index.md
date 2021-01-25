@@ -99,9 +99,9 @@
 
 ### out of range: baseline
 
- - K-UCMv1 SWnet value of -13.9929 is less than expected 0.0 [W/m2]
+ - K-UCMv1 SWnet min value of -13.9929 is less than expected 0.0 [W/m2]
 
 ### out of range: detailed
 
- - K-UCMv1 SWnet value of -13.9929 is less than expected 0.0 [W/m2]
+ - K-UCMv1 SWnet min value of -8.7294 is less than expected 0.0 [W/m2]
 

@@ -91,9 +91,9 @@
 
 ### out of range: baseline
 
- - MUSE Qh value of 655.5630 is greater than expected 600.0 [W/m2]
+ - MUSE Qh max value of 655.5630 is greater than expected 600.0 [W/m2]
 
 ### out of range: detailed
 
- - MUSE Qh value of 655.5630 is greater than expected 600.0 [W/m2]
+ - MUSE Qh max value of 633.2700 is greater than expected 600.0 [W/m2]
 

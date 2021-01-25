@@ -54,4 +54,5 @@
 
 ### out of range: detailed
 
+ - TARGET RoofSurfT max value of 358.9660 is greater than expected 343.0 [K]
 

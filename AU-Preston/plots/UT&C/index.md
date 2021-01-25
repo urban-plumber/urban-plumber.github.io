@@ -91,11 +91,11 @@
 
 ### out of range: baseline
 
- - UT&C SWup value of -436.2685 is less than expected 0.0 [W/m2]
- - UT&C alb value of -0.9974 is less than expected 0.0 [1]
+ - UT&C SWup min value of -436.2685 is less than expected 0.0 [W/m2]
+ - UT&C alb min value of -0.9974 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - UT&C SWup value of -436.2685 is less than expected 0.0 [W/m2]
- - UT&C alb value of -0.9974 is less than expected 0.0 [1]
+ - UT&C SWup min value of -409.7354 is less than expected 0.0 [W/m2]
+ - UT&C alb min value of -0.9970 is less than expected 0.0 [1]
 

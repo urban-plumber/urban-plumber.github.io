@@ -99,15 +99,15 @@
 
 ### out of range: baseline
 
- - CM-BEM SWnet value of -0.1441 is less than expected 0.0 [W/m2]
- - CM-BEM SWup value of -488.7715 is less than expected 0.0 [W/m2]
- - CM-BEM Qanth_Qle value of -1.9800 is less than expected 0.0 [W/m2]
- - CM-BEM alb value of -0.9995 is less than expected 0.0 [1]
+ - CM-BEM SWnet min value of -0.1441 is less than expected 0.0 [W/m2]
+ - CM-BEM SWup min value of -488.7715 is less than expected 0.0 [W/m2]
+ - CM-BEM Qanth_Qle min value of -1.9800 is less than expected 0.0 [W/m2]
+ - CM-BEM alb min value of -0.9995 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - CM-BEM SWnet value of -0.1441 is less than expected 0.0 [W/m2]
- - CM-BEM SWup value of -488.7715 is less than expected 0.0 [W/m2]
- - CM-BEM Qanth_Qle value of -1.9800 is less than expected 0.0 [W/m2]
- - CM-BEM alb value of -0.9995 is less than expected 0.0 [1]
+ - CM-BEM SWnet min value of -0.1370 is less than expected 0.0 [W/m2]
+ - CM-BEM SWup min value of -489.3107 is less than expected 0.0 [W/m2]
+ - CM-BEM Qanth_Qle min value of -1.8900 is less than expected 0.0 [W/m2]
+ - CM-BEM alb min value of -0.9978 is less than expected 0.0 [1]
 
