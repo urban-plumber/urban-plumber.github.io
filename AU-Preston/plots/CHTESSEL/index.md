@@ -3,6 +3,7 @@
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
 ### Error metrics
+
 | flux   | experiment   |   MAE |    MBE |    NSD |      R |
 |:-------|:-------------|------:|-------:|-------:|-------:|
 | SWnet  | baseline     |  3.99 | -2.221 | 0.8645 | 0.9999 |
