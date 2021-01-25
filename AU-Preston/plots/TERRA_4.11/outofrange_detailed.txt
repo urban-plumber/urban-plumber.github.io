@@ -1,0 +1,3 @@
+TERRA_4.11 Qh value of 655.5526 is greater than expected 600.0 [W/m2]
+TERRA_4.11 SWup value of -392.7304 is less than expected 0.0 [W/m2]
+TERRA_4.11 alb value of -0.9995 is less than expected 0.0 [1]

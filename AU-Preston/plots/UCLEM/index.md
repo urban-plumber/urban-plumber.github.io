@@ -1,8 +1,20 @@
-# UCLEM
+# AU-Preston: UCLEM
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     |  3.76 |  -1.882 | 0.8673 | 0.9998 |
+| SWnet  | detailed     |  3.41 |  -0.623 | 0.871  | 0.9998 |
+| LWnet  | baseline     | 19.87 | -19.814 | 1.1436 | 0.976  |
+| LWnet  | detailed     | 16.08 | -15.909 | 1.0994 | 0.9783 |
+| Qle    | baseline     | 24.26 |  -8.481 | 0.7123 | 0.6574 |
+| Qle    | detailed     | 23.99 |  -6.243 | 0.7617 | 0.6588 |
+| Qh     | baseline     | 23.34 |   3.669 | 0.8753 | 0.9192 |
+| Qh     | detailed     | 25.08 |  10.03  | 0.9373 | 0.9208 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -83,4 +95,10 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![UCLEM_AU-Preston_detailed_closure.png](UCLEM_AU-Preston_detailed_closure.png)](UCLEM_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+
+### out of range: detailed
+
 

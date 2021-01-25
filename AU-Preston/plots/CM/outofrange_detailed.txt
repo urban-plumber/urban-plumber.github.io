@@ -1,0 +1,3 @@
+CM SWnet value of -7.8000 is less than expected 0.0 [W/m2]
+CM SWup value of -436.0201 is less than expected 0.0 [W/m2]
+CM alb value of -0.9995 is less than expected 0.0 [1]

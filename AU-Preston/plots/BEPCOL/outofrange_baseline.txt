@@ -1,0 +1,1 @@
+BEPCOL Qh value of 777.1300 is greater than expected 600.0 [W/m2]

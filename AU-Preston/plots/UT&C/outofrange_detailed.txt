@@ -1,0 +1,2 @@
+UT&C SWup value of -409.7354 is less than expected 0.0 [W/m2]
+UT&C alb value of -0.9970 is less than expected 0.0 [1]

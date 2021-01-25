@@ -1,0 +1,2 @@
+VUCM SWup value of -0.3140 is less than expected 0.0 [W/m2]
+VUCM alb value of -0.1506 is less than expected 0.0 [1]

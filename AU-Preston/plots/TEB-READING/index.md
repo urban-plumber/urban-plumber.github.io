@@ -1,8 +1,20 @@
-# TEB-READING
+# AU-Preston: TEB-READING
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     | 17.42 |  15.262 | 0.9136 | 0.9985 |
+| SWnet  | detailed     |  9.73 |   2.205 | 0.8727 | 0.9985 |
+| LWnet  | baseline     | 17.07 | -16.673 | 1.2036 | 0.9629 |
+| LWnet  | detailed     | 12.49 |  -7.867 | 1.0892 | 0.9592 |
+| Qle    | baseline     | 24.74 |  -0.424 | 0.8361 | 0.6311 |
+| Qle    | detailed     | 27.86 |   5.24  | 1.0831 | 0.642  |
+| Qh     | baseline     | 62.79 |  61.64  | 1.2141 | 0.9327 |
+| Qh     | detailed     | 35.25 |  31.477 | 1.1873 | 0.9401 |
+
+### jump to figure:
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
  - [baseline_Qh](#baseline_qh)
@@ -75,4 +87,16 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![TEB-READING_AU-Preston_detailed_closure.png](TEB-READING_AU-Preston_detailed_closure.png)](TEB-READING_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - TEB-READING SWup value of -446.8446 is less than expected 0.0 [W/m2]
+ - TEB-READING RoofSurfT value of 348.9096 is greater than expected 343.0 [K]
+ - TEB-READING alb value of -0.9960 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - TEB-READING SWup value of -446.8446 is less than expected 0.0 [W/m2]
+ - TEB-READING RoofSurfT value of 348.9096 is greater than expected 343.0 [K]
+ - TEB-READING alb value of -0.9960 is less than expected 0.0 [1]
 

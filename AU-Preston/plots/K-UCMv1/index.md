@@ -1,8 +1,20 @@
-# K-UCMv1
+# AU-Preston: K-UCMv1
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |    MBE |    NSD |      R |
+|:-------|:-------------|------:|-------:|-------:|-------:|
+| SWnet  | baseline     |  4.69 | -0.502 | 0.8714 | 0.9997 |
+| SWnet  | detailed     |  6.75 |  5.768 | 0.888  | 0.9997 |
+| LWnet  | baseline     | 15.83 | 13.278 | 1.0899 | 0.9814 |
+| LWnet  | detailed     |  7.86 |  2.444 | 1.0477 | 0.9839 |
+| Qle    | baseline     | 27.41 | 11.001 | 0.7929 | 0.6443 |
+| Qle    | detailed     | 24.62 |  1.737 | 0.6618 | 0.6399 |
+| Qh     | baseline     | 28.34 |  6.62  | 0.8868 | 0.8985 |
+| Qh     | detailed     | 29    |  0.327 | 0.7541 | 0.8931 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -83,4 +95,12 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![K-UCMv1_AU-Preston_detailed_closure.png](K-UCMv1_AU-Preston_detailed_closure.png)](K-UCMv1_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - K-UCMv1 SWnet value of -13.9929 is less than expected 0.0 [W/m2]
+
+### out of range: detailed
+
+ - K-UCMv1 SWnet value of -13.9929 is less than expected 0.0 [W/m2]
 

@@ -1,8 +1,16 @@
-# CABLE
+# AU-Preston: CABLE
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     | 31.45 |  31.454 | 0.9668 | 0.9999 |
+| LWnet  | baseline     | 20.44 | -18.739 | 1.4508 | 0.9273 |
+| Qle    | baseline     | 39.6  |  17.36  | 1.449  | 0.5158 |
+| Qh     | baseline     | 28.03 |  -6.421 | 1.0968 | 0.8932 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -43,4 +51,28 @@
 
 ### <a name="baseline_closure"></a>baseline_closure
 [![CABLE_AU-Preston_baseline_closure.png](CABLE_AU-Preston_baseline_closure.png)](CABLE_AU-Preston_baseline_closure.png)
+
+### out of range: baseline
+
+ - CABLE Qle value of 827.1969 is greater than expected 700.0 [W/m2]
+ - CABLE Qh value of 631.2767 is greater than expected 600.0 [W/m2]
+ - CABLE SWup value of -495.9571 is less than expected 0.0 [W/m2]
+ - CABLE Qg value of 527.4661 is greater than expected 500.0 [W/m2]
+ - CABLE Evap value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
+ - CABLE SoilTemp value of 334.9422 is greater than expected 333.0 [K]
+ - CABLE Qair value of 1.5326 is greater than expected 0.03 [1]
+ - CABLE PSurf value of 974.2000 is less than expected 5000.0 [Pa]
+ - CABLE alb value of -0.9992 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - CABLE Qle value of 827.1969 is greater than expected 700.0 [W/m2]
+ - CABLE Qh value of 631.2767 is greater than expected 600.0 [W/m2]
+ - CABLE SWup value of -495.9571 is less than expected 0.0 [W/m2]
+ - CABLE Qg value of 527.4661 is greater than expected 500.0 [W/m2]
+ - CABLE Evap value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
+ - CABLE SoilTemp value of 334.9422 is greater than expected 333.0 [K]
+ - CABLE Qair value of 1.5326 is greater than expected 0.03 [1]
+ - CABLE PSurf value of 974.2000 is less than expected 5000.0 [Pa]
+ - CABLE alb value of -0.9992 is less than expected 0.0 [1]
 

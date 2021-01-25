@@ -1,8 +1,16 @@
-# CHTESSEL
+# AU-Preston: CHTESSEL
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |    MBE |    NSD |      R |
+|:-------|:-------------|------:|-------:|-------:|-------:|
+| SWnet  | baseline     |  3.99 | -2.221 | 0.8645 | 0.9999 |
+| LWnet  | baseline     |  8.77 |  2.112 | 0.9178 | 0.9663 |
+| Qle    | baseline     | 33.54 | 18.094 | 1.3653 | 0.6593 |
+| Qh     | baseline     | 29.04 | -8.159 | 1.1503 | 0.9061 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -43,4 +51,14 @@
 
 ### <a name="baseline_closure"></a>baseline_closure
 [![CHTESSEL_AU-Preston_baseline_closure.png](CHTESSEL_AU-Preston_baseline_closure.png)](CHTESSEL_AU-Preston_baseline_closure.png)
+
+### out of range: baseline
+
+ - CHTESSEL SWup value of -395.4383 is less than expected 0.0 [W/m2]
+ - CHTESSEL alb value of -0.9948 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - CHTESSEL SWup value of -395.4383 is less than expected 0.0 [W/m2]
+ - CHTESSEL alb value of -0.9948 is less than expected 0.0 [1]
 

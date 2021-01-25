@@ -1,8 +1,20 @@
-# TEB-CNRM
+# AU-Preston: TEB-CNRM
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     | 60.2  |   4.388 | 0.8868 | 0.9529 |
+| SWnet  | detailed     | 59.34 |  -2.31  | 0.8662 | 0.9529 |
+| LWnet  | baseline     | 19.48 |  -9.572 | 1.2196 | 0.905  |
+| LWnet  | detailed     | 13.32 |  -0.293 | 1.0061 | 0.9337 |
+| Qle    | baseline     | 28.12 | -10.979 | 0.6517 | 0.4668 |
+| Qle    | detailed     | 22.94 |   1.173 | 0.8043 | 0.6515 |
+| Qh     | baseline     | 39.83 |  33.22  | 1.1871 | 0.9142 |
+| Qh     | detailed     | 24.52 |  12.067 | 1.0069 | 0.931  |
+
+### jump to figure:
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
  - [baseline_Qh](#baseline_qh)
@@ -75,4 +87,24 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![TEB-CNRM_AU-Preston_detailed_closure.png](TEB-CNRM_AU-Preston_detailed_closure.png)](TEB-CNRM_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - TEB-CNRM SWup value of -422.2044 is less than expected 0.0 [W/m2]
+ - TEB-CNRM Qanth_Qle value of 1067.2183 is greater than expected 1000.0 [W/m2]
+ - TEB-CNRM Qanth_Qle value of -97.7584 is less than expected 0.0 [W/m2]
+ - TEB-CNRM RoofSurfT value of 343.1270 is greater than expected 343.0 [K]
+ - TEB-CNRM ESoil value of 825.4787 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil value of -4.0382 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM alb value of -1.0000 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - TEB-CNRM SWup value of -422.2044 is less than expected 0.0 [W/m2]
+ - TEB-CNRM Qanth_Qle value of 1067.2183 is greater than expected 1000.0 [W/m2]
+ - TEB-CNRM Qanth_Qle value of -97.7584 is less than expected 0.0 [W/m2]
+ - TEB-CNRM RoofSurfT value of 343.1270 is greater than expected 343.0 [K]
+ - TEB-CNRM ESoil value of 825.4787 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil value of -4.0382 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM alb value of -1.0000 is less than expected 0.0 [1]
 

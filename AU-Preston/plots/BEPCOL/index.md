@@ -1,8 +1,20 @@
-# BEPCOL
+# AU-Preston: BEPCOL
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     |  5.79 |   5.653 | 0.891  | 1      |
+| SWnet  | detailed     |  3.35 |   3.019 | 0.8825 | 0.9999 |
+| LWnet  | baseline     | 15.48 | -14.935 | 0.988  | 0.9791 |
+| LWnet  | detailed     | 17.61 | -15.927 | 1.0375 | 0.9619 |
+| Qle    | baseline     | 30.2  | -13.088 | 0.6607 | 0.3952 |
+| Qle    | detailed     | 29.05 | -14.809 | 0.6684 | 0.4792 |
+| Qh     | baseline     | 38.54 |  28.518 | 1.3403 | 0.9272 |
+| Qh     | detailed     | 38.39 |  32.11  | 1.1847 | 0.9214 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_Qh](#baseline_qh)
@@ -67,4 +79,12 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![BEPCOL_AU-Preston_detailed_closure.png](BEPCOL_AU-Preston_detailed_closure.png)](BEPCOL_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - BEPCOL Qh value of 777.1300 is greater than expected 600.0 [W/m2]
+
+### out of range: detailed
+
+ - BEPCOL Qh value of 777.1300 is greater than expected 600.0 [W/m2]
 

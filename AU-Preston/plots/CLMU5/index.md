@@ -1,8 +1,20 @@
-# CLMU5
+# AU-Preston: CLMU5
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     |  2.84 |  -0.959 | 0.8718 | 0.9999 |
+| SWnet  | detailed     |  2.61 |   0.036 | 0.873  | 0.9999 |
+| LWnet  | baseline     | 12.22 | -10.037 | 1.0947 | 0.9679 |
+| LWnet  | detailed     | 12.84 | -10.758 | 1.1167 | 0.9655 |
+| Qle    | baseline     | 25.33 |  -5.396 | 0.8196 | 0.6365 |
+| Qle    | detailed     | 25    |  -6.45  | 0.7905 | 0.6338 |
+| Qh     | baseline     | 24.3  |   7.863 | 1.1166 | 0.9352 |
+| Qh     | detailed     | 23.12 |   7.494 | 1.0894 | 0.9376 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -83,4 +95,14 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![CLMU5_AU-Preston_detailed_closure.png](CLMU5_AU-Preston_detailed_closure.png)](CLMU5_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - CLMU5 SWup value of -398.8712 is less than expected 0.0 [W/m2]
+ - CLMU5 alb value of -0.9996 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - CLMU5 SWup value of -398.8712 is less than expected 0.0 [W/m2]
+ - CLMU5 alb value of -0.9996 is less than expected 0.0 [1]
 

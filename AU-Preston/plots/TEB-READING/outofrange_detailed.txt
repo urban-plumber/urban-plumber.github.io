@@ -1,0 +1,2 @@
+TEB-READING SWup value of -416.7891 is less than expected 0.0 [W/m2]
+TEB-READING alb value of -0.9993 is less than expected 0.0 [1]

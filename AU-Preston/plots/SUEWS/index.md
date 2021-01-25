@@ -1,8 +1,20 @@
-# SUEWS
+# AU-Preston: SUEWS
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |    MBE |    NSD |      R |
+|:-------|:-------------|------:|-------:|-------:|-------:|
+| SWnet  | baseline     |  7.16 |  6.918 | 0.895  | 0.9999 |
+| SWnet  | detailed     |  8.84 |  8.689 | 0.9003 | 0.9999 |
+| LWnet  | baseline     |  9.7  | -8.459 | 0.9893 | 0.984  |
+| LWnet  | detailed     | 10.14 | -9.075 | 0.9933 | 0.984  |
+| Qle    | baseline     | 31.14 | -9.385 | 0.7689 | 0.4059 |
+| Qle    | detailed     | 28.33 | -9.541 | 0.743  | 0.5045 |
+| Qh     | baseline     | 84.65 | 81.593 | 1.2659 | 0.8688 |
+| Qh     | detailed     | 33.3  |  5.882 | 0.9208 | 0.8533 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -83,4 +95,16 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![SUEWS_AU-Preston_detailed_closure.png](SUEWS_AU-Preston_detailed_closure.png)](SUEWS_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - SUEWS SWnet value of -9.1000 is less than expected 0.0 [W/m2]
+ - SUEWS AvgSurfT value of 3.1500 is less than expected 213.0 [K]
+ - SUEWS TairSurf value of 2.5300 is less than expected 213.0 [K]
+
+### out of range: detailed
+
+ - SUEWS SWnet value of -9.1000 is less than expected 0.0 [W/m2]
+ - SUEWS AvgSurfT value of 3.1500 is less than expected 213.0 [K]
+ - SUEWS TairSurf value of 2.5300 is less than expected 213.0 [K]
 

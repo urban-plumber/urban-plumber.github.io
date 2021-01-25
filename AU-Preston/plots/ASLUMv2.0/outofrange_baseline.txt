@@ -1,0 +1,2 @@
+ASLUMv2.0 SWup value of -376.2155 is less than expected 0.0 [W/m2]
+ASLUMv2.0 alb value of -0.9990 is less than expected 0.0 [1]

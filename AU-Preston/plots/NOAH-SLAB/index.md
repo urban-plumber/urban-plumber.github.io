@@ -1,8 +1,16 @@
-# NOAH-SLAB
+# AU-Preston: NOAH-SLAB
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     | 51.12 | -51.027 | 0.7151 | 0.9999 |
+| LWnet  | baseline     | 37.59 | -37.592 | 0.8164 | 0.9897 |
+| Qle    | baseline     | 22.8  |   2.802 | 0.675  | 0.6585 |
+| Qh     | baseline     | 24.23 |   3.399 | 1.222  | 0.9481 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -43,4 +51,24 @@
 
 ### <a name="baseline_closure"></a>baseline_closure
 [![NOAH-SLAB_AU-Preston_baseline_closure.png](NOAH-SLAB_AU-Preston_baseline_closure.png)](NOAH-SLAB_AU-Preston_baseline_closure.png)
+
+### out of range: baseline
+
+ - NOAH-SLAB SWup value of -277.3074 is less than expected 0.0 [W/m2]
+ - NOAH-SLAB Evap value of 304.9512 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLAB Evap value of -8.5903 is less than expected -0.0003 [kg/m2/s]
+ - NOAH-SLAB Qsm value of 127.5519 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLAB Qsm value of -10.6418 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLAB TVeg value of 26.6999 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLAB alb value of -0.9923 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - NOAH-SLAB SWup value of -277.3074 is less than expected 0.0 [W/m2]
+ - NOAH-SLAB Evap value of 304.9512 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLAB Evap value of -8.5903 is less than expected -0.0003 [kg/m2/s]
+ - NOAH-SLAB Qsm value of 127.5519 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLAB Qsm value of -10.6418 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLAB TVeg value of 26.6999 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLAB alb value of -0.9923 is less than expected 0.0 [1]
 

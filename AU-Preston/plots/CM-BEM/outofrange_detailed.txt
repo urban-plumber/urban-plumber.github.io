@@ -1,0 +1,4 @@
+CM-BEM SWnet value of -0.1370 is less than expected 0.0 [W/m2]
+CM-BEM SWup value of -489.3107 is less than expected 0.0 [W/m2]
+CM-BEM Qanth_Qle value of -1.8900 is less than expected 0.0 [W/m2]
+CM-BEM alb value of -0.9978 is less than expected 0.0 [1]

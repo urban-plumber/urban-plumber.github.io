@@ -1,8 +1,16 @@
-# VTUF-3D
+# AU-Preston: VTUF-3D
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | detailed     | 20.54 |  17.2   | 0.9296 | 0.993  |
+| LWnet  | detailed     | 11.15 |   5.006 | 0.7664 | 0.941  |
+| Qle    | detailed     | 28.64 | -16.216 | 0.4319 | 0.5041 |
+| Qh     | detailed     | 24.95 |  -6.555 | 0.8154 | 0.9206 |
+
+### jump to figure:
  - [detailed_LWnet](#detailed_lwnet)
  - [detailed_LWup](#detailed_lwup)
  - [detailed_Qh](#detailed_qh)
@@ -39,4 +47,10 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![VTUF-3D_AU-Preston_detailed_closure.png](VTUF-3D_AU-Preston_detailed_closure.png)](VTUF-3D_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+
+### out of range: detailed
+
 

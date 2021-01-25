@@ -1,9 +1,9 @@
 |                   | baseline                                                              |
 |:------------------|:----------------------------------------------------------------------|
-| file              | BEPCOL_AU-Preston_baseline_v1_new.nc                                  |
+| file              | BEPCOL_AU-Preston_b1_v3_1_BEPCOL_AU-Preston_b1_v3.nc                  |
 | title             | BEPCOL model output for the Urban-PLUMBER project                     |
 | site              | AU-Preston                                                            |
-| experiment        | Detailed                                                              |
+| experiment        | Baseline                                                              |
 | institution       | Tecnalia, CIEMAT                                                      |
 | primary_contact   | Andres Simon-Moral, andres.simon1982@gmail.com                        |
 | secondary_contact | Alberto Martilli, alberto.martilli@ciemat.es                          |
@@ -14,4 +14,4 @@
 | site_experience   | No                                                                    |
 | additional_data   | WUDAPT and Singapore                                                  |
 | comment           | NA                                                                    |
-| history           | Created with create_netcdf_BEPCOL_v1.py at 2021-01-13 21:14:17.891440 |
+| history           | Created with create_netcdf_BEPCOL_v2.py at 2021-01-20 17:37:33.088987 |

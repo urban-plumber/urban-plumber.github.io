@@ -1,8 +1,20 @@
-# ASLUMv3.1
+# AU-Preston: ASLUMv3.1
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     | 28.63 |   1.427 | 0.87   | 0.9888 |
+| SWnet  | detailed     | 28.99 |   4.902 | 0.8805 | 0.9888 |
+| LWnet  | baseline     |  9.96 |   4.164 | 1.001  | 0.9653 |
+| LWnet  | detailed     |  8.57 |   5.06  | 0.9235 | 0.9735 |
+| Qle    | baseline     | 25.87 |  -5.42  | 0.7923 | 0.6209 |
+| Qle    | detailed     | 27.88 |   9.506 | 1.057  | 0.6611 |
+| Qh     | baseline     | 24.45 | -14.891 | 0.7217 | 0.939  |
+| Qh     | detailed     | 22.18 | -12.702 | 0.9177 | 0.9355 |
+
+### jump to figure:
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
  - [baseline_Qh](#baseline_qh)
@@ -75,4 +87,16 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![ASLUMv3.1_AU-Preston_detailed_closure.png](ASLUMv3.1_AU-Preston_detailed_closure.png)](ASLUMv3.1_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - ASLUMv3.1 SWup value of -393.3918 is less than expected 0.0 [W/m2]
+ - ASLUMv3.1 ESoil value of 0.0009 is greater than expected 0.0003 [kg/m2/s]
+ - ASLUMv3.1 alb value of -0.9984 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - ASLUMv3.1 SWup value of -393.3918 is less than expected 0.0 [W/m2]
+ - ASLUMv3.1 ESoil value of 0.0009 is greater than expected 0.0003 [kg/m2/s]
+ - ASLUMv3.1 alb value of -0.9984 is less than expected 0.0 [1]
 

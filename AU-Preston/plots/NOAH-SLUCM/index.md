@@ -1,8 +1,20 @@
-# NOAH-SLUCM
+# AU-Preston: NOAH-SLUCM
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |     NSD |      R |
+|:-------|:-------------|------:|--------:|--------:|-------:|
+| SWnet  | baseline     | 69.85 | -69.768 |  0.6594 | 0.9998 |
+| SWnet  | detailed     | 55.29 | -55.201 |  0.7029 | 0.9998 |
+| LWnet  | baseline     | 41.99 | -41.782 | 35.8017 | 0.0041 |
+| LWnet  | detailed     | 21.46 | -21.114 |  3.572  | 0.1912 |
+| Qle    | baseline     | 25.93 | -15.628 |  0.4326 | 0.5986 |
+| Qle    | detailed     | 25.92 | -15.049 |  0.4571 | 0.5784 |
+| Qh     | baseline     | 21.07 |   9.069 |  1.1248 | 0.9485 |
+| Qh     | detailed     | 22.08 |   8.632 |  1.1714 | 0.9489 |
+
+### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
@@ -83,4 +95,38 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![NOAH-SLUCM_AU-Preston_detailed_closure.png](NOAH-SLUCM_AU-Preston_detailed_closure.png)](NOAH-SLUCM_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+ - NOAH-SLUCM LWnet value of -179448.4531 is less than expected -500.0 [W/m2]
+ - NOAH-SLUCM SWup value of -254.5751 is less than expected 0.0 [W/m2]
+ - NOAH-SLUCM LWup value of 179806.8531 is greater than expected 1000.0 [W/m2]
+ - NOAH-SLUCM Evap value of 397.3634 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLUCM Evap value of -21.5631 is less than expected -0.0003 [kg/m2/s]
+ - NOAH-SLUCM Qsm value of 109.4080 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLUCM Qsm value of -16.3000 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLUCM Qfz value of -0.0000 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLUCM AvgSurfT value of 1355.9984 is greater than expected 333.0 [K]
+ - NOAH-SLUCM AvgSurfT value of -62.7736 is less than expected 213.0 [K]
+ - NOAH-SLUCM RadT value of 1355.9984 is greater than expected 353.0 [K]
+ - NOAH-SLUCM RadT value of 62.7736 is less than expected 213.0 [K]
+ - NOAH-SLUCM TVeg value of 363.9469 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLUCM alb value of -0.9739 is less than expected 0.0 [1]
+
+### out of range: detailed
+
+ - NOAH-SLUCM LWnet value of -179448.4531 is less than expected -500.0 [W/m2]
+ - NOAH-SLUCM SWup value of -254.5751 is less than expected 0.0 [W/m2]
+ - NOAH-SLUCM LWup value of 179806.8531 is greater than expected 1000.0 [W/m2]
+ - NOAH-SLUCM Evap value of 397.3634 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLUCM Evap value of -21.5631 is less than expected -0.0003 [kg/m2/s]
+ - NOAH-SLUCM Qsm value of 109.4080 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLUCM Qsm value of -16.3000 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLUCM Qfz value of -0.0000 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLUCM AvgSurfT value of 1355.9984 is greater than expected 333.0 [K]
+ - NOAH-SLUCM AvgSurfT value of -62.7736 is less than expected 213.0 [K]
+ - NOAH-SLUCM RadT value of 1355.9984 is greater than expected 353.0 [K]
+ - NOAH-SLUCM RadT value of 62.7736 is less than expected 213.0 [K]
+ - NOAH-SLUCM TVeg value of 363.9469 is greater than expected 0.0003 [kg/m2/s]
+ - NOAH-SLUCM alb value of -0.9739 is less than expected 0.0 [1]
 

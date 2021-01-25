@@ -1,8 +1,16 @@
-# TARGET
+# AU-Preston: TARGET
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
-### Jump to:
+### Error metrics
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | detailed     | 11.54 | -11.224 | 0.8376 | 0.9999 |
+| LWnet  | detailed     | 35.84 | -18.159 | 1.4395 | 0.8104 |
+| Qle    | detailed     | 32.63 | -25.124 | 0.1268 | 0.6424 |
+| Qh     | detailed     | 37.83 |  -6.858 | 0.8855 | 0.8417 |
+
+### jump to figure:
  - [detailed_LWnet](#detailed_lwnet)
  - [detailed_LWup](#detailed_lwup)
  - [detailed_Qh](#detailed_qh)
@@ -39,4 +47,10 @@
 
 ### <a name="detailed_closure"></a>detailed_closure
 [![TARGET_AU-Preston_detailed_closure.png](TARGET_AU-Preston_detailed_closure.png)](TARGET_AU-Preston_detailed_closure.png)
+
+### out of range: baseline
+
+
+### out of range: detailed
+
 

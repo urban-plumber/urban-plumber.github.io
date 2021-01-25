@@ -1,9 +1,7 @@
 
-# AU-Preston simulation duration
+# AU-Preston submission summary
 
-[![spinup](spinup_periods.png)](spinup_periods.png)
-
-# Submitted variables
+## Submitted variables
 
 - Upper triangle shows submitted variables for the **baseline** experiment.
 - Lower triangle shows submitted variables for the **detailed** experiment.
@@ -14,7 +12,12 @@
 
 [![Variables](submitted_variables.png)](submitted_variables.png)
 
-# Submitted metadata
+
+## Simulation duration
+
+[![spinup](spinup_periods.png)](spinup_periods.png)
+
+## Submitted metadata
 
 Metadata as submitted for baseline and detailed experiments
 
@@ -31,6 +34,7 @@ Metadata as submitted for baseline and detailed experiments
 | CM          | [CM](CM_AU-Preston_baseline_attrs.md)                   | [CM](CM_AU-Preston_detailed_attrs.md)                   |
 | K-UCMv1     | [K-UCMv1](K-UCMv1_AU-Preston_baseline_attrs.md)         | [K-UCMv1](K-UCMv1_AU-Preston_detailed_attrs.md)         |
 | Lodz-SUEB   | [Lodz-SUEB](Lodz-SUEB_AU-Preston_baseline_attrs.md)     | [Lodz-SUEB](Lodz-SUEB_AU-Preston_detailed_attrs.md)     |
+| MUSE        | [MUSE](MUSE_AU-Preston_baseline_attrs.md)               | [MUSE](MUSE_AU-Preston_detailed_attrs.md)               |
 | NOAH-SLAB   | [NOAH-SLAB](NOAH-SLAB_AU-Preston_baseline_attrs.md)     |                                                         |
 | NOAH-SLUCM  | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_baseline_attrs.md)   | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_detailed_attrs.md)   |
 | SNUUCM      | [SNUUCM](SNUUCM_AU-Preston_baseline_attrs.md)           | [SNUUCM](SNUUCM_AU-Preston_detailed_attrs.md)           |
@@ -40,7 +44,6 @@ Metadata as submitted for baseline and detailed experiments
 | TERRA_4.11  | [TERRA_4.11](TERRA_4.11_AU-Preston_baseline_attrs.md)   | [TERRA_4.11](TERRA_4.11_AU-Preston_detailed_attrs.md)   |
 | UCLEM       | [UCLEM](UCLEM_AU-Preston_baseline_attrs.md)             | [UCLEM](UCLEM_AU-Preston_detailed_attrs.md)             |
 | UT&C        | [UT&C](UT&C_AU-Preston_baseline_attrs.md)               | [UT&C](UT&C_AU-Preston_detailed_attrs.md)               |
+| VUCM        | [VUCM](VUCM_AU-Preston_baseline_attrs.md)               | [VUCM](VUCM_AU-Preston_detailed_attrs.md)               |
 | TARGET      |                                                         | [TARGET](TARGET_AU-Preston_detailed_attrs.md)           |
 | VTUF-3D     |                                                         | [VTUF-3D](VTUF-3D_AU-Preston_detailed_attrs.md)         |
-
-    
