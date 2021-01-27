@@ -6,16 +6,17 @@
 
 | flux   | experiment   |   MAE |     MBE |    NSD |      R |
 |:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 60.2  |   4.388 | 0.8868 | 0.9529 |
-| SWnet  | detailed     | 59.34 |  -2.31  | 0.8662 | 0.9529 |
-| LWnet  | baseline     | 19.48 |  -9.572 | 1.2196 | 0.905  |
-| LWnet  | detailed     | 13.32 |  -0.293 | 1.0061 | 0.9337 |
-| Qle    | baseline     | 28.12 | -10.979 | 0.6517 | 0.4668 |
-| Qle    | detailed     | 22.94 |   1.173 | 0.8043 | 0.6515 |
-| Qh     | baseline     | 39.83 |  33.22  | 1.1871 | 0.9142 |
-| Qh     | detailed     | 24.52 |  12.067 | 1.0069 | 0.931  |
+| SWnet  | baseline     | 59.95 |   6.889 | 0.8902 | 0.9532 |
+| SWnet  | detailed     | 60.35 |   8.868 | 0.8961 | 0.9532 |
+| LWnet  | baseline     | 19.99 | -10.258 | 1.2334 | 0.904  |
+| LWnet  | detailed     | 14.67 |  -3.514 | 1.073  | 0.9296 |
+| Qle    | baseline     | 28.42 |  -5.373 | 0.7508 | 0.4514 |
+| Qle    | detailed     | 31.91 |   2.739 | 0.9913 | 0.4681 |
+| Qh     | baseline     | 38.31 |  27.971 | 1.2621 | 0.9076 |
+| Qh     | detailed     | 34.32 |  19.931 | 1.3234 | 0.9048 |
 
 ### jump to figure:
+ - [baseline_Albedo](#baseline_albedo)
  - [baseline_LWnet](#baseline_lwnet)
  - [baseline_LWup](#baseline_lwup)
  - [baseline_Qh](#baseline_qh)
@@ -25,6 +26,7 @@
  - [baseline_SWup](#baseline_swup)
  - [baseline_SWup_ts](#baseline_swup_ts)
  - [baseline_closure](#baseline_closure)
+ - [detailed_Albedo](#detailed_albedo)
  - [detailed_LWnet](#detailed_lwnet)
  - [detailed_LWup](#detailed_lwup)
  - [detailed_Qh](#detailed_qh)
@@ -34,6 +36,9 @@
  - [detailed_SWup](#detailed_swup)
  - [detailed_SWup_ts](#detailed_swup_ts)
  - [detailed_closure](#detailed_closure)
+
+### <a name="baseline_albedo"></a>baseline_Albedo
+[![TEB-CNRM_AU-Preston_baseline_Albedo.png](TEB-CNRM_AU-Preston_baseline_Albedo.png)](TEB-CNRM_AU-Preston_baseline_Albedo.png)
 
 ### <a name="baseline_lwnet"></a>baseline_LWnet
 [![TEB-CNRM_AU-Preston_baseline_LWnet.png](TEB-CNRM_AU-Preston_baseline_LWnet.png)](TEB-CNRM_AU-Preston_baseline_LWnet.png)
@@ -61,6 +66,9 @@
 
 ### <a name="baseline_closure"></a>baseline_closure
 [![TEB-CNRM_AU-Preston_baseline_closure.png](TEB-CNRM_AU-Preston_baseline_closure.png)](TEB-CNRM_AU-Preston_baseline_closure.png)
+
+### <a name="detailed_albedo"></a>detailed_Albedo
+[![TEB-CNRM_AU-Preston_detailed_Albedo.png](TEB-CNRM_AU-Preston_detailed_Albedo.png)](TEB-CNRM_AU-Preston_detailed_Albedo.png)
 
 ### <a name="detailed_lwnet"></a>detailed_LWnet
 [![TEB-CNRM_AU-Preston_detailed_LWnet.png](TEB-CNRM_AU-Preston_detailed_LWnet.png)](TEB-CNRM_AU-Preston_detailed_LWnet.png)
@@ -91,21 +99,23 @@
 
 ### out of range: baseline
 
- - TEB-CNRM SWup min value of -422.2044 is less than expected 0.0 [W/m2]
- - TEB-CNRM Qanth_Qle max value of 1067.2183 is greater than expected 1000.0 [W/m2]
- - TEB-CNRM Qanth_Qle min value of -97.7584 is less than expected 0.0 [W/m2]
- - TEB-CNRM RoofSurfT max value of 343.1270 is greater than expected 343.0 [K]
- - TEB-CNRM ESoil max value of 825.4787 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM ESoil min value of -4.0382 is less than expected -0.0003 [kg/m2/s]
- - TEB-CNRM alb min value of -1.0000 is less than expected 0.0 [1]
+ - TEB-CNRM RoofSurfT max value of 344.2134 is greater than expected 343.0 [K]
+ - TEB-CNRM TVeg max value of 984.8440 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM TVeg min value of -10.3352 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil max value of 287.4421 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil min value of -11.0394 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM SoilWet max value of 1.6046 is greater than expected 1.2 [1]
+ - TEB-CNRM SoilWet min value of -0.9886 is less than expected -0.2 [1]
 
 ### out of range: detailed
 
- - TEB-CNRM Qanth min value of -2.7572 is less than expected 0.0 [W/m2]
- - TEB-CNRM SWup min value of -408.3740 is less than expected 0.0 [W/m2]
- - TEB-CNRM Qanth_Qle min value of -50.3338 is less than expected 0.0 [W/m2]
- - TEB-CNRM RoofSurfT max value of 343.1945 is greater than expected 343.0 [K]
- - TEB-CNRM TVeg max value of 240.2591 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM ESoil max value of 646.0301 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM alb min value of -0.9997 is less than expected 0.0 [1]
+ - TEB-CNRM Qh max value of 627.8499 is greater than expected 600.0 [W/m2]
+ - TEB-CNRM Qanth min value of -2.6313 is less than expected 0.0 [W/m2]
+ - TEB-CNRM RoofSurfT max value of 344.0882 is greater than expected 343.0 [K]
+ - TEB-CNRM TVeg max value of 853.2150 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM TVeg min value of -4.5558 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil max value of 196.2109 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil min value of -8.7227 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM SoilWet max value of 1.6163 is greater than expected 1.2 [1]
+ - TEB-CNRM SoilWet min value of -1.0063 is less than expected -0.2 [1]
 

@@ -1,3 +1,3 @@
-TERRA_4.11 Qh max value of 657.7620 is greater than expected 600.0 [W/m2]
-TERRA_4.11 SWup min value of -421.1173 is less than expected 0.0 [W/m2]
-TERRA_4.11 alb min value of -0.9963 is less than expected 0.0 [1]
+TERRA_4.11 Qh max value of 733.2882 is greater than expected 600.0 [W/m2]
+TERRA_4.11 SWup min value of -443.5046 is less than expected 0.0 [W/m2]
+TERRA_4.11 alb min value of -0.9981 is less than expected 0.0 [1]

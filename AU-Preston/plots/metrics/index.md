@@ -4,9 +4,9 @@
 
 # AU-Preston results
 
- - [Participant metadata and submitted variables](modelattrs/index.md)
- - [Baseline results](baseline/index.md)
- - [Detailed results](detailed/index.md)
+ - [Participant metadata and submitted variables](../modelattrs/index.md)
+ - [Baseline results](../baseline/index.md)
+ - [Detailed results](../detailed/index.md)
 
 ### <a name="swnet"></a>SWnet: Net shortwave radiation
 [![SWnet](AU-Preston_SWnet_MAE.png)](AU-Preston_SWnet_MAE.png)

@@ -1,0 +1,7 @@
+TEB-SPARTCS RoofSurfT max value of 344.2155 is greater than expected 343.0 [K]
+TEB-SPARTCS TVeg max value of 982.9402 is greater than expected 0.0003 [kg/m2/s]
+TEB-SPARTCS TVeg min value of -1.0133 is less than expected -0.0003 [kg/m2/s]
+TEB-SPARTCS ESoil max value of 287.2845 is greater than expected 0.0003 [kg/m2/s]
+TEB-SPARTCS ESoil min value of -8.6889 is less than expected -0.0003 [kg/m2/s]
+TEB-SPARTCS SoilWet max value of 1.6046 is greater than expected 1.2 [1]
+TEB-SPARTCS SoilWet min value of -0.9882 is less than expected -0.2 [1]

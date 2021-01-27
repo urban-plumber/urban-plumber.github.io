@@ -1,9 +1,15 @@
 
 # AU-Preston submission summary
 
+ - [Site details](https://urban-plumber.github.io/AU-Preston/)
  - [Baseline results](../baseline/index.md)
  - [Detailed results](../detailed/index.md)
- - [Error metric summary](../index.md)
+ - [Error metric summary](../metrics/index.md)
+
+## Experiments: 
+
+ - **Baseline**: basic surface information provided, otherwise with default model setup
+ - **Detailed**: more detailed information like building morphology, albedo and anthropogenic heat
 
 ## Submitted variables
 
@@ -43,11 +49,12 @@ Metadata as submitted for baseline and detailed experiments
 | NOAH-SLUCM  | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_baseline_attrs.md)   | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_detailed_attrs.md)   |
 | SNUUCM      | [SNUUCM](SNUUCM_AU-Preston_baseline_attrs.md)           | [SNUUCM](SNUUCM_AU-Preston_detailed_attrs.md)           |
 | SUEWS       | [SUEWS](SUEWS_AU-Preston_baseline_attrs.md)             | [SUEWS](SUEWS_AU-Preston_detailed_attrs.md)             |
-| TEB-CNRM    | [TEB-CNRM](TEB-CNRM_AU-Preston_baseline_attrs.md)       | [TEB-CNRM](TEB-CNRM_AU-Preston_detailed_attrs.md)       |
+| TARGET      | [TARGET](TARGET_AU-Preston_baseline_attrs.md)           | [TARGET](TARGET_AU-Preston_detailed_attrs.md)           |
 | TEB-READING | [TEB-READING](TEB-READING_AU-Preston_baseline_attrs.md) | [TEB-READING](TEB-READING_AU-Preston_detailed_attrs.md) |
+| TEB-CNRM    | [TEB-CNRM](TEB-CNRM_AU-Preston_baseline_attrs.md)       | [TEB-CNRM](TEB-CNRM_AU-Preston_detailed_attrs.md)       |
+| TEB-SPARTCS | [TEB-SPARTCS](TEB-SPARTCS_AU-Preston_baseline_attrs.md) | [TEB-SPARTCS](TEB-SPARTCS_AU-Preston_detailed_attrs.md) |
 | TERRA_4.11  | [TERRA_4.11](TERRA_4.11_AU-Preston_baseline_attrs.md)   | [TERRA_4.11](TERRA_4.11_AU-Preston_detailed_attrs.md)   |
 | UCLEM       | [UCLEM](UCLEM_AU-Preston_baseline_attrs.md)             | [UCLEM](UCLEM_AU-Preston_detailed_attrs.md)             |
 | UT&C        | [UT&C](UT&C_AU-Preston_baseline_attrs.md)               | [UT&C](UT&C_AU-Preston_detailed_attrs.md)               |
+| VTUF-3D     | [VTUF-3D](VTUF-3D_AU-Preston_baseline_attrs.md)         |                                                         |
 | VUCM        | [VUCM](VUCM_AU-Preston_baseline_attrs.md)               | [VUCM](VUCM_AU-Preston_detailed_attrs.md)               |
-| TARGET      |                                                         | [TARGET](TARGET_AU-Preston_detailed_attrs.md)           |
-| VTUF-3D     |                                                         | [VTUF-3D](VTUF-3D_AU-Preston_detailed_attrs.md)         |

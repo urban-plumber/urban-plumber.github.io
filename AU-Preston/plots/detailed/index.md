@@ -3,6 +3,8 @@
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
 ### Jump to:
+[variable definitions](../modelattrs/variable_definitions.md)
+
 [SWnet](#swnet)
 [LWnet](#lwnet)
 [Qle](#qle)
@@ -58,8 +60,6 @@
 [Qair](#qair)
 [PSurf](#psurf)
 [Wind](#wind)
-
-[variable definitions](../modelattrs/variable_definitions.md)
 
 ### <a name="swnet"></a>SWnet: Net shortwave radiation (positive downward)
 [![SWnet](AU-Preston_detailed_SWnet.png)](AU-Preston_detailed_SWnet.png)
@@ -228,6 +228,8 @@
 
 
 ### Jump to:
+[variable definitions](../modelattrs/variable_definitions.md)
+
 [SWnet](#swnet)
 [LWnet](#lwnet)
 [Qle](#qle)
@@ -283,6 +285,4 @@
 [Qair](#qair)
 [PSurf](#psurf)
 [Wind](#wind)
-
-[variable definitions](../modelattrs/variable_definitions.md)
 

@@ -1,6 +1,6 @@
 |                   | baseline                                                                                                                                                                |
 |:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| file              | SURFEX-TEB_AU-Preston_b1_1_SURFEXv81_AU-Preston_baseline_v1.nc                                                                                                          |
+| file              | TEB-CNRM_AU-Preston_b2_TEB-CNRM_AU-Preston_b2.nc                                                                                                                        |
 | title             | SURFEX-TEB output for the Urban-PLUMBER project                                                                                                                         |
 | site              | AU-Preston                                                                                                                                                              |
 | experiment        | Baseline experiment                                                                                                                                                     |
@@ -14,4 +14,4 @@
 | site_experience   | Has the group had previous experience modelling the site? Yes                                                                                                           |
 | additional_data   | Has the group used additional site-specific data to configure the simulation? No                                                                                        |
 | comment           |                                                                                                                                                                         |
-| history           | Created with create_netcdf_EXAMPLE_v1.py at 2020-08-28 17:20:56.257511                                                                                                  |
+| history           | Created with create_netcdf_EXAMPLE_v1.py at 2021-01-25 16:11:18.549910                                                                                                  |

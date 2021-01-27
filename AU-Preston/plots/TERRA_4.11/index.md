@@ -6,13 +6,13 @@
 
 | flux   | experiment   |   MAE |     MBE |    NSD |      R |
 |:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 35.95 |  13.572 | 0.907  | 0.9842 |
+| SWnet  | baseline     | 14.83 |  14.831 | 0.9168 | 0.9999 |
 | SWnet  | detailed     | 33.57 |  -1.014 | 0.8635 | 0.9842 |
-| LWnet  | baseline     | 33.45 |  32.844 | 0.4812 | 0.9752 |
+| LWnet  | baseline     | 33.19 |  32.651 | 0.4878 | 0.9842 |
 | LWnet  | detailed     | 35.45 |  34.878 | 0.4294 | 0.9808 |
-| Qle    | baseline     | 30.19 | -20.447 | 0.2682 | 0.4526 |
+| Qle    | baseline     | 32.03 | -24.899 | 0.1611 | 0.5335 |
 | Qle    | detailed     | 31.78 | -24.589 | 0.1536 | 0.5338 |
-| Qh     | baseline     | 69.03 |  67.905 | 1.4117 | 0.9294 |
+| Qh     | baseline     | 93.01 |  92.309 | 1.4132 | 0.9217 |
 | Qh     | detailed     | 66.74 |  65.842 | 1.4127 | 0.9363 |
 
 ### jump to figure:
@@ -91,9 +91,9 @@
 
 ### out of range: baseline
 
- - TERRA_4.11 Qh max value of 657.7620 is greater than expected 600.0 [W/m2]
- - TERRA_4.11 SWup min value of -421.1173 is less than expected 0.0 [W/m2]
- - TERRA_4.11 alb min value of -0.9963 is less than expected 0.0 [1]
+ - TERRA_4.11 Qh max value of 733.2882 is greater than expected 600.0 [W/m2]
+ - TERRA_4.11 SWup min value of -443.5046 is less than expected 0.0 [W/m2]
+ - TERRA_4.11 alb min value of -0.9981 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
