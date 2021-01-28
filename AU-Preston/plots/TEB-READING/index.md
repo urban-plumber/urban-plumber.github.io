@@ -21,13 +21,15 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
+ - [SWnet_subset_baseline](#swnet_subset_baseline)
+ - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
- - [baseline_SWnet_ts](#baseline_swnet_ts)
- - [baseline_SWup_ts](#baseline_swup_ts)
- - [baseline_closure](#baseline_closure)
- - [detailed_SWnet_ts](#detailed_swnet_ts)
- - [detailed_SWup_ts](#detailed_swup_ts)
- - [detailed_closure](#detailed_closure)
+ - [SWup_subset_baseline](#swup_subset_baseline)
+ - [SWup_subset_detailed](#swup_subset_detailed)
+ - [closure_baseline](#closure_baseline)
+ - [closure_detailed](#closure_detailed)
+
+[Link to variable definitions](variable_definitions.md)
 
 ### <a name="lwnet"></a>LWnet
 [![TEB-READING_AU-Preston_LWnet.png](TEB-READING_AU-Preston_LWnet.png)](TEB-READING_AU-Preston_LWnet.png)
@@ -44,26 +46,26 @@
 ### <a name="swnet"></a>SWnet
 [![TEB-READING_AU-Preston_SWnet.png](TEB-READING_AU-Preston_SWnet.png)](TEB-READING_AU-Preston_SWnet.png)
 
+### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
+[![TEB-READING_AU-Preston_SWnet_subset_baseline.png](TEB-READING_AU-Preston_SWnet_subset_baseline.png)](TEB-READING_AU-Preston_SWnet_subset_baseline.png)
+
+### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
+[![TEB-READING_AU-Preston_SWnet_subset_detailed.png](TEB-READING_AU-Preston_SWnet_subset_detailed.png)](TEB-READING_AU-Preston_SWnet_subset_detailed.png)
+
 ### <a name="swup"></a>SWup
 [![TEB-READING_AU-Preston_SWup.png](TEB-READING_AU-Preston_SWup.png)](TEB-READING_AU-Preston_SWup.png)
 
-### <a name="baseline_swnet_ts"></a>baseline_SWnet_ts
-[![TEB-READING_AU-Preston_baseline_SWnet_ts.png](TEB-READING_AU-Preston_baseline_SWnet_ts.png)](TEB-READING_AU-Preston_baseline_SWnet_ts.png)
+### <a name="swup_subset_baseline"></a>SWup_subset_baseline
+[![TEB-READING_AU-Preston_SWup_subset_baseline.png](TEB-READING_AU-Preston_SWup_subset_baseline.png)](TEB-READING_AU-Preston_SWup_subset_baseline.png)
 
-### <a name="baseline_swup_ts"></a>baseline_SWup_ts
-[![TEB-READING_AU-Preston_baseline_SWup_ts.png](TEB-READING_AU-Preston_baseline_SWup_ts.png)](TEB-READING_AU-Preston_baseline_SWup_ts.png)
+### <a name="swup_subset_detailed"></a>SWup_subset_detailed
+[![TEB-READING_AU-Preston_SWup_subset_detailed.png](TEB-READING_AU-Preston_SWup_subset_detailed.png)](TEB-READING_AU-Preston_SWup_subset_detailed.png)
 
-### <a name="baseline_closure"></a>baseline_closure
-[![TEB-READING_AU-Preston_baseline_closure.png](TEB-READING_AU-Preston_baseline_closure.png)](TEB-READING_AU-Preston_baseline_closure.png)
+### <a name="closure_baseline"></a>closure_baseline
+[![TEB-READING_AU-Preston_closure_baseline.png](TEB-READING_AU-Preston_closure_baseline.png)](TEB-READING_AU-Preston_closure_baseline.png)
 
-### <a name="detailed_swnet_ts"></a>detailed_SWnet_ts
-[![TEB-READING_AU-Preston_detailed_SWnet_ts.png](TEB-READING_AU-Preston_detailed_SWnet_ts.png)](TEB-READING_AU-Preston_detailed_SWnet_ts.png)
-
-### <a name="detailed_swup_ts"></a>detailed_SWup_ts
-[![TEB-READING_AU-Preston_detailed_SWup_ts.png](TEB-READING_AU-Preston_detailed_SWup_ts.png)](TEB-READING_AU-Preston_detailed_SWup_ts.png)
-
-### <a name="detailed_closure"></a>detailed_closure
-[![TEB-READING_AU-Preston_detailed_closure.png](TEB-READING_AU-Preston_detailed_closure.png)](TEB-READING_AU-Preston_detailed_closure.png)
+### <a name="closure_detailed"></a>closure_detailed
+[![TEB-READING_AU-Preston_closure_detailed.png](TEB-READING_AU-Preston_closure_detailed.png)](TEB-READING_AU-Preston_closure_detailed.png)
 
 ### out of range: baseline
 
@@ -75,4 +77,7 @@
 
  - TEB-READING SWup min value of -416.7891 is less than expected 0.0 [W/m2]
  - TEB-READING alb min value of -0.9993 is less than expected 0.0 [1]
+
+
+[Link to variable definitions](variable_definitions.md)
 

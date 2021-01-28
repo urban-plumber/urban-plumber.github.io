@@ -21,13 +21,15 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
+ - [SWnet_subset_baseline](#swnet_subset_baseline)
+ - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
- - [baseline_SWnet_ts](#baseline_swnet_ts)
- - [baseline_SWup_ts](#baseline_swup_ts)
- - [baseline_closure](#baseline_closure)
- - [detailed_SWnet_ts](#detailed_swnet_ts)
- - [detailed_SWup_ts](#detailed_swup_ts)
- - [detailed_closure](#detailed_closure)
+ - [SWup_subset_baseline](#swup_subset_baseline)
+ - [SWup_subset_detailed](#swup_subset_detailed)
+ - [closure_baseline](#closure_baseline)
+ - [closure_detailed](#closure_detailed)
+
+[Link to variable definitions](variable_definitions.md)
 
 ### <a name="lwnet"></a>LWnet
 [![MUSE_AU-Preston_LWnet.png](MUSE_AU-Preston_LWnet.png)](MUSE_AU-Preston_LWnet.png)
@@ -44,26 +46,26 @@
 ### <a name="swnet"></a>SWnet
 [![MUSE_AU-Preston_SWnet.png](MUSE_AU-Preston_SWnet.png)](MUSE_AU-Preston_SWnet.png)
 
+### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
+[![MUSE_AU-Preston_SWnet_subset_baseline.png](MUSE_AU-Preston_SWnet_subset_baseline.png)](MUSE_AU-Preston_SWnet_subset_baseline.png)
+
+### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
+[![MUSE_AU-Preston_SWnet_subset_detailed.png](MUSE_AU-Preston_SWnet_subset_detailed.png)](MUSE_AU-Preston_SWnet_subset_detailed.png)
+
 ### <a name="swup"></a>SWup
 [![MUSE_AU-Preston_SWup.png](MUSE_AU-Preston_SWup.png)](MUSE_AU-Preston_SWup.png)
 
-### <a name="baseline_swnet_ts"></a>baseline_SWnet_ts
-[![MUSE_AU-Preston_baseline_SWnet_ts.png](MUSE_AU-Preston_baseline_SWnet_ts.png)](MUSE_AU-Preston_baseline_SWnet_ts.png)
+### <a name="swup_subset_baseline"></a>SWup_subset_baseline
+[![MUSE_AU-Preston_SWup_subset_baseline.png](MUSE_AU-Preston_SWup_subset_baseline.png)](MUSE_AU-Preston_SWup_subset_baseline.png)
 
-### <a name="baseline_swup_ts"></a>baseline_SWup_ts
-[![MUSE_AU-Preston_baseline_SWup_ts.png](MUSE_AU-Preston_baseline_SWup_ts.png)](MUSE_AU-Preston_baseline_SWup_ts.png)
+### <a name="swup_subset_detailed"></a>SWup_subset_detailed
+[![MUSE_AU-Preston_SWup_subset_detailed.png](MUSE_AU-Preston_SWup_subset_detailed.png)](MUSE_AU-Preston_SWup_subset_detailed.png)
 
-### <a name="baseline_closure"></a>baseline_closure
-[![MUSE_AU-Preston_baseline_closure.png](MUSE_AU-Preston_baseline_closure.png)](MUSE_AU-Preston_baseline_closure.png)
+### <a name="closure_baseline"></a>closure_baseline
+[![MUSE_AU-Preston_closure_baseline.png](MUSE_AU-Preston_closure_baseline.png)](MUSE_AU-Preston_closure_baseline.png)
 
-### <a name="detailed_swnet_ts"></a>detailed_SWnet_ts
-[![MUSE_AU-Preston_detailed_SWnet_ts.png](MUSE_AU-Preston_detailed_SWnet_ts.png)](MUSE_AU-Preston_detailed_SWnet_ts.png)
-
-### <a name="detailed_swup_ts"></a>detailed_SWup_ts
-[![MUSE_AU-Preston_detailed_SWup_ts.png](MUSE_AU-Preston_detailed_SWup_ts.png)](MUSE_AU-Preston_detailed_SWup_ts.png)
-
-### <a name="detailed_closure"></a>detailed_closure
-[![MUSE_AU-Preston_detailed_closure.png](MUSE_AU-Preston_detailed_closure.png)](MUSE_AU-Preston_detailed_closure.png)
+### <a name="closure_detailed"></a>closure_detailed
+[![MUSE_AU-Preston_closure_detailed.png](MUSE_AU-Preston_closure_detailed.png)](MUSE_AU-Preston_closure_detailed.png)
 
 ### out of range: baseline
 
@@ -72,4 +74,7 @@
 ### out of range: detailed
 
  - MUSE Qh max value of 633.2700 is greater than expected 600.0 [W/m2]
+
+
+[Link to variable definitions](variable_definitions.md)
 

@@ -21,13 +21,15 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
+ - [SWnet_subset_baseline](#swnet_subset_baseline)
+ - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
- - [baseline_SWnet_ts](#baseline_swnet_ts)
- - [baseline_SWup_ts](#baseline_swup_ts)
- - [baseline_closure](#baseline_closure)
- - [detailed_SWnet_ts](#detailed_swnet_ts)
- - [detailed_SWup_ts](#detailed_swup_ts)
- - [detailed_closure](#detailed_closure)
+ - [SWup_subset_baseline](#swup_subset_baseline)
+ - [SWup_subset_detailed](#swup_subset_detailed)
+ - [closure_baseline](#closure_baseline)
+ - [closure_detailed](#closure_detailed)
+
+[Link to variable definitions](variable_definitions.md)
 
 ### <a name="lwnet"></a>LWnet
 [![TARGET_AU-Preston_LWnet.png](TARGET_AU-Preston_LWnet.png)](TARGET_AU-Preston_LWnet.png)
@@ -44,26 +46,26 @@
 ### <a name="swnet"></a>SWnet
 [![TARGET_AU-Preston_SWnet.png](TARGET_AU-Preston_SWnet.png)](TARGET_AU-Preston_SWnet.png)
 
+### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
+[![TARGET_AU-Preston_SWnet_subset_baseline.png](TARGET_AU-Preston_SWnet_subset_baseline.png)](TARGET_AU-Preston_SWnet_subset_baseline.png)
+
+### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
+[![TARGET_AU-Preston_SWnet_subset_detailed.png](TARGET_AU-Preston_SWnet_subset_detailed.png)](TARGET_AU-Preston_SWnet_subset_detailed.png)
+
 ### <a name="swup"></a>SWup
 [![TARGET_AU-Preston_SWup.png](TARGET_AU-Preston_SWup.png)](TARGET_AU-Preston_SWup.png)
 
-### <a name="baseline_swnet_ts"></a>baseline_SWnet_ts
-[![TARGET_AU-Preston_baseline_SWnet_ts.png](TARGET_AU-Preston_baseline_SWnet_ts.png)](TARGET_AU-Preston_baseline_SWnet_ts.png)
+### <a name="swup_subset_baseline"></a>SWup_subset_baseline
+[![TARGET_AU-Preston_SWup_subset_baseline.png](TARGET_AU-Preston_SWup_subset_baseline.png)](TARGET_AU-Preston_SWup_subset_baseline.png)
 
-### <a name="baseline_swup_ts"></a>baseline_SWup_ts
-[![TARGET_AU-Preston_baseline_SWup_ts.png](TARGET_AU-Preston_baseline_SWup_ts.png)](TARGET_AU-Preston_baseline_SWup_ts.png)
+### <a name="swup_subset_detailed"></a>SWup_subset_detailed
+[![TARGET_AU-Preston_SWup_subset_detailed.png](TARGET_AU-Preston_SWup_subset_detailed.png)](TARGET_AU-Preston_SWup_subset_detailed.png)
 
-### <a name="baseline_closure"></a>baseline_closure
-[![TARGET_AU-Preston_baseline_closure.png](TARGET_AU-Preston_baseline_closure.png)](TARGET_AU-Preston_baseline_closure.png)
+### <a name="closure_baseline"></a>closure_baseline
+[![TARGET_AU-Preston_closure_baseline.png](TARGET_AU-Preston_closure_baseline.png)](TARGET_AU-Preston_closure_baseline.png)
 
-### <a name="detailed_swnet_ts"></a>detailed_SWnet_ts
-[![TARGET_AU-Preston_detailed_SWnet_ts.png](TARGET_AU-Preston_detailed_SWnet_ts.png)](TARGET_AU-Preston_detailed_SWnet_ts.png)
-
-### <a name="detailed_swup_ts"></a>detailed_SWup_ts
-[![TARGET_AU-Preston_detailed_SWup_ts.png](TARGET_AU-Preston_detailed_SWup_ts.png)](TARGET_AU-Preston_detailed_SWup_ts.png)
-
-### <a name="detailed_closure"></a>detailed_closure
-[![TARGET_AU-Preston_detailed_closure.png](TARGET_AU-Preston_detailed_closure.png)](TARGET_AU-Preston_detailed_closure.png)
+### <a name="closure_detailed"></a>closure_detailed
+[![TARGET_AU-Preston_closure_detailed.png](TARGET_AU-Preston_closure_detailed.png)](TARGET_AU-Preston_closure_detailed.png)
 
 ### out of range: baseline
 
@@ -74,4 +76,7 @@
 
  - TARGET RoofSurfT max value of 360.3281 is greater than expected 343.0 [K]
  - TARGET PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
+
+
+[Link to variable definitions](variable_definitions.md)
 
