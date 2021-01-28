@@ -4,12 +4,12 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |    NSD |      R |
-|:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 51.12 | -51.027 | 0.7151 | 0.9999 |
-| LWnet  | baseline     | 37.59 | -37.592 | 0.8164 | 0.9897 |
-| Qle    | baseline     | 22.8  |   2.802 | 0.675  | 0.6585 |
-| Qh     | baseline     | 24.23 |   3.399 | 1.222  | 0.9481 |
+| flux   | experiment   |   MAE |   MBE |    NSD |      R |
+|:-------|:-------------|------:|------:|-------:|-------:|
+| SWnet  | baseline     |  2.59 | 0.265 | 0.873  | 0.9999 |
+| LWnet  | baseline     |  4.75 | 0.767 | 0.8652 | 0.9942 |
+| Qle    | baseline     | 22.97 | 2.859 | 0.6777 | 0.6553 |
+| Qh     | baseline     | 24.51 | 3.242 | 1.2302 | 0.9484 |
 
 ### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
@@ -55,13 +55,8 @@
 
 ### out of range: baseline
 
- - NOAH-SLAB SWup min value of -277.3074 is less than expected 0.0 [W/m2]
- - NOAH-SLAB Evap max value of 304.9512 is greater than expected 0.0003 [kg/m2/s]
- - NOAH-SLAB Evap min value of -8.5903 is less than expected -0.0003 [kg/m2/s]
- - NOAH-SLAB Qsm max value of 127.5519 is greater than expected 0.005 [kg/m2/s]
- - NOAH-SLAB Qsm min value of -10.6418 is less than expected 0.0 [kg/m2/s]
- - NOAH-SLAB TVeg max value of 26.6999 is greater than expected 0.0003 [kg/m2/s]
- - NOAH-SLAB alb min value of -0.9923 is less than expected 0.0 [1]
+ - NOAH-SLAB Qsm max value of 127.2791 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLAB Qsm min value of -10.5639 is less than expected 0.0 [kg/m2/s]
 
 ### out of range: detailed
 

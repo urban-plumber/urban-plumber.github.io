@@ -6,14 +6,14 @@
 
 | flux   | experiment   |   MAE |     MBE |    NSD |      R |
 |:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 59.95 |   6.889 | 0.8902 | 0.9532 |
-| SWnet  | detailed     | 60.35 |   8.868 | 0.8961 | 0.9532 |
-| LWnet  | baseline     | 19.99 | -10.258 | 1.2334 | 0.904  |
-| LWnet  | detailed     | 14.67 |  -3.514 | 1.073  | 0.9296 |
-| Qle    | baseline     | 28.42 |  -5.373 | 0.7508 | 0.4514 |
-| Qle    | detailed     | 31.91 |   2.739 | 0.9913 | 0.4681 |
-| Qh     | baseline     | 38.31 |  27.971 | 1.2621 | 0.9076 |
-| Qh     | detailed     | 34.32 |  19.931 | 1.3234 | 0.9048 |
+| SWnet  | baseline     | 10.2  |   5.327 | 0.8876 | 0.9987 |
+| SWnet  | detailed     | 11.42 |   7.297 | 0.8934 | 0.9987 |
+| LWnet  | baseline     | 17.34 | -10.006 | 1.2299 | 0.9356 |
+| LWnet  | detailed     | 11.99 |  -3.319 | 1.07   | 0.9543 |
+| Qle    | baseline     | 27.96 |  -5.363 | 0.7506 | 0.4682 |
+| Qle    | detailed     | 31.52 |   2.729 | 0.9909 | 0.48   |
+| Qh     | baseline     | 34.23 |  26.7   | 1.2546 | 0.9344 |
+| Qh     | detailed     | 31.39 |  18.483 | 1.3142 | 0.9195 |
 
 ### jump to figure:
  - [baseline_Albedo](#baseline_albedo)
@@ -99,23 +99,23 @@
 
 ### out of range: baseline
 
- - TEB-CNRM RoofSurfT max value of 344.2134 is greater than expected 343.0 [K]
- - TEB-CNRM TVeg max value of 984.8440 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM TVeg min value of -10.3352 is less than expected -0.0003 [kg/m2/s]
- - TEB-CNRM ESoil max value of 287.4421 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM ESoil min value of -11.0394 is less than expected -0.0003 [kg/m2/s]
- - TEB-CNRM SoilWet max value of 1.6046 is greater than expected 1.2 [1]
- - TEB-CNRM SoilWet min value of -0.9886 is less than expected -0.2 [1]
+ - TEB-CNRM RoofSurfT max value of 344.1260 is greater than expected 343.0 [K]
+ - TEB-CNRM TVeg max value of 984.8733 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM TVeg min value of -0.7139 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil max value of 286.3034 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil min value of -8.6155 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM SoilWet max value of 1.6047 is greater than expected 1.2 [1]
+ - TEB-CNRM SoilWet min value of -0.9861 is less than expected -0.2 [1]
 
 ### out of range: detailed
 
- - TEB-CNRM Qh max value of 627.8499 is greater than expected 600.0 [W/m2]
- - TEB-CNRM Qanth min value of -2.6313 is less than expected 0.0 [W/m2]
- - TEB-CNRM RoofSurfT max value of 344.0882 is greater than expected 343.0 [K]
- - TEB-CNRM TVeg max value of 853.2150 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM TVeg min value of -4.5558 is less than expected -0.0003 [kg/m2/s]
- - TEB-CNRM ESoil max value of 196.2109 is greater than expected 0.0003 [kg/m2/s]
- - TEB-CNRM ESoil min value of -8.7227 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM Qh max value of 622.6617 is greater than expected 600.0 [W/m2]
+ - TEB-CNRM Qanth min value of -2.7514 is less than expected 0.0 [W/m2]
+ - TEB-CNRM RoofSurfT max value of 343.9942 is greater than expected 343.0 [K]
+ - TEB-CNRM TVeg max value of 851.9094 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM TVeg min value of -4.7255 is less than expected -0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil max value of 195.7182 is greater than expected 0.0003 [kg/m2/s]
+ - TEB-CNRM ESoil min value of -8.7137 is less than expected -0.0003 [kg/m2/s]
  - TEB-CNRM SoilWet max value of 1.6163 is greater than expected 1.2 [1]
- - TEB-CNRM SoilWet min value of -1.0063 is less than expected -0.2 [1]
+ - TEB-CNRM SoilWet min value of -1.0039 is less than expected -0.2 [1]
 
