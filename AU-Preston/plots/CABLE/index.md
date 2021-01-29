@@ -28,7 +28,7 @@
  - [SWup_subset_baseline](#swup_subset_baseline)
  - [closure_baseline](#closure_baseline)
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 
 ### <a name="albedo"></a>Albedo
 [![CABLE_AU-Preston_Albedo.png](CABLE_AU-Preston_Albedo.png)](CABLE_AU-Preston_Albedo.png)

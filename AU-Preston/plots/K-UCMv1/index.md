@@ -35,7 +35,7 @@
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 
 ### <a name="albedo"></a>Albedo
 [![K-UCMv1_AU-Preston_Albedo.png](K-UCMv1_AU-Preston_Albedo.png)](K-UCMv1_AU-Preston_Albedo.png)

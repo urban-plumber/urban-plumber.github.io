@@ -34,7 +34,7 @@
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 
 ### <a name="lwnet"></a>LWnet
 [![TERRA_4.11_AU-Preston_LWnet.png](TERRA_4.11_AU-Preston_LWnet.png)](TERRA_4.11_AU-Preston_LWnet.png)

@@ -35,7 +35,7 @@
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 
 ### <a name="albedo"></a>Albedo
 [![TEB-CNRM_AU-Preston_Albedo.png](TEB-CNRM_AU-Preston_Albedo.png)](TEB-CNRM_AU-Preston_Albedo.png)

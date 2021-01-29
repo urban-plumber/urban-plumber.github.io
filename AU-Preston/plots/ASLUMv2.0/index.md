@@ -34,7 +34,7 @@
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 
 ### <a name="lwnet"></a>LWnet
 [![ASLUMv2.0_AU-Preston_LWnet.png](ASLUMv2.0_AU-Preston_LWnet.png)](ASLUMv2.0_AU-Preston_LWnet.png)

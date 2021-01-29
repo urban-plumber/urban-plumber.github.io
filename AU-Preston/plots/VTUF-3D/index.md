@@ -27,7 +27,7 @@
  - [SWup_subset_baseline](#swup_subset_baseline)
  - [closure_baseline](#closure_baseline)
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 
 ### <a name="lwnet"></a>LWnet
 [![VTUF-3D_AU-Preston_LWnet.png](VTUF-3D_AU-Preston_LWnet.png)](VTUF-3D_AU-Preston_LWnet.png)
