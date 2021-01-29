@@ -30,6 +30,8 @@ The project has two phases:
 
 Those who provide modelling or observational data will be invited as authors on relevant papers.
 
+![Models](/img/UP_classification_2021-01-28.jpg)
+
 ## Project resources
 
 A series of scripts and resources are provided with the aim of making participation easier - especially for the multi-site phase. These include:
@@ -52,7 +54,7 @@ Check the [Q&A page](/qanda/) for questions and clarifications on the project.
 
 See the [changelog](/changelog/) listing any changes to project documents or resources.
 
-![Timeline](/img/UP_Timeline_website.png)
+<!-- ![Timeline](/img/UP_Timeline_website.png) -->
 
 ## Phase 2
 
