@@ -15,10 +15,10 @@
 | Qh     | baseline     | 34.79 |  21.186 | 1.4361 | 0.9446 |
 | Qh     | detailed     | 40.86 |  24.013 | 1.5785 | 0.9451 |
 
- - MAE: mean absolute error
- - MBE: mean bias error
- - NSD: ratio of model to obs standard deviation
- - R: Pearson's correlation
+ - MAE: mean absolute error (close to 0 is better)
+ - MBE: mean bias error (close to 0 is better)
+ - NSD: ratio of model to obs standard deviation (close to 1 is better)
+ - R: Pearson's correlation (close to 1 is better)
 
 ### jump to figure:
  - [Albedo](#albedo)

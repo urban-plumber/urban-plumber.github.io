@@ -11,10 +11,10 @@
 | Qle    | baseline     | 28.64 | -16.216 | 0.4319 | 0.5041 |
 | Qh     | baseline     | 24.95 |  -6.555 | 0.8154 | 0.9206 |
 
- - MAE: mean absolute error
- - MBE: mean bias error
- - NSD: ratio of model to obs standard deviation
- - R: Pearson's correlation
+ - MAE: mean absolute error (close to 0 is better)
+ - MBE: mean bias error (close to 0 is better)
+ - NSD: ratio of model to obs standard deviation (close to 1 is better)
+ - R: Pearson's correlation (close to 1 is better)
 
 ### jump to figure:
  - [LWnet](#lwnet)
