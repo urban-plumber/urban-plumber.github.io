@@ -1,6 +1,6 @@
 |                   | baseline                                                                                                       |
 |:------------------|:---------------------------------------------------------------------------------------------------------------|
-| file              | SUEWS-2020b-baseline_1_SUEWS_AU-Preston_baseline_v20210125.nc                                                  |
+| file              | SUEWS-2020b-baseline-r1_1_SUEWS_AU-Preston_baseline_v20210128.nc                                               |
 | title             | SUEWS output for the Urban-PLUMBER project                                                                     |
 | site              | AU-Preston                                                                                                     |
 | experiment        | baseline                                                                                                       |
@@ -14,4 +14,4 @@
 | site_experience   | extensively used in several UK, North American and Chinese cities                                              |
 | additional_data   | No                                                                                                             |
 | comment           | NA                                                                                                             |
-| history           | Created with /Users/sunt05/Dropbox/6.Repos/SUEWS-uPLUMBER/create_netcdf_SUEWS.py at 2021-01-25 11:00:59.186642 |
+| history           | Created with /Users/sunt05/Dropbox/6.Repos/SUEWS-uPLUMBER/create_netcdf_SUEWS.py at 2021-01-28 16:59:16.549603 |

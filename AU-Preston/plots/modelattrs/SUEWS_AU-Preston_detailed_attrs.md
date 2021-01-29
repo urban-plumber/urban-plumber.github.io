@@ -1,6 +1,6 @@
 |                   | detailed                                                                                                       |
 |:------------------|:---------------------------------------------------------------------------------------------------------------|
-| file              | SUEWS-2020b-detailed_1_SUEWS_AU-Preston_detailed_v20210125.nc                                                  |
+| file              | SUEWS-2020b-detailed-r1_1_SUEWS_AU-Preston_detailed_v20210128.nc                                               |
 | title             | SUEWS output for the Urban-PLUMBER project                                                                     |
 | site              | AU-Preston                                                                                                     |
 | experiment        | detailed                                                                                                       |
@@ -14,4 +14,4 @@
 | site_experience   | extensively used in several UK, North American and Chinese cities                                              |
 | additional_data   | No                                                                                                             |
 | comment           | NA                                                                                                             |
-| history           | Created with /Users/sunt05/Dropbox/6.Repos/SUEWS-uPLUMBER/create_netcdf_SUEWS.py at 2021-01-25 11:01:01.075363 |
+| history           | Created with /Users/sunt05/Dropbox/6.Repos/SUEWS-uPLUMBER/create_netcdf_SUEWS.py at 2021-01-28 16:59:18.533302 |

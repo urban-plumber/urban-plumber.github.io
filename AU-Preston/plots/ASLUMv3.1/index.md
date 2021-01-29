@@ -6,14 +6,14 @@
 
 | flux   | experiment   |   MAE |     MBE |    NSD |      R |
 |:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 28.63 |   1.427 | 0.87   | 0.9888 |
-| SWnet  | detailed     | 28.99 |   4.902 | 0.8805 | 0.9888 |
-| LWnet  | baseline     |  9.96 |   4.164 | 1.001  | 0.9653 |
-| LWnet  | detailed     |  8.57 |   5.06  | 0.9235 | 0.9735 |
-| Qle    | baseline     | 25.87 |  -5.42  | 0.7923 | 0.6209 |
-| Qle    | detailed     | 27.88 |   9.506 | 1.057  | 0.6611 |
-| Qh     | baseline     | 24.45 | -14.891 | 0.7217 | 0.939  |
-| Qh     | detailed     | 22.18 | -12.702 | 0.9177 | 0.9355 |
+| SWnet  | baseline     |  3.03 |   0.575 | 0.8762 | 0.9999 |
+| SWnet  | detailed     |  5.23 |   3.606 | 0.8813 | 0.9997 |
+| LWnet  | baseline     |  9.41 |   3.188 | 1.0273 | 0.9717 |
+| LWnet  | detailed     |  7.18 |   3.597 | 0.9366 | 0.9805 |
+| Qle    | baseline     | 25.98 |  -4.041 | 0.821  | 0.622  |
+| Qle    | detailed     | 27.59 |   8.492 | 1.0104 | 0.652  |
+| Qh     | baseline     | 23.58 | -13.526 | 0.7546 | 0.9354 |
+| Qh     | detailed     | 22.01 | -12.068 | 0.9186 | 0.9339 |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -74,15 +74,10 @@
 
 ### out of range: baseline
 
- - ASLUMv3.1 SWup min value of -393.3918 is less than expected 0.0 [W/m2]
- - ASLUMv3.1 ESoil max value of 0.0009 is greater than expected 0.0003 [kg/m2/s]
- - ASLUMv3.1 alb min value of -0.9984 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - ASLUMv3.1 SWup min value of -400.1762 is less than expected 0.0 [W/m2]
  - ASLUMv3.1 ESoil max value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
- - ASLUMv3.1 alb min value of -0.9997 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

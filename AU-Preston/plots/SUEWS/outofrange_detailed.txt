@@ -1,1 +1,0 @@
-SUEWS SWnet min value of -8.7500 is less than expected 0.0 [W/m2]

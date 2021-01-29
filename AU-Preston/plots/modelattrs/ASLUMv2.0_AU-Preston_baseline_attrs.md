@@ -1,6 +1,6 @@
 |                   | baseline                                                                                                                     |
 |:------------------|:-----------------------------------------------------------------------------------------------------------------------------|
-| file              | ASLUMv2.0_AU-Preston_b5_1_ASLUMv2.0_AU-Preston_baseline_v5.nc                                                                |
+| file              | ASLUMv2.0_AU-Preston_b6_1_ASLUMv2.0_AU-Preston_baseline_v6.nc                                                                |
 | title             | ASLUM v2.0 output for the Urban-PLUMBER project                                                                              |
 | site              | AU-Preston                                                                                                                   |
 | experiment        | Baseline experiment                                                                                                          |
@@ -13,5 +13,5 @@
 | repository        | NA                                                                                                                           |
 | site_experience   | The group has no previous experience modelling the site                                                                      |
 | additional_data   | No, not for baseline experiment, parameters of ground vegetation are from Noah-LSM, mosaic                                   |
-| comment           | Updated code and new variables on Dec 31, 2020                                                                               |
-| history           | Created with modeloutput_ASLUMv2.0_AU_Perston_bv5.txt at 2021-01-10 17:53:05.918932                                          |
+| comment           | Updated code and new variables on Dec 31, 2020, based on constant forcing                                                    |
+| history           | Created with modeloutput_ASLUMv2.0_AU_Perston_bv6.txt at 2021-01-28 13:49:11.155160                                          |

@@ -56,5 +56,5 @@ Metadata as submitted for baseline and detailed experiments
 | TERRA_4.11  | [TERRA_4.11](TERRA_4.11_AU-Preston_baseline_attrs.md)   | [TERRA_4.11](TERRA_4.11_AU-Preston_detailed_attrs.md)   |
 | UCLEM       | [UCLEM](UCLEM_AU-Preston_baseline_attrs.md)             | [UCLEM](UCLEM_AU-Preston_detailed_attrs.md)             |
 | UT&C        | [UT&C](UT&C_AU-Preston_baseline_attrs.md)               | [UT&C](UT&C_AU-Preston_detailed_attrs.md)               |
-| VTUF-3D     | [VTUF-3D](VTUF-3D_AU-Preston_baseline_attrs.md)         |                                                         |
+| VTUF-3D     | [VTUF-3D](VTUF-3D_AU-Preston_baseline_attrs.md)         | [VTUF-3D](VTUF-3D_AU-Preston_detailed_attrs.md)         |
 | VUCM        | [VUCM](VUCM_AU-Preston_baseline_attrs.md)               | [VUCM](VUCM_AU-Preston_detailed_attrs.md)               |

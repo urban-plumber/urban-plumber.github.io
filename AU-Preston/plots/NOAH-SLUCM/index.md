@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |     NSD |      R |
-|:-------|:-------------|------:|--------:|--------:|-------:|
-| SWnet  | baseline     | 69.85 | -69.768 |  0.6594 | 0.9998 |
-| SWnet  | detailed     | 55.29 | -55.201 |  0.7029 | 0.9998 |
-| LWnet  | baseline     | 41.99 | -41.782 | 35.8017 | 0.0041 |
-| LWnet  | detailed     | 21.46 | -21.114 |  3.572  | 0.1912 |
-| Qle    | baseline     | 25.93 | -15.628 |  0.4326 | 0.5986 |
-| Qle    | detailed     | 25.92 | -15.049 |  0.4571 | 0.5784 |
-| Qh     | baseline     | 21.07 |   9.069 |  1.1248 | 0.9485 |
-| Qh     | detailed     | 22.08 |   8.632 |  1.1714 | 0.9489 |
+| flux   | experiment   |   MAE |     MBE |    NSD |      R |
+|:-------|:-------------|------:|--------:|-------:|-------:|
+| SWnet  | baseline     |  9.5  |  -9.105 | 0.845  | 0.9999 |
+| SWnet  | detailed     |  3.35 |  -1.822 | 0.8669 | 0.9999 |
+| LWnet  | baseline     | 20.7  | -20.32  | 1.1835 | 0.9586 |
+| LWnet  | detailed     | 22.89 | -22.43  | 1.2528 | 0.9493 |
+| Qle    | baseline     | 25.87 | -15.164 | 0.452  | 0.5833 |
+| Qle    | detailed     | 25.88 | -15.142 | 0.4536 | 0.5826 |
+| Qh     | baseline     | 20.63 |   7.603 | 1.1127 | 0.9476 |
+| Qh     | detailed     | 21.08 |   6.386 | 1.1426 | 0.9489 |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -78,37 +78,16 @@
 
 ### out of range: baseline
 
- - NOAH-SLUCM LWnet min value of -179448.4531 is less than expected -500.0 [W/m2]
- - NOAH-SLUCM SWup min value of -254.5751 is less than expected 0.0 [W/m2]
- - NOAH-SLUCM LWup max value of 179806.8531 is greater than expected 1000.0 [W/m2]
- - NOAH-SLUCM Evap max value of 397.3634 is greater than expected 0.0003 [kg/m2/s]
- - NOAH-SLUCM Evap min value of -21.5631 is less than expected -0.0003 [kg/m2/s]
- - NOAH-SLUCM Qsm max value of 109.4080 is greater than expected 0.005 [kg/m2/s]
- - NOAH-SLUCM Qsm min value of -16.3000 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLUCM Qsm max value of 103.0613 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLUCM Qsm min value of -15.2233 is less than expected 0.0 [kg/m2/s]
  - NOAH-SLUCM Qfz min value of -0.0000 is less than expected 0.0 [kg/m2/s]
- - NOAH-SLUCM AvgSurfT max value of 1355.9984 is greater than expected 333.0 [K]
- - NOAH-SLUCM AvgSurfT min value of -62.7736 is less than expected 213.0 [K]
- - NOAH-SLUCM RadT max value of 1355.9984 is greater than expected 353.0 [K]
- - NOAH-SLUCM RadT min value of 62.7736 is less than expected 213.0 [K]
- - NOAH-SLUCM TVeg max value of 363.9469 is greater than expected 0.0003 [kg/m2/s]
- - NOAH-SLUCM alb min value of -0.9739 is less than expected 0.0 [1]
+ - NOAH-SLUCM AvgSurfT max value of 370.4353 is greater than expected 333.0 [K]
 
 ### out of range: detailed
 
- - NOAH-SLUCM LWnet min value of -18590.7520 is less than expected -500.0 [W/m2]
- - NOAH-SLUCM SWup min value of -281.8973 is less than expected 0.0 [W/m2]
- - NOAH-SLUCM LWup max value of 18935.9720 is greater than expected 1000.0 [W/m2]
- - NOAH-SLUCM Evap max value of 412.8776 is greater than expected 0.0003 [kg/m2/s]
- - NOAH-SLUCM Evap min value of -21.6109 is less than expected -0.0003 [kg/m2/s]
- - NOAH-SLUCM Qsm max value of 109.9217 is greater than expected 0.005 [kg/m2/s]
- - NOAH-SLUCM Qsm min value of -16.5773 is less than expected 0.0 [kg/m2/s]
+ - NOAH-SLUCM Qsm max value of 103.0613 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLUCM Qsm min value of -15.2233 is less than expected 0.0 [kg/m2/s]
  - NOAH-SLUCM Qfz min value of -0.0000 is less than expected 0.0 [kg/m2/s]
- - NOAH-SLUCM AvgSurfT max value of 772.0754 is greater than expected 333.0 [K]
- - NOAH-SLUCM AvgSurfT min value of -119.9518 is less than expected 213.0 [K]
- - NOAH-SLUCM RadT max value of 772.0754 is greater than expected 353.0 [K]
- - NOAH-SLUCM RadT min value of 75.5868 is less than expected 213.0 [K]
- - NOAH-SLUCM TVeg max value of 372.4022 is greater than expected 0.0003 [kg/m2/s]
- - NOAH-SLUCM alb min value of -0.9838 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

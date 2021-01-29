@@ -1,4 +1,2 @@
-ASLUMv2.0 Qh max value of 720.0273 is greater than expected 600.0 [W/m2]
-ASLUMv2.0 SWup min value of -374.0503 is less than expected 0.0 [W/m2]
+ASLUMv2.0 Qh max value of 744.3455 is greater than expected 600.0 [W/m2]
 ASLUMv2.0 ESoil max value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
-ASLUMv2.0 alb min value of -0.9991 is less than expected 0.0 [1]

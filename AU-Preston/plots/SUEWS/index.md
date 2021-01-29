@@ -6,10 +6,10 @@
 
 | flux   | experiment   |   MAE |     MBE |    NSD |      R |
 |:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     |  7.16 |   6.918 | 0.895  | 0.9999 |
-| SWnet  | detailed     |  8.84 |   8.689 | 0.9003 | 0.9999 |
-| LWnet  | baseline     |  9.7  |  -8.459 | 0.9893 | 0.984  |
-| LWnet  | detailed     | 10.14 |  -9.075 | 0.9933 | 0.984  |
+| SWnet  | baseline     | 12.82 |   6.847 | 0.8852 | 0.9979 |
+| SWnet  | detailed     | 13.63 |   8.618 | 0.8905 | 0.9979 |
+| LWnet  | baseline     | 26.03 |   8.884 | 0.687  | 0.733  |
+| LWnet  | detailed     | 25.91 |   8.268 | 0.6927 | 0.7329 |
 | Qle    | baseline     | 31.25 | -10.308 | 0.7426 | 0.391  |
 | Qle    | detailed     | 28.42 | -10.571 | 0.7038 | 0.4898 |
 | Qh     | baseline     | 85.36 |  82.514 | 1.2802 | 0.8717 |
@@ -78,11 +78,9 @@
 
 ### out of range: baseline
 
- - SUEWS SWnet min value of -9.1000 is less than expected 0.0 [W/m2]
 
 ### out of range: detailed
 
- - SUEWS SWnet min value of -8.7500 is less than expected 0.0 [W/m2]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
