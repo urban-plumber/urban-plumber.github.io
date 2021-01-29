@@ -15,6 +15,8 @@
 | Qh     | baseline     | 38.54 |  28.518 | 1.3403 | 0.9272 |
 | Qh     | detailed     | 38.39 |  32.11  | 1.1847 | 0.9214 |
 
+MAE = mean absolute error, MBE = mean bias error, NSD = ratio of model:obs standard deviation, R = Pearson's correlation
+
 ### jump to figure:
  - [Albedo](#albedo)
  - [LWnet](#lwnet)
