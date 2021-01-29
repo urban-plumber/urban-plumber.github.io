@@ -81,5 +81,5 @@
  - MUSE Qh max value of 633.2700 is greater than expected 600.0 [W/m2]
 
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 

@@ -85,5 +85,5 @@
  - SUEWS SWnet min value of -8.7500 is less than expected 0.0 [W/m2]
 
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 

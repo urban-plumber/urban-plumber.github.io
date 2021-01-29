@@ -83,5 +83,5 @@
  - TARGET PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
 
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 

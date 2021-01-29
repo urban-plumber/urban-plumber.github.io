@@ -99,5 +99,5 @@
  - TEB-CNRM SoilWet min value of -1.0039 is less than expected -0.2 [1]
 
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 

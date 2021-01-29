@@ -85,5 +85,5 @@
  - ASLUMv2.0 alb min value of -0.9991 is less than expected 0.0 [1]
 
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 

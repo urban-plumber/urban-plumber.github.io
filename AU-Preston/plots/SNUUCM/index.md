@@ -88,5 +88,5 @@
  - SNUUCM TairSurf max value of 1130.6298 is greater than expected 333.0 [K]
 
 
-[Link to variable definitions](variable_definitions.md)
+[Link to variable definitions](../modelattrs/variable_definitions.md)
 
