@@ -11,7 +11,10 @@
 | Qle    | baseline     | 39.6  |  17.36  | 1.449  | 0.5158 |
 | Qh     | baseline     | 28.03 |  -6.421 | 1.0968 | 0.8932 |
 
-MAE = mean absolute error, MBE = mean bias error, NSD = ratio of model:obs standard deviation, R = Pearson's correlation
+MAE = mean absolute error
+MBE = mean bias error
+NSD = ratio of model to obs standard deviation
+R = Pearson's correlation
 
 ### jump to figure:
  - [Albedo](#albedo)
