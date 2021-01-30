@@ -13,5 +13,5 @@
 | repository        | NA                                                                                                                           |
 | site_experience   | The group has no previous experience modelling the site                                                                      |
 | additional_data   | No, not for baseline experiment, parameters of ground vegetation are from Noah-LSM, mosaic                                   |
-| comment           | Updated code and new variables on Dec 31, 2020, based on constant forcing                                                    |
-| history           | Created with modeloutput_ASLUMv2.0_AU_Perston_bv6.txt at 2021-01-28 13:49:11.155160                                          |
+| comment           | Updated code and new variables on Dec 31, 2020, based on constant forcing, Qstor updated to close the energy balance         |
+| history           | Created with modeloutput_ASLUMv2.0_AU_Perston_bv6.txt at 2021-01-29 09:26:49.277055                                          |

@@ -62,8 +62,6 @@
 
 ### out of range: baseline
 
- - CHTESSEL SWup min value of -395.4383 is less than expected 0.0 [W/m2]
- - CHTESSEL alb min value of -0.9948 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
