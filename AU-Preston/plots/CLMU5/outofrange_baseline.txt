@@ -1,2 +1,0 @@
-CLMU5 SWup min value of -398.8712 is less than expected 0.0 [W/m2]
-CLMU5 alb min value of -0.9996 is less than expected 0.0 [1]

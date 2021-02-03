@@ -1,3 +1,1 @@
 BEPCOL Qh max value of 777.1300 is greater than expected 600.0 [W/m2]
-BEPCOL SWup min value of -419.9369 is less than expected 0.0 [W/m2]
-BEPCOL alb min value of -0.9996 is less than expected 0.0 [1]
