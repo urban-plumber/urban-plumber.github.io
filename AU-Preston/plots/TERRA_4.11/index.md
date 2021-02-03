@@ -75,14 +75,12 @@
 ### out of range: baseline
 
  - TERRA_4.11 Qh max value of 733.2882 is greater than expected 600.0 [W/m2]
- - TERRA_4.11 SWup min value of -443.5046 is less than expected 0.0 [W/m2]
- - TERRA_4.11 alb min value of -0.9981 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
  - TERRA_4.11 Qh max value of 655.5526 is greater than expected 600.0 [W/m2]
- - TERRA_4.11 SWup min value of -392.7304 is less than expected 0.0 [W/m2]
- - TERRA_4.11 alb min value of -0.9995 is less than expected 0.0 [1]
+ - TERRA_4.11 SWup min value of -217.6542 is less than expected 0.0 [W/m2]
+ - TERRA_4.11 alb min value of -0.9922 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

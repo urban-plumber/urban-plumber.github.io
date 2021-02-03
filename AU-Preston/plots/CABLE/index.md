@@ -64,13 +64,11 @@
 
  - CABLE Qle max value of 827.1969 is greater than expected 700.0 [W/m2]
  - CABLE Qh max value of 631.2767 is greater than expected 600.0 [W/m2]
- - CABLE SWup min value of -495.9571 is less than expected 0.0 [W/m2]
  - CABLE Qg max value of 527.4661 is greater than expected 500.0 [W/m2]
  - CABLE Evap max value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
  - CABLE SoilTemp max value of 334.9422 is greater than expected 333.0 [K]
  - CABLE Qair max value of 1.5326 is greater than expected 0.03 [1]
  - CABLE PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
- - CABLE alb min value of -0.9992 is less than expected 0.0 [1]
 
 ### out of range: detailed
 

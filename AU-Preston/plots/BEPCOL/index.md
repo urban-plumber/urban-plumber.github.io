@@ -79,14 +79,10 @@
 ### out of range: baseline
 
  - BEPCOL Qh max value of 777.1300 is greater than expected 600.0 [W/m2]
- - BEPCOL SWup min value of -419.9369 is less than expected 0.0 [W/m2]
- - BEPCOL alb min value of -0.9996 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
  - BEPCOL Qh max value of 726.0000 is greater than expected 600.0 [W/m2]
- - BEPCOL SWup min value of -410.7551 is less than expected 0.0 [W/m2]
- - BEPCOL alb min value of -0.9964 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

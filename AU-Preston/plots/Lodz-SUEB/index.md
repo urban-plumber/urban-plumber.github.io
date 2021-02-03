@@ -74,17 +74,13 @@
 
 ### out of range: baseline
 
- - Lodz-SUEB SWup min value of -400.4376 is less than expected 0.0 [W/m2]
  - Lodz-SUEB AvgSurfT max value of 1051.5700 is greater than expected 333.0 [K]
  - Lodz-SUEB AvgSurfT min value of 145.1560 is less than expected 213.0 [K]
- - Lodz-SUEB alb min value of -0.9981 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - Lodz-SUEB SWup min value of -400.4376 is less than expected 0.0 [W/m2]
  - Lodz-SUEB AvgSurfT max value of 1054.3100 is greater than expected 333.0 [K]
  - Lodz-SUEB AvgSurfT min value of 145.3970 is less than expected 213.0 [K]
- - Lodz-SUEB alb min value of -0.9981 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

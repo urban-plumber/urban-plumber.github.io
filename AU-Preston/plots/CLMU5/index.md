@@ -78,13 +78,9 @@
 
 ### out of range: baseline
 
- - CLMU5 SWup min value of -398.8712 is less than expected 0.0 [W/m2]
- - CLMU5 alb min value of -0.9996 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - CLMU5 SWup min value of -400.3411 is less than expected 0.0 [W/m2]
- - CLMU5 alb min value of -0.9914 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

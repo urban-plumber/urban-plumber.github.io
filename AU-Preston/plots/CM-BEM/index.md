@@ -88,7 +88,7 @@
  - CM-BEM SWnet min value of -0.1370 is less than expected 0.0 [W/m2]
  - CM-BEM SWup min value of -489.3107 is less than expected 0.0 [W/m2]
  - CM-BEM Qanth_Qle min value of -1.8900 is less than expected 0.0 [W/m2]
- - CM-BEM alb min value of -0.9978 is less than expected 0.0 [1]
+ - CM-BEM alb min value of -0.9976 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

@@ -74,13 +74,13 @@
 
 ### out of range: baseline
 
- - TEB-READING SWup min value of -446.8446 is less than expected 0.0 [W/m2]
+ - TEB-READING SWup min value of -92.3008 is less than expected 0.0 [W/m2]
  - TEB-READING RoofSurfT max value of 348.9096 is greater than expected 343.0 [K]
- - TEB-READING alb min value of -0.9960 is less than expected 0.0 [1]
+ - TEB-READING alb min value of -0.9931 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - TEB-READING SWup min value of -416.7891 is less than expected 0.0 [W/m2]
+ - TEB-READING SWup min value of -81.1769 is less than expected 0.0 [W/m2]
  - TEB-READING alb min value of -0.9993 is less than expected 0.0 [1]
 
 

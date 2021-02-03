@@ -76,12 +76,10 @@
 
  - VUCM Qh max value of 606.7470 is greater than expected 600.0 [W/m2]
  - VUCM SWup min value of -0.3180 is less than expected 0.0 [W/m2]
- - VUCM alb min value of -0.1534 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
  - VUCM SWup min value of -0.3140 is less than expected 0.0 [W/m2]
- - VUCM alb min value of -0.1506 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
