@@ -2,8 +2,6 @@
 
 ## Site observations
 
-[![all_obs_qc.png](all_obs_qc.png)](all_obs_qc.png)
-
 |                           | observation_attributes                                                         |
 |:--------------------------|:-------------------------------------------------------------------------------|
 | title                     | Cleaned flux tower observations for AU-Preston                                 |
@@ -19,33 +17,9 @@
 | timestep_interval_seconds | 1800.0                                                                         |
 | timestep_number_analysis  | 22772                                                                          |
 | date_created              | 2021-01-15 19:14:09                                                            |
-| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au; Sue Grimmond: c.s.grimmond@reading.ac.uk; Martin Best: martin.best@metoffice.gov.uk |
+| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Martin Best: martin.best@metoffice.gov.uk |
 | observations_contact      | Andrew Coutts: andrew.coutts@monash.edu; Nigel Tapper: nigel.tapper@monash.edu |
 | observations_reference    | Coutts, A. M., Beringer, J. and Tapper, N. J.: doi:10.1175/JAM2462.1           |
-
-
-## Quality control and gap filling procedure
-
-**QC process on observations**
- 
- - remove values outside the ALMAv3 protocol expected range values
- - remove night periods for shortwave between civil twilight times for site latitude and longitude
- - remove constant values of 4 or more timesteps (excluding rainfall, snowfall)
- - remove outliers by applying a filter for values outside 5 standard deviations for each hour in a rolling 30 day window. Applying that filter until no outliers exist.
- 
-**Gap-filling process**
-  
- - for gaps of 2 hours or less, fill with linear interpolation of adjacent observation
- - for remaining gaps, fill with the time-averaged profile for adjacent days, where available
- - again fill gaps of 2 hours or less with linear interpolation of observation
- - fill remaining gaps with bias-corrected, ERA5 derived data
- - prepend flux tower data period with 10-years of ERA5 derived data (used for model spinup)
- 
-**ERA5 bias correction**
- 
- - for energy fluxes, temperature, humidity and pressure: calculate the mean bias between ERA5 and flux tower data in a 30-day rolling window for every hour of the year, and apply that bias correction to ERA5 data
- - for rainfall: calculate total precipitation in a 10-year period and calculate the ratio between ERA5 data and the nearest GHCN-D station and apply that correction factor to ERA5 data.
- - for wind: apply wind log profile correction based on ERA5 reference height (10m) and flux tower measurement heights, plus ERA5 and local roughness and displacement.
 
 ## Site characteristics
 
@@ -79,4 +53,70 @@ source: Coutts et al. 2007: doi:[10.1016/j.atmosenv.2006.08.030](http://doi.org/
 |   22 | topsoil_clay_fraction           |    0.18   | 1             | openlandmap.org        |
 |   23 | topsoil_sand_fraction           |    0.72   | 1             | openlandmap.org        |
 |   24 | topsoil_bulk_density            | 1230      | kg/m3         | openlandmap.org        |
+
+## Site observations
+
+[![./obs_plots/all_obs_qc.png](./obs_plots/all_obs_qc.png)](./obs_plots/all_obs_qc.png)
+
+## Site forcing
+
+### SWdown
+
+[![./obs_plots/SWdown_gapfilled_forcing.png](./obs_plots/SWdown_gapfilled_forcing.png)](./obs_plots/SWdown_gapfilled_forcing.png)
+
+### LWdown
+
+[![./obs_plots/LWdown_gapfilled_forcing.png](./obs_plots/LWdown_gapfilled_forcing.png)](./obs_plots/LWdown_gapfilled_forcing.png)
+
+### Tair
+
+[![./obs_plots/Tair_gapfilled_forcing.png](./obs_plots/Tair_gapfilled_forcing.png)](./obs_plots/Tair_gapfilled_forcing.png)
+
+### Qair
+
+[![./obs_plots/Qair_gapfilled_forcing.png](./obs_plots/Qair_gapfilled_forcing.png)](./obs_plots/Qair_gapfilled_forcing.png)
+
+### PSurf
+
+[![./obs_plots/PSurf_gapfilled_forcing.png](./obs_plots/PSurf_gapfilled_forcing.png)](./obs_plots/PSurf_gapfilled_forcing.png)
+
+### Rainf
+
+[![./obs_plots/Rainf_gapfilled_forcing.png](./obs_plots/Rainf_gapfilled_forcing.png)](./obs_plots/Rainf_gapfilled_forcing.png)
+
+### Snowf
+
+[![./obs_plots/Snowf_gapfilled_forcing.png](./obs_plots/Snowf_gapfilled_forcing.png)](./obs_plots/Snowf_gapfilled_forcing.png)
+
+### Wind_N
+
+[![./obs_plots/Wind_N_gapfilled_forcing.png](./obs_plots/Wind_N_gapfilled_forcing.png)](./obs_plots/Wind_N_gapfilled_forcing.png)
+
+### Wind_E
+
+[![./obs_plots/Wind_E_gapfilled_forcing.png](./obs_plots/Wind_E_gapfilled_forcing.png)](./obs_plots/Wind_E_gapfilled_forcing.png)
+
+## Quality control and gap filling procedure
+
+
+**QC process on observations**
+ 
+ - remove values outside the ALMAv3 protocol expected range values
+ - remove night periods for shortwave between civil twilight times for site latitude and longitude
+ - remove constant values of 4 or more timesteps (excluding rainfall, snowfall)
+ - remove outliers by applying a filter for values outside 5 standard deviations for each hour in a rolling 30 day window. Applying that filter until no outliers exist.
+ 
+**Gap-filling process**
+  
+ - for gaps of 2 hours or less, fill with linear interpolation of adjacent observation
+ - for remaining gaps, fill with the time-averaged profile for adjacent days, where available
+ - again fill gaps of 2 hours or less with linear interpolation of observation
+ - fill remaining gaps with bias-corrected, ERA5 derived data
+ - prepend flux tower data period with 10-years of ERA5 derived data (used for model spinup)
+ 
+**ERA5 bias correction**
+ 
+ - for energy fluxes, temperature, humidity and pressure: calculate the mean bias between ERA5 and flux tower data in a 30-day rolling window for every hour of the year, and apply that bias correction to ERA5 data
+ - for rainfall: calculate total precipitation in a 10-year period and calculate the ratio between ERA5 data and the nearest GHCN-D station and apply that correction factor to ERA5 data.
+ - for wind: apply wind log profile correction based on ERA5 reference height (10m) and flux tower measurement heights, plus ERA5 and local roughness and displacement.
 
