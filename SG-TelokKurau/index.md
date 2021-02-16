@@ -2,10 +2,6 @@
 
 ## Site observations
 
-Observation data contact:
-
-Eric Velasco: he_velasco2003@yahoo.com; Matthias Roth: geomr@nus.edu.sg
-
 |                           | observation_attributes                                                                                                                                                                                                                                                                    |
 |:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | title                     | URBAN-PLUMBER forcing data for SG-TelokKurau                                                                                                                                                                                                                                              |
