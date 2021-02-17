@@ -18,18 +18,18 @@
 | timestep_interval_seconds | 1800.0                                                                                                                                                                                                                                                                                    |
 | timestep_number_spinup    | 178113                                                                                                                                                                                                                                                                                    |
 | timestep_number_analysis  | 17568                                                                                                                                                                                                                                                                                     |
-| date_created              | 2021-02-17 12:56:51                                                                                                                                                                                                                                                                       |
+| date_created              | 2021-02-17 15:44:37                                                                                                                                                                                                                                                                       |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                                                                  |
-| observations_contact      | Eric Velasco: he_velasco2003@yahoo.com; Matthias Roth: geomr@nus.edu.sg                                                                                                                                                                                                                   |
+| observations_contact      | Eric Velasco: evelasco@mce2.org, he_velasco2003@yahoo.com; Matthias Roth: geomr@nus.edu.sg                                                                                                                                                                                                |
 | observations_reference    | Roth, Jansson and Velasco (2017) https://doi.org/10.1002/joc.4873; Velasco, Roth, Tan, Quak, Nabarro, Norford. (2013) https://doi.org/10.5194/acp-13-10185-2013; Flux tower website: https://www.nusurbanclimate.com/tkfluxtowersingapore                                                 |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                                                                                     |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                                                                                                 |
 
 ## Site characteristics
 
-[![site_photo.jpg](site_photo.jpg)](site_photo.jpg)
+[![site_photo.png](site_photo.png)](site_photo.png)
 
-"View of TK study area towards SE from above in August 2017." source: Minghong Yu and Matthias Roth
+source: None
 
 |   id | parameter                       |     value | units         | source               | doi                                                                                                                        |
 |-----:|:--------------------------------|----------:|:--------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------|
@@ -54,9 +54,9 @@
 |   19 | average_albedo_at_midday        |    0.167  | 1             | Current data         | -                                                                                                                          |
 |   20 | resident_population_density     | 7490      | person/km2    | Roth et al. 2017     | [https://doi.org/10.1002/joc.4873](https://doi.org/10.1002/joc.4873)                                                       |
 |   21 | anthropogenic_heat_flux_mean    |   11      | W/m2          | Quah and Roth 2012   | [https://doi.org/10.1016/j.atmosenv.2011.10.015](https://doi.org/10.1016/j.atmosenv.2011.10.015)                           |
-|   22 | topsoil_clay_fraction           |    0.33   | 1             | OpenLandMap          | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                                           |
-|   23 | topsoil_sand_fraction           |    0.42   | 1             | OpenLandMap          | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                                           |
-|   24 | topsoil_bulk_density            | 1030      | kg/m3         | OpenLandMap          | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                                           |
+|   22 | topsoil_clay_fraction           |    0.048  | 1             | Velasco et al. 2021  | [https://doi.org/10.1016/j.jenvman.2020.111752](https://doi.org/10.1016/j.jenvman.2020.111752)                             |
+|   23 | topsoil_sand_fraction           |    0.165  | 1             | Velasco et al. 2021  | [https://doi.org/10.1016/j.jenvman.2020.111752](https://doi.org/10.1016/j.jenvman.2020.111752)                             |
+|   24 | topsoil_bulk_density            | 1080      | kg/m3         | Velasco et al. 2021  | [https://doi.org/10.1016/j.jenvman.2020.111752](https://doi.org/10.1016/j.jenvman.2020.111752)                             |
 
 ## Site observations
 
