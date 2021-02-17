@@ -27,7 +27,7 @@
 
 ## Site characteristics
 
-[![site_photo.png](site_photo.png)](site_photo.png)
+[![site_photo.jpg](site_photo.jpg)](site_photo.jpg)
 
 source: None
 
