@@ -2,10 +2,6 @@
 
 ## Site observations
 
-Observation data contact:
-
-Eric Velasco: he_velasco2003@yahoo.com; Matthias Roth: geomr@nus.edu.sg
-
 |                           | observation_attributes                                                                                                                                                                                                                                                                    |
 |:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | title                     | URBAN-PLUMBER forcing data for SG-TelokKurau                                                                                                                                                                                                                                              |
@@ -33,7 +29,7 @@ Eric Velasco: he_velasco2003@yahoo.com; Matthias Roth: geomr@nus.edu.sg
 
 [![site_photo.jpg](site_photo.jpg)](site_photo.jpg)
 
-"View of TK study area towards SE from above in August 2017." image source: Minghong Yu and Matthias Roth
+"View of TK study area towards SE from above in August 2017." source: Minghong Yu and Matthias Roth
 
 |   id | parameter                       |     value | units         | source               | doi                                                                                                                        |
 |-----:|:--------------------------------|----------:|:--------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------|
