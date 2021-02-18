@@ -35,11 +35,14 @@ ol, ul {
 }
 
 table {
-  display: table;
+  display: block;
   border-collapse: collapse;
-  margin: auto;
-  white-space: nowrap;
+  border-spacing: 0;
+  margin: 1;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
   overflow-x: scroll;
+/*   white-space: nowrap; */
   font-size: 14px;
 }
 
