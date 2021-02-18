@@ -35,11 +35,11 @@ ol, ul {
 }
 
 table {
-  display: block;
+  display: table;
   border-collapse: collapse;
   margin: 10;
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: scroll;
   font-size: 14px;
 }
 
