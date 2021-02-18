@@ -4,18 +4,19 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |       MBE |      NSD |        R |      NMAE |
-|:-------|:-------------|---------:|----------:|---------:|---------:|----------:|
-| SWnet  | baseline     |  3.1621  |   2.3689  | 0.879706 | 0.9999   | 0.0108916 |
-| SWnet  | detailed     |  3.46376 |  -2.07395 | 0.866253 | 0.999899 | 0.0119306 |
-| LWnet  | baseline     | 15.2611  | -13.6694  | 1.14884  | 0.960268 | 0.215818  |
-| LWnet  | detailed     | 31.2924  | -29.7861  | 1.57832  | 0.912107 | 0.442529  |
-| Qle    | baseline     | 27.5233  |  -8.92438 | 0.76104  | 0.514239 | 0.833602  |
-| Qle    | detailed     | 27.1993  |  -9.33182 | 0.731213 | 0.526081 | 0.823789  |
-| Qh     | baseline     | 23.9129  |   7.39375 | 1.19266  | 0.935167 | 0.640645  |
-| Qh     | detailed     | 20.7484  |  -3.4283  | 0.836171 | 0.932199 | 0.555866  |
+| flux   | experiment   |      MAE |       MBE |      NSD |        R |
+|:-------|:-------------|---------:|----------:|---------:|---------:|
+| SWnet  | baseline     |  3.1621  |   2.3689  | 0.879706 | 0.9999   |
+| SWnet  | detailed     |  3.46376 |  -2.07395 | 0.866253 | 0.999899 |
+| LWnet  | baseline     | 15.2611  | -13.6694  | 1.14884  | 0.960268 |
+| LWnet  | detailed     | 31.2924  | -29.7861  | 1.57832  | 0.912107 |
+| Qle    | baseline     | 27.5233  |  -8.92438 | 0.76104  | 0.514239 |
+| Qle    | detailed     | 27.1993  |  -9.33182 | 0.731213 | 0.526081 |
+| Qh     | baseline     | 23.9129  |   7.39375 | 1.19266  | 0.935167 |
+| Qh     | detailed     | 20.7484  |  -3.4283  | 0.836171 | 0.932199 |
 
  - MAE: mean absolute error (close to 0 is better)
+ - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)

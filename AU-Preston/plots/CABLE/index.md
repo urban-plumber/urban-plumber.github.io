@@ -4,14 +4,15 @@
 
 ### Error metrics
 
-| flux   | experiment   |     MAE |      MBE |      NSD |        R |      NMAE |
-|:-------|:-------------|--------:|---------:|---------:|---------:|----------:|
-| SWnet  | baseline     | 10.6937 |  10.6871 | 0.904454 | 0.999857 | 0.0368336 |
-| LWnet  | baseline     | 16.3623 | -13.8319 | 1.33093  | 0.937785 | 0.231392  |
-| Qle    | baseline     | 38.6025 |  16.6814 | 1.4167   | 0.531026 | 1.16916   |
-| Qh     | baseline     | 27.8693 | -12.2246 | 1.00756  | 0.893465 | 0.746639  |
+| flux   | experiment   |     MAE |      MBE |      NSD |        R |
+|:-------|:-------------|--------:|---------:|---------:|---------:|
+| SWnet  | baseline     | 10.6937 |  10.6871 | 0.904454 | 0.999857 |
+| LWnet  | baseline     | 16.3623 | -13.8319 | 1.33093  | 0.937785 |
+| Qle    | baseline     | 38.6025 |  16.6814 | 1.4167   | 0.531026 |
+| Qh     | baseline     | 27.8693 | -12.2246 | 1.00756  | 0.893465 |
 
  - MAE: mean absolute error (close to 0 is better)
+ - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)

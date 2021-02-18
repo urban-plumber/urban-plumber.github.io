@@ -31,30 +31,30 @@
 
 Metadata as submitted for baseline and detailed experiments
 
-|             | baseline                                                | detailed                                                |
-|:------------|:--------------------------------------------------------|:--------------------------------------------------------|
-| ASLUMv2.0   | [ASLUMv2.0](ASLUMv2.0_AU-Preston_baseline_attrs.md)     | [ASLUMv2.0](ASLUMv2.0_AU-Preston_detailed_attrs.md)     |
-| ASLUMv3.1   | [ASLUMv3.1](ASLUMv3.1_AU-Preston_baseline_attrs.md)     | [ASLUMv3.1](ASLUMv3.1_AU-Preston_detailed_attrs.md)     |
-| BEPCOL      | [BEPCOL](BEPCOL_AU-Preston_baseline_attrs.md)           | [BEPCOL](BEPCOL_AU-Preston_detailed_attrs.md)           |
-| CABLE       | [CABLE](CABLE_AU-Preston_baseline_attrs.md)             |                                                         |
-| CHTESSEL    | [CHTESSEL](CHTESSEL_AU-Preston_baseline_attrs.md)       |                                                         |
-| CHTESSEL_U  | [CHTESSEL_U](CHTESSEL_U_AU-Preston_baseline_attrs.md)   | [CHTESSEL_U](CHTESSEL_U_AU-Preston_detailed_attrs.md)   |
-| CLMU5       | [CLMU5](CLMU5_AU-Preston_baseline_attrs.md)             | [CLMU5](CLMU5_AU-Preston_detailed_attrs.md)             |
-| CM-BEM      | [CM-BEM](CM-BEM_AU-Preston_baseline_attrs.md)           | [CM-BEM](CM-BEM_AU-Preston_detailed_attrs.md)           |
-| CM          | [CM](CM_AU-Preston_baseline_attrs.md)                   | [CM](CM_AU-Preston_detailed_attrs.md)                   |
-| K-UCMv1     | [K-UCMv1](K-UCMv1_AU-Preston_baseline_attrs.md)         | [K-UCMv1](K-UCMv1_AU-Preston_detailed_attrs.md)         |
-| Lodz-SUEB   | [Lodz-SUEB](Lodz-SUEB_AU-Preston_baseline_attrs.md)     | [Lodz-SUEB](Lodz-SUEB_AU-Preston_detailed_attrs.md)     |
-| MUSE        | [MUSE](MUSE_AU-Preston_baseline_attrs.md)               | [MUSE](MUSE_AU-Preston_detailed_attrs.md)               |
-| NOAH-SLAB   | [NOAH-SLAB](NOAH-SLAB_AU-Preston_baseline_attrs.md)     | [NOAH-SLAB](NOAH-SLAB_AU-Preston_detailed_attrs.md)     |
-| NOAH-SLUCM  | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_baseline_attrs.md)   | [NOAH-SLUCM](NOAH-SLUCM_AU-Preston_detailed_attrs.md)   |
-| SNUUCM      | [SNUUCM](SNUUCM_AU-Preston_baseline_attrs.md)           | [SNUUCM](SNUUCM_AU-Preston_detailed_attrs.md)           |
-| SUEWS       | [SUEWS](SUEWS_AU-Preston_baseline_attrs.md)             | [SUEWS](SUEWS_AU-Preston_detailed_attrs.md)             |
-| TARGET      | [TARGET](TARGET_AU-Preston_baseline_attrs.md)           | [TARGET](TARGET_AU-Preston_detailed_attrs.md)           |
-| TEB-READING | [TEB-READING](TEB-READING_AU-Preston_baseline_attrs.md) | [TEB-READING](TEB-READING_AU-Preston_detailed_attrs.md) |
-| TEB-CNRM    | [TEB-CNRM](TEB-CNRM_AU-Preston_baseline_attrs.md)       | [TEB-CNRM](TEB-CNRM_AU-Preston_detailed_attrs.md)       |
-| TEB-SPARTCS | [TEB-SPARTCS](TEB-SPARTCS_AU-Preston_baseline_attrs.md) | [TEB-SPARTCS](TEB-SPARTCS_AU-Preston_detailed_attrs.md) |
-| TERRA_4.11  | [TERRA_4.11](TERRA_4.11_AU-Preston_baseline_attrs.md)   | [TERRA_4.11](TERRA_4.11_AU-Preston_detailed_attrs.md)   |
-| UCLEM       | [UCLEM](UCLEM_AU-Preston_baseline_attrs.md)             | [UCLEM](UCLEM_AU-Preston_detailed_attrs.md)             |
-| UT&C        | [UT&C](UT&C_AU-Preston_baseline_attrs.md)               | [UT&C](UT&C_AU-Preston_detailed_attrs.md)               |
-| VTUF-3D     | [VTUF-3D](VTUF-3D_AU-Preston_baseline_attrs.md)         | [VTUF-3D](VTUF-3D_AU-Preston_detailed_attrs.md)         |
-| VUCM        | [VUCM](VUCM_AU-Preston_baseline_attrs.md)               | [VUCM](VUCM_AU-Preston_detailed_attrs.md)               |
+|             | baseline                                             | detailed                                             | model plots                            |
+|:------------|:-----------------------------------------------------|:-----------------------------------------------------|:---------------------------------------|
+| ASLUMv2.0   | [metadata](ASLUMv2.0_AU-Preston_baseline_attrs.md)   | [metadata](ASLUMv2.0_AU-Preston_detailed_attrs.md)   | [model plots](../ASLUMv2.0/index.md)   |
+| ASLUMv3.1   | [metadata](ASLUMv3.1_AU-Preston_baseline_attrs.md)   | [metadata](ASLUMv3.1_AU-Preston_detailed_attrs.md)   | [model plots](../ASLUMv3.1/index.md)   |
+| BEPCOL      | [metadata](BEPCOL_AU-Preston_baseline_attrs.md)      | [metadata](BEPCOL_AU-Preston_detailed_attrs.md)      | [model plots](../BEPCOL/index.md)      |
+| CABLE       | [metadata](CABLE_AU-Preston_baseline_attrs.md)       |                                                      | [model plots](../CABLE/index.md)       |
+| CHTESSEL    | [metadata](CHTESSEL_AU-Preston_baseline_attrs.md)    |                                                      | [model plots](../CHTESSEL/index.md)    |
+| CHTESSEL_U  | [metadata](CHTESSEL_U_AU-Preston_baseline_attrs.md)  | [metadata](CHTESSEL_U_AU-Preston_detailed_attrs.md)  | [model plots](../CHTESSEL_U/index.md)  |
+| CLMU5       | [metadata](CLMU5_AU-Preston_baseline_attrs.md)       | [metadata](CLMU5_AU-Preston_detailed_attrs.md)       | [model plots](../CLMU5/index.md)       |
+| CM-BEM      | [metadata](CM-BEM_AU-Preston_baseline_attrs.md)      | [metadata](CM-BEM_AU-Preston_detailed_attrs.md)      | [model plots](../CM-BEM/index.md)      |
+| CM          | [metadata](CM_AU-Preston_baseline_attrs.md)          | [metadata](CM_AU-Preston_detailed_attrs.md)          | [model plots](../CM/index.md)          |
+| K-UCMv1     | [metadata](K-UCMv1_AU-Preston_baseline_attrs.md)     | [metadata](K-UCMv1_AU-Preston_detailed_attrs.md)     | [model plots](../K-UCMv1/index.md)     |
+| Lodz-SUEB   | [metadata](Lodz-SUEB_AU-Preston_baseline_attrs.md)   | [metadata](Lodz-SUEB_AU-Preston_detailed_attrs.md)   | [model plots](../Lodz-SUEB/index.md)   |
+| MUSE        | [metadata](MUSE_AU-Preston_baseline_attrs.md)        | [metadata](MUSE_AU-Preston_detailed_attrs.md)        | [model plots](../MUSE/index.md)        |
+| NOAH-SLAB   | [metadata](NOAH-SLAB_AU-Preston_baseline_attrs.md)   | [metadata](NOAH-SLAB_AU-Preston_detailed_attrs.md)   | [model plots](../NOAH-SLAB/index.md)   |
+| NOAH-SLUCM  | [metadata](NOAH-SLUCM_AU-Preston_baseline_attrs.md)  | [metadata](NOAH-SLUCM_AU-Preston_detailed_attrs.md)  | [model plots](../NOAH-SLUCM/index.md)  |
+| SNUUCM      | [metadata](SNUUCM_AU-Preston_baseline_attrs.md)      | [metadata](SNUUCM_AU-Preston_detailed_attrs.md)      | [model plots](../SNUUCM/index.md)      |
+| SUEWS       | [metadata](SUEWS_AU-Preston_baseline_attrs.md)       | [metadata](SUEWS_AU-Preston_detailed_attrs.md)       | [model plots](../SUEWS/index.md)       |
+| TARGET      | [metadata](TARGET_AU-Preston_baseline_attrs.md)      | [metadata](TARGET_AU-Preston_detailed_attrs.md)      | [model plots](../TARGET/index.md)      |
+| TEB-READING | [metadata](TEB-READING_AU-Preston_baseline_attrs.md) | [metadata](TEB-READING_AU-Preston_detailed_attrs.md) | [model plots](../TEB-READING/index.md) |
+| TEB-CNRM    | [metadata](TEB-CNRM_AU-Preston_baseline_attrs.md)    | [metadata](TEB-CNRM_AU-Preston_detailed_attrs.md)    | [model plots](../TEB-CNRM/index.md)    |
+| TEB-SPARTCS | [metadata](TEB-SPARTCS_AU-Preston_baseline_attrs.md) | [metadata](TEB-SPARTCS_AU-Preston_detailed_attrs.md) | [model plots](../TEB-SPARTCS/index.md) |
+| TERRA_4.11  | [metadata](TERRA_4.11_AU-Preston_baseline_attrs.md)  | [metadata](TERRA_4.11_AU-Preston_detailed_attrs.md)  | [model plots](../TERRA_4.11/index.md)  |
+| UCLEM       | [metadata](UCLEM_AU-Preston_baseline_attrs.md)       | [metadata](UCLEM_AU-Preston_detailed_attrs.md)       | [model plots](../UCLEM/index.md)       |
+| UT&C        | [metadata](UT&C_AU-Preston_baseline_attrs.md)        | [metadata](UT&C_AU-Preston_detailed_attrs.md)        | [model plots](../UT&C/index.md)        |
+| VTUF-3D     | [metadata](VTUF-3D_AU-Preston_baseline_attrs.md)     | [metadata](VTUF-3D_AU-Preston_detailed_attrs.md)     | [model plots](../VTUF-3D/index.md)     |
+| VUCM        | [metadata](VUCM_AU-Preston_baseline_attrs.md)        | [metadata](VUCM_AU-Preston_detailed_attrs.md)        | [model plots](../VUCM/index.md)        |
