@@ -4,12 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |   MBE |    NSD |      R |
-|:-------|:-------------|------:|------:|-------:|-------:|
-| SWnet  | baseline     |  2.59 | 0.265 | 0.873  | 0.9999 |
-| LWnet  | baseline     |  4.75 | 0.767 | 0.8652 | 0.9942 |
-| Qle    | baseline     | 22.97 | 2.859 | 0.6777 | 0.6553 |
-| Qh     | baseline     | 24.51 | 3.242 | 1.2302 | 0.9484 |
+| flux   | experiment   |      MAE |      MBE |      NSD |        R |       NMAE |
+|:-------|:-------------|---------:|---------:|---------:|---------:|-----------:|
+| SWnet  | baseline     |  2.58713 | 0.264984 | 0.87303  | 0.99991  | 0.00891115 |
+| SWnet  | detailed     |  2.58713 | 0.264984 | 0.87303  | 0.99991  | 0.00891115 |
+| LWnet  | baseline     |  4.75409 | 0.767305 | 0.865236 | 0.994218 | 0.0672311  |
+| LWnet  | detailed     |  4.90324 | 1.06432  | 0.859713 | 0.994191 | 0.0693404  |
+| Qle    | baseline     | 22.9608  | 2.90334  | 0.677905 | 0.655288 | 0.695417   |
+| Qle    | detailed     | 22.9067  | 2.93443  | 0.684946 | 0.655818 | 0.69378    |
+| Qh     | baseline     | 24.505   | 3.23059  | 1.23035  | 0.948437 | 0.656507   |
+| Qh     | detailed     | 24.5906  | 3.47155  | 1.23758  | 0.948311 | 0.6588     |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -24,9 +28,12 @@
  - [Qle](#qle)
  - [SWnet](#swnet)
  - [SWnet_subset_baseline](#swnet_subset_baseline)
+ - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
  - [SWup_subset_baseline](#swup_subset_baseline)
+ - [SWup_subset_detailed](#swup_subset_detailed)
  - [closure_baseline](#closure_baseline)
+ - [closure_detailed](#closure_detailed)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
@@ -51,14 +58,23 @@
 ### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
 [![NOAH-SLAB_AU-Preston_SWnet_subset_baseline.png](NOAH-SLAB_AU-Preston_SWnet_subset_baseline.png)](NOAH-SLAB_AU-Preston_SWnet_subset_baseline.png)
 
+### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
+[![NOAH-SLAB_AU-Preston_SWnet_subset_detailed.png](NOAH-SLAB_AU-Preston_SWnet_subset_detailed.png)](NOAH-SLAB_AU-Preston_SWnet_subset_detailed.png)
+
 ### <a name="swup"></a>SWup
 [![NOAH-SLAB_AU-Preston_SWup.png](NOAH-SLAB_AU-Preston_SWup.png)](NOAH-SLAB_AU-Preston_SWup.png)
 
 ### <a name="swup_subset_baseline"></a>SWup_subset_baseline
 [![NOAH-SLAB_AU-Preston_SWup_subset_baseline.png](NOAH-SLAB_AU-Preston_SWup_subset_baseline.png)](NOAH-SLAB_AU-Preston_SWup_subset_baseline.png)
 
+### <a name="swup_subset_detailed"></a>SWup_subset_detailed
+[![NOAH-SLAB_AU-Preston_SWup_subset_detailed.png](NOAH-SLAB_AU-Preston_SWup_subset_detailed.png)](NOAH-SLAB_AU-Preston_SWup_subset_detailed.png)
+
 ### <a name="closure_baseline"></a>closure_baseline
 [![NOAH-SLAB_AU-Preston_closure_baseline.png](NOAH-SLAB_AU-Preston_closure_baseline.png)](NOAH-SLAB_AU-Preston_closure_baseline.png)
+
+### <a name="closure_detailed"></a>closure_detailed
+[![NOAH-SLAB_AU-Preston_closure_detailed.png](NOAH-SLAB_AU-Preston_closure_detailed.png)](NOAH-SLAB_AU-Preston_closure_detailed.png)
 
 ### out of range: baseline
 
@@ -67,6 +83,8 @@
 
 ### out of range: detailed
 
+ - NOAH-SLAB Qsm max value of 125.1200 is greater than expected 0.005 [kg/m2/s]
+ - NOAH-SLAB Qsm min value of -10.4908 is less than expected 0.0 [kg/m2/s]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |    NSD |      R |
-|:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 10.17 |   5.29  | 0.8873 | 0.9987 |
-| SWnet  | detailed     | 15.52 |  12.928 | 0.9103 | 0.9987 |
-| LWnet  | baseline     | 17.56 | -11.193 | 1.2454 | 0.9374 |
-| LWnet  | detailed     | 13.68 |  -8.77  | 1.1543 | 0.9542 |
-| Qle    | baseline     | 27.96 |  -5.356 | 0.7518 | 0.4679 |
-| Qle    | detailed     | 32.31 |   2.702 | 1.0255 | 0.4731 |
-| Qh     | baseline     | 33.51 |  25.576 | 1.2522 | 0.9345 |
-| Qh     | detailed     | 30.49 |  16.236 | 1.327  | 0.9204 |
+| flux   | experiment   |     MAE |       MBE |      NSD |        R |      NMAE |
+|:-------|:-------------|--------:|----------:|---------:|---------:|----------:|
+| SWnet  | baseline     | 10.1684 |   5.28879 | 0.88727  | 0.998684 | 0.0350241 |
+| SWnet  | detailed     | 15.5121 |  12.9248  | 0.910272 | 0.998685 | 0.05343   |
+| LWnet  | baseline     | 17.5648 | -11.1934  | 1.24545  | 0.937353 | 0.248397  |
+| LWnet  | detailed     | 13.3807 |  -8.31368 | 1.14575  | 0.95491  | 0.189227  |
+| Qle    | baseline     | 27.9477 |  -5.32807 | 0.751989 | 0.4673   | 0.846457  |
+| Qle    | detailed     | 32.0947 |   7.0701  | 1.05947  | 0.508461 | 0.972058  |
+| Qh     | baseline     | 33.5029 |  25.5641  | 1.25232  | 0.934539 | 0.897569  |
+| Qh     | detailed     | 28.8241 |  12.3579  | 1.28877  | 0.919311 | 0.77222   |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -78,25 +78,12 @@
 
 ### out of range: baseline
 
- - TEB-SPARTCS RoofSurfT max value of 344.1284 is greater than expected 343.0 [K]
- - TEB-SPARTCS TVeg max value of 982.9030 is greater than expected 0.0003 [kg/m2/s]
- - TEB-SPARTCS TVeg min value of -1.5082 is less than expected -0.0003 [kg/m2/s]
- - TEB-SPARTCS ESoil max value of 286.3840 is greater than expected 0.0003 [kg/m2/s]
- - TEB-SPARTCS ESoil min value of -8.6089 is less than expected -0.0003 [kg/m2/s]
- - TEB-SPARTCS SoilWet max value of 1.6047 is greater than expected 1.2 [1]
- - TEB-SPARTCS SoilWet min value of -0.9861 is less than expected -0.2 [1]
+ - TEB-SPARTCS TVeg max value of 0.0004 is greater than expected 0.0003 [kg/m2/s]
 
 ### out of range: detailed
 
- - TEB-SPARTCS Qh max value of 637.5291 is greater than expected 600.0 [W/m2]
- - TEB-SPARTCS Qanth min value of -2.7648 is less than expected 0.0 [W/m2]
- - TEB-SPARTCS RoofSurfT max value of 344.0659 is greater than expected 343.0 [K]
- - TEB-SPARTCS TVeg max value of 944.3084 is greater than expected 0.0003 [kg/m2/s]
- - TEB-SPARTCS TVeg min value of -6.4846 is less than expected -0.0003 [kg/m2/s]
- - TEB-SPARTCS ESoil max value of 189.3662 is greater than expected 0.0003 [kg/m2/s]
- - TEB-SPARTCS ESoil min value of -7.6425 is less than expected -0.0003 [kg/m2/s]
- - TEB-SPARTCS SoilWet max value of 1.6163 is greater than expected 1.2 [1]
- - TEB-SPARTCS SoilWet min value of -1.0000 is less than expected -0.2 [1]
+ - TEB-SPARTCS Qh max value of 614.1366 is greater than expected 600.0 [W/m2]
+ - TEB-SPARTCS TVeg max value of 0.0004 is greater than expected 0.0003 [kg/m2/s]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

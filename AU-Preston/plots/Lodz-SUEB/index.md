@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |    NSD |      R |
-|:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     |  2.59 |   0.265 | 0.873  | 0.9999 |
-| SWnet  | detailed     |  2.59 |   0.265 | 0.873  | 0.9999 |
-| LWnet  | baseline     | 15.02 | -11.635 | 1.2011 | 0.9522 |
-| LWnet  | detailed     | 14.39 | -10.756 | 1.1841 | 0.9538 |
-| Qle    | baseline     | 24.91 |  -7.963 | 0.7637 | 0.6343 |
-| Qle    | detailed     | 24.93 |  -8.102 | 0.7615 | 0.6332 |
-| Qh     | baseline     | 20    |   5.19  | 0.9192 | 0.9408 |
-| Qh     | detailed     | 20.07 |   6.184 | 0.9496 | 0.9397 |
+| flux   | experiment   |      MAE |        MBE |      NSD |        R |       NMAE |
+|:-------|:-------------|---------:|-----------:|---------:|---------:|-----------:|
+| SWnet  | baseline     |  2.58713 |   0.264986 | 0.87303  | 0.99991  | 0.00891115 |
+| SWnet  | detailed     |  2.58713 |   0.264986 | 0.87303  | 0.99991  | 0.00891115 |
+| LWnet  | baseline     | 15.0201  | -11.6351   | 1.20109  | 0.952157 | 0.212411   |
+| LWnet  | detailed     | 14.394   | -10.7565   | 1.18405  | 0.953805 | 0.203556   |
+| Qle    | baseline     | 24.8857  |  -7.90509  | 0.763912 | 0.63482  | 0.753718   |
+| Qle    | detailed     | 24.9032  |  -8.04408  | 0.761734 | 0.633726 | 0.754245   |
+| Qh     | baseline     | 19.9821  |   5.17445  | 0.919337 | 0.940886 | 0.535337   |
+| Qh     | detailed     | 20.0588  |   6.16838  | 0.949672 | 0.939793 | 0.537392   |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -74,13 +74,9 @@
 
 ### out of range: baseline
 
- - Lodz-SUEB AvgSurfT max value of 1051.5700 is greater than expected 333.0 [K]
- - Lodz-SUEB AvgSurfT min value of 145.1560 is less than expected 213.0 [K]
 
 ### out of range: detailed
 
- - Lodz-SUEB AvgSurfT max value of 1054.3100 is greater than expected 333.0 [K]
- - Lodz-SUEB AvgSurfT min value of 145.3970 is less than expected 213.0 [K]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

@@ -40,9 +40,9 @@ for more details refer to the [ALMA protocol definitions](https://www.lmd.jussie
 | CAlbedo      | Vegetation canopy albedo                             | 1       |     0      |      1      |
 | UAlbedo      | Urban canopy albedo                                  | 1       |     0      |      1      |
 | LAI          | Leaf area index                                      | 1       |     0      |     15      |
-| RoofSurfT    | Roof surface temperature (skin)                      | K       |   213      |    343      |
-| WallSurfT    | Wall surface temperature (skin)                      | K       |   213      |    343      |
-| RoadSurfT    | Road surface temperature (skin)                      | K       |   213      |    343      |
+| RoofSurfT    | Roof surface temperature (skin)                      | K       |   213      |    353      |
+| WallSurfT    | Wall surface temperature (skin)                      | K       |   213      |    353      |
+| RoadSurfT    | Road surface temperature (skin)                      | K       |   213      |    353      |
 | TairSurf     | Near surface air temperature (2m)                    | K       |   213      |    333      |
 | TairCanyon   | Air temperature in street canyon (bulk)              | K       |   213      |    333      |
 | TairBuilding | Air temperature in buildings (bulk)                  | K       |   253      |    333      |

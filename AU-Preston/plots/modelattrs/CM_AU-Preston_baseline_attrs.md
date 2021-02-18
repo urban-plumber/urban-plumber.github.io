@@ -1,6 +1,6 @@
 |                   | baseline                                                                                                            |
 |:------------------|:--------------------------------------------------------------------------------------------------------------------|
-| file              | CM_AU-Preston_b3_1_CM_AU-Preston_baseline_v4.nc                                                                     |
+| file              | CM_AU-Preston_b4.2_1_CM_AU-Preston_baseline_v4.2.nc                                                                 |
 | title             | CM output for the Urban-PLUMBER project                                                                             |
 | site              | AU-Preston                                                                                                          |
 | experiment        | Baseline experiment                                                                                                 |
@@ -14,4 +14,4 @@
 | site_experience   | No                                                                                                                  |
 | additional_data   | No                                                                                                                  |
 | comment           | It is avairable to specify height distribution of buildings in considerin area in CM                                |
-| history           | Created at 2020-12-26 11:05:50.834026                                                                               |
+| history           | Created at 2021-02-12 17:01:42.321807                                                                               |

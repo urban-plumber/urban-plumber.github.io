@@ -14,4 +14,4 @@
 | site_experience   | probably yes - participation in Model Comparison 1                                               |
 | additional_data   | no                                                                                               |
 | comment           | Qstor is a heat flux to the ground in "urban slab" NOT the rest from the balance (Q* - Qh - Qle) |
-| history           | Created with create_netcdf_kf_b1.py at 2021-01-12 21:21:59.762089                                |
+| history           | Created with create_netcdf_kf_b1.py at 2021-02-08 19:46:48.424549                                |

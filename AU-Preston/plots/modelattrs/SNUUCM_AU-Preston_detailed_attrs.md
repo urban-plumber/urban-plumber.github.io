@@ -1,6 +1,6 @@
 |                   | detailed                                                                                                                                                                                   |
 |:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| file              | SNUUCM_AU-Preston_d1_1_SNUUCM_AU-Preston_detailed_v1.nc                                                                                                                                    |
+| file              | SNUUCM_AU-Preston_d2_1_SNUUCM_AU-Preston_detailed_v2.nc                                                                                                                                    |
 | title             | SNUUCM output for the Urban-PLUMBER project                                                                                                                                                |
 | site              | AU-Preston                                                                                                                                                                                 |
 | experiment        | detailed experiment                                                                                                                                                                        |
@@ -14,4 +14,4 @@
 | site_experience   | Has the group had previous experience modelling the site? Yes.                                                                                                                             |
 | additional_data   | Has the group used additional site-specific data to configure the simulation? No.                                                                                                          |
 | comment           |                                                                                                                                                                                            |
-| history           | Created with ./create_netcdf_EXAMPLE_v1.py at 2021-01-15 01:29:43.225333                                                                                                                   |
+| history           | Created with ./create_netcdf_EXAMPLE_v1.py at 2021-02-12 22:33:20.176483                                                                                                                   |

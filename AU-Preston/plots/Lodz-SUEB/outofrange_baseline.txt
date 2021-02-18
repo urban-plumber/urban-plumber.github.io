@@ -1,2 +1,0 @@
-Lodz-SUEB AvgSurfT max value of 1051.5700 is greater than expected 333.0 [K]
-Lodz-SUEB AvgSurfT min value of 145.1560 is less than expected 213.0 [K]

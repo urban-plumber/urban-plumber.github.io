@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |    NSD |      R |
-|:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     |  3.16 |   2.369 | 0.8797 | 0.9999 |
-| SWnet  | detailed     |  3.46 |  -2.075 | 0.8663 | 0.9999 |
-| LWnet  | baseline     | 15.26 | -13.669 | 1.1488 | 0.9603 |
-| LWnet  | detailed     | 31.29 | -29.786 | 1.5783 | 0.9121 |
-| Qle    | baseline     | 27.55 |  -8.981 | 0.7608 | 0.5139 |
-| Qle    | detailed     | 27.22 |  -9.389 | 0.731  | 0.5257 |
-| Qh     | baseline     | 23.92 |   7.408 | 1.1925 | 0.9351 |
-| Qh     | detailed     | 20.76 |  -3.412 | 0.8361 | 0.9321 |
+| flux   | experiment   |      MAE |       MBE |      NSD |        R |      NMAE |
+|:-------|:-------------|---------:|----------:|---------:|---------:|----------:|
+| SWnet  | baseline     |  3.1621  |   2.3689  | 0.879706 | 0.9999   | 0.0108916 |
+| SWnet  | detailed     |  3.46376 |  -2.07395 | 0.866253 | 0.999899 | 0.0119306 |
+| LWnet  | baseline     | 15.2611  | -13.6694  | 1.14884  | 0.960268 | 0.215818  |
+| LWnet  | detailed     | 31.2924  | -29.7861  | 1.57832  | 0.912107 | 0.442529  |
+| Qle    | baseline     | 27.5233  |  -8.92438 | 0.76104  | 0.514239 | 0.833602  |
+| Qle    | detailed     | 27.1993  |  -9.33182 | 0.731213 | 0.526081 | 0.823789  |
+| Qh     | baseline     | 23.9129  |   7.39375 | 1.19266  | 0.935167 | 0.640645  |
+| Qh     | detailed     | 20.7484  |  -3.4283  | 0.836171 | 0.932199 | 0.555866  |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -78,14 +78,10 @@
 
 ### out of range: baseline
 
- - SNUUCM RoadSurfT max value of 343.9175 is greater than expected 343.0 [K]
- - SNUUCM TairSurf max value of 1163.1962 is greater than expected 333.0 [K]
 
 ### out of range: detailed
 
- - SNUUCM RoofSurfT max value of 359.0009 is greater than expected 343.0 [K]
- - SNUUCM RoadSurfT max value of 345.1742 is greater than expected 343.0 [K]
- - SNUUCM TairSurf max value of 1130.6298 is greater than expected 333.0 [K]
+ - SNUUCM RoofSurfT max value of 359.0009 is greater than expected 353.0 [K]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

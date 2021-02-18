@@ -1,4 +1,4 @@
-CM-BEM SWnet min value of -0.1441 is less than expected 0.0 [W/m2]
-CM-BEM SWup min value of -488.7715 is less than expected 0.0 [W/m2]
+CM-BEM SWnet min value of -34.4363 is less than expected 0.0 [W/m2]
+CM-BEM SWup min value of -590.9081 is less than expected 0.0 [W/m2]
 CM-BEM Qanth_Qle min value of -1.9800 is less than expected 0.0 [W/m2]
-CM-BEM alb min value of -0.9995 is less than expected 0.0 [1]
+CM-BEM alb min value of -0.9980 is less than expected 0.0 [1]

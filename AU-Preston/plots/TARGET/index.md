@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |    NSD |      R |
-|:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 11.54 | -11.224 | 0.8376 | 0.9999 |
-| SWnet  | detailed     | 11.54 | -11.224 | 0.8376 | 0.9999 |
-| LWnet  | baseline     | 35.84 | -18.159 | 1.4395 | 0.8104 |
-| LWnet  | detailed     | 40.69 | -25.668 | 1.5137 | 0.806  |
-| Qle    | baseline     | 32.63 | -25.124 | 0.1268 | 0.6424 |
-| Qle    | detailed     | 32.43 | -25.094 | 0.1402 | 0.6409 |
-| Qh     | baseline     | 37.83 |  -6.858 | 0.8855 | 0.8417 |
-| Qh     | detailed     | 38.56 |  -6.742 | 0.9303 | 0.8414 |
+| flux   | experiment   |     MAE |       MBE |      NSD |        R |      NMAE |
+|:-------|:-------------|--------:|----------:|---------:|---------:|----------:|
+| SWnet  | baseline     | 11.5424 | -11.2217  | 0.837595 | 0.99991  | 0.0397569 |
+| SWnet  | detailed     | 11.5424 | -11.2217  | 0.837595 | 0.99991  | 0.0397569 |
+| LWnet  | baseline     | 35.84   | -18.159   | 1.43953  | 0.810365 | 0.50684   |
+| LWnet  | detailed     | 40.6917 | -25.6682  | 1.51371  | 0.805983 | 0.575452  |
+| Qle    | baseline     | 32.5916 | -25.0604  | 0.126817 | 0.643414 | 0.987107  |
+| Qle    | detailed     | 32.3972 | -25.031   | 0.14024  | 0.641874 | 0.981219  |
+| Qh     | baseline     | 37.8259 |  -6.87361 | 0.885597 | 0.84176  | 1.01339   |
+| Qh     | detailed     | 38.5538 |  -6.75776 | 0.930376 | 0.841433 | 1.03289   |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -74,12 +74,12 @@
 
 ### out of range: baseline
 
- - TARGET RoofSurfT max value of 358.9660 is greater than expected 343.0 [K]
+ - TARGET RoofSurfT max value of 358.9660 is greater than expected 353.0 [K]
  - TARGET PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
 
 ### out of range: detailed
 
- - TARGET RoofSurfT max value of 360.3281 is greater than expected 343.0 [K]
+ - TARGET RoofSurfT max value of 360.3281 is greater than expected 353.0 [K]
  - TARGET PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
 
 

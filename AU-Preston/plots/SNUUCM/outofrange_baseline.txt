@@ -1,2 +1,0 @@
-SNUUCM RoadSurfT max value of 343.9175 is greater than expected 343.0 [K]
-SNUUCM TairSurf max value of 1163.1962 is greater than expected 333.0 [K]

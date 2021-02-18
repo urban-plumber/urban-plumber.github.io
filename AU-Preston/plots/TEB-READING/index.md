@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |    NSD |      R |
-|:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 17.42 |  15.262 | 0.9136 | 0.9985 |
-| SWnet  | detailed     |  9.73 |   2.205 | 0.8727 | 0.9985 |
-| LWnet  | baseline     | 17.07 | -16.673 | 1.2036 | 0.9629 |
-| LWnet  | detailed     | 12.49 |  -7.867 | 1.0892 | 0.9592 |
-| Qle    | baseline     | 24.74 |  -0.424 | 0.8361 | 0.6311 |
-| Qle    | detailed     | 27.86 |   5.24  | 1.0831 | 0.642  |
-| Qh     | baseline     | 62.79 |  61.64  | 1.2141 | 0.9327 |
-| Qh     | detailed     | 35.25 |  31.477 | 1.1873 | 0.9401 |
+| flux   | experiment   |      MAE |        MBE |      NSD |        R |      NMAE |
+|:-------|:-------------|---------:|-----------:|---------:|---------:|----------:|
+| SWnet  | baseline     | 17.4168  |  15.2596   | 0.913622 | 0.99849  | 0.0599908 |
+| SWnet  | detailed     |  9.73176 |   2.20585  | 0.872732 | 0.99852  | 0.0335202 |
+| LWnet  | baseline     | 17.0705  | -16.6731   | 1.20362  | 0.962853 | 0.241407  |
+| LWnet  | detailed     | 12.4947  |  -7.86715  | 1.08923  | 0.959218 | 0.176698  |
+| Qle    | baseline     | 24.7326  |  -0.377787 | 0.836377 | 0.631247 | 0.749079  |
+| Qle    | detailed     | 27.8374  |   5.30165  | 1.08347  | 0.642714 | 0.843116  |
+| Qh     | baseline     | 62.7813  |  61.628    | 1.21425  | 0.932716 | 1.68196   |
+| Qh     | detailed     | 35.2352  |  31.462    | 1.18747  | 0.940139 | 0.943977  |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -75,13 +75,12 @@
 ### out of range: baseline
 
  - TEB-READING SWup min value of -92.3008 is less than expected 0.0 [W/m2]
- - TEB-READING RoofSurfT max value of 348.9096 is greater than expected 343.0 [K]
- - TEB-READING alb min value of -0.9931 is less than expected 0.0 [1]
+ - TEB-READING alb min value of -0.8127 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
  - TEB-READING SWup min value of -81.1769 is less than expected 0.0 [W/m2]
- - TEB-READING alb min value of -0.9993 is less than expected 0.0 [1]
+ - TEB-READING alb min value of -0.7382 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

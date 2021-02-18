@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |     MBE |    NSD |      R |
-|:-------|:-------------|------:|--------:|-------:|-------:|
-| SWnet  | baseline     | 28.3  |  13.945 | 0.9054 | 0.9855 |
-| SWnet  | detailed     | 28.04 |  13.414 | 0.9039 | 0.9855 |
-| LWnet  | baseline     | 23.98 | -22.672 | 1.1892 | 0.9203 |
-| LWnet  | detailed     | 37.61 | -37.306 | 1.4278 | 0.9042 |
-| Qle    | baseline     | 27.67 |  -8.357 | 0.6742 | 0.5057 |
-| Qle    | detailed     | 29.18 |  -7.759 | 0.8292 | 0.4789 |
-| Qh     | baseline     | 39.62 |   2.727 | 0.5854 | 0.8235 |
-| Qh     | detailed     | 37.22 |  -8.604 | 0.4999 | 0.8392 |
+| flux   | experiment   |     MAE |        MBE |      NSD |        R |     NMAE |
+|:-------|:-------------|--------:|-----------:|---------:|---------:|---------:|
+| SWnet  | baseline     | 68.2468 |  12.2746   | 0.911084 | 0.939294 | 0.23507  |
+| SWnet  | detailed     | 68.099  |  11.7452   | 0.90949  | 0.939294 | 0.234561 |
+| LWnet  | baseline     | 14.8245 |  -0.149043 | 1.17465  | 0.937762 | 0.209644 |
+| LWnet  | detailed     | 21.8253 | -14.757    | 1.40861  | 0.916984 | 0.308647 |
+| Qle    | baseline     | 25.0833 |  -8.11643  | 0.674395 | 0.577435 | 0.759701 |
+| Qle    | detailed     | 26.6774 |  -7.32488  | 0.829358 | 0.542259 | 0.807983 |
+| Qh     | baseline     | 33.1382 |   3.22276  | 0.585435 | 0.917409 | 0.887798 |
+| Qh     | detailed     | 32.9066 |  -8.15679  | 0.499936 | 0.917306 | 0.881593 |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -74,15 +74,13 @@
 
 ### out of range: baseline
 
- - CM SWnet min value of -7.7000 is less than expected 0.0 [W/m2]
- - CM SWup min value of -426.8350 is less than expected 0.0 [W/m2]
- - CM alb min value of -0.9987 is less than expected 0.0 [1]
+ - CM SWup min value of -527.2600 is less than expected 0.0 [W/m2]
+ - CM alb min value of -0.9988 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - CM SWnet min value of -7.8000 is less than expected 0.0 [W/m2]
- - CM SWup min value of -425.9050 is less than expected 0.0 [W/m2]
- - CM alb min value of -0.9995 is less than expected 0.0 [1]
+ - CM SWup min value of -525.7000 is less than expected 0.0 [W/m2]
+ - CM alb min value of -0.9986 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |   MAE |    MBE |    NSD |      R |
-|:-------|:-------------|------:|-------:|-------:|-------:|
-| SWnet  | baseline     | 12.49 | 12.158 | 0.9103 | 0.9999 |
-| SWnet  | detailed     |  4.16 |  3.34  | 0.8838 | 0.9999 |
-| LWnet  | baseline     | 11.03 | -9.175 | 1.0185 | 0.9772 |
-| LWnet  | detailed     | 11.98 | -9.525 | 1.0332 | 0.9714 |
-| Qle    | baseline     | 26.13 | 10.603 | 0.9376 | 0.6704 |
-| Qle    | detailed     | 23.83 |  3.91  | 0.8121 | 0.654  |
-| Qh     | baseline     | 27.15 | 16.054 | 1.1686 | 0.9355 |
-| Qh     | detailed     | 26.31 | 16.534 | 1.1226 | 0.9363 |
+| flux   | experiment   |      MAE |      MBE |      NSD |        R |      NMAE |
+|:-------|:-------------|---------:|---------:|---------:|---------:|----------:|
+| SWnet  | baseline     | 12.4893  | 12.1551  | 0.910259 | 0.999852 | 0.0430183 |
+| SWnet  | detailed     |  4.15906 |  3.33948 | 0.883776 | 0.999858 | 0.0143255 |
+| LWnet  | baseline     | 11.0306  | -9.17526 | 1.01853  | 0.977191 | 0.155992  |
+| LWnet  | detailed     | 11.9786  | -9.52546 | 1.03316  | 0.971396 | 0.169398  |
+| Qle    | baseline     | 26.1224  | 10.6409  | 0.937831 | 0.670408 | 0.791173  |
+| Qle    | detailed     | 23.8255  |  3.94715 | 0.812341 | 0.653864 | 0.721606  |
+| Qh     | baseline     | 27.1444  | 16.0433  | 1.16874  | 0.935546 | 0.727219  |
+| Qh     | detailed     | 26.2985  | 16.5225  | 1.12269  | 0.936364 | 0.704556  |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -21,6 +21,7 @@
  - R: Pearson's correlation (close to 1 is better)
 
 ### jump to figure:
+ - [Albedo](#albedo)
  - [LWnet](#lwnet)
  - [LWup](#lwup)
  - [Qh](#qh)
@@ -35,6 +36,9 @@
  - [closure_detailed](#closure_detailed)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
+
+### <a name="albedo"></a>Albedo
+[![UT&C_AU-Preston_Albedo.png](UT&C_AU-Preston_Albedo.png)](UT&C_AU-Preston_Albedo.png)
 
 ### <a name="lwnet"></a>LWnet
 [![UT&C_AU-Preston_LWnet.png](UT&C_AU-Preston_LWnet.png)](UT&C_AU-Preston_LWnet.png)

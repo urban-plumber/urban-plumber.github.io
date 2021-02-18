@@ -1,7 +1,1 @@
-TEB-CNRM RoofSurfT max value of 344.1260 is greater than expected 343.0 [K]
-TEB-CNRM TVeg max value of 984.8733 is greater than expected 0.0003 [kg/m2/s]
-TEB-CNRM TVeg min value of -0.7139 is less than expected -0.0003 [kg/m2/s]
-TEB-CNRM ESoil max value of 286.3034 is greater than expected 0.0003 [kg/m2/s]
-TEB-CNRM ESoil min value of -8.6155 is less than expected -0.0003 [kg/m2/s]
-TEB-CNRM SoilWet max value of 1.6047 is greater than expected 1.2 [1]
-TEB-CNRM SoilWet min value of -0.9861 is less than expected -0.2 [1]
+TEB-CNRM TVeg max value of 0.0004 is greater than expected 0.0003 [kg/m2/s]
