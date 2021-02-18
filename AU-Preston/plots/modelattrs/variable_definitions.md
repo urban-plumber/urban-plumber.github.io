@@ -21,8 +21,8 @@ for more details refer to the [ALMA protocol definitions](https://www.lmd.jussie
 | UAlbedo      | Urban canopy albedo                                  | 1       |     0      |      1      |
 | SAlbedo      | Snow albedo                                          | 1       |     0      |      1      |
 | LAI          | Leaf area index                                      | 1       |     0      |     15      |
-| SWE          | Snow water equivalent                                | kg/m2   |     0      |   2000      |
 | SnowFrac     | Snow covered fraction                                | 1       |     0      |      1      |
+| SWE          | Snow water equivalent                                | kg/m2   |     0      |   2000      |
 | SurfStor     | Surface water storage                                | kg/m2   |     0      |   2000      |
 | RoofSurfT    | Roof surface temperature (skin)                      | K       |   213      |    353      |
 | WallSurfT    | Wall surface temperature (skin)                      | K       |   213      |    353      |

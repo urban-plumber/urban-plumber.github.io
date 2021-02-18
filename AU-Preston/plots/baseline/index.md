@@ -22,8 +22,8 @@
 [UAlbedo](#ualbedo)
 [SAlbedo](#salbedo)
 [LAI](#lai)
-[SWE](#swe)
 [SnowFrac](#snowfrac)
+[SWE](#swe)
 [SurfStor](#surfstor)
 [RoofSurfT](#roofsurft)
 [WallSurfT](#wallsurft)
@@ -112,11 +112,11 @@
 ### <a name="lai"></a>LAI: Leaf area index
 [![LAI](AU-Preston_baseline_LAI.png)](AU-Preston_baseline_LAI.png)
 
-### <a name="swe"></a>SWE: Snow water equivalent
-[![SWE](AU-Preston_baseline_SWE.png)](AU-Preston_baseline_SWE.png)
-
 ### <a name="snowfrac"></a>SnowFrac: Snow covered fraction
 [![SnowFrac](AU-Preston_baseline_SnowFrac.png)](AU-Preston_baseline_SnowFrac.png)
+
+### <a name="swe"></a>SWE: Snow water equivalent
+[![SWE](AU-Preston_baseline_SWE.png)](AU-Preston_baseline_SWE.png)
 
 ### <a name="surfstor"></a>SurfStor: Surface water storage
 [![SurfStor](AU-Preston_baseline_SurfStor.png)](AU-Preston_baseline_SurfStor.png)
@@ -247,8 +247,8 @@
 [UAlbedo](#ualbedo)
 [SAlbedo](#salbedo)
 [LAI](#lai)
-[SWE](#swe)
 [SnowFrac](#snowfrac)
+[SWE](#swe)
 [SurfStor](#surfstor)
 [RoofSurfT](#roofsurft)
 [WallSurfT](#wallsurft)

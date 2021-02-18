@@ -37,10 +37,9 @@ ol, ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  display: block;
+  display: table;
   margin: 0 auto;
   overflow-x: auto;
-  white-space: nowrap;
   font-size: 14px;
 }
 
