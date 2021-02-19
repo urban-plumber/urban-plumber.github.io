@@ -28,6 +28,7 @@
 ## Site characteristics
 
 [![site_photo.jpg](site_photo.jpg)](site_photo.jpg)
+
 image source: Coutts et al. 2007: doi:[10.1016/j.atmosenv.2006.08.030](http://doi.org/10.1016/j.atmosenv.2006.08.030)
 
 
