@@ -4,16 +4,16 @@
 
 ### Error metrics
 
-| flux   | experiment   |     MAE |       MBE |      NSD |        R |
-|:-------|:-------------|--------:|----------:|---------:|---------:|
-| SWnet  | baseline     | 14.8282 |  14.8282  | 0.916779 | 0.99991  |
-| SWnet  | detailed     | 33.5533 |  -1.01363 | 0.8635   | 0.984174 |
-| LWnet  | baseline     | 33.1895 |  32.6509  | 0.487767 | 0.98419  |
-| LWnet  | detailed     | 35.4508 |  34.8778  | 0.429391 | 0.980815 |
-| Qle    | baseline     | 31.9956 | -24.8356  | 0.161127 | 0.534444 |
-| Qle    | detailed     | 31.7558 | -24.5079  | 0.153675 | 0.534804 |
-| Qh     | baseline     | 93.0035 |  92.2974  | 1.41335  | 0.921807 |
-| Qh     | detailed     | 66.7245 |  65.8259  | 1.41291  | 0.936458 |
+| flux   | experiment   |      MAE |       MBE |      NSD |        R |
+|:-------|:-------------|---------:|----------:|---------:|---------:|
+| SWnet  | baseline     | 14.8078  |  14.8077  | 0.916714 | 0.99991  |
+| SWnet  | detailed     |  2.59135 |   0.18402 | 0.87278  | 0.99991  |
+| LWnet  | baseline     | 34.1173  |  33.5783  | 0.470153 | 0.985319 |
+| LWnet  | detailed     |  9.92471 |  -8.38939 | 1.02621  | 0.97899  |
+| Qle    | baseline     | 27.3496  | -18.4438  | 0.405597 | 0.572728 |
+| Qle    | detailed     | 27.3457  | -18.2086  | 0.395459 | 0.563585 |
+| Qh     | baseline     | 87.5967  |  86.9461  | 1.40657  | 0.926781 |
+| Qh     | detailed     | 34.8788  |  30.8343  | 1.31841  | 0.946234 |
 
  - MAE: mean absolute error (close to 0 is better)
  - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
@@ -22,6 +22,7 @@
  - R: Pearson's correlation (close to 1 is better)
 
 ### jump to figure:
+ - [Albedo](#albedo)
  - [LWnet](#lwnet)
  - [LWup](#lwup)
  - [Qh](#qh)
@@ -36,6 +37,9 @@
  - [closure_detailed](#closure_detailed)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
+
+### <a name="albedo"></a>Albedo
+[![TERRA_4.11_AU-Preston_Albedo.png](TERRA_4.11_AU-Preston_Albedo.png)](TERRA_4.11_AU-Preston_Albedo.png)
 
 ### <a name="lwnet"></a>LWnet
 [![TERRA_4.11_AU-Preston_LWnet.png](TERRA_4.11_AU-Preston_LWnet.png)](TERRA_4.11_AU-Preston_LWnet.png)
@@ -75,13 +79,12 @@
 
 ### out of range: baseline
 
- - TERRA_4.11 Qh max value of 733.2882 is greater than expected 600.0 [W/m2]
+ - TERRA_4.11 Qh max value of 731.2208 is greater than expected 600.0 [W/m2]
+ - TERRA_4.11 Qs min value of -0.0000 is less than expected 0.0 [kg/m2/s]
 
 ### out of range: detailed
 
- - TERRA_4.11 Qh max value of 655.5526 is greater than expected 600.0 [W/m2]
- - TERRA_4.11 SWup min value of -217.6542 is less than expected 0.0 [W/m2]
- - TERRA_4.11 alb min value of -0.9922 is less than expected 0.0 [1]
+ - TERRA_4.11 Qs min value of -0.0000 is less than expected 0.0 [kg/m2/s]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
