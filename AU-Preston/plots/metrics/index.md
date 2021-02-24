@@ -10,7 +10,7 @@
 
 ## Mean absolute error (MAE)
 
-Order is based on the urban model classifications provided, from simpler to more complex.
+Order is based on the urban model classifications provided, nominally from simpler to more complex.
 
 ### <a name="swnet"></a>SWnet: Net shortwave radiation
 [![SWnet](AU-Preston_SWnet_MAE.png)](AU-Preston_SWnet_MAE.png)

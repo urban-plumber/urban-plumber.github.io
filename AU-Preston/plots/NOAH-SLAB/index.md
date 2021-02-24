@@ -84,8 +84,6 @@
 
 ### out of range: detailed
 
- - NOAH-SLAB Qsm max value of 125.1200 is greater than expected 0.005 [kg/m2/s]
- - NOAH-SLAB Qsm min value of -10.4908 is less than expected 0.0 [kg/m2/s]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
