@@ -16,7 +16,6 @@
 | Qh     | detailed     | 29.4299 |  14.3521  | 1.27547  | 0.918854 |
 
  - MAE: mean absolute error (close to 0 is better)
- - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
@@ -28,13 +27,15 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
- - [SWnet_subset_baseline](#swnet_subset_baseline)
- - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
- - [SWup_subset_baseline](#swup_subset_baseline)
- - [SWup_subset_detailed](#swup_subset_detailed)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
+ - [subset_Qg](#subset_qg)
+ - [subset_Qh](#subset_qh)
+ - [subset_Qle](#subset_qle)
+ - [subset_Qtau](#subset_qtau)
+ - [subset_SWnet](#subset_swnet)
+ - [subset_SWup](#subset_swup)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
@@ -56,26 +57,32 @@
 ### <a name="swnet"></a>SWnet
 [![TEB-CNRM_AU-Preston_SWnet.png](TEB-CNRM_AU-Preston_SWnet.png)](TEB-CNRM_AU-Preston_SWnet.png)
 
-### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
-[![TEB-CNRM_AU-Preston_SWnet_subset_baseline.png](TEB-CNRM_AU-Preston_SWnet_subset_baseline.png)](TEB-CNRM_AU-Preston_SWnet_subset_baseline.png)
-
-### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
-[![TEB-CNRM_AU-Preston_SWnet_subset_detailed.png](TEB-CNRM_AU-Preston_SWnet_subset_detailed.png)](TEB-CNRM_AU-Preston_SWnet_subset_detailed.png)
-
 ### <a name="swup"></a>SWup
 [![TEB-CNRM_AU-Preston_SWup.png](TEB-CNRM_AU-Preston_SWup.png)](TEB-CNRM_AU-Preston_SWup.png)
-
-### <a name="swup_subset_baseline"></a>SWup_subset_baseline
-[![TEB-CNRM_AU-Preston_SWup_subset_baseline.png](TEB-CNRM_AU-Preston_SWup_subset_baseline.png)](TEB-CNRM_AU-Preston_SWup_subset_baseline.png)
-
-### <a name="swup_subset_detailed"></a>SWup_subset_detailed
-[![TEB-CNRM_AU-Preston_SWup_subset_detailed.png](TEB-CNRM_AU-Preston_SWup_subset_detailed.png)](TEB-CNRM_AU-Preston_SWup_subset_detailed.png)
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![TEB-CNRM_AU-Preston_closure_baseline.png](TEB-CNRM_AU-Preston_closure_baseline.png)](TEB-CNRM_AU-Preston_closure_baseline.png)
 
 ### <a name="closure_detailed"></a>closure_detailed
 [![TEB-CNRM_AU-Preston_closure_detailed.png](TEB-CNRM_AU-Preston_closure_detailed.png)](TEB-CNRM_AU-Preston_closure_detailed.png)
+
+### <a name="subset_qg"></a>subset_Qg
+[![TEB-CNRM_AU-Preston_subset_Qg.png](TEB-CNRM_AU-Preston_subset_Qg.png)](TEB-CNRM_AU-Preston_subset_Qg.png)
+
+### <a name="subset_qh"></a>subset_Qh
+[![TEB-CNRM_AU-Preston_subset_Qh.png](TEB-CNRM_AU-Preston_subset_Qh.png)](TEB-CNRM_AU-Preston_subset_Qh.png)
+
+### <a name="subset_qle"></a>subset_Qle
+[![TEB-CNRM_AU-Preston_subset_Qle.png](TEB-CNRM_AU-Preston_subset_Qle.png)](TEB-CNRM_AU-Preston_subset_Qle.png)
+
+### <a name="subset_qtau"></a>subset_Qtau
+[![TEB-CNRM_AU-Preston_subset_Qtau.png](TEB-CNRM_AU-Preston_subset_Qtau.png)](TEB-CNRM_AU-Preston_subset_Qtau.png)
+
+### <a name="subset_swnet"></a>subset_SWnet
+[![TEB-CNRM_AU-Preston_subset_SWnet.png](TEB-CNRM_AU-Preston_subset_SWnet.png)](TEB-CNRM_AU-Preston_subset_SWnet.png)
+
+### <a name="subset_swup"></a>subset_SWup
+[![TEB-CNRM_AU-Preston_subset_SWup.png](TEB-CNRM_AU-Preston_subset_SWup.png)](TEB-CNRM_AU-Preston_subset_SWup.png)
 
 ### out of range: baseline
 
