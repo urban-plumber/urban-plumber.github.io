@@ -6,13 +6,12 @@
 
 | flux   | experiment   |     MAE |      MBE |      NSD |        R |
 |:-------|:-------------|--------:|---------:|---------:|---------:|
-| SWnet  | baseline     | 10.6937 |  10.6871 | 0.904454 | 0.999857 |
+| SWnet  | baseline     | 10.6961 |  10.6895 | 0.904469 | 0.999857 |
 | LWnet  | baseline     | 16.3623 | -13.8319 | 1.33093  | 0.937785 |
 | Qle    | baseline     | 38.6025 |  16.6814 | 1.4167   | 0.531026 |
 | Qh     | baseline     | 27.8693 | -12.2246 | 1.00756  | 0.893465 |
 
  - MAE: mean absolute error (close to 0 is better)
- - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
@@ -24,10 +23,13 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
- - [SWnet_subset_baseline](#swnet_subset_baseline)
  - [SWup](#swup)
- - [SWup_subset_baseline](#swup_subset_baseline)
  - [closure_baseline](#closure_baseline)
+ - [subset_Qg](#subset_qg)
+ - [subset_Qh](#subset_qh)
+ - [subset_Qle](#subset_qle)
+ - [subset_SWnet](#subset_swnet)
+ - [subset_SWup](#subset_swup)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
@@ -49,17 +51,26 @@
 ### <a name="swnet"></a>SWnet
 [![CABLE_AU-Preston_SWnet.png](CABLE_AU-Preston_SWnet.png)](CABLE_AU-Preston_SWnet.png)
 
-### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
-[![CABLE_AU-Preston_SWnet_subset_baseline.png](CABLE_AU-Preston_SWnet_subset_baseline.png)](CABLE_AU-Preston_SWnet_subset_baseline.png)
-
 ### <a name="swup"></a>SWup
 [![CABLE_AU-Preston_SWup.png](CABLE_AU-Preston_SWup.png)](CABLE_AU-Preston_SWup.png)
 
-### <a name="swup_subset_baseline"></a>SWup_subset_baseline
-[![CABLE_AU-Preston_SWup_subset_baseline.png](CABLE_AU-Preston_SWup_subset_baseline.png)](CABLE_AU-Preston_SWup_subset_baseline.png)
-
 ### <a name="closure_baseline"></a>closure_baseline
 [![CABLE_AU-Preston_closure_baseline.png](CABLE_AU-Preston_closure_baseline.png)](CABLE_AU-Preston_closure_baseline.png)
+
+### <a name="subset_qg"></a>subset_Qg
+[![CABLE_AU-Preston_subset_Qg.png](CABLE_AU-Preston_subset_Qg.png)](CABLE_AU-Preston_subset_Qg.png)
+
+### <a name="subset_qh"></a>subset_Qh
+[![CABLE_AU-Preston_subset_Qh.png](CABLE_AU-Preston_subset_Qh.png)](CABLE_AU-Preston_subset_Qh.png)
+
+### <a name="subset_qle"></a>subset_Qle
+[![CABLE_AU-Preston_subset_Qle.png](CABLE_AU-Preston_subset_Qle.png)](CABLE_AU-Preston_subset_Qle.png)
+
+### <a name="subset_swnet"></a>subset_SWnet
+[![CABLE_AU-Preston_subset_SWnet.png](CABLE_AU-Preston_subset_SWnet.png)](CABLE_AU-Preston_subset_SWnet.png)
+
+### <a name="subset_swup"></a>subset_SWup
+[![CABLE_AU-Preston_subset_SWup.png](CABLE_AU-Preston_subset_SWup.png)](CABLE_AU-Preston_subset_SWup.png)
 
 ### out of range: baseline
 

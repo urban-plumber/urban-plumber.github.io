@@ -1,6 +1,6 @@
 |                   | detailed                                                                                                              |
 |:------------------|:----------------------------------------------------------------------------------------------------------------------|
-| file              | CM-BEM_AU-Preston_d4.2_1_CM-BEM_AU-Preston_detailed_v4.2.nc                                                           |
+| file              | CM-BEM_AU-Preston_d4.4_1_CM-BEM_AU-Preston_detailed_v4.4.nc                                                           |
 | title             | CM-BEM output for the Urban-PLUMBER project                                                                           |
 | site              | AU-Preston                                                                                                            |
 | experiment        | Detailed experiment                                                                                                   |
@@ -14,4 +14,4 @@
 | site_experience   | No                                                                                                                    |
 | additional_data   | No                                                                                                                    |
 | comment           | It is avairable to specify height distribution of buildings in considerin area in CM                                  |
-| history           | Created at 2021-02-12 17:00:31.673574                                                                                 |
+| history           | Created at 2021-02-26 21:23:04.558199                                                                                 |

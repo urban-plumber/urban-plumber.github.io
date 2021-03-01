@@ -6,17 +6,20 @@
 
 | flux   | experiment   |      MAE |        MBE |      NSD |        R |
 |:-------|:-------------|---------:|-----------:|---------:|---------:|
-| SWnet  | baseline     |  3.02656 |   0.574647 | 0.876165 | 0.999878 |
-| SWnet  | detailed     |  5.23381 |   3.60529  | 0.881326 | 0.999686 |
+| SWnet  | baseline     |  3.02719 |   0.574711 | 0.87618  | 0.999878 |
+| SWnet  | detailed     |  5.23494 |   3.60604  | 0.88134  | 0.999686 |
+| SWup   | baseline     |  3.02883 |  -0.578609 | 0.865135 | 0.995855 |
+| SWup   | detailed     |  5.24303 |  -3.61614  | 0.840754 | 0.98936  |
 | LWnet  | baseline     |  9.41164 |   3.18835  | 1.02734  | 0.971659 |
 | LWnet  | detailed     |  7.18022 |   3.59711  | 0.936578 | 0.98053  |
+| LWup   | baseline     |  9.41164 |  -3.18835  | 1.06254  | 0.973251 |
+| LWup   | detailed     |  7.18022 |  -3.59711  | 0.938022 | 0.979153 |
 | Qle    | baseline     | 25.9497  |  -3.97237  | 0.821213 | 0.622819 |
 | Qle    | detailed     | 27.5589  |   8.56075  | 1.01074  | 0.652777 |
 | Qh     | baseline     | 23.5725  | -13.5445   | 0.754718 | 0.93544  |
 | Qh     | detailed     | 22.0004  | -12.0841   | 0.918674 | 0.933932 |
 
  - MAE: mean absolute error (close to 0 is better)
- - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
@@ -27,13 +30,14 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
- - [SWnet_subset_baseline](#swnet_subset_baseline)
- - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
- - [SWup_subset_baseline](#swup_subset_baseline)
- - [SWup_subset_detailed](#swup_subset_detailed)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
+ - [subset_Qg](#subset_qg)
+ - [subset_Qh](#subset_qh)
+ - [subset_Qle](#subset_qle)
+ - [subset_SWnet](#subset_swnet)
+ - [subset_SWup](#subset_swup)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
@@ -52,26 +56,29 @@
 ### <a name="swnet"></a>SWnet
 [![ASLUMv3.1_AU-Preston_SWnet.png](ASLUMv3.1_AU-Preston_SWnet.png)](ASLUMv3.1_AU-Preston_SWnet.png)
 
-### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
-[![ASLUMv3.1_AU-Preston_SWnet_subset_baseline.png](ASLUMv3.1_AU-Preston_SWnet_subset_baseline.png)](ASLUMv3.1_AU-Preston_SWnet_subset_baseline.png)
-
-### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
-[![ASLUMv3.1_AU-Preston_SWnet_subset_detailed.png](ASLUMv3.1_AU-Preston_SWnet_subset_detailed.png)](ASLUMv3.1_AU-Preston_SWnet_subset_detailed.png)
-
 ### <a name="swup"></a>SWup
 [![ASLUMv3.1_AU-Preston_SWup.png](ASLUMv3.1_AU-Preston_SWup.png)](ASLUMv3.1_AU-Preston_SWup.png)
-
-### <a name="swup_subset_baseline"></a>SWup_subset_baseline
-[![ASLUMv3.1_AU-Preston_SWup_subset_baseline.png](ASLUMv3.1_AU-Preston_SWup_subset_baseline.png)](ASLUMv3.1_AU-Preston_SWup_subset_baseline.png)
-
-### <a name="swup_subset_detailed"></a>SWup_subset_detailed
-[![ASLUMv3.1_AU-Preston_SWup_subset_detailed.png](ASLUMv3.1_AU-Preston_SWup_subset_detailed.png)](ASLUMv3.1_AU-Preston_SWup_subset_detailed.png)
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![ASLUMv3.1_AU-Preston_closure_baseline.png](ASLUMv3.1_AU-Preston_closure_baseline.png)](ASLUMv3.1_AU-Preston_closure_baseline.png)
 
 ### <a name="closure_detailed"></a>closure_detailed
 [![ASLUMv3.1_AU-Preston_closure_detailed.png](ASLUMv3.1_AU-Preston_closure_detailed.png)](ASLUMv3.1_AU-Preston_closure_detailed.png)
+
+### <a name="subset_qg"></a>subset_Qg
+[![ASLUMv3.1_AU-Preston_subset_Qg.png](ASLUMv3.1_AU-Preston_subset_Qg.png)](ASLUMv3.1_AU-Preston_subset_Qg.png)
+
+### <a name="subset_qh"></a>subset_Qh
+[![ASLUMv3.1_AU-Preston_subset_Qh.png](ASLUMv3.1_AU-Preston_subset_Qh.png)](ASLUMv3.1_AU-Preston_subset_Qh.png)
+
+### <a name="subset_qle"></a>subset_Qle
+[![ASLUMv3.1_AU-Preston_subset_Qle.png](ASLUMv3.1_AU-Preston_subset_Qle.png)](ASLUMv3.1_AU-Preston_subset_Qle.png)
+
+### <a name="subset_swnet"></a>subset_SWnet
+[![ASLUMv3.1_AU-Preston_subset_SWnet.png](ASLUMv3.1_AU-Preston_subset_SWnet.png)](ASLUMv3.1_AU-Preston_subset_SWnet.png)
+
+### <a name="subset_swup"></a>subset_SWup
+[![ASLUMv3.1_AU-Preston_subset_SWup.png](ASLUMv3.1_AU-Preston_subset_SWup.png)](ASLUMv3.1_AU-Preston_subset_SWup.png)
 
 ### out of range: baseline
 

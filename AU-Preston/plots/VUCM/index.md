@@ -4,19 +4,22 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |       MBE |      NSD |        R |
-|:-------|:-------------|---------:|----------:|---------:|---------:|
-| SWnet  | baseline     |  5.56216 |  5.27462  | 0.890177 | 0.999897 |
-| SWnet  | detailed     |  3.2509  |  1.72392  | 0.879909 | 0.999892 |
-| LWnet  | baseline     |  7.95236 |  0.255234 | 0.878841 | 0.977267 |
-| LWnet  | detailed     | 14.4833  | 12.9604   | 0.87532  | 0.962424 |
-| Qle    | baseline     | 30.0776  |  2.05436  | 0.824714 | 0.482468 |
-| Qle    | detailed     | 30.265   |  1.68286  | 0.824737 | 0.470606 |
-| Qh     | baseline     | 27.5478  |  8.10283  | 1.01307  | 0.906859 |
-| Qh     | detailed     | 26.1149  |  8.94299  | 0.988445 | 0.914428 |
+| flux   | experiment   |      MAE |        MBE |      NSD |        R |
+|:-------|:-------------|---------:|-----------:|---------:|---------:|
+| SWnet  | baseline     |  5.56336 |   5.27575  | 0.890191 | 0.999897 |
+| SWnet  | detailed     |  3.25157 |   1.72425  | 0.879923 | 0.999892 |
+| SWup   | baseline     |  5.55657 |  -5.26949  | 0.784851 | 0.996321 |
+| SWup   | detailed     |  3.25061 |  -1.72688  | 0.843778 | 0.996275 |
+| LWnet  | baseline     |  7.95236 |   0.255234 | 0.878841 | 0.977267 |
+| LWnet  | detailed     | 14.4833  |  12.9604   | 0.87532  | 0.962424 |
+| LWup   | baseline     |  7.94685 |  -0.249221 | 0.825996 | 0.980059 |
+| LWup   | detailed     | 14.4782  | -12.9552   | 0.80113  | 0.965787 |
+| Qle    | baseline     | 30.0776  |   2.05436  | 0.824714 | 0.482468 |
+| Qle    | detailed     | 30.265   |   1.68286  | 0.824737 | 0.470606 |
+| Qh     | baseline     | 27.5478  |   8.10283  | 1.01307  | 0.906859 |
+| Qh     | detailed     | 26.1149  |   8.94299  | 0.988445 | 0.914428 |
 
  - MAE: mean absolute error (close to 0 is better)
- - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
@@ -27,13 +30,13 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
- - [SWnet_subset_baseline](#swnet_subset_baseline)
- - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
- - [SWup_subset_baseline](#swup_subset_baseline)
- - [SWup_subset_detailed](#swup_subset_detailed)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
+ - [subset_Qh](#subset_qh)
+ - [subset_Qle](#subset_qle)
+ - [subset_SWnet](#subset_swnet)
+ - [subset_SWup](#subset_swup)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
@@ -52,26 +55,26 @@
 ### <a name="swnet"></a>SWnet
 [![VUCM_AU-Preston_SWnet.png](VUCM_AU-Preston_SWnet.png)](VUCM_AU-Preston_SWnet.png)
 
-### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
-[![VUCM_AU-Preston_SWnet_subset_baseline.png](VUCM_AU-Preston_SWnet_subset_baseline.png)](VUCM_AU-Preston_SWnet_subset_baseline.png)
-
-### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
-[![VUCM_AU-Preston_SWnet_subset_detailed.png](VUCM_AU-Preston_SWnet_subset_detailed.png)](VUCM_AU-Preston_SWnet_subset_detailed.png)
-
 ### <a name="swup"></a>SWup
 [![VUCM_AU-Preston_SWup.png](VUCM_AU-Preston_SWup.png)](VUCM_AU-Preston_SWup.png)
-
-### <a name="swup_subset_baseline"></a>SWup_subset_baseline
-[![VUCM_AU-Preston_SWup_subset_baseline.png](VUCM_AU-Preston_SWup_subset_baseline.png)](VUCM_AU-Preston_SWup_subset_baseline.png)
-
-### <a name="swup_subset_detailed"></a>SWup_subset_detailed
-[![VUCM_AU-Preston_SWup_subset_detailed.png](VUCM_AU-Preston_SWup_subset_detailed.png)](VUCM_AU-Preston_SWup_subset_detailed.png)
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![VUCM_AU-Preston_closure_baseline.png](VUCM_AU-Preston_closure_baseline.png)](VUCM_AU-Preston_closure_baseline.png)
 
 ### <a name="closure_detailed"></a>closure_detailed
 [![VUCM_AU-Preston_closure_detailed.png](VUCM_AU-Preston_closure_detailed.png)](VUCM_AU-Preston_closure_detailed.png)
+
+### <a name="subset_qh"></a>subset_Qh
+[![VUCM_AU-Preston_subset_Qh.png](VUCM_AU-Preston_subset_Qh.png)](VUCM_AU-Preston_subset_Qh.png)
+
+### <a name="subset_qle"></a>subset_Qle
+[![VUCM_AU-Preston_subset_Qle.png](VUCM_AU-Preston_subset_Qle.png)](VUCM_AU-Preston_subset_Qle.png)
+
+### <a name="subset_swnet"></a>subset_SWnet
+[![VUCM_AU-Preston_subset_SWnet.png](VUCM_AU-Preston_subset_SWnet.png)](VUCM_AU-Preston_subset_SWnet.png)
+
+### <a name="subset_swup"></a>subset_SWup
+[![VUCM_AU-Preston_subset_SWup.png](VUCM_AU-Preston_subset_SWup.png)](VUCM_AU-Preston_subset_SWup.png)
 
 ### out of range: baseline
 

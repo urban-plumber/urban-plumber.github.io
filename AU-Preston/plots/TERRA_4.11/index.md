@@ -4,19 +4,22 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |       MBE |      NSD |        R |
-|:-------|:-------------|---------:|----------:|---------:|---------:|
-| SWnet  | baseline     | 14.8078  |  14.8077  | 0.916714 | 0.99991  |
-| SWnet  | detailed     |  2.59135 |   0.18402 | 0.87278  | 0.99991  |
-| LWnet  | baseline     | 34.1173  |  33.5783  | 0.470153 | 0.985319 |
-| LWnet  | detailed     |  9.92471 |  -8.38939 | 1.02621  | 0.97899  |
-| Qle    | baseline     | 27.3496  | -18.4438  | 0.405597 | 0.572728 |
-| Qle    | detailed     | 27.3457  | -18.2086  | 0.395459 | 0.563585 |
-| Qh     | baseline     | 87.5967  |  86.9461  | 1.40657  | 0.926781 |
-| Qh     | detailed     | 34.8788  |  30.8343  | 1.31841  | 0.946234 |
+| flux   | experiment   |      MAE |        MBE |      NSD |        R |
+|:-------|:-------------|---------:|-----------:|---------:|---------:|
+| SWnet  | baseline     | 14.811   |  14.811    | 0.916729 | 0.99991  |
+| SWnet  | detailed     |  2.59186 |   0.183974 | 0.872794 | 0.99991  |
+| SWup   | baseline     | 14.7794  | -14.7794   | 0.632148 | 0.996952 |
+| SWup   | detailed     |  2.59195 |  -0.191491 | 0.883762 | 0.996951 |
+| LWnet  | baseline     | 34.1173  |  33.5783   | 0.470153 | 0.985319 |
+| LWnet  | detailed     |  9.92471 |  -8.38939  | 1.02621  | 0.97899  |
+| LWup   | baseline     | 34.1173  | -33.5783   | 0.790938 | 0.845166 |
+| LWup   | detailed     |  9.92471 |   8.38939  | 1.09289  | 0.985437 |
+| Qle    | baseline     | 27.3496  | -18.4438   | 0.405597 | 0.572728 |
+| Qle    | detailed     | 27.3457  | -18.2086   | 0.395459 | 0.563585 |
+| Qh     | baseline     | 87.5967  |  86.9461   | 1.40657  | 0.926781 |
+| Qh     | detailed     | 34.8788  |  30.8343   | 1.31841  | 0.946234 |
 
  - MAE: mean absolute error (close to 0 is better)
- - NME: absolute mean error normalised by difference from mean  (closer to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
@@ -28,13 +31,13 @@
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
- - [SWnet_subset_baseline](#swnet_subset_baseline)
- - [SWnet_subset_detailed](#swnet_subset_detailed)
  - [SWup](#swup)
- - [SWup_subset_baseline](#swup_subset_baseline)
- - [SWup_subset_detailed](#swup_subset_detailed)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
+ - [subset_Qh](#subset_qh)
+ - [subset_Qle](#subset_qle)
+ - [subset_SWnet](#subset_swnet)
+ - [subset_SWup](#subset_swup)
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
@@ -56,26 +59,26 @@
 ### <a name="swnet"></a>SWnet
 [![TERRA_4.11_AU-Preston_SWnet.png](TERRA_4.11_AU-Preston_SWnet.png)](TERRA_4.11_AU-Preston_SWnet.png)
 
-### <a name="swnet_subset_baseline"></a>SWnet_subset_baseline
-[![TERRA_4.11_AU-Preston_SWnet_subset_baseline.png](TERRA_4.11_AU-Preston_SWnet_subset_baseline.png)](TERRA_4.11_AU-Preston_SWnet_subset_baseline.png)
-
-### <a name="swnet_subset_detailed"></a>SWnet_subset_detailed
-[![TERRA_4.11_AU-Preston_SWnet_subset_detailed.png](TERRA_4.11_AU-Preston_SWnet_subset_detailed.png)](TERRA_4.11_AU-Preston_SWnet_subset_detailed.png)
-
 ### <a name="swup"></a>SWup
 [![TERRA_4.11_AU-Preston_SWup.png](TERRA_4.11_AU-Preston_SWup.png)](TERRA_4.11_AU-Preston_SWup.png)
-
-### <a name="swup_subset_baseline"></a>SWup_subset_baseline
-[![TERRA_4.11_AU-Preston_SWup_subset_baseline.png](TERRA_4.11_AU-Preston_SWup_subset_baseline.png)](TERRA_4.11_AU-Preston_SWup_subset_baseline.png)
-
-### <a name="swup_subset_detailed"></a>SWup_subset_detailed
-[![TERRA_4.11_AU-Preston_SWup_subset_detailed.png](TERRA_4.11_AU-Preston_SWup_subset_detailed.png)](TERRA_4.11_AU-Preston_SWup_subset_detailed.png)
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![TERRA_4.11_AU-Preston_closure_baseline.png](TERRA_4.11_AU-Preston_closure_baseline.png)](TERRA_4.11_AU-Preston_closure_baseline.png)
 
 ### <a name="closure_detailed"></a>closure_detailed
 [![TERRA_4.11_AU-Preston_closure_detailed.png](TERRA_4.11_AU-Preston_closure_detailed.png)](TERRA_4.11_AU-Preston_closure_detailed.png)
+
+### <a name="subset_qh"></a>subset_Qh
+[![TERRA_4.11_AU-Preston_subset_Qh.png](TERRA_4.11_AU-Preston_subset_Qh.png)](TERRA_4.11_AU-Preston_subset_Qh.png)
+
+### <a name="subset_qle"></a>subset_Qle
+[![TERRA_4.11_AU-Preston_subset_Qle.png](TERRA_4.11_AU-Preston_subset_Qle.png)](TERRA_4.11_AU-Preston_subset_Qle.png)
+
+### <a name="subset_swnet"></a>subset_SWnet
+[![TERRA_4.11_AU-Preston_subset_SWnet.png](TERRA_4.11_AU-Preston_subset_SWnet.png)](TERRA_4.11_AU-Preston_subset_SWnet.png)
+
+### <a name="subset_swup"></a>subset_SWup
+[![TERRA_4.11_AU-Preston_subset_SWup.png](TERRA_4.11_AU-Preston_subset_SWup.png)](TERRA_4.11_AU-Preston_subset_SWup.png)
 
 ### out of range: baseline
 

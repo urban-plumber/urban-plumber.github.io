@@ -1,2 +1,0 @@
-CM SWup min value of -527.2600 is less than expected 0.0 [W/m2]
-CM alb min value of -0.9988 is less than expected 0.0 [1]

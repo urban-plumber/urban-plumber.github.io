@@ -1,3 +1,1 @@
-NOAH-SLUCM Qsm max value of 103.0613 is greater than expected 0.005 [kg/m2/s]
-NOAH-SLUCM Qsm min value of -15.2233 is less than expected 0.0 [kg/m2/s]
 NOAH-SLUCM Qfz min value of -0.0000 is less than expected 0.0 [kg/m2/s]

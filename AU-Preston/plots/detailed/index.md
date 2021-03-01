@@ -60,6 +60,7 @@
 [Snowf](#snowf)
 [PSurf](#psurf)
 [Wind](#wind)
+[alb](#alb)
 
 ### <a name="swnet"></a>SWnet: Net shortwave radiation (positive downward)
 [![SWnet](AU-Preston_detailed_SWnet.png)](AU-Preston_detailed_SWnet.png)
@@ -226,6 +227,9 @@
 ### <a name="wind"></a>Wind: Wind speed at measurement height
 [![Wind](AU-Preston_detailed_Wind.png)](AU-Preston_detailed_Wind.png)
 
+### <a name="alb"></a>alb: Implied albedo calculated from SWdown and SWnet
+[![alb](AU-Preston_detailed_alb.png)](AU-Preston_detailed_alb.png)
+
 
 ### Jump to:
 [variable definitions](../modelattrs/variable_definitions.md)
@@ -285,4 +289,5 @@
 [Snowf](#snowf)
 [PSurf](#psurf)
 [Wind](#wind)
+[alb](#alb)
 
