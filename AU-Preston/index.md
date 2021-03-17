@@ -1,5 +1,5 @@
 
-# AU-Preston
+# Preston, Melbourne, Australia (AU-Preston)
 
 ## Site observation metadata
 
@@ -8,6 +8,7 @@
 | title                     | URBAN-PLUMBER forcing data for AU-Preston                                                                                                                                                                                                                                                        |
 | summary                   | Combined observational and ERA5-derived surface meteorological data for Preston, Melbourne, Australia. For forcing of land surface models participating in Urban-PLUMBER. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC. |
 | sitename                  | AU-Preston                                                                                                                                                                                                                                                                                       |
+| long_sitename             | Preston, Melbourne, Australia                                                                                                                                                                                                                                                                    |
 | version                   | v3                                                                                                                                                                                                                                                                                               |
 | conventions               | ALMA+CF.rev13                                                                                                                                                                                                                                                                                    |
 | featureType               | timeSeries                                                                                                                                                                                                                                                                                       |
@@ -22,15 +23,18 @@
 | observations_contact      | Andrew Coutts: andrew.coutts@monash.edu; Nigel Tapper: nigel.tapper@monash.edu                                                                                                                                                                                                                   |
 | observations_reference    | Coutts, Beringer and Tapper (2007a): https://doi.org/10.1175/JAM2462.1; Coutts, Beringer and Tapper (2007b) https://doi.org/10.1016/j.atmosenv.2006.08.030                                                                                                                                       |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                                                                         |
-| date_created              | 2021-02-26 14:32:05                                                                                                                                                                                                                                                                              |
+| date_created              | 2021-03-08 19:05:44                                                                                                                                                                                                                                                                              |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                                                                                            |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                                                                                                        |
 
+## Site images
+
+|                                             |                                             |    
+|:-------------------------------------------:|:-------------------------------------------:|
+| [![Region](./images/AU-Preston_region_map.jpg)](./images/AU-Preston_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/AU-Preston_site_map.jpg)](./images/AU-Preston_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
+| [![site_photo](./images/AU-Preston_site_photo.jpg)](./images/AU-Preston_site_photo.jpg) <sub>source: [Coutts et al. (2007)](http://doi.org/10.1016/j.atmosenv.2006.08.030)</sub>  | [![site_sat](./images/AU-Preston_site_sat.jpg)](./images/AU-Preston_site_sat.jpg) <sub>source: Microsoft</sub>        |
+
 ## Site characteristics
-
-[![site_photo.jpg](site_photo.jpg)](site_photo.jpg)
-
-image source: Coutts et al. 2007: doi:[10.1016/j.atmosenv.2006.08.030](http://doi.org/10.1016/j.atmosenv.2006.08.030)
 
 |   id | parameter                       |     value | units         | source                   | doi                                                                                                       |
 |-----:|:--------------------------------|----------:|:--------------|:-------------------------|:----------------------------------------------------------------------------------------------------------|
@@ -67,39 +71,39 @@ image source: Coutts et al. 2007: doi:[10.1016/j.atmosenv.2006.08.030](http://do
 
 ### SWdown forcing
 
-[![./obs_plots/SWdown_gapfilled_forcing.png](./obs_plots/SWdown_gapfilled_forcing.png)](./obs_plots/SWdown_gapfilled_forcing.png)
+[![SWdown](./obs_plots/SWdown_gapfilled_forcing.png)](./obs_plots/SWdown_gapfilled_forcing.png)
 
 ### LWdown forcing
 
-[![./obs_plots/LWdown_gapfilled_forcing.png](./obs_plots/LWdown_gapfilled_forcing.png)](./obs_plots/LWdown_gapfilled_forcing.png)
+[![LWdown](./obs_plots/LWdown_gapfilled_forcing.png)](./obs_plots/LWdown_gapfilled_forcing.png)
 
 ### Tair forcing
 
-[![./obs_plots/Tair_gapfilled_forcing.png](./obs_plots/Tair_gapfilled_forcing.png)](./obs_plots/Tair_gapfilled_forcing.png)
+[![Tair](./obs_plots/Tair_gapfilled_forcing.png)](./obs_plots/Tair_gapfilled_forcing.png)
 
 ### Qair forcing
 
-[![./obs_plots/Qair_gapfilled_forcing.png](./obs_plots/Qair_gapfilled_forcing.png)](./obs_plots/Qair_gapfilled_forcing.png)
+[![Qair](./obs_plots/Qair_gapfilled_forcing.png)](./obs_plots/Qair_gapfilled_forcing.png)
 
 ### PSurf forcing
 
-[![./obs_plots/PSurf_gapfilled_forcing.png](./obs_plots/PSurf_gapfilled_forcing.png)](./obs_plots/PSurf_gapfilled_forcing.png)
+[![PSurf](./obs_plots/PSurf_gapfilled_forcing.png)](./obs_plots/PSurf_gapfilled_forcing.png)
 
 ### Rainf forcing
 
-[![./obs_plots/Rainf_gapfilled_forcing.png](./obs_plots/Rainf_gapfilled_forcing.png)](./obs_plots/Rainf_gapfilled_forcing.png)
+[![Rainf](./obs_plots/Rainf_gapfilled_forcing.png)](./obs_plots/Rainf_gapfilled_forcing.png)
 
 ### Snowf forcing
 
-[![./obs_plots/Snowf_gapfilled_forcing.png](./obs_plots/Snowf_gapfilled_forcing.png)](./obs_plots/Snowf_gapfilled_forcing.png)
+[![Snowf](./obs_plots/Snowf_gapfilled_forcing.png)](./obs_plots/Snowf_gapfilled_forcing.png)
 
 ### Wind_N forcing
 
-[![./obs_plots/Wind_N_gapfilled_forcing.png](./obs_plots/Wind_N_gapfilled_forcing.png)](./obs_plots/Wind_N_gapfilled_forcing.png)
+[![Wind_N](./obs_plots/Wind_N_gapfilled_forcing.png)](./obs_plots/Wind_N_gapfilled_forcing.png)
 
 ### Wind_E forcing
 
-[![./obs_plots/Wind_E_gapfilled_forcing.png](./obs_plots/Wind_E_gapfilled_forcing.png)](./obs_plots/Wind_E_gapfilled_forcing.png)
+[![Wind_E](./obs_plots/Wind_E_gapfilled_forcing.png)](./obs_plots/Wind_E_gapfilled_forcing.png)
 
 
 ## Quality control (qc) and gap filling procedure
@@ -109,7 +113,7 @@ image source: Coutts et al. 2007: doi:[10.1016/j.atmosenv.2006.08.030](http://do
  - remove values outside the ALMAv3 protocol expected range values
  - remove night periods of non-zero shortwave radiation between civil twilight times for site latitude and longitude
  - remove constant values of 4 or more timesteps (excluding zero values for shortwave, rainfall and snowfall)
- - remove outliers by applying a filter for values outside 5 standard deviations for each hour in a rolling 30 day window. Applying that filter until no outliers exist.
+ - remove outliers by applying a filter for values outside 4 standard deviations for each hour in a rolling 30 day window. Applying filter again at 5 standard deviations until no outliers exist.
  
 **Gap-filling process**
   
@@ -151,4 +155,12 @@ image source: Coutts et al. 2007: doi:[10.1016/j.atmosenv.2006.08.030](http://do
 ### Wind_E diurnal qc
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
+
+### Qle diurnal qc
+
+[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
+
+### Qh diurnal qc
+
+[![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
 

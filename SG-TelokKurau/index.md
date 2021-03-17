@@ -1,12 +1,14 @@
-# SG-TelokKurau
 
-## Site observations
+# Telok Kurau, Singapore (SG-TelokKurau)
+
+## Site observation metadata
 
 |                           | observation_attributes                                                                                                                                                                                                                                                                    |
 |:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | title                     | URBAN-PLUMBER forcing data for SG-TelokKurau                                                                                                                                                                                                                                              |
 | summary                   | Combined observational and ERA5-derived surface meteorological data for Telok Kurau, Singapore. For forcing of land surface models participating in Urban-PLUMBER. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC. |
 | sitename                  | SG-TelokKurau                                                                                                                                                                                                                                                                             |
+| long_sitename             | Telok Kurau, Singapore                                                                                                                                                                                                                                                                    |
 | version                   | v1                                                                                                                                                                                                                                                                                        |
 | conventions               | ALMA+CF.rev13                                                                                                                                                                                                                                                                             |
 | featureType               | timeSeries                                                                                                                                                                                                                                                                                |
@@ -18,18 +20,21 @@
 | timestep_interval_seconds | 1800.0                                                                                                                                                                                                                                                                                    |
 | timestep_number_spinup    | 178113                                                                                                                                                                                                                                                                                    |
 | timestep_number_analysis  | 17568                                                                                                                                                                                                                                                                                     |
-| date_created              | 2021-02-17 15:44:37                                                                                                                                                                                                                                                                       |
-| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                                                                  |
 | observations_contact      | Eric Velasco: evelasco@mce2.org, he_velasco2003@yahoo.com; Matthias Roth: geomr@nus.edu.sg                                                                                                                                                                                                |
 | observations_reference    | Roth, Jansson and Velasco (2017) https://doi.org/10.1002/joc.4873; Velasco, Roth, Tan, Quak, Nabarro, Norford. (2013) https://doi.org/10.5194/acp-13-10185-2013; Flux tower website: https://www.nusurbanclimate.com/tkfluxtowersingapore                                                 |
+| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                                                                  |
+| date_created              | 2021-03-13 00:16:23                                                                                                                                                                                                                                                                       |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                                                                                     |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                                                                                                 |
 
+## Site images
+
+|                                             |                                             |    
+|:-------------------------------------------:|:-------------------------------------------:|
+| [![Region](./images/SG-TelokKurau_region_map.jpg)](./images/SG-TelokKurau_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/SG-TelokKurau_site_map.jpg)](./images/SG-TelokKurau_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
+| [![site_photo](./images/SG-TelokKurau_site_photo.jpg)](./images/SG-TelokKurau_site_photo.jpg) <sub>source: M. Roth</sub>  | [![site_sat](./images/SG-TelokKurau_site_sat.jpg)](./images/SG-TelokKurau_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+
 ## Site characteristics
-
-[![site_photo.jpg](site_photo.jpg)](site_photo.jpg)
-image source: M. Roth
-
 
 |   id | parameter                       |     value | units         | source               | doi                                                                                                                        |
 |-----:|:--------------------------------|----------:|:--------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------|
@@ -44,7 +49,7 @@ image source: M. Roth
 |    9 | water_area_fraction             |    0      | 1             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
 |   10 | roof_area_fraction              |    0.39   | 1             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
 |   11 | road_area_fraction              |    0.12   | 1             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
-|   12 | footpath_area_fraction          |    0.34   | 1             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
+|   12 | other_paved_area_fraction       |    0.34   | 1             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
 |   13 | building_mean_height            |    9.9    | m             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
 |   14 | tree_mean_height                |    7.3    | m             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
 |   15 | roughness_length_momentum       |    0.8    | m             | Tower website        | [https://www.nusurbanclimate.com/tkfluxtowersingapore](https://www.nusurbanclimate.com/tkfluxtowersingapore)               |
@@ -66,49 +71,49 @@ image source: M. Roth
 
 ### SWdown forcing
 
-[![./obs_plots/SWdown_gapfilled_forcing.png](./obs_plots/SWdown_gapfilled_forcing.png)](./obs_plots/SWdown_gapfilled_forcing.png)
+[![SWdown](./obs_plots/SWdown_gapfilled_forcing.png)](./obs_plots/SWdown_gapfilled_forcing.png)
 
 ### LWdown forcing
 
-[![./obs_plots/LWdown_gapfilled_forcing.png](./obs_plots/LWdown_gapfilled_forcing.png)](./obs_plots/LWdown_gapfilled_forcing.png)
+[![LWdown](./obs_plots/LWdown_gapfilled_forcing.png)](./obs_plots/LWdown_gapfilled_forcing.png)
 
 ### Tair forcing
 
-[![./obs_plots/Tair_gapfilled_forcing.png](./obs_plots/Tair_gapfilled_forcing.png)](./obs_plots/Tair_gapfilled_forcing.png)
+[![Tair](./obs_plots/Tair_gapfilled_forcing.png)](./obs_plots/Tair_gapfilled_forcing.png)
 
 ### Qair forcing
 
-[![./obs_plots/Qair_gapfilled_forcing.png](./obs_plots/Qair_gapfilled_forcing.png)](./obs_plots/Qair_gapfilled_forcing.png)
+[![Qair](./obs_plots/Qair_gapfilled_forcing.png)](./obs_plots/Qair_gapfilled_forcing.png)
 
 ### PSurf forcing
 
-[![./obs_plots/PSurf_gapfilled_forcing.png](./obs_plots/PSurf_gapfilled_forcing.png)](./obs_plots/PSurf_gapfilled_forcing.png)
+[![PSurf](./obs_plots/PSurf_gapfilled_forcing.png)](./obs_plots/PSurf_gapfilled_forcing.png)
 
 ### Rainf forcing
 
-[![./obs_plots/Rainf_gapfilled_forcing.png](./obs_plots/Rainf_gapfilled_forcing.png)](./obs_plots/Rainf_gapfilled_forcing.png)
+[![Rainf](./obs_plots/Rainf_gapfilled_forcing.png)](./obs_plots/Rainf_gapfilled_forcing.png)
 
 ### Snowf forcing
 
-[![./obs_plots/Snowf_gapfilled_forcing.png](./obs_plots/Snowf_gapfilled_forcing.png)](./obs_plots/Snowf_gapfilled_forcing.png)
+[![Snowf](./obs_plots/Snowf_gapfilled_forcing.png)](./obs_plots/Snowf_gapfilled_forcing.png)
 
 ### Wind_N forcing
 
-[![./obs_plots/Wind_N_gapfilled_forcing.png](./obs_plots/Wind_N_gapfilled_forcing.png)](./obs_plots/Wind_N_gapfilled_forcing.png)
+[![Wind_N](./obs_plots/Wind_N_gapfilled_forcing.png)](./obs_plots/Wind_N_gapfilled_forcing.png)
 
 ### Wind_E forcing
 
-[![./obs_plots/Wind_E_gapfilled_forcing.png](./obs_plots/Wind_E_gapfilled_forcing.png)](./obs_plots/Wind_E_gapfilled_forcing.png)
+[![Wind_E](./obs_plots/Wind_E_gapfilled_forcing.png)](./obs_plots/Wind_E_gapfilled_forcing.png)
+
 
 ## Quality control (qc) and gap filling procedure
-
 
 **QC process on observations**
  
  - remove values outside the ALMAv3 protocol expected range values
- - remove night periods for shortwave between civil twilight times for site latitude and longitude
- - remove constant values of 4 or more timesteps (excluding rainfall and snowfall)
- - remove outliers by applying a filter for values outside 5 standard deviations for each hour in a rolling 30 day window. Applying that filter until no outliers exist.
+ - remove night periods of non-zero shortwave radiation between civil twilight times for site latitude and longitude
+ - remove constant values of 4 or more timesteps (excluding zero values for shortwave, rainfall and snowfall)
+ - remove outliers by applying a filter for values outside 4 standard deviations for each hour in a rolling 30 day window. Applying filter again at 5 standard deviations until no outliers exist.
  
 **Gap-filling process**
   
@@ -151,19 +156,11 @@ image source: M. Roth
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
 
-### SWup diurnal qc
+### Qle diurnal qc
 
-[![./obs_plots/SWup_obs_qc_diurnal.png](./obs_plots/SWup_obs_qc_diurnal.png)](./obs_plots/SWup_obs_qc_diurnal.png)
-
-### LWup diurnal qc
-
-[![./obs_plots/LWup_obs_qc_diurnal.png](./obs_plots/LWup_obs_qc_diurnal.png)](./obs_plots/LWup_obs_qc_diurnal.png)
+[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
 
 ### Qh diurnal qc
 
 [![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
-
-### Qle diurnal qc
-
-[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
 
