@@ -4,20 +4,20 @@
 
 ### Error metrics
 
-| flux   | experiment   |       MAE |       MBE |        NSD |          R |
-|:-------|:-------------|----------:|----------:|-----------:|-----------:|
-| SWnet  | baseline     |   5.79238 |   5.65352 |   0.890982 |   0.999951 |
-| SWnet  | detailed     |   3.34792 |   3.01869 |   0.882519 |   0.999948 |
-| SWup   | baseline     | nan       | nan       | nan        | nan        |
-| SWup   | detailed     | nan       | nan       | nan        | nan        |
-| LWnet  | baseline     |  15.4834  | -14.9346  |   0.987958 |   0.979149 |
-| LWnet  | detailed     |  17.609   | -15.9266  |   1.03746  |   0.961884 |
-| LWup   | baseline     | nan       | nan       | nan        | nan        |
-| LWup   | detailed     | nan       | nan       | nan        | nan        |
-| Qle    | baseline     |  30.2062  | -13.0616  |   0.660884 |   0.394143 |
-| Qle    | detailed     |  29.0383  | -14.7671  |   0.668555 |   0.478739 |
-| Qh     | baseline     |  38.5307  |  28.515   |   1.34044  |   0.927269 |
-| Qh     | detailed     |  38.3811  |  32.1014  |   1.18483  |   0.921439 |
+| flux   | experiment   |      MAE |       MBE |      NSD |        R |
+|:-------|:-------------|---------:|----------:|---------:|---------:|
+| SWnet  | baseline     |  5.79629 |   5.65728 | 0.890975 | 0.999951 |
+| SWnet  | detailed     |  3.34954 |   3.01997 | 0.882511 | 0.999948 |
+| SWup   | baseline     |  5.78451 |  -5.64489 | 0.780908 | 0.998251 |
+| SWup   | detailed     |  3.34688 |  -3.01694 | 0.828717 | 0.998232 |
+| LWnet  | baseline     | 15.4841  | -14.9373  | 0.98799  | 0.979158 |
+| LWnet  | detailed     | 17.6104  | -15.931   | 1.03749  | 0.961899 |
+| LWup   | baseline     | 15.4841  |  14.9373  | 1.01291  | 0.979954 |
+| LWup   | detailed     | 17.6104  |  15.931   | 1.07881  | 0.966089 |
+| Qle    | baseline     | 29.924   | -13.002   | 0.669122 | 0.396522 |
+| Qle    | detailed     | 28.7386  | -14.6858  | 0.676888 | 0.483171 |
+| Qh     | baseline     | 38.5281  |  28.5262  | 1.34102  | 0.927341 |
+| Qh     | detailed     | 38.3609  |  32.0848  | 1.18534  | 0.921568 |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)

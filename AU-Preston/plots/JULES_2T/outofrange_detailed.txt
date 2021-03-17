@@ -1,0 +1,2 @@
+JULES_2T SnowFrac min value of -0.0000 is less than expected 0.0 [1]
+JULES_2T SWE min value of -0.0000 is less than expected 0.0 [kg/m2]

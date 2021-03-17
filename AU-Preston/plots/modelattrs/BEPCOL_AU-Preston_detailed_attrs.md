@@ -1,6 +1,6 @@
 |                   | detailed                                                              |
 |:------------------|:----------------------------------------------------------------------|
-| file              | BEPCOL_AU-Preston_d1_v3_1_BEPCOL_AU-Preston_d1_v3.nc                  |
+| file              | BEPCOL_AU-Preston_d1_v4_detailed_v4.nc                                |
 | title             | BEPCOL model output for the Urban-PLUMBER project                     |
 | site              | AU-Preston                                                            |
 | experiment        | Detailed                                                              |
@@ -14,4 +14,4 @@
 | site_experience   | No                                                                    |
 | additional_data   | WUDAPT and Singapore                                                  |
 | comment           | NA                                                                    |
-| history           | Created with create_netcdf_BEPCOL_v2.py at 2021-01-20 17:23:06.968862 |
+| history           | Created with create_netcdf_BEPCOL_v2.py at 2021-03-10 16:22:01.106787 |

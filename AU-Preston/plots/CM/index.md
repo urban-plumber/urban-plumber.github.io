@@ -6,18 +6,18 @@
 
 | flux   | experiment   |     MAE |        MBE |      NSD |        R |
 |:-------|:-------------|--------:|-----------:|---------:|---------:|
-| SWnet  | baseline     | 12.9308 |  12.9297   | 0.911097 | 0.99991  |
-| SWnet  | detailed     | 12.4008 |  12.3991   | 0.909503 | 0.99991  |
-| SWup   | baseline     | 12.9042 | -12.9031   | 0.664481 | 0.996948 |
-| SWup   | detailed     | 12.3756 | -12.3739   | 0.673609 | 0.996947 |
-| LWnet  | baseline     | 12.2749 |  -0.200172 | 1.17464  | 0.960539 |
-| LWnet  | detailed     | 18.5105 | -14.8218   | 1.4086   | 0.941206 |
-| LWup   | baseline     | 12.2749 |   0.200172 | 1.20954  | 0.965237 |
-| LWup   | detailed     | 18.5105 |  14.8218   | 1.47554  | 0.958742 |
-| Qle    | baseline     | 26.1745 |  -8.20616  | 0.674415 | 0.548552 |
-| Qle    | detailed     | 27.711  |  -7.51098  | 0.829387 | 0.516721 |
-| Qh     | baseline     | 35.952  |   3.00704  | 0.585441 | 0.878849 |
-| Qh     | detailed     | 34.5135 |  -8.35937  | 0.49994  | 0.887201 |
+| SWnet  | baseline     | 28.6539 |  28.6539   | 0.958244 | 0.99991  |
+| SWnet  | detailed     | 10.3627 |  10.3553   | 0.903332 | 0.99991  |
+| SWup   | baseline     | 28.5699 | -28.5699   | 0.3944   | 0.996948 |
+| SWup   | detailed     | 10.3378 | -10.3304   | 0.708869 | 0.996948 |
+| LWnet  | baseline     | 16.7231 | -14.4722   | 1.25629  | 0.954694 |
+| LWnet  | detailed     | 19.2497 | -17.1675   | 1.36974  | 0.947696 |
+| LWup   | baseline     | 16.7231 |  14.4722   | 1.27219  | 0.953377 |
+| LWup   | detailed     | 19.2497 |  17.1675   | 1.41758  | 0.956917 |
+| Qle    | baseline     | 25.4946 | -10.3061   | 0.601072 | 0.58959  |
+| Qle    | detailed     | 25.929  | -11.5732   | 0.641436 | 0.529955 |
+| Qh     | baseline     | 32.185  |   4.21072  | 0.700713 | 0.882921 |
+| Qh     | detailed     | 27.7335 |   0.412447 | 0.723995 | 0.901571 |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -33,6 +33,7 @@
  - [SWup](#swup)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
+ - [subset_Qg](#subset_qg)
  - [subset_Qh](#subset_qh)
  - [subset_Qle](#subset_qle)
  - [subset_SWnet](#subset_swnet)
@@ -64,6 +65,9 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![CM_AU-Preston_closure_detailed.png](CM_AU-Preston_closure_detailed.png)](CM_AU-Preston_closure_detailed.png)
 
+### <a name="subset_qg"></a>subset_Qg
+[![CM_AU-Preston_subset_Qg.png](CM_AU-Preston_subset_Qg.png)](CM_AU-Preston_subset_Qg.png)
+
 ### <a name="subset_qh"></a>subset_Qh
 [![CM_AU-Preston_subset_Qh.png](CM_AU-Preston_subset_Qh.png)](CM_AU-Preston_subset_Qh.png)
 
@@ -78,6 +82,7 @@
 
 ### out of range: baseline
 
+ - CM Qg max value of 513.7900 is greater than expected 500.0 [W/m2]
 
 ### out of range: detailed
 
