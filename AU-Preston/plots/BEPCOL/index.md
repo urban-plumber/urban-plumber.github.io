@@ -28,16 +28,19 @@
  - [Albedo](#albedo)
  - [LWnet](#lwnet)
  - [LWup](#lwup)
+ - [Qanth](#qanth)
  - [Qh](#qh)
  - [Qle](#qle)
+ - [Qtau](#qtau)
  - [SWnet](#swnet)
  - [SWup](#swup)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
- - [subset_Qg](#subset_qg)
+ - [subset_LWnet](#subset_lwnet)
+ - [subset_LWup](#subset_lwup)
+ - [subset_Qanth](#subset_qanth)
  - [subset_Qh](#subset_qh)
  - [subset_Qle](#subset_qle)
- - [subset_Qtau](#subset_qtau)
  - [subset_SWnet](#subset_swnet)
  - [subset_SWup](#subset_swup)
 
@@ -52,11 +55,17 @@
 ### <a name="lwup"></a>LWup
 [![BEPCOL_AU-Preston_LWup.png](BEPCOL_AU-Preston_LWup.png)](BEPCOL_AU-Preston_LWup.png)
 
+### <a name="qanth"></a>Qanth
+[![BEPCOL_AU-Preston_Qanth.png](BEPCOL_AU-Preston_Qanth.png)](BEPCOL_AU-Preston_Qanth.png)
+
 ### <a name="qh"></a>Qh
 [![BEPCOL_AU-Preston_Qh.png](BEPCOL_AU-Preston_Qh.png)](BEPCOL_AU-Preston_Qh.png)
 
 ### <a name="qle"></a>Qle
 [![BEPCOL_AU-Preston_Qle.png](BEPCOL_AU-Preston_Qle.png)](BEPCOL_AU-Preston_Qle.png)
+
+### <a name="qtau"></a>Qtau
+[![BEPCOL_AU-Preston_Qtau.png](BEPCOL_AU-Preston_Qtau.png)](BEPCOL_AU-Preston_Qtau.png)
 
 ### <a name="swnet"></a>SWnet
 [![BEPCOL_AU-Preston_SWnet.png](BEPCOL_AU-Preston_SWnet.png)](BEPCOL_AU-Preston_SWnet.png)
@@ -70,17 +79,20 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![BEPCOL_AU-Preston_closure_detailed.png](BEPCOL_AU-Preston_closure_detailed.png)](BEPCOL_AU-Preston_closure_detailed.png)
 
-### <a name="subset_qg"></a>subset_Qg
-[![BEPCOL_AU-Preston_subset_Qg.png](BEPCOL_AU-Preston_subset_Qg.png)](BEPCOL_AU-Preston_subset_Qg.png)
+### <a name="subset_lwnet"></a>subset_LWnet
+[![BEPCOL_AU-Preston_subset_LWnet.png](BEPCOL_AU-Preston_subset_LWnet.png)](BEPCOL_AU-Preston_subset_LWnet.png)
+
+### <a name="subset_lwup"></a>subset_LWup
+[![BEPCOL_AU-Preston_subset_LWup.png](BEPCOL_AU-Preston_subset_LWup.png)](BEPCOL_AU-Preston_subset_LWup.png)
+
+### <a name="subset_qanth"></a>subset_Qanth
+[![BEPCOL_AU-Preston_subset_Qanth.png](BEPCOL_AU-Preston_subset_Qanth.png)](BEPCOL_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![BEPCOL_AU-Preston_subset_Qh.png](BEPCOL_AU-Preston_subset_Qh.png)](BEPCOL_AU-Preston_subset_Qh.png)
 
 ### <a name="subset_qle"></a>subset_Qle
 [![BEPCOL_AU-Preston_subset_Qle.png](BEPCOL_AU-Preston_subset_Qle.png)](BEPCOL_AU-Preston_subset_Qle.png)
-
-### <a name="subset_qtau"></a>subset_Qtau
-[![BEPCOL_AU-Preston_subset_Qtau.png](BEPCOL_AU-Preston_subset_Qtau.png)](BEPCOL_AU-Preston_subset_Qtau.png)
 
 ### <a name="subset_swnet"></a>subset_SWnet
 [![BEPCOL_AU-Preston_subset_SWnet.png](BEPCOL_AU-Preston_subset_SWnet.png)](BEPCOL_AU-Preston_subset_SWnet.png)

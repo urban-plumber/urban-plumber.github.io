@@ -6,10 +6,10 @@
 
 | flux   | experiment   |     MAE |      MBE |      NSD |        R |
 |:-------|:-------------|--------:|---------:|---------:|---------:|
-| SWnet  | baseline     | 10.6961 |  10.6895 | 0.904469 | 0.999857 |
-| LWnet  | baseline     | 16.3623 | -13.8319 | 1.33093  | 0.937785 |
-| Qle    | baseline     | 38.6025 |  16.6814 | 1.4167   | 0.531026 |
-| Qh     | baseline     | 27.8693 | -12.2246 | 1.00756  | 0.893465 |
+| SWnet  | baseline     | 10.7044 |  10.6978 | 0.904461 | 0.999857 |
+| LWnet  | baseline     | 16.3636 | -13.8349 | 1.33098  | 0.93779  |
+| Qle    | baseline     | 38.3701 |  16.7921 | 1.43436  | 0.536006 |
+| Qh     | baseline     | 27.8381 | -12.2579 | 1.008    | 0.893699 |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -20,12 +20,15 @@
  - [Albedo](#albedo)
  - [LWnet](#lwnet)
  - [LWup](#lwup)
+ - [Qanth](#qanth)
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
  - [SWup](#swup)
  - [closure_baseline](#closure_baseline)
- - [subset_Qg](#subset_qg)
+ - [subset_LWnet](#subset_lwnet)
+ - [subset_LWup](#subset_lwup)
+ - [subset_Qanth](#subset_qanth)
  - [subset_Qh](#subset_qh)
  - [subset_Qle](#subset_qle)
  - [subset_SWnet](#subset_swnet)
@@ -42,6 +45,9 @@
 ### <a name="lwup"></a>LWup
 [![CABLE_AU-Preston_LWup.png](CABLE_AU-Preston_LWup.png)](CABLE_AU-Preston_LWup.png)
 
+### <a name="qanth"></a>Qanth
+[![CABLE_AU-Preston_Qanth.png](CABLE_AU-Preston_Qanth.png)](CABLE_AU-Preston_Qanth.png)
+
 ### <a name="qh"></a>Qh
 [![CABLE_AU-Preston_Qh.png](CABLE_AU-Preston_Qh.png)](CABLE_AU-Preston_Qh.png)
 
@@ -57,8 +63,14 @@
 ### <a name="closure_baseline"></a>closure_baseline
 [![CABLE_AU-Preston_closure_baseline.png](CABLE_AU-Preston_closure_baseline.png)](CABLE_AU-Preston_closure_baseline.png)
 
-### <a name="subset_qg"></a>subset_Qg
-[![CABLE_AU-Preston_subset_Qg.png](CABLE_AU-Preston_subset_Qg.png)](CABLE_AU-Preston_subset_Qg.png)
+### <a name="subset_lwnet"></a>subset_LWnet
+[![CABLE_AU-Preston_subset_LWnet.png](CABLE_AU-Preston_subset_LWnet.png)](CABLE_AU-Preston_subset_LWnet.png)
+
+### <a name="subset_lwup"></a>subset_LWup
+[![CABLE_AU-Preston_subset_LWup.png](CABLE_AU-Preston_subset_LWup.png)](CABLE_AU-Preston_subset_LWup.png)
+
+### <a name="subset_qanth"></a>subset_Qanth
+[![CABLE_AU-Preston_subset_Qanth.png](CABLE_AU-Preston_subset_Qanth.png)](CABLE_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![CABLE_AU-Preston_subset_Qh.png](CABLE_AU-Preston_subset_Qh.png)](CABLE_AU-Preston_subset_Qh.png)

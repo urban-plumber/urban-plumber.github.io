@@ -6,18 +6,18 @@
 
 | flux   | experiment   |      MAE |        MBE |      NSD |        R |
 |:-------|:-------------|---------:|-----------:|---------:|---------:|
-| SWnet  | baseline     |  2.58764 |   0.264959 | 0.873044 | 0.99991  |
-| SWnet  | detailed     |  2.58764 |   0.264959 | 0.873044 | 0.99991  |
-| SWup   | baseline     |  2.58777 |  -0.27221  | 0.882332 | 0.996948 |
-| SWup   | detailed     |  2.58777 |  -0.27221  | 0.882332 | 0.996948 |
-| LWnet  | baseline     | 15.0201  | -11.6351   | 1.20109  | 0.952157 |
-| LWnet  | detailed     | 14.394   | -10.7565   | 1.18405  | 0.953805 |
-| LWup   | baseline     | 15.0201  |  11.6351   | 1.29471  | 0.971151 |
-| LWup   | detailed     | 14.394   |  10.7565   | 1.27662  | 0.971778 |
-| Qle    | baseline     | 24.8857  |  -7.90509  | 0.763912 | 0.63482  |
-| Qle    | detailed     | 24.9032  |  -8.04408  | 0.761734 | 0.633726 |
-| Qh     | baseline     | 19.9821  |   5.17445  | 0.919337 | 0.940886 |
-| Qh     | detailed     | 20.0588  |   6.16838  | 0.949672 | 0.939793 |
+| SWnet  | baseline     |  2.58838 |   0.263615 | 0.873036 | 0.99991  |
+| SWnet  | detailed     |  2.58838 |   0.263615 | 0.873036 | 0.99991  |
+| SWup   | baseline     |  2.58761 |  -0.271312 | 0.882286 | 0.996947 |
+| SWup   | detailed     |  2.58761 |  -0.271312 | 0.882286 | 0.996947 |
+| LWnet  | baseline     | 15.0221  | -11.6384   | 1.20113  | 0.952167 |
+| LWnet  | detailed     | 14.3957  | -10.7597   | 1.18409  | 0.953814 |
+| LWup   | baseline     | 15.0221  |  11.6384   | 1.29503  | 0.9712   |
+| LWup   | detailed     | 14.3957  |  10.7597   | 1.27694  | 0.971823 |
+| Qle    | baseline     | 24.5891  |  -7.85056  | 0.773434 | 0.641108 |
+| Qle    | detailed     | 24.6072  |  -7.99037  | 0.771229 | 0.639983 |
+| Qh     | baseline     | 19.9421  |   5.1439   | 0.919735 | 0.941092 |
+| Qh     | detailed     | 20.0195  |   6.13919  | 0.950083 | 0.939999 |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -27,15 +27,19 @@
 ### jump to figure:
  - [LWnet](#lwnet)
  - [LWup](#lwup)
+ - [Qanth](#qanth)
  - [Qh](#qh)
  - [Qle](#qle)
+ - [Qtau](#qtau)
  - [SWnet](#swnet)
  - [SWup](#swup)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
+ - [subset_LWnet](#subset_lwnet)
+ - [subset_LWup](#subset_lwup)
+ - [subset_Qanth](#subset_qanth)
  - [subset_Qh](#subset_qh)
  - [subset_Qle](#subset_qle)
- - [subset_Qtau](#subset_qtau)
  - [subset_SWnet](#subset_swnet)
  - [subset_SWup](#subset_swup)
 
@@ -47,11 +51,17 @@
 ### <a name="lwup"></a>LWup
 [![Lodz-SUEB_AU-Preston_LWup.png](Lodz-SUEB_AU-Preston_LWup.png)](Lodz-SUEB_AU-Preston_LWup.png)
 
+### <a name="qanth"></a>Qanth
+[![Lodz-SUEB_AU-Preston_Qanth.png](Lodz-SUEB_AU-Preston_Qanth.png)](Lodz-SUEB_AU-Preston_Qanth.png)
+
 ### <a name="qh"></a>Qh
 [![Lodz-SUEB_AU-Preston_Qh.png](Lodz-SUEB_AU-Preston_Qh.png)](Lodz-SUEB_AU-Preston_Qh.png)
 
 ### <a name="qle"></a>Qle
 [![Lodz-SUEB_AU-Preston_Qle.png](Lodz-SUEB_AU-Preston_Qle.png)](Lodz-SUEB_AU-Preston_Qle.png)
+
+### <a name="qtau"></a>Qtau
+[![Lodz-SUEB_AU-Preston_Qtau.png](Lodz-SUEB_AU-Preston_Qtau.png)](Lodz-SUEB_AU-Preston_Qtau.png)
 
 ### <a name="swnet"></a>SWnet
 [![Lodz-SUEB_AU-Preston_SWnet.png](Lodz-SUEB_AU-Preston_SWnet.png)](Lodz-SUEB_AU-Preston_SWnet.png)
@@ -65,14 +75,20 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![Lodz-SUEB_AU-Preston_closure_detailed.png](Lodz-SUEB_AU-Preston_closure_detailed.png)](Lodz-SUEB_AU-Preston_closure_detailed.png)
 
+### <a name="subset_lwnet"></a>subset_LWnet
+[![Lodz-SUEB_AU-Preston_subset_LWnet.png](Lodz-SUEB_AU-Preston_subset_LWnet.png)](Lodz-SUEB_AU-Preston_subset_LWnet.png)
+
+### <a name="subset_lwup"></a>subset_LWup
+[![Lodz-SUEB_AU-Preston_subset_LWup.png](Lodz-SUEB_AU-Preston_subset_LWup.png)](Lodz-SUEB_AU-Preston_subset_LWup.png)
+
+### <a name="subset_qanth"></a>subset_Qanth
+[![Lodz-SUEB_AU-Preston_subset_Qanth.png](Lodz-SUEB_AU-Preston_subset_Qanth.png)](Lodz-SUEB_AU-Preston_subset_Qanth.png)
+
 ### <a name="subset_qh"></a>subset_Qh
 [![Lodz-SUEB_AU-Preston_subset_Qh.png](Lodz-SUEB_AU-Preston_subset_Qh.png)](Lodz-SUEB_AU-Preston_subset_Qh.png)
 
 ### <a name="subset_qle"></a>subset_Qle
 [![Lodz-SUEB_AU-Preston_subset_Qle.png](Lodz-SUEB_AU-Preston_subset_Qle.png)](Lodz-SUEB_AU-Preston_subset_Qle.png)
-
-### <a name="subset_qtau"></a>subset_Qtau
-[![Lodz-SUEB_AU-Preston_subset_Qtau.png](Lodz-SUEB_AU-Preston_subset_Qtau.png)](Lodz-SUEB_AU-Preston_subset_Qtau.png)
 
 ### <a name="subset_swnet"></a>subset_SWnet
 [![Lodz-SUEB_AU-Preston_subset_SWnet.png](Lodz-SUEB_AU-Preston_subset_SWnet.png)](Lodz-SUEB_AU-Preston_subset_SWnet.png)

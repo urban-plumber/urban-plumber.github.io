@@ -6,18 +6,18 @@
 
 | flux   | experiment   |      MAE |        MBE |      NSD |        R |
 |:-------|:-------------|---------:|-----------:|---------:|---------:|
-| SWnet  | baseline     | 14.811   |  14.811    | 0.916729 | 0.99991  |
-| SWnet  | detailed     |  2.59186 |   0.183974 | 0.872794 | 0.99991  |
-| SWup   | baseline     | 14.7794  | -14.7794   | 0.632148 | 0.996952 |
-| SWup   | detailed     |  2.59195 |  -0.191491 | 0.883762 | 0.996951 |
-| LWnet  | baseline     | 34.1173  |  33.5783   | 0.470153 | 0.985319 |
-| LWnet  | detailed     |  9.92471 |  -8.38939  | 1.02621  | 0.97899  |
-| LWup   | baseline     | 34.1173  | -33.5783   | 0.790938 | 0.845166 |
-| LWup   | detailed     |  9.92471 |   8.38939  | 1.09289  | 0.985437 |
-| Qle    | baseline     | 27.3496  | -18.4438   | 0.405597 | 0.572728 |
-| Qle    | detailed     | 27.3457  | -18.2086   | 0.395459 | 0.563585 |
-| Qh     | baseline     | 87.5967  |  86.9461   | 1.40657  | 0.926781 |
-| Qh     | detailed     | 34.8788  |  30.8343   | 1.31841  | 0.946234 |
+| SWnet  | baseline     | 14.8232  |  14.8232   | 0.916721 | 0.99991  |
+| SWnet  | detailed     |  2.5926  |   0.182556 | 0.872787 | 0.99991  |
+| SWup   | baseline     | 14.784   | -14.7839   | 0.632116 | 0.996952 |
+| SWup   | detailed     |  2.59179 |  -0.190563 | 0.883716 | 0.996951 |
+| LWnet  | baseline     | 34.1144  |  33.5754   | 0.470168 | 0.985326 |
+| LWnet  | detailed     |  9.92596 |  -8.39176  | 1.02624  | 0.978994 |
+| LWup   | baseline     | 34.1144  | -33.5754   | 0.791136 | 0.845105 |
+| LWup   | detailed     |  9.92596 |   8.39176  | 1.09316  | 0.985453 |
+| Qle    | baseline     | 27.0403  | -18.3711   | 0.410653 | 0.578484 |
+| Qle    | detailed     | 27.0366  | -18.136    | 0.400389 | 0.569229 |
+| Qh     | baseline     | 87.5701  |  86.919    | 1.40718  | 0.927139 |
+| Qh     | detailed     | 34.845   |  30.8145   | 1.31898  | 0.94652  |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -28,12 +28,16 @@
  - [Albedo](#albedo)
  - [LWnet](#lwnet)
  - [LWup](#lwup)
+ - [Qanth](#qanth)
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
  - [SWup](#swup)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
+ - [subset_LWnet](#subset_lwnet)
+ - [subset_LWup](#subset_lwup)
+ - [subset_Qanth](#subset_qanth)
  - [subset_Qh](#subset_qh)
  - [subset_Qle](#subset_qle)
  - [subset_SWnet](#subset_swnet)
@@ -49,6 +53,9 @@
 
 ### <a name="lwup"></a>LWup
 [![TERRA_4.11_AU-Preston_LWup.png](TERRA_4.11_AU-Preston_LWup.png)](TERRA_4.11_AU-Preston_LWup.png)
+
+### <a name="qanth"></a>Qanth
+[![TERRA_4.11_AU-Preston_Qanth.png](TERRA_4.11_AU-Preston_Qanth.png)](TERRA_4.11_AU-Preston_Qanth.png)
 
 ### <a name="qh"></a>Qh
 [![TERRA_4.11_AU-Preston_Qh.png](TERRA_4.11_AU-Preston_Qh.png)](TERRA_4.11_AU-Preston_Qh.png)
@@ -67,6 +74,15 @@
 
 ### <a name="closure_detailed"></a>closure_detailed
 [![TERRA_4.11_AU-Preston_closure_detailed.png](TERRA_4.11_AU-Preston_closure_detailed.png)](TERRA_4.11_AU-Preston_closure_detailed.png)
+
+### <a name="subset_lwnet"></a>subset_LWnet
+[![TERRA_4.11_AU-Preston_subset_LWnet.png](TERRA_4.11_AU-Preston_subset_LWnet.png)](TERRA_4.11_AU-Preston_subset_LWnet.png)
+
+### <a name="subset_lwup"></a>subset_LWup
+[![TERRA_4.11_AU-Preston_subset_LWup.png](TERRA_4.11_AU-Preston_subset_LWup.png)](TERRA_4.11_AU-Preston_subset_LWup.png)
+
+### <a name="subset_qanth"></a>subset_Qanth
+[![TERRA_4.11_AU-Preston_subset_Qanth.png](TERRA_4.11_AU-Preston_subset_Qanth.png)](TERRA_4.11_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![TERRA_4.11_AU-Preston_subset_Qh.png](TERRA_4.11_AU-Preston_subset_Qh.png)](TERRA_4.11_AU-Preston_subset_Qh.png)

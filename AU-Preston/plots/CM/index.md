@@ -27,13 +27,16 @@
 ### jump to figure:
  - [LWnet](#lwnet)
  - [LWup](#lwup)
+ - [Qanth](#qanth)
  - [Qh](#qh)
  - [Qle](#qle)
  - [SWnet](#swnet)
  - [SWup](#swup)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
- - [subset_Qg](#subset_qg)
+ - [subset_LWnet](#subset_lwnet)
+ - [subset_LWup](#subset_lwup)
+ - [subset_Qanth](#subset_qanth)
  - [subset_Qh](#subset_qh)
  - [subset_Qle](#subset_qle)
  - [subset_SWnet](#subset_swnet)
@@ -46,6 +49,9 @@
 
 ### <a name="lwup"></a>LWup
 [![CM_AU-Preston_LWup.png](CM_AU-Preston_LWup.png)](CM_AU-Preston_LWup.png)
+
+### <a name="qanth"></a>Qanth
+[![CM_AU-Preston_Qanth.png](CM_AU-Preston_Qanth.png)](CM_AU-Preston_Qanth.png)
 
 ### <a name="qh"></a>Qh
 [![CM_AU-Preston_Qh.png](CM_AU-Preston_Qh.png)](CM_AU-Preston_Qh.png)
@@ -65,8 +71,14 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![CM_AU-Preston_closure_detailed.png](CM_AU-Preston_closure_detailed.png)](CM_AU-Preston_closure_detailed.png)
 
-### <a name="subset_qg"></a>subset_Qg
-[![CM_AU-Preston_subset_Qg.png](CM_AU-Preston_subset_Qg.png)](CM_AU-Preston_subset_Qg.png)
+### <a name="subset_lwnet"></a>subset_LWnet
+[![CM_AU-Preston_subset_LWnet.png](CM_AU-Preston_subset_LWnet.png)](CM_AU-Preston_subset_LWnet.png)
+
+### <a name="subset_lwup"></a>subset_LWup
+[![CM_AU-Preston_subset_LWup.png](CM_AU-Preston_subset_LWup.png)](CM_AU-Preston_subset_LWup.png)
+
+### <a name="subset_qanth"></a>subset_Qanth
+[![CM_AU-Preston_subset_Qanth.png](CM_AU-Preston_subset_Qanth.png)](CM_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![CM_AU-Preston_subset_Qh.png](CM_AU-Preston_subset_Qh.png)](CM_AU-Preston_subset_Qh.png)

@@ -28,16 +28,19 @@
  - [Albedo](#albedo)
  - [LWnet](#lwnet)
  - [LWup](#lwup)
+ - [Qanth](#qanth)
  - [Qh](#qh)
  - [Qle](#qle)
+ - [Qtau](#qtau)
  - [SWnet](#swnet)
  - [SWup](#swup)
  - [closure_baseline](#closure_baseline)
  - [closure_detailed](#closure_detailed)
- - [subset_Qg](#subset_qg)
+ - [subset_LWnet](#subset_lwnet)
+ - [subset_LWup](#subset_lwup)
+ - [subset_Qanth](#subset_qanth)
  - [subset_Qh](#subset_qh)
  - [subset_Qle](#subset_qle)
- - [subset_Qtau](#subset_qtau)
  - [subset_SWnet](#subset_swnet)
  - [subset_SWup](#subset_swup)
 
@@ -52,11 +55,17 @@
 ### <a name="lwup"></a>LWup
 [![JULES_2T_AU-Preston_LWup.png](JULES_2T_AU-Preston_LWup.png)](JULES_2T_AU-Preston_LWup.png)
 
+### <a name="qanth"></a>Qanth
+[![JULES_2T_AU-Preston_Qanth.png](JULES_2T_AU-Preston_Qanth.png)](JULES_2T_AU-Preston_Qanth.png)
+
 ### <a name="qh"></a>Qh
 [![JULES_2T_AU-Preston_Qh.png](JULES_2T_AU-Preston_Qh.png)](JULES_2T_AU-Preston_Qh.png)
 
 ### <a name="qle"></a>Qle
 [![JULES_2T_AU-Preston_Qle.png](JULES_2T_AU-Preston_Qle.png)](JULES_2T_AU-Preston_Qle.png)
+
+### <a name="qtau"></a>Qtau
+[![JULES_2T_AU-Preston_Qtau.png](JULES_2T_AU-Preston_Qtau.png)](JULES_2T_AU-Preston_Qtau.png)
 
 ### <a name="swnet"></a>SWnet
 [![JULES_2T_AU-Preston_SWnet.png](JULES_2T_AU-Preston_SWnet.png)](JULES_2T_AU-Preston_SWnet.png)
@@ -70,17 +79,20 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![JULES_2T_AU-Preston_closure_detailed.png](JULES_2T_AU-Preston_closure_detailed.png)](JULES_2T_AU-Preston_closure_detailed.png)
 
-### <a name="subset_qg"></a>subset_Qg
-[![JULES_2T_AU-Preston_subset_Qg.png](JULES_2T_AU-Preston_subset_Qg.png)](JULES_2T_AU-Preston_subset_Qg.png)
+### <a name="subset_lwnet"></a>subset_LWnet
+[![JULES_2T_AU-Preston_subset_LWnet.png](JULES_2T_AU-Preston_subset_LWnet.png)](JULES_2T_AU-Preston_subset_LWnet.png)
+
+### <a name="subset_lwup"></a>subset_LWup
+[![JULES_2T_AU-Preston_subset_LWup.png](JULES_2T_AU-Preston_subset_LWup.png)](JULES_2T_AU-Preston_subset_LWup.png)
+
+### <a name="subset_qanth"></a>subset_Qanth
+[![JULES_2T_AU-Preston_subset_Qanth.png](JULES_2T_AU-Preston_subset_Qanth.png)](JULES_2T_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![JULES_2T_AU-Preston_subset_Qh.png](JULES_2T_AU-Preston_subset_Qh.png)](JULES_2T_AU-Preston_subset_Qh.png)
 
 ### <a name="subset_qle"></a>subset_Qle
 [![JULES_2T_AU-Preston_subset_Qle.png](JULES_2T_AU-Preston_subset_Qle.png)](JULES_2T_AU-Preston_subset_Qle.png)
-
-### <a name="subset_qtau"></a>subset_Qtau
-[![JULES_2T_AU-Preston_subset_Qtau.png](JULES_2T_AU-Preston_subset_Qtau.png)](JULES_2T_AU-Preston_subset_Qtau.png)
 
 ### <a name="subset_swnet"></a>subset_SWnet
 [![JULES_2T_AU-Preston_subset_SWnet.png](JULES_2T_AU-Preston_subset_SWnet.png)](JULES_2T_AU-Preston_subset_SWnet.png)
@@ -90,12 +102,10 @@
 
 ### out of range: baseline
 
- - JULES_2T SnowFrac min value of -0.0000 is less than expected 0.0 [1]
  - JULES_2T SWE min value of -0.0000 is less than expected 0.0 [kg/m2]
 
 ### out of range: detailed
 
- - JULES_2T SnowFrac min value of -0.0000 is less than expected 0.0 [1]
  - JULES_2T SWE min value of -0.0000 is less than expected 0.0 [kg/m2]
 
 
