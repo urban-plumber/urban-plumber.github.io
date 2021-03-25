@@ -112,7 +112,7 @@
 
 **QC process on observations**
  
- - remove values outside the ALMAv3 protocol expected range values
+ - remove values outside the [ALMAv3 protocol expected range values](https://urban-plumber.github.io/AU-Preston/plots/modelattrs/variable_definitions.html)
  - remove night periods of non-zero shortwave radiation between civil twilight times for site latitude and longitude
  - remove constant values of 4 or more timesteps (excluding zero values for shortwave, rainfall and snowfall)
  - remove outliers by applying a filter for values outside 4 standard deviations for each hour in a rolling 30 day window. Applying filter again at 5 standard deviations until no outliers exist.
