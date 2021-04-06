@@ -3,65 +3,67 @@
 
 ## Site observation metadata
 
-|                           | observation_attributes                                                                                                                                                                                                                                                                           |
-|:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title                     | URBAN-PLUMBER forcing data for AU-Preston                                                                                                                                                                                                                                                        |
-| summary                   | Combined observational and ERA5-derived surface meteorological data for Preston, Melbourne, Australia. For forcing of land surface models participating in Urban-PLUMBER. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC. |
-| sitename                  | AU-Preston                                                                                                                                                                                                                                                                                       |
-| long_sitename             | Preston, Melbourne, Australia                                                                                                                                                                                                                                                                    |
-| version                   | v3                                                                                                                                                                                                                                                                                               |
-| conventions               | ALMA+CF.rev13                                                                                                                                                                                                                                                                                    |
-| featureType               | timeSeries                                                                                                                                                                                                                                                                                       |
-| time_coverage_start       | 1993-01-01 00:00:00                                                                                                                                                                                                                                                                              |
-| time_coverage_end         | 2004-11-28 13:00:00                                                                                                                                                                                                                                                                              |
-| time_analysis_start       | 2003-08-12 03:30:00                                                                                                                                                                                                                                                                              |
-| time_shown_in             | UTC                                                                                                                                                                                                                                                                                              |
-| local_utc_offset_hours    | 10.0                                                                                                                                                                                                                                                                                             |
-| timestep_interval_seconds | 1800.0                                                                                                                                                                                                                                                                                           |
-| timestep_number_spinup    | 186007                                                                                                                                                                                                                                                                                           |
-| timestep_number_analysis  | 22772                                                                                                                                                                                                                                                                                            |
-| observations_contact      | Andrew Coutts: andrew.coutts@monash.edu; Nigel Tapper: nigel.tapper@monash.edu                                                                                                                                                                                                                   |
-| observations_reference    | Coutts, Beringer and Tapper (2007a): https://doi.org/10.1175/JAM2462.1; Coutts, Beringer and Tapper (2007b) https://doi.org/10.1016/j.atmosenv.2006.08.030                                                                                                                                       |
-| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                                                                         |
-| date_created              | 2021-03-08 19:05:44                                                                                                                                                                                                                                                                              |
-| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                                                                                            |
-| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                                                                                                        |
+|                           | observation_attributes                                                                                                                                                                                          |
+|:--------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| title                     | URBAN-PLUMBER forcing data for AU-Preston                                                                                                                                                                       |
+| summary                   | Observed and ERA5-derived surface meteorological data for Preston, Melbourne, Australia. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC. |
+| sitename                  | AU-Preston                                                                                                                                                                                                      |
+| long_sitename             | Preston, Melbourne, Australia                                                                                                                                                                                   |
+| version                   | v3                                                                                                                                                                                                              |
+| conventions               | ALMA+CF.rev13                                                                                                                                                                                                   |
+| featureType               | timeSeries                                                                                                                                                                                                      |
+| time_coverage_start       | 1993-01-01 00:00:00                                                                                                                                                                                             |
+| time_coverage_end         | 2004-11-28 13:00:00                                                                                                                                                                                             |
+| time_analysis_start       | 2003-08-12 03:30:00                                                                                                                                                                                             |
+| time_shown_in             | UTC                                                                                                                                                                                                             |
+| local_utc_offset_hours    | 10.0                                                                                                                                                                                                            |
+| timestep_interval_seconds | 1800.0                                                                                                                                                                                                          |
+| timestep_number_spinup    | 186007                                                                                                                                                                                                          |
+| timestep_number_analysis  | 22772                                                                                                                                                                                                           |
+| observations_contact      | Andrew Coutts: andrew.coutts@monash.edu; Nigel Tapper: nigel.tapper@monash.edu                                                                                                                                  |
+| observations_reference    | Coutts, Beringer and Tapper (2007a): https://doi.org/10.1175/JAM2462.1; Coutts, Beringer and Tapper (2007b) https://doi.org/10.1016/j.atmosenv.2006.08.030                                                      |
+| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                        |
+| date_created              | 2021-04-01 17:41:51                                                                                                                                                                                             |
+| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                           |
+| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                       |
+| comment                   | nan                                                                                                                                                                                                             |
 
 ## Site images
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
 | [![Region](./images/AU-Preston_region_map.jpg)](./images/AU-Preston_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/AU-Preston_site_map.jpg)](./images/AU-Preston_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/AU-Preston_site_photo.jpg)](./images/AU-Preston_site_photo.jpg) <sub>source: [Coutts et al. (2007)](http://doi.org/10.1016/j.atmosenv.2006.08.030)</sub>  | [![site_sat](./images/AU-Preston_site_sat.jpg)](./images/AU-Preston_site_sat.jpg) <sub>source: Microsoft</sub>        |
+| [![site_photo](./images/AU-Preston_site_photo.jpg)](./images/AU-Preston_site_photo.jpg) <sub>source: [Coutts et al. (2007)](http://doi.org/10.1016/j.atmosenv.2006.08.030)</sub>  | [![site_sat](./images/AU-Preston_site_sat.jpg)](./images/AU-Preston_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
 
 ## Site characteristics
 
-|   id | parameter                       |     value | units         | source                   | doi                                                                                                       |
-|-----:|:--------------------------------|----------:|:--------------|:-------------------------|:----------------------------------------------------------------------------------------------------------|
-|    1 | latitude                        |  -37.7306 | degrees_north | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
-|    2 | longitude                       |  145.014  | degrees_east  | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
-|    3 | ground_height                   |   93      | m             | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
-|    4 | measurement_height_above_ground |   40      | m             | Coutts et al. (2007b)    | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|    5 | impervious_area_fraction        |    0.62   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|    6 | tree_area_fraction              |    0.225  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|    7 | grass_area_fraction             |    0.15   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|    8 | bare_soil_area_fraction         |    0.005  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|    9 | water_area_fraction             |    0      | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   10 | roof_area_fraction              |    0.445  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   11 | road_area_fraction              |    0.13   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   12 | other_paved_area_fraction       |    0.045  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   13 | building_mean_height            |    6.4    | m             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   14 | tree_mean_height                |    5.7    | m             | Nice et al. (2018)       | [https://doi.org/10.1016/j.uclim.2017.12.008](https://doi.org/10.1016/j.uclim.2017.12.008)                |
-|   15 | roughness_length_momentum       |    0.4    | m             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   16 | displacement_height             |    4.57   | m             | estimated, see notes     | from morphology, using eq. 17 of [Macdonald et al. (2008)](https://doi.org/10.1016/S1352-2310(97)00403-2) |
-|   17 | canyon_height_width_ratio       |    0.42   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   18 | wall_to_plan_area_ratio         |    0.4    | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
-|   19 | average_albedo_at_midday        |    0.15   | 1             | this dataset             | -                                                                                                         |
-|   20 | resident_population_density     | 2940      | person/km2    | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
-|   21 | anthropogenic_heat_flux_mean    |   11      | W/m2          | Best and Grimmond (2016) | [https://doi.org/10.1007/s00704-015-1554-3](https://doi.org/10.1007/s00704-015-1554-3)                    |
-|   22 | topsoil_clay_fraction           |    0.18   | 1             | OpenLandMap              | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                          |
-|   23 | topsoil_sand_fraction           |    0.72   | 1             | OpenLandMap              | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                          |
-|   24 | topsoil_bulk_density            | 1230      | kg/m3         | OpenLandMap              | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                          |
+|   id | parameter                          |     value | units         | source                   | doi                                                                                                       |
+|-----:|:-----------------------------------|----------:|:--------------|:-------------------------|:----------------------------------------------------------------------------------------------------------|
+|    1 | latitude                           |  -37.7306 | degrees_north | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
+|    2 | longitude                          |  145.014  | degrees_east  | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
+|    3 | ground_height                      |   93      | m             | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
+|    4 | measurement_height_above_ground    |   40      | m             | Coutts et al. (2007b)    | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
+|    5 | impervious_area_fraction           |    0.62   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|    6 | tree_area_fraction                 |    0.225  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|    7 | grass_area_fraction                |    0.15   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|    8 | bare_soil_area_fraction            |    0.005  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|    9 | water_area_fraction                |    0      | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   10 | roof_area_fraction                 |    0.445  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   11 | road_area_fraction                 |    0.13   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   12 | other_paved_area_fraction          |    0.045  | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   13 | building_mean_height               |    6.4    | m             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   14 | tree_mean_height                   |    5.7    | m             | Nice et al. (2018)       | [https://doi.org/10.1016/j.uclim.2017.12.008](https://doi.org/10.1016/j.uclim.2017.12.008)                |
+|   15 | roughness_length_momentum          |    0.4    | m             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   16 | displacement_height                |    4.57   | m             | estimated, see notes     | from morphology, using eq. 17 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2) |
+|   17 | canyon_height_width_ratio          |    0.42   | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   18 | wall_to_plan_area_ratio            |    0.4    | 1             | Grimmond et al. (2011)   | [https://doi.org/10.1002/joc.2227](https://doi.org/10.1002/joc.2227)                                      |
+|   19 | average_albedo_at_midday           |    0.151  | 1             | median of observations   | -                                                                                                         |
+|   20 | resident_population_density        | 2940      | person/km2    | Coutts et al. (2007a)    | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
+|   21 | anthropogenic_heat_flux_mean       |   11      | W/m2          | Best and Grimmond (2016) | [https://doi.org/10.1007/s00704-015-1554-3](https://doi.org/10.1007/s00704-015-1554-3)                    |
+|   22 | topsoil_clay_fraction              |    0.18   | 1             | OpenLandMap              | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                          |
+|   23 | topsoil_sand_fraction              |    0.72   | 1             | OpenLandMap              | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                          |
+|   24 | topsoil_bulk_density               | 1230      | kg/m3         | OpenLandMap              | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                          |
+|   25 | building_height_standard_deviation |  nan      | m             | unknown                  | -                                                                                                         |
 
 ## Site observations
 
@@ -110,22 +112,24 @@
 
 **QC process on observations**
  
- - remove values outside the ALMAv3 protocol expected range values
+ - remove values outside the [ALMAv3 protocol expected range values](https://urban-plumber.github.io/AU-Preston/plots/modelattrs/variable_definitions.html)
  - remove night periods of non-zero shortwave radiation between civil twilight times for site latitude and longitude
  - remove constant values of 4 or more timesteps (excluding zero values for shortwave, rainfall and snowfall)
  - remove outliers by applying a filter for values outside 4 standard deviations for each hour in a rolling 30 day window. Applying filter again at 5 standard deviations until no outliers exist.
  
 **Gap-filling process**
-  
+
+ - first fill with nearby local tower observations where available
  - for gaps of 2 hours or less, fill with linear interpolation of adjacent observation
  - fill remaining gaps with bias-corrected, ERA5 derived data (see below)
+ - snowfall from ERA5, with water equivalent removed from rainfall to retain mass balance
  - prepend flux tower data period with 10-years of ERA5 derived data (used for model spinup)
  
 **ERA5 bias correction**
  
  - for downwelling longwave, temperature, humidity and pressure: calculate the mean bias between ERA5 and flux tower data in a 30-day rolling window for every hour and each day of the year, and apply that bias correction to all ERA5 data. For periods not covered by observations, linearly interpoloate between known biases for each hour seperately.
- - for rainfall: calculate total precipitation in a 10-year period and calculate the ratio between ERA5 data and the nearest GHCN-D station and apply that correction factor to ERA5 data.
- - for wind: apply wind log profile correction based on ERA5 reference height (10m) and flux tower measurement heights, plus ERA5 and local roughness and displacement.
+ - for precipitation: calculate total precipitation in a 10-year period and calculate the ratio between ERA5 data and the nearest GHCN-D station and apply that correction factor to ERA5 data.
+ - for wind: apply wind log profile correction from ERA5 10m wind to tower measurement height using site roughness and displacement, with ERA5 roughness to match observed mean wind speeds.
  - for downwelling shortwave: use ERA5 data without correction
 
 ### SWdown diurnal qc
@@ -143,6 +147,10 @@
 ### Qair diurnal qc
 
 [![./obs_plots/Qair_obs_qc_diurnal.png](./obs_plots/Qair_obs_qc_diurnal.png)](./obs_plots/Qair_obs_qc_diurnal.png)
+
+### Rainf diurnal qc
+
+[![./obs_plots/Rainf_obs_qc_diurnal.png](./obs_plots/Rainf_obs_qc_diurnal.png)](./obs_plots/Rainf_obs_qc_diurnal.png)
 
 ### PSurf diurnal qc
 

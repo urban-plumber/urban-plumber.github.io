@@ -23,7 +23,7 @@
 | observations_contact      | Wlodzimierz Pawlak: wlodzimierz.pawlak@geo.uni.lodz.pl, Krzysztof Fortuniak: krzysztof.fortuniak@geo.uni.lodz.pl                                                                                                                         |
 | observations_reference    | Fortuniak, Pawlak and Siedlecki (2013): https://doi.org/10.1007/s10546-012-9762-1; Pawlak, Fortuniak, Siedlecki (2011): https://doi.org/10.1002/joc.2247; Offerle, Grimmond, Fortuniak, Pawlak (2006): https://doi.org/10.1175/JAM2319.1 |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                 |
-| date_created              | 2021-03-31 11:22:12                                                                                                                                                                                                                      |
+| date_created              | 2021-04-06 13:46:28                                                                                                                                                                                                                      |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                                    |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                                                |
 | comment                   | Missing forcing filled with PL-Narutowicza tower site where available. Precipitation from IMGW Łódź Lublinek.                                                                                                                            |
@@ -57,7 +57,7 @@
 |   16 | displacement_height                |     7.4    | m             | Offerle et al. (2006)   | [https://doi.org/10.1175/JAM2319.1](https://doi.org/10.1175/JAM2319.1)                                                            |
 |   17 | canyon_height_width_ratio          |     0.75   | 1             | Offerle et al. (2006)   | [https://doi.org/10.1175/JAM2319.1](https://doi.org/10.1175/JAM2319.1)                                                            |
 |   18 | wall_to_plan_area_ratio            |     1.05   | 1             | estimated, see notes    | derived from canyon h/w ratio and eq 1 from [Masson et al (2020)](htpps://doi.org/10.1016/j.uclim.2019.100536)                    |
-|   19 | average_albedo_at_midday           |     0.086  | 1             | median of observations  | -                                                                                                                                 |
+|   19 | average_albedo_at_midday           |     0.085  | 1             | median of observations  | -                                                                                                                                 |
 |   20 | resident_population_density        | 10380      | person/km2    | Pawlak, pers. comms     | derived from Statistics of Łódź, 2018                                                                                             |
 |   21 | anthropogenic_heat_flux_mean       |     7.1    | W/m2          | Varquez et al (2021)    | [https://doi.org/10.1038/s41597-021-00850-w](https://doi.org/10.1038/s41597-021-00850-w)                                          |
 |   22 | topsoil_clay_fraction              |     0.16   | 1             | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                                                  |
@@ -128,8 +128,8 @@
 **ERA5 bias correction**
  
  - for downwelling longwave, temperature, humidity and pressure: calculate the mean bias between ERA5 and flux tower data in a 30-day rolling window for every hour and each day of the year, and apply that bias correction to all ERA5 data. For periods not covered by observations, linearly interpoloate between known biases for each hour seperately.
- - for rainfall: calculate total precipitation in a 10-year period and calculate the ratio between ERA5 data and the nearest GHCN-D station and apply that correction factor to ERA5 data.
- - for wind: apply wind log profile correction based on ERA5 reference height (10m) and flux tower measurement heights, plus ERA5 and local roughness and displacement.
+ - for precipitation: calculate total precipitation in a 10-year period and calculate the ratio between ERA5 data and the nearest GHCN-D station and apply that correction factor to ERA5 data.
+ - for wind: apply wind log profile correction from ERA5 10m wind to tower measurement height using site roughness and displacement, with ERA5 roughness to match observed mean wind speeds.
  - for downwelling shortwave: use ERA5 data without correction
 
 ### SWdown diurnal qc
