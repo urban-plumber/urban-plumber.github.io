@@ -26,7 +26,7 @@
 | date_created              | 2021-04-03 15:09:23                                                                                                                                                                                          |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                        |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                    |
-| comment                   | Inhomogeneities within footprint. Sectors excluded from analysis.                                                                                                                                            |
+| comment                   | Inhomogeneities within footprint. Land surface characteristics and turbulent flux data restricted to sectors 180-320 (Ku3 in Karsisto et al., 2016)                                                          |
 
 ## Site images
 
