@@ -33,5 +33,15 @@
 
  - [US-Baltimore](./US-Baltimore): Cub Hill, Baltimore, United States 
 
+ - [US-Minneapolis](./US-Minneapolis): KUOM Tall Tower, Minneapolis, Minnesota, United States 
+
  - [US-WestPhoenix](./US-WestPhoenix): West Phoenix, Arizona, United States 
+
+## Site characteristics
+
+[![Characteristics](/img/00_SiteList.jpg)](/img/00_SiteList.jpg)
+
+## Site locations and climate
+
+[![Location](/img/included_sites.png)](/img/included_sites.png)
 
