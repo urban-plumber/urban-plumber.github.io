@@ -33,7 +33,7 @@
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
 | [![Region](./images/UK-Swindon_region_map.jpg)](./images/UK-Swindon_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/UK-Swindon_site_map.jpg)](./images/UK-Swindon_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/UK-Swindon_site_photo.jpg)](./images/UK-Swindon_site_photo.jpg) <sub>source: None</sub>  | [![site_sat](./images/UK-Swindon_site_sat.jpg)](./images/UK-Swindon_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![site_photo](./images/UK-Swindon_site_photo.jpg)](./images/UK-Swindon_site_photo.jpg) <sub>source: H. C. Ward</sub>  | [![site_sat](./images/UK-Swindon_site_sat.jpg)](./images/UK-Swindon_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
 
 ## Site characteristics
 
