@@ -13,6 +13,10 @@
 
  - [JP-Yoyogi](./JP-Yoyogi): Yoyogi, Tokyo, Japan 
 
+ - [KR-Jungnang](./KR-Jungnang): Jungnang, Seoul, South Korea 
+
+ - [KR-Ochang](./KR-Ochang): Ochang, South Korea 
+
  - [MX-Escandon](./MX-Escandon): Escandon, Mexico City, Mexico 
 
  - [NL-Amsterdam](./NL-Amsterdam): Amsterdam, The Netherlands 
