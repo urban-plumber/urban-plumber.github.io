@@ -1,3 +1,7 @@
+## Site locations
+
+[![Location](/img/included_sites.png)](/img/included_sites.png)
+
 ## Site list
  - [AU-Preston](./AU-Preston): Preston, Melbourne, Australia 
 
@@ -40,8 +44,4 @@
 ## Site characteristics
 
 [![Characteristics](/img/00_SiteList.jpg)](/img/00_SiteList.jpg)
-
-## Site locations and climate
-
-[![Location](/img/included_sites.png)](/img/included_sites.png)
 
