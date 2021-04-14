@@ -41,7 +41,7 @@
 
  - [US-WestPhoenix](./US-WestPhoenix): West Phoenix, Arizona, United States 
 
-## Site characteristics
+## Site characteristics summary
 
 [![Characteristics](/img/00_SiteList.jpg)](/img/00_SiteList.jpg)
 
