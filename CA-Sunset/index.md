@@ -1,14 +1,14 @@
 
-# Vancouver-Sunset,  (CA-Sunset)
+# Sunset, Vancouver, Canada (CA-Sunset)
 
 ## Site observation metadata
 
 |                           | observation_attributes                                                                                                                                                                                                               |
 |:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | title                     | URBAN-PLUMBER forcing data for CA-Sunset                                                                                                                                                                                             |
-| summary                   | Observed and ERA5-derived surface meteorological data for Vancouver-Sunset, . Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC.                                 |
+| summary                   | Observed and ERA5-derived surface meteorological data for Sunset, Vancouver, Canada. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC.                          |
 | sitename                  | CA-Sunset                                                                                                                                                                                                                            |
-| long_sitename             | Vancouver-Sunset,                                                                                                                                                                                                                    |
+| long_sitename             | Sunset, Vancouver, Canada                                                                                                                                                                                                            |
 | version                   | v1                                                                                                                                                                                                                                   |
 | conventions               | ALMA+CF.rev13                                                                                                                                                                                                                        |
 | featureType               | timeSeries                                                                                                                                                                                                                           |
@@ -23,7 +23,7 @@
 | observations_contact      | Andreas Christen (andreas.christen@meteo.uni-freiburg.de) Albert-Ludwigs-Universitaet Freiburg                                                                                                                                       |
 | observations_reference    | Christen, Coops, Crawford, Kellett, Liss, Olchovski, Tooke, van der Laan, Voogt (2011): https://doi.org/10.1016/j.atmosenv.2011.07.040; Crawford and Christen (2015): https://doi.org/10.1007/s00704-014-1124-0                      |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-04-15 14:59:05                                                                                                                                                                                                                  |
+| date_created              | 2021-04-15 16:01:36                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
 | comment                   | None                                                                                                                                                                                                                                 |
