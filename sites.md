@@ -15,7 +15,7 @@
 
  - [FR-Capitole](./FR-Capitole): Capitole district, Toulouse, France 
 
- - [GR-Heraklion](./GR-Heraklion): Heraklion (Irákleio), Crete, Greece 
+ - [GR-HECKOR](./GR-HECKOR): Kornarou Sqr., Heraklion (Irákleio), Crete, Greece 
 
  - [JP-Yoyogi](./JP-Yoyogi): Yoyogi, Tokyo, Japan 
 
