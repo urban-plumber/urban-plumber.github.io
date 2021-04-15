@@ -1,11 +1,13 @@
 ## Site locations
 
-[![Location](/img/included_sites.png)](/img/included_sites.png)
+[![Location](/img/included_sites.jpg)](/img/included_sites.jpg)
 
 ## Site list
  - [AU-Preston](./AU-Preston): Preston, Melbourne, Australia 
 
  - [AU-SurreyHills](./AU-SurreyHills): Surrey Hills, Melbourne, Australia 
+
+ - [CA-Sunset](./CA-Sunset): Vancouver-Sunset,  
 
  - [FI-Kumpula](./FI-Kumpula): Kumpula, Helsinki, Finland 
 
