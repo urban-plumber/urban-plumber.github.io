@@ -1,6 +1,7 @@
 Alberto Martilli
 Andres Simon
 Andrew Coutts
+Andy Pitman
 Aristofanis Tsiringakis
 Aude Lemonsu
 Beom-Soon Han
@@ -11,7 +12,6 @@ Doo-Il Lee
 Gab Abramowitz
 Gabriele Manoli
 Gert-Jan Steeneveld
-Hendrik Wouters
 Hiroaki Kondo
 Joe McNorton
 Jong-Jin Baik
@@ -26,7 +26,6 @@ Meiring Beyers
 Michael Roth
 Naika Meili
 Nigel Tapper
-Ning Zhang
 Robert Schoetter
 Sang-Hyun Lee
 Seung-Bu Park
