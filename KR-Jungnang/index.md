@@ -20,10 +20,10 @@
 | timestep_interval_seconds | 1800.0                                                                                                                                                                                                                               |
 | timestep_number_spinup    | 176480                                                                                                                                                                                                                               |
 | timestep_number_analysis  | 39582                                                                                                                                                                                                                                |
-| observations_contact      | Jinkyu Hong (jhong@yonsei.ac.kr)                                                                                                                                                                                                     |
+| observations_contact      | Jinkyu Hong (jhong@yonsei.ac.kr), Je-Woo Hong (jwhong@kei.re.kr)                                                                                                                                                                     |
 | observations_reference    | None                                                                                                                                                                                                                                 |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-04-28 15:04:22                                                                                                                                                                                                                  |
+| date_created              | 2021-04-28 16:07:04                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
 | comment                   | None                                                                                                                                                                                                                                 |
@@ -33,7 +33,7 @@
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
 | [![Region](./images/KR-Jungnang_region_map.jpg)](./images/KR-Jungnang_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/KR-Jungnang_site_map.jpg)](./images/KR-Jungnang_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/KR-Jungnang_site_photo.jpg)](./images/KR-Jungnang_site_photo.jpg) <sub>source: None</sub>  | [![site_sat](./images/KR-Jungnang_site_sat.jpg)](./images/KR-Jungnang_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![site_photo](./images/KR-Jungnang_site_photo.jpg)](./images/KR-Jungnang_site_photo.jpg) <sub>source: Keunmin Lee</sub>  | [![site_sat](./images/KR-Jungnang_site_sat.jpg)](./images/KR-Jungnang_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
 
 ## Site characteristics
 
