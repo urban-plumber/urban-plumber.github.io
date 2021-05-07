@@ -13,20 +13,20 @@
 | conventions               | ALMA+CF.rev13                                                                                                                                                                                                                               |
 | featureType               | timeSeries                                                                                                                                                                                                                                  |
 | time_coverage_start       | 2001-01-01 00:00:00                                                                                                                                                                                                                         |
-| time_coverage_end         | 2012-09-13 13:30:00                                                                                                                                                                                                                         |
-| time_analysis_start       | 2011-06-01 16:30:00                                                                                                                                                                                                                         |
+| time_coverage_end         | 2012-09-13 14:00:00                                                                                                                                                                                                                         |
+| time_analysis_start       | 2011-06-01 17:00:00                                                                                                                                                                                                                         |
 | time_shown_in             | UTC                                                                                                                                                                                                                                         |
 | local_utc_offset_hours    | -6.0                                                                                                                                                                                                                                        |
 | timestep_interval_seconds | 1800.0                                                                                                                                                                                                                                      |
-| timestep_number_spinup    | 182577                                                                                                                                                                                                                                      |
+| timestep_number_spinup    | 182578                                                                                                                                                                                                                                      |
 | timestep_number_analysis  | 22555                                                                                                                                                                                                                                       |
 | observations_contact      | Eric Velasco: evelasco@mce2.org, he_velasco2003@yahoo.com                                                                                                                                                                                   |
 | observations_reference    | Velasco, Pressley, Allwine, Grivicke, Molina and Lamb (2011): https://doi.org/10.1007/s00704-010-0314-7; Velasco, Perrusquia, Jiménez, Hernández, Camacho, Rodríguez, Retama, Molina (2014): https://doi.org/10.1016/j.atmosenv.2014.08.018 |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                    |
-| date_created              | 2021-04-01 18:13:41                                                                                                                                                                                                                         |
-| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                                       |
-| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                                                   |
-| comment                   | No LW radiation available during this period. ERA5 bias-corrected using 2006 data from same site.                                                                                                                                           |
+| date_created              | 2021-05-07 16:12:41                                                                                                                                                                                                                         |
+| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                                  |
+| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data        |
+| comment                   | No LW radiation available during this period, ERA5 is used with bias-correction from 2006 data at same site. Wind direction taken from nearby site. Potential mismatch between local DST and standard times.                                |
 
 ## Site images
 
@@ -64,6 +64,10 @@
 |   23 | topsoil_sand_fraction              |    0.41   | 1             | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                                    |
 |   24 | topsoil_bulk_density               | 1350      | kg/m3         | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                                    |
 |   25 | building_height_standard_deviation |    4.57   | m             | Velasco et al. (2014)     | [http://dx.doi.org/10.1016/j.atmosenv.2014.08.018](http://dx.doi.org/10.1016/j.atmosenv.2014.08.018)                |
+|   26 | roughness_length_momentum_mac      |    0.14   | m             | Macdonald et al. (1998)   | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                      |
+|   27 | displacement_height_mac            |    2.22   | m             | Macdonald et al. (1998)   | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                      |
+|   28 | roughness_length_momentum_kanda    |    0.11   | m             | Kanda et al. (2013)       | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                              |
+|   29 | displacement_height_kanda          |    5.18   | m             | Kanda et al. (2013)       | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                              |
 
 ## Site observations
 
@@ -163,12 +167,4 @@
 ### Wind_E diurnal qc
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
-
-### Qle diurnal qc
-
-[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
-
-### Qh diurnal qc
-
-[![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
 
