@@ -3,30 +3,30 @@
 
 ## Site observation metadata
 
-|                           | observation_attributes                                                                                                                                                                                               |
-|:--------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title                     | URBAN-PLUMBER forcing data for AU-SurreyHills                                                                                                                                                                        |
-| summary                   | Observed and ERA5-derived surface meteorological data for Surrey Hills, Melbourne, Australia. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC. |
-| sitename                  | AU-SurreyHills                                                                                                                                                                                                       |
-| long_sitename             | Surrey Hills, Melbourne, Australia                                                                                                                                                                                   |
-| version                   | v1                                                                                                                                                                                                                   |
-| conventions               | ALMA+CF.rev13                                                                                                                                                                                                        |
-| featureType               | timeSeries                                                                                                                                                                                                           |
-| time_coverage_start       | 1994-01-01 00:00:00                                                                                                                                                                                                  |
-| time_coverage_end         | 2004-07-19 23:30:00                                                                                                                                                                                                  |
-| time_analysis_start       | 2004-02-23 05:00:00                                                                                                                                                                                                  |
-| time_shown_in             | UTC                                                                                                                                                                                                                  |
-| local_utc_offset_hours    | 10.0                                                                                                                                                                                                                 |
-| timestep_interval_seconds | 1800.0                                                                                                                                                                                                               |
-| timestep_number_spinup    | 177850                                                                                                                                                                                                               |
-| timestep_number_analysis  | 7094                                                                                                                                                                                                                 |
-| observations_contact      | Andrew Coutts: andrew.coutts@monash.edu; Nigel Tapper: nigel.tapper@monash.edu                                                                                                                                       |
-| observations_reference    | Coutts, Beringer and Tapper (2007a): https://doi.org/10.1175/JAM2462.1; Coutts, Beringer and Tapper (2007b) https://doi.org/10.1016/j.atmosenv.2006.08.030                                                           |
-| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                             |
-| date_created              | 2021-04-06 13:26:15                                                                                                                                                                                                  |
-| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                |
-| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                            |
-| comment                   | nan                                                                                                                                                                                                                  |
+|                           | observation_attributes                                                                                                                                                                                                               |
+|:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| title                     | URBAN-PLUMBER forcing data for AU-SurreyHills                                                                                                                                                                                        |
+| summary                   | Observed and ERA5-derived surface meteorological data for Surrey Hills, Melbourne, Australia. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC.                 |
+| sitename                  | AU-SurreyHills                                                                                                                                                                                                                       |
+| long_sitename             | Surrey Hills, Melbourne, Australia                                                                                                                                                                                                   |
+| version                   | v1                                                                                                                                                                                                                                   |
+| conventions               | ALMA+CF.rev13                                                                                                                                                                                                                        |
+| featureType               | timeSeries                                                                                                                                                                                                                           |
+| time_coverage_start       | 1994-01-01 00:00:00                                                                                                                                                                                                                  |
+| time_coverage_end         | 2004-07-19 23:30:00                                                                                                                                                                                                                  |
+| time_analysis_start       | 2004-02-23 05:00:00                                                                                                                                                                                                                  |
+| time_shown_in             | UTC                                                                                                                                                                                                                                  |
+| local_utc_offset_hours    | 10.0                                                                                                                                                                                                                                 |
+| timestep_interval_seconds | 1800.0                                                                                                                                                                                                                               |
+| timestep_number_spinup    | 177850                                                                                                                                                                                                                               |
+| timestep_number_analysis  | 7094                                                                                                                                                                                                                                 |
+| observations_contact      | Andrew Coutts: andrew.coutts@monash.edu; Nigel Tapper: nigel.tapper@monash.edu                                                                                                                                                       |
+| observations_reference    | Coutts, Beringer and Tapper (2007a): https://doi.org/10.1175/JAM2462.1; Coutts, Beringer and Tapper (2007b) https://doi.org/10.1016/j.atmosenv.2006.08.030                                                                           |
+| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
+| date_created              | 2021-05-07 18:27:09                                                                                                                                                                                                                  |
+| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
+| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
+| comment                   | Gap-filled from nearby AU-Preston tower where available                                                                                                                                                                              |
 
 ## Site images
 
@@ -37,33 +37,37 @@
 
 ## Site characteristics
 
-|   id | parameter                          |     value | units         | source                 | doi                                                                                                       |
-|-----:|:-----------------------------------|----------:|:--------------|:-----------------------|:----------------------------------------------------------------------------------------------------------|
-|    1 | latitude                           |  -37.8265 | degrees_north | Coutts et al. (2007a)  | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
-|    2 | longitude                          |  145.099  | degrees_east  | Coutts et al. (2007a)  | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
-|    3 | ground_height                      |   97      | m             | Coutts et al. (2007a)  | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)          |
-|    4 | measurement_height_above_ground    |   38      | m             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|    5 | impervious_area_fraction           |    0.54   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|    6 | tree_area_fraction                 |    0.29   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|    7 | grass_area_fraction                |    0.15   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|    8 | bare_soil_area_fraction            |    0.01   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|    9 | water_area_fraction                |    0.01   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   10 | roof_area_fraction                 |    0.39   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   11 | road_area_fraction                 |    0.09   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   12 | other_paved_area_fraction          |    0.06   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   13 | building_mean_height               |    7.2    | m             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   14 | tree_mean_height                   |    9      | m             | estimate, see notes    | estimate from 3D site model                                                                               |
-|   15 | roughness_length_momentum          |    0.68   | m             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   16 | displacement_height                |    4.74   | m             | estimate, see notes    | from morphology, using eq. 17 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2) |
-|   17 | canyon_height_width_ratio          |    0.41   | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   18 | wall_to_plan_area_ratio            |    0.4    | 1             | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   19 | average_albedo_at_midday           |    0.168  | 1             | median of observations | -                                                                                                         |
-|   20 | resident_population_density        | 2748      | person/km2    | Coutts et al. (2007b)  | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                    |
-|   21 | anthropogenic_heat_flux_mean       |    9.7    | W/m2          | Varquez et al. (2021)  | [https://doi.org/10.1038/s41597-021-00850-w](https://doi.org/10.1038/s41597-021-00850-w)                  |
-|   22 | topsoil_clay_fraction              |    0.16   | 1             | OpenLandMap            | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                          |
-|   23 | topsoil_sand_fraction              |    0.72   | 1             | OpenLandMap            | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                          |
-|   24 | topsoil_bulk_density               | 1030      | kg/m3         | OpenLandMap            | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                          |
-|   25 | building_height_standard_deviation |  nan      | m             | unknown                | -                                                                                                         |
+|   id | parameter                          |     value | units         | source                  | doi                                                                                                              |
+|-----:|:-----------------------------------|----------:|:--------------|:------------------------|:-----------------------------------------------------------------------------------------------------------------|
+|    1 | latitude                           |  -37.8265 | degrees_north | Coutts et al. (2007a)   | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)                 |
+|    2 | longitude                          |  145.099  | degrees_east  | Coutts et al. (2007a)   | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)                 |
+|    3 | ground_height                      |   97      | m             | Coutts et al. (2007a)   | [https://doi.org/10.1016/j.atmosenv.2006.08.030](https://doi.org/10.1016/j.atmosenv.2006.08.030)                 |
+|    4 | measurement_height_above_ground    |   38      | m             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|    5 | impervious_area_fraction           |    0.54   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|    6 | tree_area_fraction                 |    0.29   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|    7 | grass_area_fraction                |    0.15   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|    8 | bare_soil_area_fraction            |    0.01   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|    9 | water_area_fraction                |    0.01   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   10 | roof_area_fraction                 |    0.39   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   11 | road_area_fraction                 |    0.09   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   12 | other_paved_area_fraction          |    0.06   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   13 | building_mean_height               |    7.2    | m             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   14 | tree_mean_height                   |    9      | m             | estimate, see notes     | estimate from 3D site model                                                                                      |
+|   15 | roughness_length_momentum          |    0.68   | m             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   16 | displacement_height                |    4.74   | m             | estimate, see notes     | derived from morphology using eq. 17 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2) |
+|   17 | canyon_height_width_ratio          |    0.41   | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   18 | wall_to_plan_area_ratio            |    0.4    | 1             | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   19 | average_albedo_at_midday           |    0.168  | 1             | median of observations  | -                                                                                                                |
+|   20 | resident_population_density        | 2748      | person/km2    | Coutts et al. (2007b)   | [https://doi.org/10.1175/JAM2462.1](https://doi.org/10.1175/JAM2462.1)                                           |
+|   21 | anthropogenic_heat_flux_mean       |    9.7    | W/m2          | Varquez et al. (2021)   | [https://doi.org/10.1038/s41597-021-00850-w](https://doi.org/10.1038/s41597-021-00850-w)                         |
+|   22 | topsoil_clay_fraction              |    0.16   | 1             | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                                 |
+|   23 | topsoil_sand_fraction              |    0.72   | 1             | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                                 |
+|   24 | topsoil_bulk_density               | 1030      | kg/m3         | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                                 |
+|   25 | building_height_standard_deviation |    3.86   | m             | estimate, see notes     | derived using eq. 2 of [Kanda et al. 2013](https://doi.org/10.1007/s10546-013-9818-x)                            |
+|   26 | roughness_length_momentum_mac      |    0.21   | m             | Macdonald et al. (1998) | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                   |
+|   27 | displacement_height_mac            |    4.74   | m             | Macdonald et al. (1998) | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                   |
+|   28 | roughness_length_momentum_kanda    |    0.68   | m             | Kanda et al. (2013)     | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                           |
+|   29 | displacement_height_kanda          |   10.44   | m             | Kanda et al. (2013)     | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                           |
 
 ## Site observations
 
@@ -163,12 +167,4 @@
 ### Wind_E diurnal qc
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
-
-### Qle diurnal qc
-
-[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
-
-### Qh diurnal qc
-
-[![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
 

@@ -13,17 +13,17 @@
 | conventions               | ALMA+CF.rev13                                                                                                                                                                                                                        |
 | featureType               | timeSeries                                                                                                                                                                                                                           |
 | time_coverage_start       | 2009-01-01 00:00:00                                                                                                                                                                                                                  |
-| time_coverage_end         | 2020-06-30 22:30:00                                                                                                                                                                                                                  |
-| time_analysis_start       | 2019-06-30 22:30:00                                                                                                                                                                                                                  |
+| time_coverage_end         | 2020-06-30 22:00:00                                                                                                                                                                                                                  |
+| time_analysis_start       | 2019-06-30 22:00:00                                                                                                                                                                                                                  |
 | time_shown_in             | UTC                                                                                                                                                                                                                                  |
 | local_utc_offset_hours    | 2.0                                                                                                                                                                                                                                  |
 | timestep_interval_seconds | 1800.0                                                                                                                                                                                                                               |
-| timestep_number_spinup    | 183981                                                                                                                                                                                                                               |
+| timestep_number_spinup    | 183980                                                                                                                                                                                                                               |
 | timestep_number_analysis  | 17569                                                                                                                                                                                                                                |
 | observations_contact      | Nektarios Chrysoulakis (zedd2@iacm.forth.gr)                                                                                                                                                                                         |
 | observations_reference    | Stagakis, Chrysoulakis, Spyridakis, Feigenwinter and Vogt (2019): https://doi.org/10.1016/j.atmosenv.2019.01.009                                                                                                                     |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-04-15 15:17:21                                                                                                                                                                                                                  |
+| date_created              | 2021-05-08 20:23:55                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
 | comment                   | nan                                                                                                                                                                                                                                  |
@@ -37,33 +37,37 @@
 
 ## Site characteristics
 
-|   id | parameter                          |      value | units         | source                    | doi                                                                                              |
-|-----:|:-----------------------------------|-----------:|:--------------|:--------------------------|:-------------------------------------------------------------------------------------------------|
-|    1 | latitude                           |    35.3361 | degrees_north | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    2 | longitude                          |    25.1328 | degrees_east  | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    3 | ground_height                      |    30      | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    4 | measurement_height_above_ground    |    27      | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    5 | impervious_area_fraction           |     0.9155 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    6 | tree_area_fraction                 |     0.0401 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    7 | grass_area_fraction                |     0.0156 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    8 | bare_soil_area_fraction            |     0.0099 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|    9 | water_area_fraction                |     0.0189 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   10 | roof_area_fraction                 |     0.5164 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   11 | road_area_fraction                 |     0.2006 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   12 | other_paved_area_fraction          |     0.1985 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   13 | building_mean_height               |    11.3    | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   14 | tree_mean_height                   |     7.5    | m             | Chrysoulakis, pers. comm. | -                                                                                                |
-|   15 | roughness_length_momentum          |     0.18   | m             | estimated, see notes      | derived from morphology using Kanda et al. (2013)                                                |
-|   16 | displacement_height                |    17.39   | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   17 | canyon_height_width_ratio          |     0.39   | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   18 | wall_to_plan_area_ratio            |     0.39   | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   19 | average_albedo_at_midday           |     0.202  | 1             | median of observations    | -                                                                                                |
-|   20 | resident_population_density        | 13438      | person/km2    | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009) |
-|   21 | anthropogenic_heat_flux_mean       |    17.4    | W/m2          | Varquez et al (2021)      | [https://doi.org/10.1038/s41597-021-00850-w](https://doi.org/10.1038/s41597-021-00850-w)         |
-|   22 | topsoil_clay_fraction              |     0.24   | 1             | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                 |
-|   23 | topsoil_sand_fraction              |     0.42   | 1             | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                 |
-|   24 | topsoil_bulk_density               |  1370      | kg/m3         | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                 |
-|   25 | building_height_standard_deviation |   nan      | m             | unknown                   | -                                                                                                |
+|   id | parameter                          |      value | units         | source                    | doi                                                                                                           |
+|-----:|:-----------------------------------|-----------:|:--------------|:--------------------------|:--------------------------------------------------------------------------------------------------------------|
+|    1 | latitude                           |    35.3361 | degrees_north | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    2 | longitude                          |    25.1328 | degrees_east  | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    3 | ground_height                      |    30      | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    4 | measurement_height_above_ground    |    27      | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    5 | impervious_area_fraction           |     0.9155 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    6 | tree_area_fraction                 |     0.0401 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    7 | grass_area_fraction                |     0.0156 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    8 | bare_soil_area_fraction            |     0.0099 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|    9 | water_area_fraction                |     0.0189 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   10 | roof_area_fraction                 |     0.5164 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   11 | road_area_fraction                 |     0.2006 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   12 | other_paved_area_fraction          |     0.1985 | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   13 | building_mean_height               |    11.3    | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   14 | tree_mean_height                   |     7.5    | m             | Chrysoulakis, pers. comm. | -                                                                                                             |
+|   15 | roughness_length_momentum          |     0.18   | m             | estimated, see notes      | derived from morphology using Kanda et al. (2013)                                                             |
+|   16 | displacement_height                |    17.39   | m             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   17 | canyon_height_width_ratio          |     0.39   | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   18 | wall_to_plan_area_ratio            |     0.39   | 1             | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   19 | average_albedo_at_midday           |     0.202  | 1             | median of observations    | -                                                                                                             |
+|   20 | resident_population_density        | 13438      | person/km2    | Stagakis et al. (2019)    | [https://doi.org/10.1016/j.atmosenv.2019.01.009](https://doi.org/10.1016/j.atmosenv.2019.01.009)              |
+|   21 | anthropogenic_heat_flux_mean       |    17.4    | W/m2          | Varquez et al (2021)      | [https://doi.org/10.1038/s41597-021-00850-w](https://doi.org/10.1038/s41597-021-00850-w)                      |
+|   22 | topsoil_clay_fraction              |     0.24   | 1             | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                              |
+|   23 | topsoil_sand_fraction              |     0.42   | 1             | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                              |
+|   24 | topsoil_bulk_density               |  1370      | kg/m3         | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                              |
+|   25 | building_height_standard_deviation |     8.2    | m             | estimated, see notes      | derived from avg. building height and eq. 2 of [Kanda et al. 2013](https://doi.org/10.1007/s10546-013-9818-x) |
+|   26 | roughness_length_momentum_mac      |     0.11   | m             | Macdonald et al. (1998)   | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                |
+|   27 | displacement_height_mac            |     8.77   | m             | Macdonald et al. (1998)   | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                |
+|   28 | roughness_length_momentum_kanda    |     0.37   | m             | Kanda et al. (2013)       | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                        |
+|   29 | displacement_height_kanda          |    20.4    | m             | Kanda et al. (2013)       | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                        |
 
 ## Site observations
 
@@ -163,12 +167,4 @@
 ### Wind_E diurnal qc
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
-
-### Qle diurnal qc
-
-[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
-
-### Qh diurnal qc
-
-[![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
 
