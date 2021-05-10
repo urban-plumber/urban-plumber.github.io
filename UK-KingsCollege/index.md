@@ -3,37 +3,37 @@
 
 ## Site observation metadata
 
-|                           | observation_attributes                                                                                                                                                                                                  |
-|:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title                     | URBAN-PLUMBER forcing data for UK-KingsCollege                                                                                                                                                                          |
-| summary                   | Observed and ERA5-derived surface meteorological data for Kings College, London, United Kingdom. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC. |
-| sitename                  | UK-KingsCollege                                                                                                                                                                                                         |
-| long_sitename             | Kings College, London, United Kingdom                                                                                                                                                                                   |
-| version                   | v1                                                                                                                                                                                                                      |
-| conventions               | ALMA+CF.rev13                                                                                                                                                                                                           |
-| featureType               | timeSeries                                                                                                                                                                                                              |
-| time_coverage_start       | 2002-01-01 00:00:00                                                                                                                                                                                                     |
-| time_coverage_end         | 2014-01-01 00:00:00                                                                                                                                                                                                     |
-| time_analysis_start       | 2012-04-04 00:00:00                                                                                                                                                                                                     |
-| time_shown_in             | UTC                                                                                                                                                                                                                     |
-| local_utc_offset_hours    | 0.0                                                                                                                                                                                                                     |
-| timestep_interval_seconds | 3600.0                                                                                                                                                                                                                  |
-| timestep_number_spinup    | 89904                                                                                                                                                                                                                   |
-| timestep_number_analysis  | 15289                                                                                                                                                                                                                   |
-| observations_contact      | Sue Grimmond: c.s.grimmond@reading.ac.uk; Simone Kotthaus: kotthaus@ipsl.polytechnique.fr                                                                                                                               |
-| observations_reference    | Bjorkegren et al. (2015): https://doi.org/10.1016; Kotthaus and Grimmond (2013a): https://doi.org/10.1016/j.uclim.2013.10.002; Kotthaus and Grimmond (2013b): https://doi.org/10.1016/j.uclim.2013.10.001/              |
-| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                |
-| date_created              | 2021-04-01 18:46:30                                                                                                                                                                                                     |
-| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                   |
-| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                               |
-| comment                   | Observations from KSSW tower                                                                                                                                                                                            |
+|                           | observation_attributes                                                                                                                                                                                                               |
+|:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| title                     | URBAN-PLUMBER forcing data for UK-KingsCollege                                                                                                                                                                                       |
+| summary                   | Observed and ERA5-derived surface meteorological data for Kings College, London, United Kingdom. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC.              |
+| sitename                  | UK-KingsCollege                                                                                                                                                                                                                      |
+| long_sitename             | Kings College, London, United Kingdom                                                                                                                                                                                                |
+| version                   | v1                                                                                                                                                                                                                                   |
+| conventions               | ALMA+CF.rev13                                                                                                                                                                                                                        |
+| featureType               | timeSeries                                                                                                                                                                                                                           |
+| time_coverage_start       | 2002-01-01 00:00:00                                                                                                                                                                                                                  |
+| time_coverage_end         | 2014-01-01 00:00:00                                                                                                                                                                                                                  |
+| time_analysis_start       | 2012-04-04 00:00:00                                                                                                                                                                                                                  |
+| time_shown_in             | UTC                                                                                                                                                                                                                                  |
+| local_utc_offset_hours    | 0.0                                                                                                                                                                                                                                  |
+| timestep_interval_seconds | 3600.0                                                                                                                                                                                                                               |
+| timestep_number_spinup    | 89904                                                                                                                                                                                                                                |
+| timestep_number_analysis  | 15289                                                                                                                                                                                                                                |
+| observations_contact      | Sue Grimmond: c.s.grimmond@reading.ac.uk; Simone Kotthaus: kotthaus@ipsl.polytechnique.fr                                                                                                                                            |
+| observations_reference    | Bjorkegren et al. (2015): https://doi.org/10.1016; Kotthaus and Grimmond (2013a): https://doi.org/10.1016/j.uclim.2013.10.002; Kotthaus and Grimmond (2013b): https://doi.org/10.1016/j.uclim.2013.10.001/                           |
+| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
+| date_created              | 2021-05-10 11:43:30                                                                                                                                                                                                                  |
+| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
+| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
+| comment                   | Observations from KSSW tower                                                                                                                                                                                                         |
 
 ## Site images
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
 | [![Region](./images/UK-KingsCollege_region_map.jpg)](./images/UK-KingsCollege_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/UK-KingsCollege_site_map.jpg)](./images/UK-KingsCollege_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/UK-KingsCollege_site_photo.jpg)](./images/UK-KingsCollege_site_photo.jpg) <sub>source: None</sub>  | [![site_sat](./images/UK-KingsCollege_site_sat.jpg)](./images/UK-KingsCollege_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![site_photo](./images/UK-KingsCollege_site_photo.jpg)](./images/UK-KingsCollege_site_photo.jpg) <sub>source: S. Grimmond</sub>  | [![site_sat](./images/UK-KingsCollege_site_sat.jpg)](./images/UK-KingsCollege_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
 
 ## Site characteristics
 
@@ -64,6 +64,10 @@
 |   23 | topsoil_sand_fraction              |     0.45   | 1             | OpenLandMap                     | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                                                                                                              |
 |   24 | topsoil_bulk_density               |  1120      | kg/m3         | OpenLandMap                     | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                                                                                                              |
 |   25 | building_height_standard_deviation |     9.5    | m             | Kent et al. (2017)              | [https://doi.org/10.1007/s10546-017-0248-z](https://doi.org/10.1007/s10546-017-0248-z)                                                                                                        |
+|   26 | roughness_length_momentum_mac      |     1.79   | m             | Macdonald et al. (1998)         | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                                                                                                |
+|   27 | displacement_height_mac            |    14.25   | m             | Macdonald et al. (1998)         | [https://doi.org/10.1016/S1352-2310(97)00403-2](https://doi.org/10.1016/S1352-2310(97)00403-2)                                                                                                |
+|   28 | roughness_length_momentum_kanda    |     2.53   | m             | Kanda et al. (2013)             | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                                                                                                        |
+|   29 | displacement_height_kanda          |    27.62   | m             | Kanda et al. (2013)             | [https://doi.org/10.1007/s10546-013-9818-x](https://doi.org/10.1007/s10546-013-9818-x)                                                                                                        |
 
 ## Site observations
 
@@ -163,12 +167,4 @@
 ### Wind_E diurnal qc
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
-
-### Qle diurnal qc
-
-[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
-
-### Qh diurnal qc
-
-[![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
 
