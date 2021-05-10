@@ -3,30 +3,30 @@
 
 ## Site observation metadata
 
-|                           | observation_attributes                                                                                                                                                                                             |
-|:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| title                     | URBAN-PLUMBER forcing data for PL-Narutowicza                                                                                                                                                                      |
-| summary                   | Observed and ERA5-derived surface meteorological data for Narutowicza Street, Łódź, Poland. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC. |
-| sitename                  | PL-Narutowicza                                                                                                                                                                                                     |
-| long_sitename             | Narutowicza Street, Łódź, Poland                                                                                                                                                                                   |
-| version                   | v1                                                                                                                                                                                                                 |
-| conventions               | ALMA+CF.rev13                                                                                                                                                                                                      |
-| featureType               | timeSeries                                                                                                                                                                                                         |
-| time_coverage_start       | 1998-01-01 00:00:00                                                                                                                                                                                                |
-| time_coverage_end         | 2012-12-31 23:00:00                                                                                                                                                                                                |
-| time_analysis_start       | 2008-01-01 00:00:00                                                                                                                                                                                                |
-| time_shown_in             | UTC                                                                                                                                                                                                                |
-| local_utc_offset_hours    | 1.0                                                                                                                                                                                                                |
-| timestep_interval_seconds | 3600.0                                                                                                                                                                                                             |
-| timestep_number_spinup    | 87648                                                                                                                                                                                                              |
-| timestep_number_analysis  | 43848                                                                                                                                                                                                              |
-| observations_contact      | Wlodzimierz Pawlak: wlodzimierz.pawlak@geo.uni.lodz.pl, Krzysztof Fortuniak: krzysztof.fortuniak@geo.uni.lodz.pl                                                                                                   |
-| observations_reference    | Fortuniak, Pawlak and Siedlecki (2013): https://doi.org/10.1007/s10546-012-9762-1; Fortuniak, Kłysik, Siedlecki (2006): http://www.urban-climate.org/documents/ICUC6_Preprints.pdf (p64-67)                        |
-| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                           |
-| date_created              | 2021-04-06 13:56:32                                                                                                                                                                                                |
-| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                              |
-| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                          |
-| comment                   | Missing forcing filled with PL-Lipowa tower site where available. Precipitation from IMGW Łódź Lublinek.                                                                                                           |
+|                           | observation_attributes                                                                                                                                                                                                               |
+|:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| title                     | URBAN-PLUMBER forcing data for PL-Narutowicza                                                                                                                                                                                        |
+| summary                   | Observed and ERA5-derived surface meteorological data for Narutowicza Street, Łódź, Poland. Data is for use by registered participants of Urban-PLUMBER in this project only. Do not distribute. All times in UTC.                   |
+| sitename                  | PL-Narutowicza                                                                                                                                                                                                                       |
+| long_sitename             | Narutowicza Street, Łódź, Poland                                                                                                                                                                                                     |
+| version                   | v1                                                                                                                                                                                                                                   |
+| conventions               | ALMA+CF.rev13                                                                                                                                                                                                                        |
+| featureType               | timeSeries                                                                                                                                                                                                                           |
+| time_coverage_start       | 1998-01-01 00:00:00                                                                                                                                                                                                                  |
+| time_coverage_end         | 2012-12-31 23:00:00                                                                                                                                                                                                                  |
+| time_analysis_start       | 2008-01-01 00:00:00                                                                                                                                                                                                                  |
+| time_shown_in             | UTC                                                                                                                                                                                                                                  |
+| local_utc_offset_hours    | 1.0                                                                                                                                                                                                                                  |
+| timestep_interval_seconds | 3600.0                                                                                                                                                                                                                               |
+| timestep_number_spinup    | 87648                                                                                                                                                                                                                                |
+| timestep_number_analysis  | 43848                                                                                                                                                                                                                                |
+| observations_contact      | Wlodzimierz Pawlak: wlodzimierz.pawlak@geo.uni.lodz.pl, Krzysztof Fortuniak: krzysztof.fortuniak@geo.uni.lodz.pl                                                                                                                     |
+| observations_reference    | Fortuniak, Pawlak and Siedlecki (2013): https://doi.org/10.1007/s10546-012-9762-1; Fortuniak, Kłysik, Siedlecki (2006): http://www.urban-climate.org/documents/ICUC6_Preprints.pdf (p64-67)                                          |
+| project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
+| date_created              | 2021-05-10 19:12:02                                                                                                                                                                                                                  |
+| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
+| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
+| comment                   | Missing forcing filled with PL-Lipowa tower site where available. Precipitation from IMGW Łódź Lublinek.                                                                                                                             |
 
 ## Site images
 
@@ -63,7 +63,11 @@
 |   22 | topsoil_clay_fraction              |     0.15   | 1             | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                                                                                             |
 |   23 | topsoil_sand_fraction              |     0.48   | 1             | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                                                                                             |
 |   24 | topsoil_bulk_density               |  1130      | kg/m3         | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                                                                                             |
-|   25 | building_height_standard_deviation |   nan      | m             | not known               | -                                                                                                                                                                            |
+|   25 | building_height_standard_deviation |    13.1    | m             | estimated, see notes    | derived from morphology using eq. 2 of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)                                                                      |
+|   26 | roughness_length_momentum_mac      |     1.99   | m             | Macdonald method        | derived from morphology using eq. 26 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2)                                                             |
+|   27 | displacement_height_mac            |     8.62   | m             | Macdonald method        | derived from morphology using eq. 23 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2)                                                             |
+|   28 | roughness_length_momentum_kanda    |     3.32   | m             | Kanda method            | derived from morphology using eq. 12a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)                                                                    |
+|   29 | displacement_height_kanda          |    24.95   | m             | Kanda method            | derived from morphology using eq. 10a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)                                                                    |
 
 ## Site observations
 
@@ -163,12 +167,4 @@
 ### Wind_E diurnal qc
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
-
-### Qle diurnal qc
-
-[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
-
-### Qh diurnal qc
-
-[![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
 

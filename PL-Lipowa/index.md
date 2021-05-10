@@ -23,10 +23,10 @@
 | observations_contact      | Wlodzimierz Pawlak: wlodzimierz.pawlak@geo.uni.lodz.pl, Krzysztof Fortuniak: krzysztof.fortuniak@geo.uni.lodz.pl                                                                                                                         |
 | observations_reference    | Fortuniak, Pawlak and Siedlecki (2013): https://doi.org/10.1007/s10546-012-9762-1; Pawlak, Fortuniak, Siedlecki (2011): https://doi.org/10.1002/joc.2247; Offerle, Grimmond, Fortuniak, Pawlak (2006): https://doi.org/10.1175/JAM2319.1 |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                 |
-| date_created              | 2021-04-06 13:46:28                                                                                                                                                                                                                      |
-| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home                                                                                                                                    |
-| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). With thanks to all involved in collecting, processing and sharing observational data                                                |
-| comment                   | Missing forcing filled with PL-Narutowicza tower site where available. Precipitation from IMGW Łódź Lublinek.                                                                                                                            |
+| date_created              | 2021-05-10 19:11:55                                                                                                                                                                                                                      |
+| other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                               |
+| acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data     |
+| comment                   | Missing forcing filled with PL-Narutowicza tower site where available. Precipitation from IMGW Łódź Lublinek. Subset of available years included here.                                                                                   |
 
 ## Site images
 
@@ -63,7 +63,11 @@
 |   22 | topsoil_clay_fraction              |     0.16   | 1             | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525663](https://doi.org/10.5281/zenodo.2525663)                                                  |
 |   23 | topsoil_sand_fraction              |     0.46   | 1             | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                                                  |
 |   24 | topsoil_bulk_density               |  1240      | kg/m3         | OpenLandMap             | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                                                  |
-|   25 | building_height_standard_deviation |   nan      | m             | unknown                 | -                                                                                                                                 |
+|   25 | building_height_standard_deviation |     7.01   | m             | estimated, see notes    | derived from morphology using eq. 2 of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)                           |
+|   26 | roughness_length_momentum_mac      |     0.94   | m             | Macdonald method        | derived from morphology using eq. 26 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2)                  |
+|   27 | displacement_height_mac            |     1.7    | m             | Macdonald method        | derived from morphology using eq. 23 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2)                  |
+|   28 | roughness_length_momentum_kanda    |     1.58   | m             | Kanda method            | derived from morphology using eq. 12a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)                         |
+|   29 | displacement_height_kanda          |    15.71   | m             | Kanda method            | derived from morphology using eq. 10a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)                         |
 
 ## Site observations
 
@@ -163,12 +167,4 @@
 ### Wind_E diurnal qc
 
 [![./obs_plots/Wind_E_obs_qc_diurnal.png](./obs_plots/Wind_E_obs_qc_diurnal.png)](./obs_plots/Wind_E_obs_qc_diurnal.png)
-
-### Qle diurnal qc
-
-[![./obs_plots/Qle_obs_qc_diurnal.png](./obs_plots/Qle_obs_qc_diurnal.png)](./obs_plots/Qle_obs_qc_diurnal.png)
-
-### Qh diurnal qc
-
-[![./obs_plots/Qh_obs_qc_diurnal.png](./obs_plots/Qh_obs_qc_diurnal.png)](./obs_plots/Qh_obs_qc_diurnal.png)
 
