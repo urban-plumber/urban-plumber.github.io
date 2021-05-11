@@ -7,7 +7,7 @@
 
  - [AU-SurreyHills](./AU-SurreyHills): Surrey Hills, Melbourne, Australia 
 
- - [CA-Sunset](./CA-Sunset): Vancouver-Sunset,  
+ - [CA-Sunset](./CA-Sunset): Sunset, Vancouver, Canada 
 
  - [FI-Kumpula](./FI-Kumpula): Kumpula, Helsinki, Finland 
 
@@ -39,7 +39,9 @@
 
  - [US-Baltimore](./US-Baltimore): Cub Hill, Baltimore, United States 
 
- - [US-Minneapolis](./US-Minneapolis): KUOM Tall Tower, Minneapolis, Minnesota, United States 
+ - [US-Minneapolis1](./US-Minneapolis1): KUOM Tall Tower, Minneapolis, Minnesota, United States 
+
+ - [US-Minneapolis2](./US-Minneapolis2): KUOM Tall Tower, Minneapolis, Minnesota, United States 
 
  - [US-WestPhoenix](./US-WestPhoenix): West Phoenix, Arizona, United States 
 
