@@ -21,12 +21,12 @@
 | timestep_number_spinup    | 182862                                                                                                                                                                                                                               |
 | timestep_number_analysis  | 37411                                                                                                                                                                                                                                |
 | observations_contact      | Jinkyu Hong (jhong@yonsei.ac.kr), Je-Woo Hong (jwhong@kei.re.kr)                                                                                                                                                                     |
-| observations_reference    | Hong, Hong, Chun, Lee, Chang, Lee, Yi, Park, Byun, Joo (2019): https://doi.org/10.1186/s13021-019-0128-6                                                                                                                             |
+| observations_reference    | Hong, Hong, Chun, Lee, Chang, Lee, Yi, Park, Byun, Joo (2019): https://doi.org/10.1186/s13021-019-0128-6; https://doi.org/10.22647/EAPL-OC_JN2021                                                                                    |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-05-04 15:56:05                                                                                                                                                                                                                  |
+| date_created              | 2021-05-10 20:17:34                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
-| comment                   | None                                                                                                                                                                                                                                 |
+| comment                   | No bias correction applied to ERA5 derived precipitation (no nearby long-term and complete GHCND site data)                                                                                                                          |
 
 ## Site images
 
@@ -53,8 +53,8 @@
 |   12 | other_paved_area_fraction          |    0      | 1             | included in road fraction | -                                                                                                                   |
 |   13 | building_mean_height               |    7.384  | m             | J Hong, pers. comm.       | -                                                                                                                   |
 |   14 | tree_mean_height                   |    7.5    | m             | J Hong, pers. comm.       | -                                                                                                                   |
-|   15 | roughness_length_momentum          |    1.06   | m             | estimated, see notes      | derived from morphology based on [Kanda et al. 2013](https://doi.org/10.1007/s10546-013-9818-x)                     |
-|   16 | displacement_height                |    3.5    | m             | estimated, see notes      | derived from morphology based on [Kanda et al. 2013](https://doi.org/10.1007/s10546-013-9818-x)                     |
+|   15 | roughness_length_momentum          |    1.06   | m             | estimated, see notes      | derived from morphology and vegetation using (Kent et al. 2017)[https://doi.org/10.1016/j.jweia.2017.07.016]        |
+|   16 | displacement_height                |    3.5    | m             | estimated, see notes      | derived from morphology and vegetation using (Kent et al. 2017)[https://doi.org/10.1016/j.jweia.2017.07.016]        |
 |   17 | canyon_height_width_ratio          |    0.32   | 1             | estimated, see notes      | derived from wall_to_plan_area_ratio and eq. 1 of [Masson et al. 2020](https://doi.org/10.1016/j.uclim.2019.100536) |
 |   18 | wall_to_plan_area_ratio            |    0.551  | 1             | J Hong, pers. comm.       | -                                                                                                                   |
 |   19 | average_albedo_at_midday           |    0.166  | 1             | median of observations    | -                                                                                                                   |
@@ -64,6 +64,10 @@
 |   23 | topsoil_sand_fraction              |    0.43   | 1             | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525662](https://doi.org/10.5281/zenodo.2525662)                                    |
 |   24 | topsoil_bulk_density               | 1360      | kg/m3         | OpenLandMap               | [https://doi.org/10.5281/zenodo.2525665](https://doi.org/10.5281/zenodo.2525665)                                    |
 |   25 | building_height_standard_deviation |    4.1    | m             | estimated, see notes      | derived from avg. building height and eq. 2 of [Kanda et al. 2013](https://doi.org/10.1007/s10546-013-9818-x)       |
+|   26 | roughness_length_momentum_mac      |    1.22   | m             | Macdonald method          | derived from morphology using eq. 26 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2)    |
+|   27 | displacement_height_mac            |    2.13   | m             | Macdonald method          | derived from morphology using eq. 23 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2)    |
+|   28 | roughness_length_momentum_kanda    |    0.93   | m             | Kanda method              | derived from morphology using eq. 12a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)           |
+|   29 | displacement_height_kanda          |    7.46   | m             | Kanda method              | derived from morphology using eq. 10a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)           |
 
 ## Site observations
 
