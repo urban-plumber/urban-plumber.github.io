@@ -1,6 +1,10 @@
 
 # Jungnang, Seoul, South Korea (KR-Jungnang)
 
+## Site observations
+
+[![./obs_plots/all_obs_qc.png](./obs_plots/all_obs_qc.png)](./obs_plots/all_obs_qc.png)
+
 ## Site observation metadata
 
 |                           | observation_attributes                                                                                                                                                                                                               |
@@ -68,10 +72,6 @@
 |   27 | displacement_height_mac            |     7.16   | m             | Macdonald method          | derived from morphology using eq. 23 of [Macdonald et al. (1998)](https://doi.org/10.1016/S1352-2310(97)00403-2)    |
 |   28 | roughness_length_momentum_kanda    |     0.41   | m             | Kanda method              | derived from morphology using eq. 12a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)           |
 |   29 | displacement_height_kanda          |    15.35   | m             | Kanda method              | derived from morphology using eq. 10a of [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)           |
-
-## Site observations
-
-[![./obs_plots/all_obs_qc.png](./obs_plots/all_obs_qc.png)](./obs_plots/all_obs_qc.png)
 
 ## Site forcing
 
