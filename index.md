@@ -58,9 +58,9 @@ See the [changelog](/changelog/) listing any changes to project documents or res
 
 ## Phase 2
 
-Phase 2 of the project (beginning December 2020) will include a range of sites where appropriate urban flux tower observations are available.
+Phase 2 of the project (underway) includes 20 sites across a range of urban fractions. More [details here](/sites.md).
 
-![Phase 2](/img/UP_potential_sites.png)
+[![Phase 2](/img/included_sites.jpg)](/sites.md)
 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including 
