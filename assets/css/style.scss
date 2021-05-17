@@ -32,15 +32,14 @@
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
-.protocol {
+.phase_two {
   display: block;
   float: right;
   width: 90px;
   height:70px;
   text-indent: -5000px;
   overflow: hidden;
-  background: url(../images/sprite_download5.png) no-repeat bottom left;
-  margin-left: 10px;
+  background: url(../images/sprite_download5.png) no-repeat bottom right;
 }
 
 .phase_one {
@@ -53,26 +52,27 @@
   background: url(../images/sprite_download5.png) no-repeat bottom center;
 }
 
-.phase_two {
+.protocol {
   display: block;
   float: right;
   width: 90px;
   height:70px;
   text-indent: -5000px;
   overflow: hidden;
-  background: url(../images/sprite_download5.png) no-repeat bottom right;
+  background: url(../images/sprite_download5.png) no-repeat bottom left;
+  margin-left: 10px;
 }
 
-.protocol:hover {
-  background: url(../images/sprite_download5.png) no-repeat top left;
+.phase_two:hover {
+  background: url(../images/sprite_download5.png) no-repeat top right;
 }
 
 .phase_one:hover {
   background: url(../images/sprite_download5.png) no-repeat top center;
 }
 
-.phase_two:hover {
-  background: url(../images/sprite_download5.png) no-repeat top right;
+.protocol:hover {
+  background: url(../images/sprite_download5.png) no-repeat top left;
 }
 
 img {
