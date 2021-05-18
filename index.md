@@ -4,7 +4,7 @@ title: Project home
 
 **Urban-PLUMBER will evaluate the performance of land surface models used in in meteorological or climatic simulations of urban areas. The project is open to any group that wishes to gain a better understanding of how their model performs in a wide range of urban environments.**
 
-![](/img/schematic.png)
+![](img/schematic.png)
 
 Previous urban model evaluation projects have assessed how model complexity affects prediction of land-atmosphere energy exchange at two urban sites (Grimmond et al., 2010, 2011), and how coupled surface-atmosphere simulations differ from offline simulations (Steeneveld et al., 2017). In non-urban landscapes, the PLUMBER project introduced a framework for benchmarking models across many sites (Best et al., 2015).
 
@@ -30,7 +30,7 @@ The project has two phases:
 
 Those who provide modelling or observational data will be invited as authors on relevant papers.
 
-![Models](/img/UP_classification_2021-01-28.jpg)
+![Models](img/UP_classification_2021-05-19.jpg)
 
 ## Project resources
 
@@ -44,23 +44,23 @@ A series of scripts and resources are provided with the aim of making participat
 
 Email [met-urban-plumber@lists.reading.ac.uk](mailto:met-urban-plumber@lists.reading.ac.uk) to register your interest.
 
-Read the [modelling](/static/Urban-PLUMBER_protocol_v1.pdf) or [observations](/static/Urban-PLUMBER_observations_protocol.pdf) protocols for detailed information.
+Read the [modelling](static/Urban-PLUMBER_protocol_v1.pdf) or [observations](static/Urban-PLUMBER_observations_protocol.pdf) protocols for detailed information.
 
 View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
 
 Visit [modelevaluation.org](https://modelevaluation.org/), a website used for distributing, submitting and evaluating project data.
 
-Check the [Q&A page](/qanda/) for questions and clarifications on the project.
+Check the [Q&A page](qanda/) for questions and clarifications on the project.
 
-See the [changelog](/changelog/) listing any changes to project documents or resources.
+See the [changelog](changelog/) listing any changes to project documents or resources.
 
 <!-- ![Timeline](/img/UP_Timeline_website.png) -->
 
 ## Phase 2
 
-Phase 2 of the project (underway) includes 20 sites across a range of urban fractions. More [details here](/sites.md).
+Phase 2 of the project (underway) includes 20 sites across a range of urban fractions. More [details here](sites.md).
 
-[![Phase 2](/img/included_sites.jpg)](/sites.md)
+[![Phase 2](img/included_sites.jpg)](sites.md)
 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including 
