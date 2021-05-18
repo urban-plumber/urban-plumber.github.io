@@ -19,8 +19,8 @@ Building on these methods, Urban-PLUMBER will ask:
 
 The project has two phases:
 
-- Phase 1. (May 2020 – Nov 2020) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
-- Phase 2. (Nov 2020 – Mar 2021) a multi-site evaluation across a range of increasingly urbanised sites.
+- Phase 1. (complete) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
+- Phase 2. (May – Jul 2021) a multi-site evaluation across a range of increasingly urbanised sites.
 
 ## Who should get involved?
 
@@ -29,8 +29,6 @@ The project has two phases:
 **Observations participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs. Read the [observations requirements](/static/Urban-PLUMBER_observations_protocol.pdf) for more information
 
 Those who provide modelling or observational data will be invited as authors on relevant papers.
-
-![Models](img/UP_classification_2021-05-19.jpg)
 
 ## Project resources
 
@@ -55,6 +53,14 @@ Check the [Q&A page](qanda/) for questions and clarifications on the project.
 See the [changelog](changelog/) listing any changes to project documents or resources.
 
 <!-- ![Timeline](/img/UP_Timeline_website.png) -->
+
+## Phase 1
+
+Phase 1 has been completed. 30 models participated, from non-urbanised LSMs and simple slab schemes, through to multi-layer canopy and building resolving models.
+
+The evaluation was undertaken at one suburban site in Melbourne, Australia, the same used in the first evaluation project 10 years ago (Grimmond et al., 2011), allowing an assessment of how model development has affected performance.
+
+![Models](img/UP_classification_2021-05-19.jpg)
 
 ## Phase 2
 
