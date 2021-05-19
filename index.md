@@ -66,7 +66,7 @@ The evaluation was undertaken at one suburban site in Melbourne, Australia, the 
 
 Phase 2 of the project (underway) includes 20 sites across a range of urban fractions. More [details here](sites.md).
 
-[![Phase 2](img/included_sites.jpg)](sites.md)
+[![Phase 2](img/included_sites.jpg)](sites.html)
 
 ## Acknowledgements
 We gratefully acknowledge those who have supported this project, provided valuable feedback and offered observational datasets including 
