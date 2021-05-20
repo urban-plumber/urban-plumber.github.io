@@ -12,11 +12,11 @@
 
 Order is based on the urban model classifications provided, nominally from simpler to more complex.
 
-### <a name="swnet"></a>SWnet: Net shortwave radiation
-[![SWnet](AU-Preston_SWnet_MAE.png)](AU-Preston_SWnet_MAE.png)
+### <a name="swup"></a>SWup: Upwelling shortwave radiation
+[![SWup](AU-Preston_SWup_MAE.png)](AU-Preston_SWup_MAE.png)
 
-### <a name="lwnet"></a>LWnet: Net longwave radiation
-[![LWnet](AU-Preston_LWnet_MAE.png)](AU-Preston_LWnet_MAE.png)
+### <a name="lwup"></a>LWup: Upwelling longwave radiation
+[![LWup](AU-Preston_LWup_MAE.png)](AU-Preston_LWup_MAE.png)
 
 ### <a name="qle"></a>Qle: Latent heat flux
 [![Qle](AU-Preston_Qle_MAE.png)](AU-Preston_Qle_MAE.png)
