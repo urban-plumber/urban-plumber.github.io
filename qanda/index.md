@@ -80,4 +80,17 @@ Aerodynamic conductance is the inverse of aerodynamic resistance. As ALMA discus
 
 ---
 
+### Phase 2
+
+> **Q:** There is an AU-Preston_v3 forcing, do we run that site again?
+
+**A:** Yes. The method for gap-filling was updated slightly between Phase 1 and Phase 2. We don’t expect any significant difference in results (as those are calculated only on observed periods, gap-filled periods are excluded). However, for consistency please run AU-Preston again with v3 forcing and submit in Phase 2.
+
+> **Q:** Why are there two Minneapolis sites with the same lat/lon?
+
+**A:** Minneapolis1 and Minneapolis2 are the same site, but the analysis periods for turbulent fluxes and estimated footprint have been split depending on wind direction to account for some inhomogeneity in the site. This means that the predominantly grassland golf-course is analysed differently to the predominantly residential area to the north. You can see which sectors are included in each analysis in the site photos [here](https://urban-plumber.github.io/US-Minneapolis1/#site-images) and [here](https://urban-plumber.github.io/US-Minneapolis2/#site-images).
+
+> **Q:** My model crashed on site XXX, can I still submit for Phase 2?
+
+**A:** Yes. Please try to find the cause of the issue and correct it before submitting, but if you cannot the system will accept fewer simulations if the issue cannot be resolved. 
 
