@@ -23,6 +23,7 @@ Martin De Kauwe
 Matthias Demuzere
 Meiring Beyers
 Michael Roth
+Mikhail Varentsov
 Naika Meili
 Robert Schoetter
 Sang-Hyun Lee
