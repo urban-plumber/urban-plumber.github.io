@@ -20,7 +20,7 @@ Building on these methods, Urban-PLUMBER will ask:
 The project has two phases:
 
 - Phase 1. (complete) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
-- Phase 2. (May – Jul 2021) a multi-site evaluation across a range of increasingly urbanised sites.
+- Phase 2. (May – Oct 2021) a multi-site evaluation across a range of increasingly urbanised sites.
 
 ## Who should get involved?
 
