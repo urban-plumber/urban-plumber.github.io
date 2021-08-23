@@ -25,7 +25,7 @@ Hiroaki Kondo
 Hirofumi Sugawara
 Je-Woo Hong
 Jinkyu Hong
-Joe McFadden
+Joseph McFadden
 Joey McNorton
 Jong-Jin Baik
 Keith Oleson
@@ -52,11 +52,13 @@ Simone Fatichi
 Simone Kotthaus
 Souhail Boussetta
 Stevan Earl
+Sungsoo Jo
 Tiago Machado
 Ting Sun
 Valéry Masson
 Winston Chow
 Wlodzimierz Pawlak
+Yeon-Hee Kim
 Yukihiro Kikegawa
 Yuya Takane
 Zhihua Wang
