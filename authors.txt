@@ -1,7 +1,6 @@
 Mathew Lipson
 Sue Grimmond
 Martin Best
-
 Alberto Martilli
 Andreas Christen
 Andres Simon
@@ -27,6 +26,7 @@ Je-Woo Hong
 Jinkyu Hong
 Joseph McFadden
 Joey McNorton
+Jonathan Evans
 Jong-Jin Baik
 Keith Oleson
 Kerry Nice
