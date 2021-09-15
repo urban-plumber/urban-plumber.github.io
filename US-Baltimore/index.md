@@ -36,7 +36,7 @@
 | observations_contact      | Ben Crawford (benjamin.crawford@ucdenver.edu), Sue Grimmond (c.s.grimmond@reading.ac.uk)                                                                                                                                             |
 | observations_reference    | Crawford, Grimmond and Christen (2011): https://doi.org/10.1016/j.atmosenv.2010.11.017                                                                                                                                               |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-09-12 19:02:15                                                                                                                                                                                                                  |
+| date_created              | 2021-09-15 01:41:44                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
 | comment                   | Hourly rainfall from Baltimore Washington International Airport where available                                                                                                                                                      |
@@ -46,8 +46,11 @@
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
-| [![Region](./images/US-Baltimore_region_map.jpg)](./images/US-Baltimore_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/US-Baltimore_site_map.jpg)](./images/US-Baltimore_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/US-Baltimore_site_photo.jpg)](./images/US-Baltimore_site_photo.jpg) <sub>source: [Crawford et al. (2011)](https://doi.org/10.1016/j.atmosenv.2010.11.017)</sub>  | [![site_sat](./images/US-Baltimore_site_sat.jpg)](./images/US-Baltimore_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![Region](./images/US-Baltimore_region_map.jpg)](./images/US-Baltimore_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/US-Baltimore_site_map.jpg)](./images/US-Baltimore_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
+| [![site_photo](./images/US-Baltimore_site_photo.jpg)](./images/US-Baltimore_site_photo.jpg) <sub>Site photo. © [Crawford et al. (2011)](https://doi.org/10.1016/j.atmosenv.2010.11.017)</sub>    | [![site_sat](./images/US-Baltimore_site_sat.jpg)](./images/US-Baltimore_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
+
+<sub>Maps developed based on:
+    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
 
 ## Site characteristics
 

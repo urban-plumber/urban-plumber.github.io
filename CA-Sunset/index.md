@@ -36,7 +36,7 @@
 | observations_contact      | Andreas Christen (andreas.christen@meteo.uni-freiburg.de) Albert-Ludwigs-Universitaet Freiburg                                                                                                                                       |
 | observations_reference    | Christen, Coops, Crawford, Kellett, Liss, Olchovski, Tooke, van der Laan, Voogt (2011): https://doi.org/10.1016/j.atmosenv.2011.07.040; Crawford and Christen (2015): https://doi.org/10.1007/s00704-014-1124-0                      |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-09-13 02:54:53                                                                                                                                                                                                                  |
+| date_created              | 2021-09-15 00:06:58                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
 | comment                   | Gapfilling for SWdown, LWdown, PSurf by Oliver Michels based on local observations and regressions                                                                                                                                   |
@@ -46,8 +46,11 @@
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
-| [![Region](./images/CA-Sunset_region_map.jpg)](./images/CA-Sunset_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/CA-Sunset_site_map.jpg)](./images/CA-Sunset_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/CA-Sunset_site_photo.jpg)](./images/CA-Sunset_site_photo.jpg) <sub>source: A. Christen</sub>  | [![site_sat](./images/CA-Sunset_site_sat.jpg)](./images/CA-Sunset_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![Region](./images/CA-Sunset_region_map.jpg)](./images/CA-Sunset_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/CA-Sunset_site_map.jpg)](./images/CA-Sunset_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
+| [![site_photo](./images/CA-Sunset_site_photo.jpg)](./images/CA-Sunset_site_photo.jpg) <sub>Site photo. © A. Christen</sub>    | [![site_sat](./images/CA-Sunset_site_sat.jpg)](./images/CA-Sunset_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
+
+<sub>Maps developed based on:
+    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
 
 ## Site characteristics
 

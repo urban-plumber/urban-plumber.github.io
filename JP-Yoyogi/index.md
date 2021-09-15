@@ -36,7 +36,7 @@
 | observations_contact      | Hirofumi Sugawara (hiros@nda.ac.jp)                                                                                                                                                                                                                                                              |
 | observations_reference    | Hirano, Sugawara, Murayama, Kondo (2015): https://doi.org/10.2151/sola.2015-024; Sugawara, Shimizu, Hirano, Murayama and Kondo (2014): https://doi.org/10.14887/kazekosymp.23.0_49; Ishidoya, Sugawara,Terao, Kaneyasu, Aoki, Tsuboi and Kondo. (2020): https://doi.org/10.5194/acp-20-5293-2020 |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                                                                         |
-| date_created              | 2021-09-11 19:58:46                                                                                                                                                                                                                                                                              |
+| date_created              | 2021-09-15 00:41:01                                                                                                                                                                                                                                                                              |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                                                                                       |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data                                                             |
 | comment                   | Observations for turbulent fluxes removed from sectors 170°-260° because of land surface inhomogeneities. Gap-filling for the forcing data using data at nearby observatories (less than 8 km distance).                                                                                         |
@@ -46,8 +46,11 @@
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
-| [![Region](./images/JP-Yoyogi_region_map.jpg)](./images/JP-Yoyogi_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/JP-Yoyogi_site_map.jpg)](./images/JP-Yoyogi_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/JP-Yoyogi_site_photo.jpg)](./images/JP-Yoyogi_site_photo.jpg) <sub>source: H. Sugawara</sub>  | [![site_sat](./images/JP-Yoyogi_site_sat.jpg)](./images/JP-Yoyogi_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![Region](./images/JP-Yoyogi_region_map.jpg)](./images/JP-Yoyogi_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/JP-Yoyogi_site_map.jpg)](./images/JP-Yoyogi_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
+| [![site_photo](./images/JP-Yoyogi_site_photo.jpg)](./images/JP-Yoyogi_site_photo.jpg) <sub>Site photo. © H. Sugawara</sub>    | [![site_sat](./images/JP-Yoyogi_site_sat.jpg)](./images/JP-Yoyogi_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
+
+<sub>Maps developed based on:
+    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
 
 ## Site characteristics
 

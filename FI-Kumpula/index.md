@@ -36,7 +36,7 @@
 | observations_contact      | Leena Järvi (leena.jarvi@helsinki.fi)                                                                                                                                                                                                |
 | observations_reference    | Karsisto, Fortelius, Demuzere, Grimmond, Oleson, Kouznetsov, Masson and Järvi (2016): https://doi.org/10.1002/qj.2659                                                                                                                |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-09-11 13:52:57                                                                                                                                                                                                                  |
+| date_created              | 2021-09-15 00:20:38                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
 | comment                   | Inhomogeneous footprint, land surface characteristics and turbulent flux data restricted to sectors 180-320 (Ku3 in Karsisto et al., 2016)                                                                                           |
@@ -46,8 +46,11 @@
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
-| [![Region](./images/FI-Kumpula_region_map.jpg)](./images/FI-Kumpula_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/FI-Kumpula_site_map.jpg)](./images/FI-Kumpula_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/FI-Kumpula_site_photo.jpg)](./images/FI-Kumpula_site_photo.jpg) <sub>source: L. Järvi</sub>  | [![site_sat](./images/FI-Kumpula_site_sat.jpg)](./images/FI-Kumpula_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![Region](./images/FI-Kumpula_region_map.jpg)](./images/FI-Kumpula_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/FI-Kumpula_site_map.jpg)](./images/FI-Kumpula_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
+| [![site_photo](./images/FI-Kumpula_site_photo.jpg)](./images/FI-Kumpula_site_photo.jpg) <sub>Site photo. © L. Järvi</sub>    | [![site_sat](./images/FI-Kumpula_site_sat.jpg)](./images/FI-Kumpula_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
+
+<sub>Maps developed based on:
+    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
 
 ## Site characteristics
 

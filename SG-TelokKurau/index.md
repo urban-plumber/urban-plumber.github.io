@@ -36,7 +36,7 @@
 | observations_contact      | Eric Velasco: evelasco@mce2.org, he_velasco2003@yahoo.com; Matthias Roth: geomr@nus.edu.sg                                                                                                                                                |
 | observations_reference    | Roth, Jansson and Velasco (2017) https://doi.org/10.1002/joc.4873; Velasco, Roth, Tan, Quak, Nabarro, Norford. (2013) https://doi.org/10.5194/acp-13-10185-2013; Flux tower website: https://www.nusurbanclimate.com/tkfluxtowersingapore |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                                  |
-| date_created              | 2021-09-12 15:32:10                                                                                                                                                                                                                       |
+| date_created              | 2021-09-15 01:22:43                                                                                                                                                                                                                       |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                                |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data      |
 | comment                   | ERA5 data for gap-filling is from adjacent grid over land. Soil temperature is at 2cm. Near surface air temperature at 2m.                                                                                                                |
@@ -46,8 +46,11 @@
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
-| [![Region](./images/SG-TelokKurau_region_map.jpg)](./images/SG-TelokKurau_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/SG-TelokKurau_site_map.jpg)](./images/SG-TelokKurau_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/SG-TelokKurau_site_photo.jpg)](./images/SG-TelokKurau_site_photo.jpg) <sub>source: M. Roth</sub>  | [![site_sat](./images/SG-TelokKurau_site_sat.jpg)](./images/SG-TelokKurau_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![Region](./images/SG-TelokKurau_region_map.jpg)](./images/SG-TelokKurau_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/SG-TelokKurau_site_map.jpg)](./images/SG-TelokKurau_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
+| [![site_photo](./images/SG-TelokKurau_site_photo.jpg)](./images/SG-TelokKurau_site_photo.jpg) <sub>Site photo. © M. Roth</sub>    | [![site_sat](./images/SG-TelokKurau_site_sat.jpg)](./images/SG-TelokKurau_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
+
+<sub>Maps developed based on:
+    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
 
 ## Site characteristics
 

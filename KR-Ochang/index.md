@@ -36,7 +36,7 @@
 | observations_contact      | Jinkyu Hong (jhong@yonsei.ac.kr), Je-Woo Hong (jwhong@kei.re.kr)                                                                                                                                                                     |
 | observations_reference    | Hong, Hong, Chun, Lee, Chang, Lee, Yi, Park, Byun, Joo (2019): https://doi.org/10.1186/s13021-019-0128-6; Hong, Lee, Hong (2021): https://doi.org/10.22647/EAPL-OC_JN2021                                                            |
 | project_contact           | Mathew Lipson: m.lipson@unsw.edu.au, Sue Grimmond: c.s.grimmond@reading.ac.uk, Martin Best: martin.best@metoffice.gov.uk                                                                                                             |
-| date_created              | 2021-09-11 21:39:21                                                                                                                                                                                                                  |
+| date_created              | 2021-09-15 00:50:02                                                                                                                                                                                                                  |
 | other_references          | ERA5: Copernicus Climate Change Service (C3S) (2017): https://cds.climate.copernicus.eu/cdsapp#!/home NCI Australia: http://doi.org/10.25914/5f48874388857                                                                           |
 | acknowledgements          | Contains modified Copernicus Climate Change Service Information (ERA5 hourly data on single levels). Data from replica hosted by NCI Australia. With thanks to all involved in collecting, processing and hosting observational data |
 | comment                   | No bias correction applied to ERA5 derived precipitation (no nearby long-term and complete GHCND site data)                                                                                                                          |
@@ -46,8 +46,11 @@
 
 |                                             |                                             |    
 |:-------------------------------------------:|:-------------------------------------------:|
-| [![Region](./images/KR-Ochang_region_map.jpg)](./images/KR-Ochang_region_map.jpg)  <sub>source: OpenStreetMap</sub>    | [![site_map](./images/KR-Ochang_site_map.jpg)](./images/KR-Ochang_site_map.jpg) <sub>source: OpenStreetMap</sub>    |
-| [![site_photo](./images/KR-Ochang_site_photo.jpg)](./images/KR-Ochang_site_photo.jpg) <sub>source: Keunmin Lee</sub>  | [![site_sat](./images/KR-Ochang_site_sat.jpg)](./images/KR-Ochang_site_sat.jpg) <sub>source: OpenStreetMap, Microsoft</sub>    |
+| [![Region](./images/KR-Ochang_region_map.jpg)](./images/KR-Ochang_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/KR-Ochang_site_map.jpg)](./images/KR-Ochang_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
+| [![site_photo](./images/KR-Ochang_site_photo.jpg)](./images/KR-Ochang_site_photo.jpg) <sub>Site photo. © Keunmin Lee</sub>    | [![site_sat](./images/KR-Ochang_site_sat.jpg)](./images/KR-Ochang_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
+
+<sub>Maps developed based on:
+    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
 
 ## Site characteristics
 
