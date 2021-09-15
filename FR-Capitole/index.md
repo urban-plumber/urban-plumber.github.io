@@ -49,8 +49,8 @@
 | [![Region](./images/FR-Capitole_region_map.jpg)](./images/FR-Capitole_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/FR-Capitole_site_map.jpg)](./images/FR-Capitole_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
 | [![site_photo](./images/FR-Capitole_site_photo.jpg)](./images/FR-Capitole_site_photo.jpg) <sub>Site photo. © V. Masson</sub>    | [![site_sat](./images/FR-Capitole_site_sat.jpg)](./images/FR-Capitole_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
 
-<sub>Maps developed based on:
-    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
+<sub>Maps developed from:
+    Hrisko, J. (2020). [Geographic Visualizations in Python with Cartopy](https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy). Maker Portal.</sub> 
 
 ## Site characteristics
 

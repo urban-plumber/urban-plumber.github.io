@@ -49,8 +49,8 @@
 | [![Region](./images/AU-SurreyHills_region_map.jpg)](./images/AU-SurreyHills_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/AU-SurreyHills_site_map.jpg)](./images/AU-SurreyHills_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
 | [![site_photo](./images/AU-SurreyHills_site_photo.jpg)](./images/AU-SurreyHills_site_photo.jpg) <sub>Site photo. © [Coutts et al. (2007)](http://doi.org/10.1016/j.atmosenv.2006.08.030)</sub>    | [![site_sat](./images/AU-SurreyHills_site_sat.jpg)](./images/AU-SurreyHills_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
 
-<sub>Maps developed based on:
-    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
+<sub>Maps developed from:
+    Hrisko, J. (2020). [Geographic Visualizations in Python with Cartopy](https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy). Maker Portal.</sub> 
 
 ## Site characteristics
 

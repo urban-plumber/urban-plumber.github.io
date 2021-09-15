@@ -49,8 +49,8 @@
 | [![Region](./images/US-WestPhoenix_region_map.jpg)](./images/US-WestPhoenix_region_map.jpg)  <sub>Regional map. © OpenStreetMap</sub>    | [![site_map](./images/US-WestPhoenix_site_map.jpg)](./images/US-WestPhoenix_site_map.jpg) <sub>Site map with 500 m radius. © OpenStreetMap</sub>    |
 | [![site_photo](./images/US-WestPhoenix_site_photo.jpg)](./images/US-WestPhoenix_site_photo.jpg) <sub>Site photo. © S. Earl</sub>    | [![site_sat](./images/US-WestPhoenix_site_sat.jpg)](./images/US-WestPhoenix_site_sat.jpg) <sub>Site aerial photo with 500 m radius. © OpenStreetMap, Microsoft</sub>    |
 
-<sub>Maps developed based on:
-    Hrisko, J. (2020). Geographic Visualizations in Python with Cartopy. Maker Portal. https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy</sub> 
+<sub>Maps developed from:
+    Hrisko, J. (2020). [Geographic Visualizations in Python with Cartopy](https://makersportal.com/blog/2020/4/24/geographic-visualizations-in-python-with-cartopy). Maker Portal.</sub> 
 
 ## Site characteristics
 
