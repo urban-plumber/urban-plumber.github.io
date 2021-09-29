@@ -4,6 +4,9 @@ Phase 1 of the project is closed and submitted results are being analysed. Gener
 # AU-Preston submission summary
 
  - [Site details](https://urban-plumber.github.io/AU-Preston/)
+ - [Baseline results](../baseline/index.md)
+ - [Detailed results](../detailed/index.md)
+ - [Error metric summary](../metrics/index.md)
 
 ## Experiments: 
 
