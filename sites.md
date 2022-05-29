@@ -2,7 +2,9 @@
 
 [![Location](/img/included_sites.jpg)](/img/included_sites.jpg)
 
-Observations groups have supplied 20 flux tower datasets over a wide range of built environments.            Together this representes 50 years of observed data. Additionally each site includes ten year spin-up and gap-filling applied for this project using bias-corrected ERA5 data.
+Observations groups have supplied 20 flux tower datasets over a wide range of built environments. 
+Together this representes 50 years of observed data. 
+Additionally each site includes ten year spin-up and gap-filling applied for this project using bias-corrected ERA5 data.
 
 ## Site list
  - [AU-Preston](./AU-Preston): Preston, Melbourne, Australia 
@@ -33,7 +35,9 @@ Observations groups have supplied 20 flux tower datasets over a wide range of bu
 
  - [PL-Narutowicza](./PL-Narutowicza): Narutowicza Street, Łódź, Poland 
 
- - [SG-TelokKurau](./SG-TelokKurau): Telok Kurau, Singapore 
+ - [SG-TelokKurau](./SG-TelokKurau): Telok Kurau, Singapore (as used in model evaluation)
+
+ - [SG-TelokKurau06](./SG-TelokKurau06): Telok Kurau, Singapore
 
  - [UK-KingsCollege](./UK-KingsCollege): Kings College, London, United Kingdom 
 
@@ -45,7 +49,11 @@ Observations groups have supplied 20 flux tower datasets over a wide range of bu
 
  - [US-Minneapolis2](./US-Minneapolis2): KUOM Tall Tower, Minneapolis, Minnesota, United States 
 
- - [US-WestPhoenix](./US-WestPhoenix): West Phoenix, Arizona, United States 
+ - [US-WestPhoenix](./US-WestPhoenix): West Phoenix, Arizona, United States
+
+
+Notes: US-Minneapolis is split into two sites based on wind direction to account for different land cover within the eddy covariance footprint.
+SG-TelokKurau has two periods, one used in model evaluation, and another in the openly available flux tower dataset (SG-TelokKurau06).
 
 ## Site characteristics summary
 
