@@ -52,7 +52,10 @@ Check the [Q&A page](qanda/) for questions and clarifications on the project.
 
 See the [changelog](changelog/) listing any changes to project documents or resources.
 
-<!-- ![Timeline](/img/UP_Timeline_website.png) -->
+## Observations
+
+Observational scientists have contributed 20 flux tower datasets from around the world. This has been synthesised, quality controlled and gap filled.
+More [details here](sites.md).
 
 ## Phase 1
 
