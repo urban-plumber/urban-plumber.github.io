@@ -1,1 +1,3 @@
 K-UCMv1 SWnet min value of -8.7294 is less than expected 0.0 [W/m2]
+K-UCMv1 EvapF max value of 92.0813 is greater than expected 1.0 [1]
+K-UCMv1 EvapF min value of -107.1101 is less than expected 0.0 [1]

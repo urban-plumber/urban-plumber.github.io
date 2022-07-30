@@ -1,0 +1,5 @@
+JULES_MORUS Qh max value of 699.7561 is greater than expected 600.0 [W/m2]
+JULES_MORUS SWE min value of -0.0000 is less than expected 0.0 [kg/m2]
+JULES_MORUS Qsm min value of -0.0000 is less than expected 0.0 [kg/m2/s]
+JULES_MORUS EvapF max value of 63.4013 is greater than expected 1.0 [1]
+JULES_MORUS EvapF min value of -118.2092 is less than expected 0.0 [1]

@@ -1,0 +1,8 @@
+,SWup,SWup,LWup,LWup,Qh,Qh,Qle,Qle,Qtau,Qtau
+,UP,G11,UP,G11,UP,G11,UP,G11,UP,G11
+beat any benchmark,23,18,28,28,28,19,19,16,11,10
+beat physically-based benchmark,22,18,19,16,28,19,19,16,4,3
+beat all out-of-sample empirical benchmark,6,6,3,6,9,5,5,3,11,10
+beat 3-variable in-sample empirical benchmark,0,1,1,1,6,1,0,0,11,10
+beat 4-variable in-sample empirical benchmark,0,0,1,1,1,0,0,0,0,0
+number of models with submitted variable,30,31,30,31,30,31,30,25,11,11

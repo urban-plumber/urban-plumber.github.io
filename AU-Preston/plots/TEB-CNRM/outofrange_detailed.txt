@@ -1,2 +1,4 @@
 TEB-CNRM Qh max value of 614.8715 is greater than expected 600.0 [W/m2]
 TEB-CNRM TVeg max value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
+TEB-CNRM EvapF max value of 12.3854 is greater than expected 1.0 [1]
+TEB-CNRM EvapF min value of -26.4026 is less than expected 0.0 [1]

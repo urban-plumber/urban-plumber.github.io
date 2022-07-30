@@ -1,1 +1,3 @@
 SNUUCM RoofSurfT max value of 359.0009 is greater than expected 353.0 [K]
+SNUUCM EvapF max value of 275.9831 is greater than expected 1.0 [1]
+SNUUCM EvapF min value of -87.8504 is less than expected 0.0 [1]

@@ -1,1 +1,3 @@
 BEPCOL Qh max value of 726.0000 is greater than expected 600.0 [W/m2]
+BEPCOL EvapF max value of 1217.0000 is greater than expected 1.0 [1]
+BEPCOL EvapF min value of -8.1732 is less than expected 0.0 [1]

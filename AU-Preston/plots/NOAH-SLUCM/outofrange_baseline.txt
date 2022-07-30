@@ -1,2 +1,4 @@
 NOAH-SLUCM AvgSurfT max value of 370.4353 is greater than expected 333.0 [K]
 NOAH-SLUCM Qfz min value of -0.0000 is less than expected 0.0 [kg/m2/s]
+NOAH-SLUCM EvapF max value of 8.9437 is greater than expected 1.0 [1]
+NOAH-SLUCM EvapF min value of -726.1538 is less than expected 0.0 [1]

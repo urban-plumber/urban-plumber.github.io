@@ -1,1 +1,3 @@
 TEB-CNRM TVeg max value of 0.0004 is greater than expected 0.0003 [kg/m2/s]
+TEB-CNRM EvapF max value of 18.0896 is greater than expected 1.0 [1]
+TEB-CNRM EvapF min value of -8.2044 is less than expected 0.0 [1]

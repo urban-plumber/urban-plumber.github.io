@@ -1,0 +1,2 @@
+CLMU5 EvapF max value of 103.7278 is greater than expected 1.0 [1]
+CLMU5 EvapF min value of -119.8021 is less than expected 0.0 [1]

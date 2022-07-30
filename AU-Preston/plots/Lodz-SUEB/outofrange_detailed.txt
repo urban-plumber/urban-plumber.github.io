@@ -1,0 +1,2 @@
+Lodz-SUEB EvapF max value of 10.6208 is greater than expected 1.0 [1]
+Lodz-SUEB EvapF min value of -29.1315 is less than expected 0.0 [1]

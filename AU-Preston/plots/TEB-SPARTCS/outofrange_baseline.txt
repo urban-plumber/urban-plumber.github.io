@@ -1,1 +1,3 @@
 TEB-SPARTCS TVeg max value of 0.0004 is greater than expected 0.0003 [kg/m2/s]
+TEB-SPARTCS EvapF max value of 32.2770 is greater than expected 1.0 [1]
+TEB-SPARTCS EvapF min value of -7.1219 is less than expected 0.0 [1]

@@ -4,66 +4,32 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |        MBE |      NSD |        R |
-|:-------|:-------------|---------:|-----------:|---------:|---------:|
-| SWnet  | baseline     | 17.2444  |  15.1271   | 0.913324 | 0.998517 |
-| SWnet  | detailed     |  9.87406 |   2.33992  | 0.872964 | 0.998493 |
-| SWup   | baseline     | 15.0099  | -14.9853   | 0.61713  | 0.992654 |
-| SWup   | detailed     |  3.88206 |  -2.24088  | 0.847974 | 0.993928 |
-| LWnet  | baseline     | 17.3043  | -16.9517   | 1.20645  | 0.963378 |
-| LWnet  | detailed     | 12.5154  |  -8.07854  | 1.09048  | 0.959746 |
-| LWup   | baseline     | 17.1893  |  16.9646   | 1.26763  | 0.974485 |
-| LWup   | detailed     | 12.3431  |   8.09146  | 1.17692  | 0.974491 |
-| Qle    | baseline     | 24.8176  |  -0.714673 | 0.831817 | 0.629313 |
-| Qle    | detailed     | 27.7175  |   4.71376  | 1.08384  | 0.642651 |
-| Qh     | baseline     | 63.5022  |  62.3803   | 1.21512  | 0.932777 |
-| Qh     | detailed     | 35.7733  |  32.2249   | 1.19099  | 0.940548 |
+| flux   | experiment   |       MAE |        MBE |        nSD |          R |        5th |      95th |      cRMSE |       AMBE |       1-nSD |          1-R |   nSkewness |   nKurtosis |     Overlap |
+|:-------|:-------------|----------:|-----------:|-----------:|-----------:|-----------:|----------:|-----------:|-----------:|------------:|-------------:|------------:|------------:|------------:|
+| SWup   | baseline     |  15.9144  | -15.8887   |   0.693654 |   0.992093 |   0.63626  |  45.5636  |   0.323755 |  15.8887   |   0.306346  |   0.00790699 |   0.11558   |    0.238862 |   0.082293  |
+| SWup   | detailed     |   4.09664 |  -2.35438  |   0.974257 |   0.99346  |   0.296749 |   3.2086  |   0.115782 |   2.35438  |   0.0257427 |   0.00653979 |   0.0685448 |    0.152968 |   0.0635286 |
+| LWup   | baseline     |  17.1893  |  16.9646   |   1.33577  |   0.974485 |   5.33704  |  52.3766  |   0.425333 |  16.9646   |   0.335771  |   0.0255154  |   0.153448  |    0.201476 |   0.115673  |
+| LWup   | detailed     |  12.3431  |   8.09146  |   1.24521  |   0.974491 |   1.24396  |  34.2622  |   0.351648 |   8.09146  |   0.24521   |   0.025509   |   0.128881  |    0.189967 |   0.0850568 |
+| Qle    | baseline     |  24.8176  |  -0.714673 |   0.831185 |   0.629313 |  15.4177   |   1.98678 |   0.802943 |   0.714673 |   0.168815  |   0.370687   |   0.172637  |    0.281655 |   0.273801  |
+| Qle    | detailed     |  27.7175  |   4.71376  |   1.0879   |   0.642651 |  12.3769   |  39.1248  |   0.886143 |   4.71376  |   0.0879021 |   0.357349   |   0.0328044 |    0.60439  |   0.288584  |
+| Qh     | baseline     |  63.5022  |  62.3803   |   1.25532  |   0.932777 |  48.0554   | 128.776   |   0.483696 |  62.3803   |   0.255322  |   0.0672228  |   0.0339352 |    0.208254 |   0.518785  |
+| Qh     | detailed     |  35.7733  |  32.2249   |   1.21041  |   0.940548 |  28.3986   |  93.9568  |   0.433814 |  32.2249   |   0.21041   |   0.0594519  |   0.0379373 |    0.282003 |   0.281112  |
+| Qtau   | baseline     | nan       | nan        | nan        | nan        | nan        | nan       | nan        | nan        | nan         | nan          | nan         |  nan        | nan         |
+| Qtau   | detailed     | nan       | nan        | nan        | nan        | nan        | nan       | nan        | nan        | nan         | nan          | nan         |  nan        | nan         |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
-
-### jump to figure:
- - [LWnet](#lwnet)
- - [LWup](#lwup)
- - [Qanth](#qanth)
- - [Qh](#qh)
- - [Qle](#qle)
- - [SWnet](#swnet)
- - [SWup](#swup)
- - [closure_baseline](#closure_baseline)
- - [closure_detailed](#closure_detailed)
- - [subset_LWnet](#subset_lwnet)
- - [subset_LWup](#subset_lwup)
- - [subset_Qanth](#subset_qanth)
- - [subset_Qh](#subset_qh)
- - [subset_Qle](#subset_qle)
- - [subset_SWnet](#subset_swnet)
- - [subset_SWup](#subset_swup)
+ - all others: closer to 0 is better
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
-### <a name="lwnet"></a>LWnet
-[![TEB-READING_AU-Preston_LWnet.png](TEB-READING_AU-Preston_LWnet.png)](TEB-READING_AU-Preston_LWnet.png)
+### <a name="datasheet"></a>Datasheet
+[![TEB-READING_AU-Preston_Datasheet.png](TEB-READING_AU-Preston_Datasheet.png)](TEB-READING_AU-Preston_Datasheet.png)
 
-### <a name="lwup"></a>LWup
-[![TEB-READING_AU-Preston_LWup.png](TEB-READING_AU-Preston_LWup.png)](TEB-READING_AU-Preston_LWup.png)
-
-### <a name="qanth"></a>Qanth
-[![TEB-READING_AU-Preston_Qanth.png](TEB-READING_AU-Preston_Qanth.png)](TEB-READING_AU-Preston_Qanth.png)
-
-### <a name="qh"></a>Qh
-[![TEB-READING_AU-Preston_Qh.png](TEB-READING_AU-Preston_Qh.png)](TEB-READING_AU-Preston_Qh.png)
-
-### <a name="qle"></a>Qle
-[![TEB-READING_AU-Preston_Qle.png](TEB-READING_AU-Preston_Qle.png)](TEB-READING_AU-Preston_Qle.png)
-
-### <a name="swnet"></a>SWnet
-[![TEB-READING_AU-Preston_SWnet.png](TEB-READING_AU-Preston_SWnet.png)](TEB-READING_AU-Preston_SWnet.png)
-
-### <a name="swup"></a>SWup
-[![TEB-READING_AU-Preston_SWup.png](TEB-READING_AU-Preston_SWup.png)](TEB-READING_AU-Preston_SWup.png)
+### <a name="distributions"></a>Distributions
+[![TEB-READING_AU-Preston_Distributions.png](TEB-READING_AU-Preston_Distributions.png)](TEB-READING_AU-Preston_Distributions.png)
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![TEB-READING_AU-Preston_closure_baseline.png](TEB-READING_AU-Preston_closure_baseline.png)](TEB-READING_AU-Preston_closure_baseline.png)
@@ -71,23 +37,14 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![TEB-READING_AU-Preston_closure_detailed.png](TEB-READING_AU-Preston_closure_detailed.png)](TEB-READING_AU-Preston_closure_detailed.png)
 
-### <a name="subset_lwnet"></a>subset_LWnet
-[![TEB-READING_AU-Preston_subset_LWnet.png](TEB-READING_AU-Preston_subset_LWnet.png)](TEB-READING_AU-Preston_subset_LWnet.png)
-
 ### <a name="subset_lwup"></a>subset_LWup
 [![TEB-READING_AU-Preston_subset_LWup.png](TEB-READING_AU-Preston_subset_LWup.png)](TEB-READING_AU-Preston_subset_LWup.png)
-
-### <a name="subset_qanth"></a>subset_Qanth
-[![TEB-READING_AU-Preston_subset_Qanth.png](TEB-READING_AU-Preston_subset_Qanth.png)](TEB-READING_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![TEB-READING_AU-Preston_subset_Qh.png](TEB-READING_AU-Preston_subset_Qh.png)](TEB-READING_AU-Preston_subset_Qh.png)
 
 ### <a name="subset_qle"></a>subset_Qle
 [![TEB-READING_AU-Preston_subset_Qle.png](TEB-READING_AU-Preston_subset_Qle.png)](TEB-READING_AU-Preston_subset_Qle.png)
-
-### <a name="subset_swnet"></a>subset_SWnet
-[![TEB-READING_AU-Preston_subset_SWnet.png](TEB-READING_AU-Preston_subset_SWnet.png)](TEB-READING_AU-Preston_subset_SWnet.png)
 
 ### <a name="subset_swup"></a>subset_SWup
 [![TEB-READING_AU-Preston_subset_SWup.png](TEB-READING_AU-Preston_subset_SWup.png)](TEB-READING_AU-Preston_subset_SWup.png)
@@ -97,6 +54,7 @@
 
 ### out of range: detailed
 
+ - TEB-READING EvapF max value of 1.5953 is greater than expected 1.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

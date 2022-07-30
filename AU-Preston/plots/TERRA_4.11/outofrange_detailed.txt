@@ -1,1 +1,3 @@
 TERRA_4.11 Qs min value of -0.0000 is less than expected 0.0 [kg/m2/s]
+TERRA_4.11 EvapF max value of 146.6986 is greater than expected 1.0 [1]
+TERRA_4.11 EvapF min value of -188.8821 is less than expected 0.0 [1]

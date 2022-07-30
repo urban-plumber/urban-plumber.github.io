@@ -4,70 +4,30 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |       MBE |      NSD |        R |
-|:-------|:-------------|---------:|----------:|---------:|---------:|
-| SWnet  | baseline     |  3.16408 |   2.37004 | 0.879712 | 0.9999   |
-| SWnet  | detailed     |  3.46607 |  -2.07797 | 0.866259 | 0.999899 |
-| SWup   | baseline     |  3.16693 |  -2.37673 | 0.844575 | 0.996614 |
-| SWup   | detailed     |  3.46026 |   2.0567  | 0.92161  | 0.996658 |
-| LWnet  | baseline     | 15.2628  | -13.6713  | 1.14887  | 0.960273 |
-| LWnet  | detailed     | 31.2958  | -29.7895  | 1.57837  | 0.912129 |
-| LWup   | baseline     | 15.2786  |  -8.74534 | 1.19127  | 0.975379 |
-| LWup   | detailed     | 24.2755  |   7.37281 | 1.65209  | 0.949016 |
-| Qle    | baseline     | 27.2434  |  -8.86138 | 0.770526 | 0.517774 |
-| Qle    | detailed     | 26.9151  |  -9.26587 | 0.740327 | 0.529953 |
-| Qh     | baseline     | 23.8783  |   7.37272 | 1.19318  | 0.935401 |
-| Qh     | detailed     | 20.7053  |  -3.46489 | 0.836532 | 0.932423 |
+| flux   | experiment   |      MAE |      MBE |      nSD |        R |       5th |     95th |     cRMSE |    AMBE |     1-nSD |        1-R |   nSkewness |   nKurtosis |   Overlap |
+|:-------|:-------------|---------:|---------:|---------:|---------:|----------:|---------:|----------:|--------:|----------:|-----------:|------------:|------------:|----------:|
+| SWup   | baseline     |  3.32981 | -2.4905  | 0.974536 | 0.996356 |  0.56921  |  3.42479 | 0.0880339 | 2.4905  | 0.0254639 | 0.00364356 |   0.0414356 |   0.0712715 | 0.0607104 |
+| SWup   | detailed     |  3.64136 |  2.2184  | 1.06342  | 0.996405 |  0.473255 |  9.6847  | 0.108025  | 2.2184  | 0.0634231 | 0.00359545 |   0.0440934 |   0.0777553 | 0.0692701 |
+| LWup   | baseline     | 15.2786  | -8.74534 | 1.26292  | 0.975379 | 18.2402   | 20.8063  | 0.362377  | 8.74534 | 0.26292   | 0.0246213  |   0.170102  |   0.321136  | 0.209453  |
+| LWup   | detailed     | 24.2755  |  7.37281 | 1.76704  | 0.949016 | 19.1254   | 92.1045  | 0.876661  | 7.37281 | 0.767042  | 0.0509839  |   0.295687  |   0.535286  | 0.209975  |
+| Qle    | baseline     | 27.2434  | -8.86138 | 0.752757 | 0.517774 |  9.82923  | 30.5191  | 0.887202  | 8.86138 | 0.247243  | 0.482226   |   0.498922  |   0.478559  | 0.221096  |
+| Qle    | detailed     | 26.9151  | -9.26587 | 0.727312 | 0.529953 |  9.8775   | 33.1433  | 0.870689  | 9.26587 | 0.272688  | 0.470047   |   0.414384  |   0.260917  | 0.229401  |
+| Qh     | baseline     | 23.8783  |  7.37272 | 1.20491  | 0.935401 |  1.49349  | 66.3087  | 0.444591  | 7.37272 | 0.20491   | 0.0645994  |   0.142559  |   0.248411  | 0.096857  |
+| Qh     | detailed     | 20.7053  | -3.46489 | 0.851661 | 0.932423 | 13.1307   | 26.4687  | 0.370284  | 3.46489 | 0.148339  | 0.0675772  |   0.0913439 |   0.170664  | 0.127865  |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
-
-### jump to figure:
- - [Albedo](#albedo)
- - [LWnet](#lwnet)
- - [LWup](#lwup)
- - [Qanth](#qanth)
- - [Qh](#qh)
- - [Qle](#qle)
- - [SWnet](#swnet)
- - [SWup](#swup)
- - [closure_baseline](#closure_baseline)
- - [closure_detailed](#closure_detailed)
- - [subset_LWnet](#subset_lwnet)
- - [subset_LWup](#subset_lwup)
- - [subset_Qanth](#subset_qanth)
- - [subset_Qh](#subset_qh)
- - [subset_Qle](#subset_qle)
- - [subset_SWnet](#subset_swnet)
- - [subset_SWup](#subset_swup)
+ - all others: closer to 0 is better
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
-### <a name="albedo"></a>Albedo
-[![SNUUCM_AU-Preston_Albedo.png](SNUUCM_AU-Preston_Albedo.png)](SNUUCM_AU-Preston_Albedo.png)
+### <a name="datasheet"></a>Datasheet
+[![SNUUCM_AU-Preston_Datasheet.png](SNUUCM_AU-Preston_Datasheet.png)](SNUUCM_AU-Preston_Datasheet.png)
 
-### <a name="lwnet"></a>LWnet
-[![SNUUCM_AU-Preston_LWnet.png](SNUUCM_AU-Preston_LWnet.png)](SNUUCM_AU-Preston_LWnet.png)
-
-### <a name="lwup"></a>LWup
-[![SNUUCM_AU-Preston_LWup.png](SNUUCM_AU-Preston_LWup.png)](SNUUCM_AU-Preston_LWup.png)
-
-### <a name="qanth"></a>Qanth
-[![SNUUCM_AU-Preston_Qanth.png](SNUUCM_AU-Preston_Qanth.png)](SNUUCM_AU-Preston_Qanth.png)
-
-### <a name="qh"></a>Qh
-[![SNUUCM_AU-Preston_Qh.png](SNUUCM_AU-Preston_Qh.png)](SNUUCM_AU-Preston_Qh.png)
-
-### <a name="qle"></a>Qle
-[![SNUUCM_AU-Preston_Qle.png](SNUUCM_AU-Preston_Qle.png)](SNUUCM_AU-Preston_Qle.png)
-
-### <a name="swnet"></a>SWnet
-[![SNUUCM_AU-Preston_SWnet.png](SNUUCM_AU-Preston_SWnet.png)](SNUUCM_AU-Preston_SWnet.png)
-
-### <a name="swup"></a>SWup
-[![SNUUCM_AU-Preston_SWup.png](SNUUCM_AU-Preston_SWup.png)](SNUUCM_AU-Preston_SWup.png)
+### <a name="distributions"></a>Distributions
+[![SNUUCM_AU-Preston_Distributions.png](SNUUCM_AU-Preston_Distributions.png)](SNUUCM_AU-Preston_Distributions.png)
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![SNUUCM_AU-Preston_closure_baseline.png](SNUUCM_AU-Preston_closure_baseline.png)](SNUUCM_AU-Preston_closure_baseline.png)
@@ -75,14 +35,8 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![SNUUCM_AU-Preston_closure_detailed.png](SNUUCM_AU-Preston_closure_detailed.png)](SNUUCM_AU-Preston_closure_detailed.png)
 
-### <a name="subset_lwnet"></a>subset_LWnet
-[![SNUUCM_AU-Preston_subset_LWnet.png](SNUUCM_AU-Preston_subset_LWnet.png)](SNUUCM_AU-Preston_subset_LWnet.png)
-
 ### <a name="subset_lwup"></a>subset_LWup
 [![SNUUCM_AU-Preston_subset_LWup.png](SNUUCM_AU-Preston_subset_LWup.png)](SNUUCM_AU-Preston_subset_LWup.png)
-
-### <a name="subset_qanth"></a>subset_Qanth
-[![SNUUCM_AU-Preston_subset_Qanth.png](SNUUCM_AU-Preston_subset_Qanth.png)](SNUUCM_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![SNUUCM_AU-Preston_subset_Qh.png](SNUUCM_AU-Preston_subset_Qh.png)](SNUUCM_AU-Preston_subset_Qh.png)
@@ -90,18 +44,19 @@
 ### <a name="subset_qle"></a>subset_Qle
 [![SNUUCM_AU-Preston_subset_Qle.png](SNUUCM_AU-Preston_subset_Qle.png)](SNUUCM_AU-Preston_subset_Qle.png)
 
-### <a name="subset_swnet"></a>subset_SWnet
-[![SNUUCM_AU-Preston_subset_SWnet.png](SNUUCM_AU-Preston_subset_SWnet.png)](SNUUCM_AU-Preston_subset_SWnet.png)
-
 ### <a name="subset_swup"></a>subset_SWup
 [![SNUUCM_AU-Preston_subset_SWup.png](SNUUCM_AU-Preston_subset_SWup.png)](SNUUCM_AU-Preston_subset_SWup.png)
 
 ### out of range: baseline
 
+ - SNUUCM EvapF max value of 1506.0585 is greater than expected 1.0 [1]
+ - SNUUCM EvapF min value of -62.3383 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
  - SNUUCM RoofSurfT max value of 359.0009 is greater than expected 353.0 [K]
+ - SNUUCM EvapF max value of 275.9831 is greater than expected 1.0 [1]
+ - SNUUCM EvapF min value of -87.8504 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

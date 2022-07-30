@@ -1,2 +1,4 @@
-VUCM Qh max value of 606.7470 is greater than expected 600.0 [W/m2]
 VUCM SWup min value of -0.3180 is less than expected 0.0 [W/m2]
+VUCM Qh max value of 606.7470 is greater than expected 600.0 [W/m2]
+VUCM EvapF max value of 8.6094 is greater than expected 1.0 [1]
+VUCM EvapF min value of -12.1872 is less than expected 0.0 [1]

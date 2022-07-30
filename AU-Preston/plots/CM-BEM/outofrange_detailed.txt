@@ -1,2 +1,4 @@
 CM-BEM SWnet min value of -0.2861 is less than expected 0.0 [W/m2]
 CM-BEM Qanth_Qle min value of -0.5000 is less than expected 0.0 [W/m2]
+CM-BEM EvapF max value of 193.4554 is greater than expected 1.0 [1]
+CM-BEM EvapF min value of -39.6275 is less than expected 0.0 [1]

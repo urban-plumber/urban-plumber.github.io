@@ -1,6 +1,6 @@
 |                   | detailed                                                                                                                                                |
 |:------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| file              | Manabe_1T_AU-Preston_detailed_v1.tstep.updated.nc                                                                                                       |
+| file              | Manabe_Best1T_AU-Preston_detailed_v1.tstep.updated.nc                                                                                                   |
 | title             | Manabe_1T urban model output for the Urban-PLUMBER project                                                                                              |
 | site              | AU-Preston                                                                                                                                              |
 | experiment        | detailed                                                                                                                                                |
@@ -13,4 +13,4 @@
 | repository        | N/A                                                                                                                                                     |
 | site_experience   | Modelled site for PILPS-Urban                                                                                                                           |
 | comment           | Post processed with scripts by m.lipson@unsw.edu.au                                                                                                     |
-| history           | Manabe_1T_AU-Preston_detailed_v1.tstep.nc through postprocess_JULES.py at 2021-03-23 16:20:35.429094                                                    |
+| history           | Manabe_1T_AU-Preston_detailed_v1.tstep.nc through postprocess_JULES.py at 2021-04-28 11:49:07.548687                                                    |

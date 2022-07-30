@@ -1,1 +1,3 @@
 VUCM SWup min value of -0.3140 is less than expected 0.0 [W/m2]
+VUCM EvapF max value of 11.6146 is greater than expected 1.0 [1]
+VUCM EvapF min value of -7.7398 is less than expected 0.0 [1]

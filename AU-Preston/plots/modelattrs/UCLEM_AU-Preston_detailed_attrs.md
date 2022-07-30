@@ -1,8 +1,8 @@
 |                   | detailed                                                                  |
 |:------------------|:--------------------------------------------------------------------------|
-| file              | UCLEM_AU-Preston_detailed_v1.nc                                           |
+| file              | UCLEM_AU-Preston_p1_detailed_v2.nc                                        |
 | title             | UCLEM output for the Urban-PLUMBER project                                |
-| site              | AU-Preston                                                                |
+| site              | AU-Preston_p1                                                             |
 | experiment        | detailed                                                                  |
 | institution       | CSIRO                                                                     |
 | primary_contact   | Marcus Thatcher: marcus.thatcher@csiro.au                                 |
@@ -14,4 +14,4 @@
 | site_experience   | Yes                                                                       |
 | additional_data   | No                                                                        |
 | comment           |                                                                           |
-| history           | Created with create_netcdf_UCLEM_v1.py at 2021-01-01 18:01:01.884254      |
+| history           | Created with create_netcdf_UCLEM_v1.py at 2022-03-22 16:32:30.649269      |

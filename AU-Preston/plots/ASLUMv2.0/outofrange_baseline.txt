@@ -1,0 +1,2 @@
+ASLUMv2.0 EvapF max value of 608.3092 is greater than expected 1.0 [1]
+ASLUMv2.0 EvapF min value of -43.4497 is less than expected 0.0 [1]

@@ -1,1 +1,4 @@
+TARGET PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
 TARGET RoofSurfT max value of 358.9660 is greater than expected 353.0 [K]
+TARGET EvapF max value of 24.1920 is greater than expected 1.0 [1]
+TARGET EvapF min value of -20.2653 is less than expected 0.0 [1]

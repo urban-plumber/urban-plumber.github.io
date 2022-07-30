@@ -1,1 +1,3 @@
 VTUF-3D SWnet min value of -0.0003 is less than expected 0.0 [W/m2]
+VTUF-3D EvapF max value of 24.2687 is greater than expected 1.0 [1]
+VTUF-3D EvapF min value of -17.2465 is less than expected 0.0 [1]

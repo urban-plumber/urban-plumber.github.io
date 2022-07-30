@@ -1,1 +1,3 @@
 JULES_1T Qh max value of 617.2024 is greater than expected 600.0 [W/m2]
+JULES_1T EvapF max value of 64.5637 is greater than expected 1.0 [1]
+JULES_1T EvapF min value of -24.3242 is less than expected 0.0 [1]

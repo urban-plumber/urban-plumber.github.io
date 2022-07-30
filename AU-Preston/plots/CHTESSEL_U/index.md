@@ -4,70 +4,30 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |        MBE |      NSD |        R |
-|:-------|:-------------|---------:|-----------:|---------:|---------:|
-| SWnet  | baseline     |  2.76768 | -0.254003  | 0.872383 | 0.9999   |
-| SWnet  | detailed     |  2.73058 | -0.051023  | 0.872639 | 0.999902 |
-| SWup   | baseline     |  2.76684 |  0.244465  | 0.886255 | 0.99664  |
-| SWup   | detailed     |  2.72975 |  0.0415818 | 0.884751 | 0.996709 |
-| LWnet  | baseline     | 10.102   | -0.920756  | 1.02928  | 0.960147 |
-| LWnet  | detailed     |  8.80537 |  2.28732   | 0.951205 | 0.966136 |
-| LWup   | baseline     | 10.102   |  0.920757  | 1.11465  | 0.970426 |
-| LWup   | detailed     |  8.80537 | -2.28732   | 1.02894  | 0.969617 |
-| Qle    | baseline     | 30.0436  |  2.54493   | 0.962931 | 0.521961 |
-| Qle    | detailed     | 30.4101  |  3.84314   | 0.952743 | 0.519934 |
-| Qh     | baseline     | 30.2145  |  5.99427   | 1.34718  | 0.928643 |
-| Qh     | detailed     | 37.0835  |  7.05139   | 1.48641  | 0.928183 |
+| flux   | experiment   |      MAE |        MBE |      nSD |        R |       5th |      95th |     cRMSE |      AMBE |      1-nSD |       1-R |   nSkewness |   nKurtosis |   Overlap |
+|:-------|:-------------|---------:|-----------:|---------:|---------:|----------:|----------:|----------:|----------:|-----------:|----------:|------------:|------------:|----------:|
+| SWup   | baseline     |  2.90485 |  0.293559  | 1.01222  | 0.996377 |  0.371722 |   2.77522 | 0.0865067 | 0.293559  | 0.0122181  | 0.0036228 |   0.0313977 |   0.0793756 | 0.0618947 |
+| SWup   | detailed     |  2.86546 |  0.0780699 | 1.0122   | 0.996452 |  0.388156 |   2.62971 | 0.0856273 | 0.0780699 | 0.0122005  | 0.0035483 |   0.0389963 |   0.0845951 | 0.0603226 |
+| LWup   | baseline     | 10.102   |  0.920756  | 1.17621  | 0.970426 |  8.5103   |  18.2723  | 0.317206  | 0.920756  | 0.176211   | 0.0295735 |   0.0289826 |   0.050621  | 0.0832373 |
+| LWup   | detailed     |  8.80537 | -2.28732   | 1.08176  | 0.969617 |  9.35015  |   5.04826 | 0.269106  | 2.28732   | 0.0817613  | 0.0303825 |   0.0393912 |   0.0469117 | 0.0759075 |
+| Qle    | baseline     | 30.0436  |  2.54493   | 0.997103 | 0.521961 |  9.49197  |   7.32897 | 0.976379  | 2.54493   | 0.00289726 | 0.478039  |   0.217216  |   0.0864206 | 0.142226  |
+| Qle    | detailed     | 30.4101  |  3.84314   | 0.980954 | 0.519934 |  8.86399  |   4.28762 | 0.970675  | 3.84314   | 0.0190455  | 0.480066  |   0.164354  |   0.122573  | 0.111758  |
+| Qh     | baseline     | 30.2145  |  5.99427   | 1.3363   | 0.928643 | 16.023    |  89.2008  | 0.551186  | 5.99427   | 0.3363     | 0.0713567 |   0.113249  |   0.206649  | 0.170233  |
+| Qh     | detailed     | 37.0835  |  7.05139   | 1.47534  | 0.928183 | 29.8102   | 125.627   | 0.661711  | 7.05139   | 0.475343   | 0.0718174 |   0.0766672 |   0.110751  | 0.22729   |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
  - NSD: ratio of model to obs standard deviation (close to 1 is better)
  - R: Pearson's correlation (close to 1 is better)
-
-### jump to figure:
- - [Albedo](#albedo)
- - [LWnet](#lwnet)
- - [LWup](#lwup)
- - [Qanth](#qanth)
- - [Qh](#qh)
- - [Qle](#qle)
- - [SWnet](#swnet)
- - [SWup](#swup)
- - [closure_baseline](#closure_baseline)
- - [closure_detailed](#closure_detailed)
- - [subset_LWnet](#subset_lwnet)
- - [subset_LWup](#subset_lwup)
- - [subset_Qanth](#subset_qanth)
- - [subset_Qh](#subset_qh)
- - [subset_Qle](#subset_qle)
- - [subset_SWnet](#subset_swnet)
- - [subset_SWup](#subset_swup)
+ - all others: closer to 0 is better
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
-### <a name="albedo"></a>Albedo
-[![CHTESSEL_U_AU-Preston_Albedo.png](CHTESSEL_U_AU-Preston_Albedo.png)](CHTESSEL_U_AU-Preston_Albedo.png)
+### <a name="datasheet"></a>Datasheet
+[![CHTESSEL_U_AU-Preston_Datasheet.png](CHTESSEL_U_AU-Preston_Datasheet.png)](CHTESSEL_U_AU-Preston_Datasheet.png)
 
-### <a name="lwnet"></a>LWnet
-[![CHTESSEL_U_AU-Preston_LWnet.png](CHTESSEL_U_AU-Preston_LWnet.png)](CHTESSEL_U_AU-Preston_LWnet.png)
-
-### <a name="lwup"></a>LWup
-[![CHTESSEL_U_AU-Preston_LWup.png](CHTESSEL_U_AU-Preston_LWup.png)](CHTESSEL_U_AU-Preston_LWup.png)
-
-### <a name="qanth"></a>Qanth
-[![CHTESSEL_U_AU-Preston_Qanth.png](CHTESSEL_U_AU-Preston_Qanth.png)](CHTESSEL_U_AU-Preston_Qanth.png)
-
-### <a name="qh"></a>Qh
-[![CHTESSEL_U_AU-Preston_Qh.png](CHTESSEL_U_AU-Preston_Qh.png)](CHTESSEL_U_AU-Preston_Qh.png)
-
-### <a name="qle"></a>Qle
-[![CHTESSEL_U_AU-Preston_Qle.png](CHTESSEL_U_AU-Preston_Qle.png)](CHTESSEL_U_AU-Preston_Qle.png)
-
-### <a name="swnet"></a>SWnet
-[![CHTESSEL_U_AU-Preston_SWnet.png](CHTESSEL_U_AU-Preston_SWnet.png)](CHTESSEL_U_AU-Preston_SWnet.png)
-
-### <a name="swup"></a>SWup
-[![CHTESSEL_U_AU-Preston_SWup.png](CHTESSEL_U_AU-Preston_SWup.png)](CHTESSEL_U_AU-Preston_SWup.png)
+### <a name="distributions"></a>Distributions
+[![CHTESSEL_U_AU-Preston_Distributions.png](CHTESSEL_U_AU-Preston_Distributions.png)](CHTESSEL_U_AU-Preston_Distributions.png)
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![CHTESSEL_U_AU-Preston_closure_baseline.png](CHTESSEL_U_AU-Preston_closure_baseline.png)](CHTESSEL_U_AU-Preston_closure_baseline.png)
@@ -75,14 +35,8 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![CHTESSEL_U_AU-Preston_closure_detailed.png](CHTESSEL_U_AU-Preston_closure_detailed.png)](CHTESSEL_U_AU-Preston_closure_detailed.png)
 
-### <a name="subset_lwnet"></a>subset_LWnet
-[![CHTESSEL_U_AU-Preston_subset_LWnet.png](CHTESSEL_U_AU-Preston_subset_LWnet.png)](CHTESSEL_U_AU-Preston_subset_LWnet.png)
-
 ### <a name="subset_lwup"></a>subset_LWup
 [![CHTESSEL_U_AU-Preston_subset_LWup.png](CHTESSEL_U_AU-Preston_subset_LWup.png)](CHTESSEL_U_AU-Preston_subset_LWup.png)
-
-### <a name="subset_qanth"></a>subset_Qanth
-[![CHTESSEL_U_AU-Preston_subset_Qanth.png](CHTESSEL_U_AU-Preston_subset_Qanth.png)](CHTESSEL_U_AU-Preston_subset_Qanth.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![CHTESSEL_U_AU-Preston_subset_Qh.png](CHTESSEL_U_AU-Preston_subset_Qh.png)](CHTESSEL_U_AU-Preston_subset_Qh.png)
@@ -90,19 +44,20 @@
 ### <a name="subset_qle"></a>subset_Qle
 [![CHTESSEL_U_AU-Preston_subset_Qle.png](CHTESSEL_U_AU-Preston_subset_Qle.png)](CHTESSEL_U_AU-Preston_subset_Qle.png)
 
-### <a name="subset_swnet"></a>subset_SWnet
-[![CHTESSEL_U_AU-Preston_subset_SWnet.png](CHTESSEL_U_AU-Preston_subset_SWnet.png)](CHTESSEL_U_AU-Preston_subset_SWnet.png)
-
 ### <a name="subset_swup"></a>subset_SWup
 [![CHTESSEL_U_AU-Preston_subset_SWup.png](CHTESSEL_U_AU-Preston_subset_SWup.png)](CHTESSEL_U_AU-Preston_subset_SWup.png)
 
 ### out of range: baseline
 
  - CHTESSEL_U Qh max value of 641.0618 is greater than expected 600.0 [W/m2]
+ - CHTESSEL_U EvapF max value of 47.5853 is greater than expected 1.0 [1]
+ - CHTESSEL_U EvapF min value of -44.8806 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
  - CHTESSEL_U Qh max value of 690.3634 is greater than expected 600.0 [W/m2]
+ - CHTESSEL_U EvapF max value of 32.3510 is greater than expected 1.0 [1]
+ - CHTESSEL_U EvapF min value of -23.6449 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

@@ -1,0 +1,7 @@
+Ensemble SWup min value of -0.0110 is less than expected 0.0 [W/m2]
+Ensemble Qfz min value of -0.0000 is less than expected 0.0 [kg/m2/s]
+Ensemble Qs min value of -0.0000 is less than expected 0.0 [kg/m2/s]
+Ensemble Qsm max value of 9.0914 is greater than expected 0.005 [kg/m2/s]
+Ensemble Qsm min value of -0.7546 is less than expected 0.0 [kg/m2/s]
+Ensemble EvapF max value of 8.4784 is greater than expected 1.0 [1]
+Ensemble EvapF min value of -9.4480 is less than expected 0.0 [1]

@@ -1,2 +1,4 @@
 ASLUMv2.0 Qh max value of 744.3455 is greater than expected 600.0 [W/m2]
 ASLUMv2.0 ESoil max value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
+ASLUMv2.0 EvapF max value of 186.2600 is greater than expected 1.0 [1]
+ASLUMv2.0 EvapF min value of -120.0947 is less than expected 0.0 [1]

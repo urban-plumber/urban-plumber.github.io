@@ -1,0 +1,2 @@
+CM EvapF max value of 39.9310 is greater than expected 1.0 [1]
+CM EvapF min value of -9.3846 is less than expected 0.0 [1]
