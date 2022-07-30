@@ -4,7 +4,7 @@
 
 # AU-Preston results
 
- - [Participant metadata and submitted variables](../modelattrs/index.md)
+ - [Participant metadata and submitted variables](../index.md)
  - [Baseline results](../baseline/index.md)
  - [Detailed results](../detailed/index.md)
 
