@@ -10,6 +10,8 @@
 
 ## Mean absolute error (MAE)
 
+**A single error metric cannot characterise the performance of a model. For analysis refer to the associated paper.**
+
 Order is based on the urban model classifications provided, nominally from simpler to more complex.
 
 ### <a name="swup"></a>SWup: Upwelling shortwave radiation

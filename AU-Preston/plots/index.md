@@ -11,6 +11,10 @@
  - **Baseline**: basic surface information provided, otherwise with default model setup
  - **Detailed**: more detailed information like building morphology, albedo and anthropogenic heat
 
+## Model data
+
+Metadata as submitted for baseline and detailed experiments. Results for individual models.
+
 ## Submitted variables
 
 - Upper triangle shows submitted variables for the **baseline** experiment.
@@ -22,14 +26,9 @@
 
 [![Variables](./modelattrs/submitted_variables.png)](./modelattrs/submitted_variables.png)
 
-
 ## Simulation duration
 
 [![spinup](./modelattrs/spinup_periods.png)](./modelattrs/spinup_periods.png)
-
-## Submitted metadata
-
-Metadata as submitted for baseline and detailed experiments
 
 |             | baseline                                                                   | detailed                                                                   | model plots                                   |
 |:------------|:---------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------------------------|
