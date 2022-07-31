@@ -1,9 +1,9 @@
 
 # AU-Preston submission summary
 
- - [Supplementary results](./PLUMBER/index.md)
  - [Baseline plots (all variables)](./baseline/index.md)
  - [Detailed plots (all variables)](./detailed/index.md)
+ - [Supplementary material to the manuscript](./PLUMBER/index.md)
  - [Site details](https://urban-plumber.github.io/AU-Preston/)
 
 ## Experiments: 
