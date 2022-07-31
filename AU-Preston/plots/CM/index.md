@@ -2,6 +2,11 @@
 
 **NOTE:** *Results presented here are highly dependent on how models are configured in this experiment and may be subject to variable output formatting errors. Results are not intended to indicate the quality of any individual model, but to help participants better understand and improve modelling approaches in different urban environments.*
 
+### Submitted metadata
+
+- [Baseline](CM_AU-Preston_baseline_attrs.md)
+- [Detailed](CM_AU-Preston_detailed_attrs.md)
+
 ### Error metrics
 
 | flux   | experiment   |      MAE |        MBE |        nSD |          R |    5th |   95th |     RMSE |      cRMSE |       AMBE |      1-nSD |          1-R |   nSkewness |   nKurtosis |     Overlap |
