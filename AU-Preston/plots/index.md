@@ -1,10 +1,10 @@
 
 # AU-Preston submission summary
 
- - [Site details](https://urban-plumber.github.io/AU-Preston/)
  - [Baseline results](./baseline/index.md)
  - [Detailed results](./detailed/index.md)
  - [Error metric summary](./metrics/index.md)
+ - [Site details](https://urban-plumber.github.io/AU-Preston/)
 
 ## Experiments: 
 
@@ -14,21 +14,6 @@
 ## Model data
 
 Metadata as submitted for baseline and detailed experiments. Results for individual models.
-
-## Submitted variables
-
-- Upper triangle shows submitted variables for the **baseline** experiment.
-- Lower triangle shows submitted variables for the **detailed** experiment.
-- Orange indicates more data than forcing (i.e. shorter than expected timesteps).
-- Lighter green may indicate longer than expected timesteps, or partial data.
-- [Link to variable definitions](./modelattrs/variable_definitions.md)
-- Click figure to expand.
-
-[![Variables](./modelattrs/submitted_variables.png)](./modelattrs/submitted_variables.png)
-
-## Simulation duration
-
-[![spinup](./modelattrs/spinup_periods.png)](./modelattrs/spinup_periods.png)
 
 |             | baseline                                                                   | detailed                                                                   | model plots                                   |
 |:------------|:---------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------------------------|
@@ -62,3 +47,19 @@ Metadata as submitted for baseline and detailed experiments. Results for individ
 | UT&C        | [baseline metadata](./modelattrs/UT&C_AU-Preston_baseline_attrs.md)        | [detailed metadata](./modelattrs/UT&C_AU-Preston_detailed_attrs.md)        | [UT&C results](./UT&C/index.md)               |
 | VTUF-3D     | [baseline metadata](./modelattrs/VTUF-3D_AU-Preston_baseline_attrs.md)     | [detailed metadata](./modelattrs/VTUF-3D_AU-Preston_detailed_attrs.md)     | [VTUF-3D results](./VTUF-3D/index.md)         |
 | VUCM        | [baseline metadata](./modelattrs/VUCM_AU-Preston_baseline_attrs.md)        | [detailed metadata](./modelattrs/VUCM_AU-Preston_detailed_attrs.md)        | [VUCM results](./VUCM/index.md)               |
+
+## Submitted variables
+
+- Upper triangle shows submitted variables for the **baseline** experiment.
+- Lower triangle shows submitted variables for the **detailed** experiment.
+- Orange indicates more data than forcing (i.e. shorter than expected timesteps).
+- Lighter green may indicate longer than expected timesteps, or partial data.
+- [Link to variable definitions](./modelattrs/variable_definitions.md)
+- Click figure to expand.
+
+[![Variables](./modelattrs/submitted_variables.png)](./modelattrs/submitted_variables.png)
+
+## Simulation duration
+
+[![spinup](./modelattrs/spinup_periods.png)](./modelattrs/spinup_periods.png)
+
