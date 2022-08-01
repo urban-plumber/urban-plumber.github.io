@@ -63,5 +63,9 @@ See Figure 6 caption in the original article
 
 ## Fig. S5: By previous experience with the site
 
-[![AU-Preston_experience_MAE_boxplot.png](AU-Preston_experience_MAE_boxplot.png)](AU-Preston_experience_MAE_boxplot.png)
+[![AU-Preston_site_experience_MAE_boxplot.png](AU-Preston_site_experience_MAE_boxplot.png)](AU-Preston_site_experience_MAE_boxplot.png)
+
+## Fig. S6: By timestep energy closure
+
+[![AU-Preston_energy_closure_MAE_boxplot.png](AU-Preston_energy_closure_MAE_boxplot.png)](AU-Preston_energy_closure_MAE_boxplot.png)
 
