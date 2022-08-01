@@ -14,7 +14,7 @@ Also see:
 
 - [Baseline plots (all variables)](../baseline/index.md)
 - [Detailed plots (all variables)](../detailed/index.md)
-- [Individual model data and results](../PLUMBER/index.md#model-data)
+- [Individual model data and results](../index.md#model-data)
 
 # Taylor plots
 
