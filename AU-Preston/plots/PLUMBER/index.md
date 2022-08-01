@@ -10,6 +10,12 @@ The following supplements results reported in the article:
 
 Refer to the published article for interpretation of figures and for referencing.
 
+Also see:
+
+- [Baseline plots (all variables)](../baseline/index.md)
+- [Detailed plots (all variables)](../detailed/index.md)
+- [Individual model data and results](../PLUMBER/index.md#model-data)
+
 # Taylor plots
 
 See Figure 7 caption in the original article
@@ -65,7 +71,13 @@ See Figure 6 caption in the original article
 
 [![AU-Preston_site_experience_MAE_boxplot.png](AU-Preston_site_experience_MAE_boxplot.png)](AU-Preston_site_experience_MAE_boxplot.png)
 
-## Fig. S6: By timestep energy closure
+## Fig. S6: By energy closure in timestep
 
 [![AU-Preston_energy_closure_MAE_boxplot.png](AU-Preston_energy_closure_MAE_boxplot.png)](AU-Preston_energy_closure_MAE_boxplot.png)
+
+## Fig. S7: By complete spinup
+
+[![AU-Preston_energy_closure_MAE_boxplot.png](AU-Preston_energy_closure_MAE_boxplot.png)](AU-Preston_energy_closure_MAE_boxplot.png)
+
+See [plot of simulation durations](../PLUMBER/index.md#simulation-duration)
 
