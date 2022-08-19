@@ -77,7 +77,13 @@ See Figure 6 caption in the original article
 
 ## Fig. S7: By complete spinup
 
-[![AU-Preston_energy_closure_MAE_boxplot.png](AU-Preston_energy_closure_MAE_boxplot.png)](AU-Preston_energy_closure_MAE_boxplot.png)
+[![AU-Preston_full_spinup_MAE_boxplot.png](AU-Preston_full_spinup_MAE_boxplot.png)](AU-Preston_full_spinup_MAE_boxplot.png)
+
+See [plot of simulation durations](../PLUMBER/index.md#simulation-duration)
+
+## Fig. S8: By cohort (only models with SWup correlation>0.99)
+
+[![AU-Preston_goodtiming_MAE_boxplot.png](AU-Preston_goodtiming_MAE_boxplot.png)](AU-Preston_goodtiming_MAE_boxplot.png)
 
 See [plot of simulation durations](../PLUMBER/index.md#simulation-duration)
 
