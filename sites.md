@@ -6,9 +6,11 @@ Observations groups have supplied 20 flux tower datasets over a wide range of bu
 Together this representes 50 years of observed data. 
 Additionally each site includes ten year spin-up and gap-filling applied for this project using bias-corrected ERA5 data.
 
-Described in the paper: [Harmonized gap-filled datasets from 20 urban flux tower sites](https://doi.org/10.5194/essd-2022-65)
+Data described in the paper: [Harmonized gap-filled datasets from 20 urban flux tower sites](https://doi.org/10.5194/essd-2022-65)
 
-Cite any information used from these pages as:
+Data accessible to download from: https://doi.org/10.5281/zenodo.7104984
+
+Cite information used from these pages as:
 
 > Lipson, M., Grimmond, S., Best, M., Chow, W., Christen, A., Chrysoulakis, N., Coutts, A., Crawford, B., Earl, S., Evans, J., Fortuniak, K., Heusinkveld, B. G., Hong, J.-W., Hong, J., Järvi, L., Jo, S., Kim, Y.-H., Kotthaus, S., Lee, K., Masson, V., McFadden, J. P., Michels, O., Pawlak, W., Roth, M., Sugawara, H., Tapper, N., Velasco, E., and Ward, H. C.: Harmonized gap-filled datasets from 20 urban flux tower sites, Earth System Science Data Discussions, 1–29, https://doi.org/10.5194/essd-2022-65, 2022.
 
