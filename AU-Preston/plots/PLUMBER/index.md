@@ -16,74 +16,64 @@ Also see:
 - [Detailed plots (all variables)](../detailed/index.md)
 - [Individual model data and results](../index.md#model-data)
 
-# Taylor plots
+## Fig. S1: Extreme metric group
 
-See Figure 7 caption in the original article
+Metrics: 5th, 95th as defined in Table A.1. See Figure 8 caption in the original article for further details.
 
-## Fig. S1: Improvement Taylor plot
+[![AU-Preston_phase1_extreme_global_SWup_v1.png](AU-Preston_phase1_extreme_global_SWup_v1.png)](AU-Preston_phase1_extreme_global_SWup_v1.png)
+[![AU-Preston_phase1_extreme_global_LWup_v1.png](AU-Preston_phase1_extreme_global_LWup_v1.png)](AU-Preston_phase1_extreme_global_LWup_v1.png)
+[![AU-Preston_phase1_extreme_global_Qh_v1.png](AU-Preston_phase1_extreme_global_Qh_v1.png)](AU-Preston_phase1_extreme_global_Qh_v1.png)
+[![AU-Preston_phase1_extreme_global_Qle_v1.png](AU-Preston_phase1_extreme_global_Qle_v1.png)](AU-Preston_phase1_extreme_global_Qle_v1.png)
+[![AU-Preston_phase1_extreme_global_Qtau_v1.png](AU-Preston_phase1_extreme_global_Qtau_v1.png)](AU-Preston_phase1_extreme_global_Qtau_v1.png)
 
-Line indicates improvement between baseline and detailed experiment. Marker indicates detailed result
+## Fig. S2: Distribution metric group
 
-[![AU-Preston_taylor_five_improvement.png](AU-Preston_taylor_five_improvement.png)](AU-Preston_taylor_five_improvement.png)
+Metrics: nSkewness, nKurtosis, Overlap as defined in Table A.1. See Figure 8 caption in the original article for further details. 
 
-# Benchmarking relative evaluation plots
+[![AU-Preston_phase1_distribution_global_SWup_v1.png](AU-Preston_phase1_distribution_global_SWup_v1.png)](AU-Preston_phase1_distribution_global_SWup_v1.png)
 
-See Figure 8 caption in the original article
+[![AU-Preston_phase1_distribution_global_LWup_v1.png](AU-Preston_phase1_distribution_global_LWup_v1.png)](AU-Preston_phase1_distribution_global_LWup_v1.png)
 
-## Fig. S2: Extreme metric group
+[![AU-Preston_phase1_distribution_global_Qh_v1.png](AU-Preston_phase1_distribution_global_Qh_v1.png)](AU-Preston_phase1_distribution_global_Qh_v1.png)
 
-Metrics: 5th, 95th as defined in Table A.1
+[![AU-Preston_phase1_distribution_global_Qle_v1.png](AU-Preston_phase1_distribution_global_Qle_v1.png)](AU-Preston_phase1_distribution_global_Qle_v1.png)
 
-[![AU-Preston_combined_extreme_global_SWup.png](AU-Preston_combined_extreme_global_SWup.png)](AU-Preston_combined_extreme_global_SWup.png)
-[![AU-Preston_combined_extreme_global_LWup.png](AU-Preston_combined_extreme_global_LWup.png)](AU-Preston_combined_extreme_global_LWup.png)
-[![AU-Preston_combined_extreme_global_Qh.png](AU-Preston_combined_extreme_global_Qh.png)](AU-Preston_combined_extreme_global_Qh.png)
-[![AU-Preston_combined_extreme_global_Qle.png](AU-Preston_combined_extreme_global_Qle.png)](AU-Preston_combined_extreme_global_Qle.png)
-[![AU-Preston_combined_extreme_global_Qtau.png](AU-Preston_combined_extreme_global_Qtau.png)](AU-Preston_combined_extreme_global_Qtau.png)
-
-## Fig. S3: Distribution metric group
-
-Metrics: nSkewness, nKurtosis, Overlap as defined in Table A.1
-
-[![AU-Preston_combined_distribution_global_SWup.png](AU-Preston_combined_distribution_global_SWup.png)](AU-Preston_combined_distribution_global_SWup.png)
-
-[![AU-Preston_combined_distribution_global_LWup.png](AU-Preston_combined_distribution_global_LWup.png)](AU-Preston_combined_distribution_global_LWup.png)
-
-[![AU-Preston_combined_distribution_global_Qh.png](AU-Preston_combined_distribution_global_Qh.png)](AU-Preston_combined_distribution_global_Qh.png)
-
-[![AU-Preston_combined_distribution_global_Qle.png](AU-Preston_combined_distribution_global_Qle.png)](AU-Preston_combined_distribution_global_Qle.png)
-
-[![AU-Preston_combined_distribution_global_Qtau.png](AU-Preston_combined_distribution_global_Qtau.png)](AU-Preston_combined_distribution_global_Qtau.png)
+[![AU-Preston_phase1_distribution_global_Qtau_v1.png](AU-Preston_phase1_distribution_global_Qtau_v1.png)](AU-Preston_phase1_distribution_global_Qtau_v1.png)
 
 
-## Fig. S4: All metrics combined
+## Fig. S3: All metrics aggregated
 
-[![AU-Preston_combined_all_global_SWup.png](AU-Preston_combined_all_global_SWup.png)](AU-Preston_combined_all_global_SWup.png)
-[![AU-Preston_combined_all_global_LWup.png](AU-Preston_combined_all_global_LWup.png)](AU-Preston_combined_all_global_LWup.png)
-[![AU-Preston_combined_all_global_Qh.png](AU-Preston_combined_all_global_Qh.png)](AU-Preston_combined_all_global_Qh.png)
-[![AU-Preston_combined_all_global_Qle.png](AU-Preston_combined_all_global_Qle.png)](AU-Preston_combined_all_global_Qle.png)
-[![AU-Preston_combined_all_global_Qtau.png](AU-Preston_combined_all_global_Qtau.png)](AU-Preston_combined_all_global_Qtau.png)
+All metrics as defined in Table A.1. See Figure 8 caption in the original article for further details.
 
-# Categorical MAE plots
+[![AU-Preston_phase1_all_global_SWup_v1.png](AU-Preston_phase1_all_global_SWup_v1.png)](AU-Preston_phase1_all_global_SWup_v1.png)
+[![AU-Preston_phase1_all_global_LWup_v1.png](AU-Preston_phase1_all_global_LWup_v1.png)](AU-Preston_phase1_all_global_LWup_v1.png)
+[![AU-Preston_phase1_all_global_Qh_v1.png](AU-Preston_phase1_all_global_Qh_v1.png)](AU-Preston_phase1_all_global_Qh_v1.png)
+[![AU-Preston_phase1_all_global_Qle_v1.png](AU-Preston_phase1_all_global_Qle_v1.png)](AU-Preston_phase1_all_global_Qle_v1.png)
+[![AU-Preston_phase1_all_global_Qtau_v1.png](AU-Preston_phase1_all_global_Qtau_v1.png)](AU-Preston_phase1_all_global_Qtau_v1.png)
 
-See Figure 6 caption in the original article
+## Fig. S4: By cohort (only models with SWup correlation>0.99)
 
-## Fig. S5: By previous experience with the site
+All models with lower SWup correlation excluded. See Figure 6 caption in the original article for further details.
 
-[![AU-Preston_site_experience_MAE_boxplot.png](AU-Preston_site_experience_MAE_boxplot.png)](AU-Preston_site_experience_MAE_boxplot.png)
+[![AU-Preston_good_sw_timing_MAE_boxplot_v1.png](AU-Preston_good_sw_timing_MAE_boxplot_v1.png)](AU-Preston_good_sw_timing_MAE_boxplot_v1.png)
 
-## Fig. S6: By energy closure in timestep
+## Fig. S5: Comparison of initial and baseline submissions
 
-[![AU-Preston_energy_closure_MAE_boxplot.png](AU-Preston_energy_closure_MAE_boxplot.png)](AU-Preston_energy_closure_MAE_boxplot.png)
+Mean absolute error (MAE) improvement from the first (initial) to the final baseline submission, with the number of submissions and direction of improvement indicated
+
+[![AU-Preston_phase1_improvement_MAE_SWup_v1.png](AU-Preston_phase1_improvement_MAE_SWup_v1.png)](AU-Preston_phase1_improvement_MAE_SWup_v1.png)
+[![AU-Preston_phase1_improvement_MAE_LWup_v1.png](AU-Preston_phase1_improvement_MAE_LWup_v1.png)](AU-Preston_phase1_improvement_MAE_LWup_v1.png)
+[![AU-Preston_phase1_improvement_MAE_Qh_v1.png](AU-Preston_phase1_improvement_MAE_Qh_v1.png)](AU-Preston_phase1_improvement_MAE_Qh_v1.png)
+[![AU-Preston_phase1_improvement_MAE_Qle_v1.png](AU-Preston_phase1_improvement_MAE_Qle_v1.png)](AU-Preston_phase1_improvement_MAE_Qle_v1.png)
+[![AU-Preston_phase1_improvement_MAE_Qtau_v1.png](AU-Preston_phase1_improvement_MAE_Qtau_v1.png)](AU-Preston_phase1_improvement_MAE_Qtau_v1.png)
+
+## Fig. S6: By previous experience with the site
+
+[![AU-Preston_site_experience_MAE_boxplot_v1.png](AU-Preston_site_experience_MAE_boxplot_v1.png)](AU-Preston_site_experience_MAE_boxplot_v1.png)
 
 ## Fig. S7: By complete spinup
 
-[![AU-Preston_full_spinup_MAE_boxplot.png](AU-Preston_full_spinup_MAE_boxplot.png)](AU-Preston_full_spinup_MAE_boxplot.png)
-
-See [plot of simulation durations](../PLUMBER/index.md#simulation-duration)
-
-## Fig. S8: By cohort (only models with SWup correlation>0.99)
-
-[![AU-Preston_goodtiming_MAE_boxplot.png](AU-Preston_goodtiming_MAE_boxplot.png)](AU-Preston_goodtiming_MAE_boxplot.png)
+[![AU-Preston_full_spinup_MAE_boxplot_v1.png](AU-Preston_full_spinup_MAE_boxplot_v1.png)](AU-Preston_full_spinup_MAE_boxplot_v1.png)
 
 See [plot of simulation durations](../PLUMBER/index.md#simulation-duration)
 
