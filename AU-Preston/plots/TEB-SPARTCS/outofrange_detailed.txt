@@ -1,4 +1,0 @@
-TEB-SPARTCS Qh max value of 602.5126 is greater than expected 600.0 [W/m2]
-TEB-SPARTCS TVeg max value of 0.0004 is greater than expected 0.0003 [kg/m2/s]
-TEB-SPARTCS EvapF max value of 13.3841 is greater than expected 1.0 [1]
-TEB-SPARTCS EvapF min value of -8.7738 is less than expected 0.0 [1]

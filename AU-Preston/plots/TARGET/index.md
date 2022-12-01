@@ -9,18 +9,18 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |       MBE |        nSD |          R |       5th |     95th |     RMSE |      cRMSE |      AMBE |       1-nSD |          1-R |   nSkewness |   nKurtosis |    Overlap |
-|:-------|:-------------|---------:|----------:|-----------:|-----------:|----------:|---------:|---------:|-----------:|----------:|------------:|-------------:|------------:|------------:|-----------:|
-| SWup   | baseline     |  12.3446 |  11.7454  |   1.23349  |   0.992433 |   0.33612 |  34.2178 |  17.2277 |   0.270528 |  11.7454  |   0.233491  |   0.00756701 |   0.0163891 |   0.0303638 |   0.107961 |
-| SWup   | detailed     |  12.3446 |  11.7454  |   1.23349  |   0.992433 |   0.33612 |  34.2178 |  17.2277 |   0.270528 |  11.7454  |   0.233491  |   0.00756701 |   0.0163891 |   0.0303638 |   0.107961 |
-| LWup   | baseline     |  46.0397 | -40.6063  |   1.58598  |   0.853646 |  87.2293  |   1.3259 |  55.4228 |   0.898663 |  40.6063  |   0.585976  |   0.146354   |   0.604923  |   1.29219   |   0.427168 |
-| LWup   | detailed     |  42.6043 | -33.0864  |   1.6731   |   0.855669 |  84.4443  |  16.8258 |  52.3811 |   0.967481 |  33.0864  |   0.673097  |   0.144331   |   0.585546  |   1.26478   |   0.406304 |
-| Qle    | baseline     |  32.2904 | -25.0052  |   0.129656 |   0.649162 |  13.1256  | 109.425  |  54.0945 |   0.921127 |  25.0052  |   0.870344  |   0.350838   |   0.292258  |   0.863221  |   0.376942 |
-| Qle    | detailed     |  32.0957 | -24.9751  |   0.14318  |   0.647607 |  12.4885  | 107.763  |  53.743  |   0.913812 |  24.9751  |   0.85682   |   0.352393   |   0.287401  |   0.861593  |   0.35946  |
-| Qh     | baseline     |  37.7881 |  -6.91131 |   0.886889 |   0.842087 |   9.47116 |  34.5864 |  50.2639 |   0.5412   |   6.91131 |   0.113111  |   0.157913   |   0.295299  |   0.736099  |   0.197483 |
-| Qh     | detailed     |  38.5176 |  -6.79335 |   0.931129 |   0.841756 |  13.1459  |  24.6586 |  50.7952 |   0.547206 |   6.79335 |   0.0688713 |   0.158244   |   0.292903  |   0.734872  |   0.20722  |
-| Qtau   | baseline     | nan      | nan       | nan        | nan        | nan       | nan      | nan      | nan        | nan       | nan         | nan          | nan         | nan         | nan        |
-| Qtau   | detailed     | nan      | nan       | nan        | nan        | nan       | nan      | nan      | nan        | nan       | nan         | nan          | nan         | nan         | nan        |
+| flux   | experiment   |      MAE |       MBE |        nSD |          R |       5th |      95th |     RMSE |      cRMSE |      AMBE |       1-nSD |          1-R |   nSkewness |   nKurtosis |     Overlap |
+|:-------|:-------------|---------:|----------:|-----------:|-----------:|----------:|----------:|---------:|-----------:|----------:|------------:|-------------:|------------:|------------:|------------:|
+| SWup   | baseline     |  12.3821 |  11.7886  |   1.23404  |   0.992505 |   0.34775 |  34.3731  |  17.2637 |   0.270694 |  11.7886  |   0.234044  |   0.00749498 |   0.0181357 |    0.035481 |   0.0929275 |
+| SWup   | detailed     |  12.3821 |  11.7886  |   1.23404  |   0.992505 |   0.34775 |  34.3731  |  17.2637 |   0.270694 |  11.7886  |   0.234044  |   0.00749498 |   0.0181357 |    0.035481 |   0.0929275 |
+| LWup   | baseline     |  45.971  | -40.5277  |   1.5847   |   0.853743 |  87.2412  |   1.47463 |  55.3441 |   0.897454 |  40.5277  |   0.584702  |   0.146257   |   0.605101  |    1.29327  |   0.426357  |
+| LWup   | detailed     |  42.5345 | -33.0008  |   1.67179  |   0.85576  |  84.4513  |  16.8915  |  52.3024 |   0.966217 |  33.0008  |   0.671788  |   0.14424    |   0.585665  |    1.26581  |   0.405299  |
+| Qle    | baseline     |  29.8807 | -23.4061  |   0.13567  |   0.69618  |  11.4456  | 103.768   |  50.2758 |   0.910771 |  23.4061  |   0.86433   |   0.30382    |   0.227075  |    0.79118  |   0.392272  |
+| Qle    | detailed     |  29.7025 | -23.4212  |   0.149733 |   0.69455  |  10.8003  | 102.135   |  49.9237 |   0.902456 |  23.4212  |   0.850267  |   0.30545    |   0.221881  |    0.788812 |   0.37719   |
+| Qh     | baseline     |  37.3864 |  -8.75    |   0.871725 |   0.845803 |   9.52046 |  42.3302  |  49.716  |   0.534125 |   8.75    |   0.128275  |   0.154197   |   0.271598  |    0.658681 |   0.211507  |
+| Qh     | detailed     |  38.0754 |  -8.88433 |   0.914982 |   0.845487 |  13.3202  |  33.2705  |  50.1342 |   0.5385   |   8.88433 |   0.0850176 |   0.154513   |   0.269327  |    0.657445 |   0.222389  |
+| Qtau   | baseline     | nan      | nan       | nan        | nan        | nan       | nan       | nan      | nan        | nan       | nan         | nan          | nan         |  nan        | nan         |
+| Qtau   | detailed     | nan      | nan       | nan        | nan        | nan       | nan       | nan      | nan        | nan       | nan         | nan          | nan         |  nan        | nan         |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -29,6 +29,9 @@
  - all others: closer to 0 is better
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
+
+### <a name="albedo"></a>Albedo
+[![TARGET_AU-Preston_Albedo.png](TARGET_AU-Preston_Albedo.png)](TARGET_AU-Preston_Albedo.png)
 
 ### <a name="datasheet"></a>Datasheet
 [![TARGET_AU-Preston_Datasheet.png](TARGET_AU-Preston_Datasheet.png)](TARGET_AU-Preston_Datasheet.png)
@@ -42,9 +45,6 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![TARGET_AU-Preston_closure_detailed.png](TARGET_AU-Preston_closure_detailed.png)](TARGET_AU-Preston_closure_detailed.png)
 
-### <a name="subset_lwup"></a>subset_LWup
-[![TARGET_AU-Preston_subset_LWup.png](TARGET_AU-Preston_subset_LWup.png)](TARGET_AU-Preston_subset_LWup.png)
-
 ### <a name="subset_qh"></a>subset_Qh
 [![TARGET_AU-Preston_subset_Qh.png](TARGET_AU-Preston_subset_Qh.png)](TARGET_AU-Preston_subset_Qh.png)
 
@@ -56,17 +56,9 @@
 
 ### out of range: baseline
 
- - TARGET PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
- - TARGET RoofSurfT max value of 358.9660 is greater than expected 353.0 [K]
- - TARGET EvapF max value of 24.1920 is greater than expected 1.0 [1]
- - TARGET EvapF min value of -20.2653 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
- - TARGET PSurf min value of 974.2000 is less than expected 5000.0 [Pa]
- - TARGET RoofSurfT max value of 360.3281 is greater than expected 353.0 [K]
- - TARGET EvapF max value of 40.5119 is greater than expected 1.0 [1]
- - TARGET EvapF min value of -17.7212 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

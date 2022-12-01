@@ -1,3 +1,1 @@
 CHTESSEL_U Qh max value of 690.3634 is greater than expected 600.0 [W/m2]
-CHTESSEL_U EvapF max value of 32.3510 is greater than expected 1.0 [1]
-CHTESSEL_U EvapF min value of -23.6449 is less than expected 0.0 [1]

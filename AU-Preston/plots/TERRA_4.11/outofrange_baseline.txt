@@ -1,4 +1,1 @@
 TERRA_4.11 Qh max value of 731.2208 is greater than expected 600.0 [W/m2]
-TERRA_4.11 Qs min value of -0.0000 is less than expected 0.0 [kg/m2/s]
-TERRA_4.11 EvapF max value of 1.4902 is greater than expected 1.0 [1]
-TERRA_4.11 EvapF min value of -0.0019 is less than expected 0.0 [1]

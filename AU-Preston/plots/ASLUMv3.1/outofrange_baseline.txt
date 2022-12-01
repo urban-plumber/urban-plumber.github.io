@@ -1,2 +1,0 @@
-ASLUMv3.1 EvapF max value of 142.1361 is greater than expected 1.0 [1]
-ASLUMv3.1 EvapF min value of -100.1998 is less than expected 0.0 [1]

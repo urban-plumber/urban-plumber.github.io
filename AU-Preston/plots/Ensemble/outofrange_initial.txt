@@ -1,0 +1,4 @@
+Ensemble SWnet min value of -1.3670 is less than expected 0.0 [W/m2]
+Ensemble SWup min value of -0.0199 is less than expected 0.0 [W/m2]
+Ensemble LWnet max value of 6180.1238 is greater than expected 510.0 [W/m2]
+Ensemble Qstar max value of 6180.1247 is greater than expected 1200.0 [W/m2]

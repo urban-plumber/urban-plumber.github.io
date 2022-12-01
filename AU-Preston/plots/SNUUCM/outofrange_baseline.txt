@@ -1,2 +1,0 @@
-SNUUCM EvapF max value of 1506.0585 is greater than expected 1.0 [1]
-SNUUCM EvapF min value of -62.3383 is less than expected 0.0 [1]

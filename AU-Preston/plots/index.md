@@ -57,9 +57,9 @@ Metadata as submitted for baseline and detailed experiments. Results for individ
 - [Link to variable definitions](./modelattrs/variable_definitions.md)
 - Click figure to expand.
 
-[![Variables](./modelattrs/submitted_variables.png)](./modelattrs/submitted_variables.png)
+[![Variables](./modelattrs/submitted_variables_v1.png)](./modelattrs/submitted_variables_v1.png)
 
 ## Simulation duration
 
-[![spinup](./modelattrs/spinup_periods.png)](./modelattrs/spinup_periods.png)
+[![spinup](./modelattrs/spinup_periods_v1.png)](./modelattrs/spinup_periods_v1.png)
 

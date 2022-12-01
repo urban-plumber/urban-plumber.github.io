@@ -1,0 +1,6 @@
+NOAH-SLUCM SWnet min value of -742.5310 is less than expected 0.0 [W/m2]
+NOAH-SLUCM SWup max value of 1693.8165 is greater than expected 1360.0 [W/m2]
+NOAH-SLUCM LWup min value of -179112.3701 is less than expected 0.0 [W/m2]
+NOAH-SLUCM LWnet max value of 179448.4531 is greater than expected 510.0 [W/m2]
+NOAH-SLUCM Qstar max value of 179448.4531 is greater than expected 1200.0 [W/m2]
+NOAH-SLUCM Qstar min value of -584.2702 is less than expected -500.0 [W/m2]

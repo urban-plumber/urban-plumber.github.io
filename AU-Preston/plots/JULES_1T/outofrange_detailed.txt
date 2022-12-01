@@ -1,3 +1,0 @@
-JULES_1T SWE min value of -0.0000 is less than expected 0.0 [kg/m2]
-JULES_1T EvapF max value of 81.1145 is greater than expected 1.0 [1]
-JULES_1T EvapF min value of -256.6068 is less than expected 0.0 [1]

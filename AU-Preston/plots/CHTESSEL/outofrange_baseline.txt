@@ -1,2 +1,0 @@
-CHTESSEL EvapF max value of 29.0024 is greater than expected 1.0 [1]
-CHTESSEL EvapF min value of -77.1617 is less than expected 0.0 [1]

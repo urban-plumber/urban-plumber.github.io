@@ -1,3 +1,0 @@
-JULES_MOR Qh max value of 699.7561 is greater than expected 600.0 [W/m2]
-JULES_MOR SWE min value of -0.0000 is less than expected 0.0 [kg/m2]
-JULES_MOR Qsm min value of -0.0000 is less than expected 0.0 [kg/m2/s]

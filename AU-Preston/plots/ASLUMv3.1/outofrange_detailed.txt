@@ -1,3 +1,0 @@
-ASLUMv3.1 ESoil max value of 0.0003 is greater than expected 0.0003 [kg/m2/s]
-ASLUMv3.1 EvapF max value of 451.3790 is greater than expected 1.0 [1]
-ASLUMv3.1 EvapF min value of -28.6821 is less than expected 0.0 [1]

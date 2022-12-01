@@ -9,16 +9,18 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |        MBE |      nSD |        R |       5th |      95th |     RMSE |     cRMSE |      AMBE |      1-nSD |        1-R |   nSkewness |   nKurtosis |   Overlap |
-|:-------|:-------------|---------:|-----------:|---------:|---------:|----------:|----------:|---------:|----------:|----------:|-----------:|-----------:|------------:|------------:|----------:|
-| SWup   | baseline     |  2.90633 |  0.294026  | 1.01222  | 0.996374 |  0.389248 |   2.77522 |  4.04239 | 0.0865412 | 0.294026  | 0.0122165  | 0.00362577 |   0.0314551 |   0.0792735 | 0.0598721 |
-| SWup   | detailed     |  2.86692 |  0.0784058 | 1.0122   | 0.996449 |  0.404486 |   2.62971 |  3.99149 | 0.0856619 | 0.0784058 | 0.0122022  | 0.0035512  |   0.0390519 |   0.0844602 | 0.0580438 |
-| LWup   | baseline     | 10.102   |  0.920756  | 1.17621  | 0.970426 |  8.5103   |  18.2723  | 13.3578  | 0.317206  | 0.920756  | 0.176211   | 0.0295735  |   0.0289826 |   0.050621  | 0.0832373 |
-| LWup   | detailed     |  8.80537 | -2.28732   | 1.08176  | 0.969617 |  9.35015  |   5.04826 | 11.5344  | 0.269106  | 2.28732   | 0.0817613  | 0.0303825  |   0.0393912 |   0.0469117 | 0.0759075 |
-| Qle    | baseline     | 30.0436  |  2.54493   | 0.997103 | 0.521961 |  9.49197  |   7.32897 | 50.9092  | 0.976379  | 2.54493   | 0.00289726 | 0.478039   |   0.217216  |   0.0864206 | 0.142226  |
-| Qle    | detailed     | 30.4101  |  3.84314   | 0.980954 | 0.519934 |  8.86399  |   4.28762 | 50.6943  | 0.970675  | 3.84314   | 0.0190455  | 0.480066   |   0.164354  |   0.122573  | 0.111758  |
-| Qh     | baseline     | 30.2145  |  5.99427   | 1.3363   | 0.928643 | 16.023    |  89.2008  | 51.0582  | 0.551186  | 5.99427   | 0.3363     | 0.0713567  |   0.113249  |   0.206649  | 0.170233  |
-| Qh     | detailed     | 37.0835  |  7.05139   | 1.47534  | 0.928183 | 29.8102   | 125.627   | 61.2797  | 0.661711  | 7.05139   | 0.475343   | 0.0718174  |   0.0766672 |   0.110751  | 0.22729   |
+| flux   | experiment   |       MAE |         MBE |       nSD |          R |        5th |      95th |      RMSE |       cRMSE |        AMBE |       1-nSD |          1-R |   nSkewness |   nKurtosis |     Overlap |
+|:-------|:-------------|----------:|------------:|----------:|-----------:|-----------:|----------:|----------:|------------:|------------:|------------:|-------------:|------------:|------------:|------------:|
+| SWup   | baseline     |   2.90652 |   0.30397   |   1.01266 |   0.996466 |   0.41111  |   2.89113 |   3.99717 |   0.0855428 |   0.30397   |   0.0126562 |   0.00353397 |   0.0333087 |   0.0833177 |   0.0598599 |
+| SWup   | detailed     |   2.8671  |   0.0883063 |   1.01265 |   0.99654  |   0.427496 |   2.7455  |   3.94525 |   0.0846558 |   0.0883063 |   0.0126481 |   0.00345956 |   0.0409415 |   0.0882794 |   0.0583923 |
+| LWup   | baseline     |  10.0991  |   0.903601  |   1.17646 |   0.970531 |   8.52575  |  18.2691  |  13.3543  |   0.316984  |   0.903601  |   0.176464  |   0.0294694  |   0.0293049 |   0.0495535 |   0.0832153 |
+| LWup   | detailed     |   8.80403 |  -2.30725   |   1.082   |   0.969722 |   9.38494  |   5.14486 |  11.531   |   0.268786  |   2.30725   |   0.0819998 |   0.0302782  |   0.0390619 |   0.0478192 |   0.0762618 |
+| Qle    | baseline     |  27.658   |   1.92328   |   1.05247 |   0.566306 |   7.74116  |  10.7621  |  46.7882  |   0.9569    |   1.92328   |   0.0524741 |   0.433694   |   0.309966  |   0.135619  |   0.155141  |
+| Qle    | detailed     |  28.0313  |   3.3318    |   1.03809 |   0.565552 |   7.10072  |   8.93136 |  46.5552  |   0.950498  |   3.3318    |   0.0380932 |   0.434448   |   0.249606  |   0.0824508 |   0.118251  |
+| Qh     | baseline     |  28.6971  |   4.78828   |   1.33855 |   0.934459 |  17.2928   |  88.1438  |  49.5809  |   0.538591  |   4.78828   |   0.338555  |   0.0655413  |   0.114801  |   0.203423  |   0.177457  |
+| Qh     | detailed     |  35.3936  |   5.2238    |   1.47567 |   0.934308 |  31.2677   | 122.961   |  59.6197  |   0.64818   |   5.2238    |   0.475667  |   0.0656917  |   0.0810981 |   0.120133  |   0.23578   |
+| Qtau   | baseline     | nan       | nan         | nan       | nan        | nan        | nan       | nan       | nan         | nan         | nan         | nan          | nan         | nan         | nan         |
+| Qtau   | detailed     | nan       | nan         | nan       | nan        | nan        | nan       | nan       | nan         | nan         | nan         | nan          | nan         | nan         | nan         |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -27,6 +29,9 @@
  - all others: closer to 0 is better
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
+
+### <a name="albedo"></a>Albedo
+[![CHTESSEL_U_AU-Preston_Albedo.png](CHTESSEL_U_AU-Preston_Albedo.png)](CHTESSEL_U_AU-Preston_Albedo.png)
 
 ### <a name="datasheet"></a>Datasheet
 [![CHTESSEL_U_AU-Preston_Datasheet.png](CHTESSEL_U_AU-Preston_Datasheet.png)](CHTESSEL_U_AU-Preston_Datasheet.png)
@@ -40,9 +45,6 @@
 ### <a name="closure_detailed"></a>closure_detailed
 [![CHTESSEL_U_AU-Preston_closure_detailed.png](CHTESSEL_U_AU-Preston_closure_detailed.png)](CHTESSEL_U_AU-Preston_closure_detailed.png)
 
-### <a name="subset_lwup"></a>subset_LWup
-[![CHTESSEL_U_AU-Preston_subset_LWup.png](CHTESSEL_U_AU-Preston_subset_LWup.png)](CHTESSEL_U_AU-Preston_subset_LWup.png)
-
 ### <a name="subset_qh"></a>subset_Qh
 [![CHTESSEL_U_AU-Preston_subset_Qh.png](CHTESSEL_U_AU-Preston_subset_Qh.png)](CHTESSEL_U_AU-Preston_subset_Qh.png)
 
@@ -55,14 +57,10 @@
 ### out of range: baseline
 
  - CHTESSEL_U Qh max value of 641.0618 is greater than expected 600.0 [W/m2]
- - CHTESSEL_U EvapF max value of 47.5853 is greater than expected 1.0 [1]
- - CHTESSEL_U EvapF min value of -44.8806 is less than expected 0.0 [1]
 
 ### out of range: detailed
 
  - CHTESSEL_U Qh max value of 690.3634 is greater than expected 600.0 [W/m2]
- - CHTESSEL_U EvapF max value of 32.3510 is greater than expected 1.0 [1]
- - CHTESSEL_U EvapF min value of -23.6449 is less than expected 0.0 [1]
 
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)

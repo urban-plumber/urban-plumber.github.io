@@ -1,2 +1,0 @@
-Manabe_2T EvapF max value of 10.1687 is greater than expected 1.0 [1]
-Manabe_2T EvapF min value of -39.2173 is less than expected 0.0 [1]

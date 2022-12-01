@@ -1,3 +1,1 @@
 MUSE Qh max value of 633.2700 is greater than expected 600.0 [W/m2]
-MUSE EvapF max value of 25.8868 is greater than expected 1.0 [1]
-MUSE EvapF min value of -48.1030 is less than expected 0.0 [1]

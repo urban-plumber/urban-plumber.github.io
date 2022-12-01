@@ -9,12 +9,13 @@
 
 ### Error metrics
 
-| flux   | experiment   |      MAE |      MBE |     nSD |        R |       5th |     95th |    RMSE |    cRMSE |     AMBE |     1-nSD |       1-R |   nSkewness |   nKurtosis |   Overlap |
-|:-------|:-------------|---------:|---------:|--------:|---------:|----------:|---------:|--------:|---------:|---------:|----------:|----------:|------------:|------------:|----------:|
-| SWup   | baseline     |  4.19506 |  2.37588 | 1.08023 | 0.995652 |  0.508689 | 12.0247  |  6.3249 | 0.125823 |  2.37588 | 0.0802314 | 0.0043483 |   0.083625  |   0.145596  | 0.0718643 |
-| LWup   | baseline     |  8.77247 | -2.10889 | 1.01314 | 0.965061 |  5.60885  |  0.33476 | 11.3886 | 0.266401 |  2.10889 | 0.013138  | 0.0349395 |   0.0537722 |   0.0857844 | 0.0576653 |
-| Qle    | baseline     | 33.293   | 18.2242  | 1.42315 | 0.66611  | 10.1265   | 74.6359  | 58.2659 | 1.06273  | 18.2242  | 0.423149  | 0.33389   |   0.150006  |   0.261561  | 0.159918  |
-| Qh     | baseline     | 28.9959  | -8.20893 | 1.13791 | 0.906494 | 23.8725   | 21.5282  | 45.0467 | 0.481478 |  8.20893 | 0.137906  | 0.0935062 |   0.102876  |   0.313304  | 0.174927  |
+| flux   | experiment   |       MAE |       MBE |       nSD |          R |        5th |       95th |      RMSE |      cRMSE |      AMBE |       1-nSD |         1-R |   nSkewness |   nKurtosis |     Overlap |
+|:-------|:-------------|----------:|----------:|----------:|-----------:|-----------:|-----------:|----------:|-----------:|----------:|------------:|------------:|------------:|------------:|------------:|
+| SWup   | baseline     |   4.20374 |   2.39741 |   1.08073 |   0.995743 |   0.522681 |  12.091    |   6.31439 |   0.125378 |   2.39741 |   0.0807315 |   0.0042573 |   0.0857363 |   0.147575  |   0.0702675 |
+| LWup   | baseline     |   8.7697  |  -2.13268 |   1.01338 |   0.965169 |   5.63217  |   0.395142 |  11.3835  |   0.26603  |   2.13268 |   0.0133759 |   0.0348306 |   0.0533458 |   0.0865761 |   0.0577032 |
+| Qle    | baseline     |  30.3751  |  16.518   |   1.50804 |   0.717304 |   8.36094  |  78.3087   |  54.0729  |   1.05392  |  16.518   |   0.508038  |   0.282696  |   0.249259  |   0.0596112 |   0.160789  |
+| Qh     | baseline     |  27.9029  |  -8.66174 |   1.14411 |   0.912264 |  24.6328   |  21.1838   |  43.9867  |   0.470666 |   8.66174 |   0.144107  |   0.0877364 |   0.106677  |   0.299777  |   0.184828  |
+| Qtau   | baseline     | nan       | nan       | nan       | nan        | nan        | nan        | nan       | nan        | nan       | nan         | nan         | nan         | nan         | nan         |
 
  - MAE: mean absolute error (close to 0 is better)
  - MBE: mean bias error (close to 0 is better)
@@ -24,6 +25,9 @@
 
 [Link to variable definitions](../modelattrs/variable_definitions.md)
 
+### <a name="albedo"></a>Albedo
+[![CHTESSEL_AU-Preston_Albedo.png](CHTESSEL_AU-Preston_Albedo.png)](CHTESSEL_AU-Preston_Albedo.png)
+
 ### <a name="datasheet"></a>Datasheet
 [![CHTESSEL_AU-Preston_Datasheet.png](CHTESSEL_AU-Preston_Datasheet.png)](CHTESSEL_AU-Preston_Datasheet.png)
 
@@ -32,9 +36,6 @@
 
 ### <a name="closure_baseline"></a>closure_baseline
 [![CHTESSEL_AU-Preston_closure_baseline.png](CHTESSEL_AU-Preston_closure_baseline.png)](CHTESSEL_AU-Preston_closure_baseline.png)
-
-### <a name="subset_lwup"></a>subset_LWup
-[![CHTESSEL_AU-Preston_subset_LWup.png](CHTESSEL_AU-Preston_subset_LWup.png)](CHTESSEL_AU-Preston_subset_LWup.png)
 
 ### <a name="subset_qh"></a>subset_Qh
 [![CHTESSEL_AU-Preston_subset_Qh.png](CHTESSEL_AU-Preston_subset_Qh.png)](CHTESSEL_AU-Preston_subset_Qh.png)
@@ -47,8 +48,6 @@
 
 ### out of range: baseline
 
- - CHTESSEL EvapF max value of 29.0024 is greater than expected 1.0 [1]
- - CHTESSEL EvapF min value of -77.1617 is less than expected 0.0 [1]
 
 ### out of range: detailed
 

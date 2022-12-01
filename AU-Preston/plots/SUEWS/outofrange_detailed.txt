@@ -1,2 +1,0 @@
-SUEWS EvapF max value of 27.5169 is greater than expected 1.0 [1]
-SUEWS EvapF min value of -11.1926 is less than expected 0.0 [1]

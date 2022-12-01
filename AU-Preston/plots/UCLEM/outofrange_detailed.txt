@@ -1,2 +1,0 @@
-UCLEM EvapF max value of 16.1228 is greater than expected 1.0 [1]
-UCLEM EvapF min value of -47.9918 is less than expected 0.0 [1]

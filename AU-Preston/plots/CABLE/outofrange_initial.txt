@@ -1,0 +1,2 @@
+CABLE Qh max value of 631.2767 is greater than expected 600.0 [W/m2]
+CABLE Qle max value of 827.1969 is greater than expected 700.0 [W/m2]

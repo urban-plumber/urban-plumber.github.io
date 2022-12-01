@@ -60,5 +60,4 @@ for more details refer to the [ALMA protocol definitions](https://www.lmd.jussie
 | PSurf        | Air pressure at measurement height                   | Pa      |  5000      | 110000      |
 | Wind         | Wind speed at measurement height                     | m/s     |   -75      |     75      |
 | alb          | Implied albedo calculated from SWdown and SWnet      | 1       |     0      |      1      |
-| EvapF        | Evaporative fraction                                 | 1       |     0      |      1      |
 | Qstar        | Net all wave radiation flux                          | W/m2    |  -500      |   1200      |

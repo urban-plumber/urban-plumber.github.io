@@ -77,3 +77,7 @@ Mean absolute error (MAE) improvement from the first (initial) to the final base
 
 See [plot of simulation durations](../PLUMBER/index.md#simulation-duration)
 
+## Fig. S8: By energy closure
+
+[![AU-Preston_energy_closure_MAE_boxplot_v1.png](AU-Preston_energy_closure_MAE_boxplot_v1.png)](AU-Preston_energy_closure_MAE_boxplot_v1.png)
+

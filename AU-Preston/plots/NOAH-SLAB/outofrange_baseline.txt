@@ -1,4 +1,0 @@
-NOAH-SLAB Qsm max value of 127.2791 is greater than expected 0.005 [kg/m2/s]
-NOAH-SLAB Qsm min value of -10.5639 is less than expected 0.0 [kg/m2/s]
-NOAH-SLAB EvapF max value of 62.3575 is greater than expected 1.0 [1]
-NOAH-SLAB EvapF min value of -31.2638 is less than expected 0.0 [1]

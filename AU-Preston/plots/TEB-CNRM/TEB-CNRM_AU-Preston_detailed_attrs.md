@@ -1,17 +1,17 @@
 |                   | detailed                                                                                                                                                                |
 |:------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| file              | TEB_CNRM_AU_Preston_d1_1_TEB-CNRM_AU-Preston_d1_20200206.nc                                                                                                             |
+| file              | TEB-CNRM_AU-Preston_d3.nc                                                                                                                                               |
 | title             | SURFEX-TEB output for the Urban-PLUMBER project                                                                                                                         |
 | site              | AU-Preston                                                                                                                                                              |
-| experiment        | Detailed experiment                                                                                                                                                     |
+| experiment        | Detailled experiment                                                                                                                                                    |
 | institution       | Météo-France CNRM/GMME/VILLE                                                                                                                                            |
 | primary_contact   | valery.masson@meteo.fr                                                                                                                                                  |
 | secondary_contact | tiago.machado@meteo.fr                                                                                                                                                  |
 | model             | TEB-CNRM                                                                                                                                                                |
-| source            | SURFEX-TEB (Town Energy Balance) v82                                                                                                                                    |
+| source            | SURFEX-TEB (Town Energy Balance) v9                                                                                                                                     |
 | references        | Masson (2000), Masson et al (2002), Hamdi and Masson (2008), Schoetter et al (2017), Redon et al (2017, 2019), Lemonsu et al (2012), Stavropulos-laffaille et al (2018) |
 | repository        | http://www.umr-cnrm.fr/surfex/                                                                                                                                          |
 | site_experience   | Has the group had previous experience modelling the site? Yes                                                                                                           |
 | additional_data   | Has the group used additional site-specific data to configure the simulation? No                                                                                        |
 | comment           |                                                                                                                                                                         |
-| history           | Created with create_netcdf_EXAMPLE_v1.py at 2021-02-05 14:36:21.828399                                                                                                  |
+| history           | Created with /home/machadot/tmp/Phase1/create_netcdf_EXAMPLE_v1.py at 2022-11-23 15:50:39.629468                                                                        |
