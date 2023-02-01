@@ -1,64 +1,64 @@
 Mathew Lipson
 Sue Grimmond
 Martin Best
-Alberto Martilli
+Jong-Jin Baik
+Meiring Beyers
+Lewis Blunn
+Souhail Boussetta
+Elie Bou-Zeid
+Winston Chow
 Andreas Christen
-Andres Simon
+Nektarios Chrysoulakis
 Andrew Coutts
-Andy Pitman
-Aristofanis Tsiringakis
-Aude Lemonsu
 Ben Crawford
+Martin G. De Kauwe
+Cécile de Munck
+Matthias Demuzere
+Stevan Earl
+Jonathan Evans
+Simone Fatichi
+Krzysztof Fortuniak
+Bert G. Heusinkveld
 Beom-Soon Han
-Bert Heusinkveld
-Chenghao Wang
-Cécile De Munck
-David Meyer
-Doo-Il Lee
-Erik Velasco
-Gab Abramowitz
-Gabriele Manoli
-Gert-Jan Steeneveld
-Helen Claire Ward
-Hiroaki Kondo
-Hirofumi Sugawara
+Maggie Hendry
 Je-Woo Hong
 Jinkyu Hong
-Joseph McFadden
-Joey McNorton
-Jonathan Evans
-Jong-Jin Baik
-Keith Oleson
-Kerry Nice
-Keunmin Lee
-Krzysztof Fortuniak
 Leena Järvi
-Maggie Hendry
-Marcus Thatcher
-Martin De Kauwe
-Matthias Demuzere
-Matthias Roth
-Meiring Beyers
-Michael Roth
-Mikhail Varentsov
-Naika Meili
-Nektarios Chrysoulakis
-Nigel Tapper
-Oliver Michels
-Robert Schoetter
-Sang-Hyun Lee
-Seung-Bu Park
-Simone Fatichi
-Simone Kotthaus
-Souhail Boussetta
-Stevan Earl
 Sungsoo Jo
-Tiago Machado
-Ting Sun
-Valéry Masson
-Winston Chow
-Wlodzimierz Pawlak
-Yeon-Hee Kim
 Yukihiro Kikegawa
+Yeon-Hee Kim
+Hiroaki Kondo
+Simone Kotthaus
+Doo-Il Lee
+Keunmin Lee
+Sang-Hyun Lee
+Aude Lemonsu
+Tiago Machado
+Gabriele Manoli
+Alberto Martilli
+Valéry Masson
+Joseph P. McFadden
+Joe McNorton
+Oliver Michels
+Naika Meili
+David Meyer
+Kerry A. Nice
+Keith W. Oleson
+Seung-Bu Park
+Wlodzimierz Pawlak
+Michael Roth
+Matthias Roth
+Robert Schoetter
+Andres Simon
+Gert-Jan Steeneveld
+Hirofumi Sugawara
+Ting Sun
 Yuya Takane
-Zhihua Wang
+Nigel Tapper
+Marcus Thatcher
+Aristofanis Tsiringakis
+Mikhail Varentsov
+Erik Velasco
+Helen Claire Ward
+Chenghao Wang
+Zhi-Hua Wang

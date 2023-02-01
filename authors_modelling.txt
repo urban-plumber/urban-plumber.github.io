@@ -1,38 +1,38 @@
-Alberto Martilli
-Andres Simon
-Andy Pitman
-Aristofanis Tsiringakis
-Aude Lemonsu
-Beom-Soon Han
-Chenghao Wang
-Cécile De Munck
-David Meyer
-Doo-Il Lee
-Gab Abramowitz
-Gabriele Manoli
-Gert-Jan Steeneveld
-Hiroaki Kondo
-Joe McNorton
 Jong-Jin Baik
-Keith Oleson
-Kerry Nice
-Krzysztof Fortuniak
-Maggie Hendry
-Marcus Thatcher
-Martin De Kauwe
-Matthias Demuzere
 Meiring Beyers
-Michael Roth
-Mikhail Varentsov
-Naika Meili
-Robert Schoetter
-Sang-Hyun Lee
-Seung-Bu Park
-Simone Fatichi
+Lewis Blunn
 Souhail Boussetta
-Tiago Machado
-Ting Sun
-Valéry Masson
+Elie Bou-Zeid
+Martin G. De Kauwe
+Cécile de Munck
+Matthias Demuzere
+Simone Fatichi
+Krzysztof Fortuniak
+Beom-Soon Han
+Maggie Hendry
 Yukihiro Kikegawa
+Hiroaki Kondo
+Doo-Il Lee
+Sang-Hyun Lee
+Aude Lemonsu
+Tiago Machado
+Gabriele Manoli
+Alberto Martilli
+Valéry Masson
+Joe McNorton
+Naika Meili
+David Meyer
+Kerry A. Nice
+Keith W. Oleson
+Seung-Bu Park
+Michael Roth
+Robert Schoetter
+Andres Simon
+Gert-Jan Steeneveld
+Ting Sun
 Yuya Takane
-Zhihua Wang
+Marcus Thatcher
+Aristofanis Tsiringakis
+Mikhail Varentsov
+Chenghao Wang
+Zhi-Hua Wang
