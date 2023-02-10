@@ -19,38 +19,15 @@ Building on these methods, Urban-PLUMBER will ask:
 
 The project has two phases:
 
-- Phase 1. (complete) a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
-- Phase 2. (May – Oct 2021) a multi-site evaluation across a range of increasingly urbanised sites.
+- Phase 1. a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
+- Phase 2. a multi-site evaluation across a range of increasingly urbanised sites.
 
-## Who should get involved?
+## Outputs
 
-**Modelling participants:** Models able to predict neighbourhood-scale land-atmosphere radiant and turbulent heat exchanges from meteorological inputs. Both specialised urban land surface models and those without an explicit urban representation are invited. Read the [modelling protocol](/static/Urban-PLUMBER_protocol_v1.pdf) for more information.
-
-**Observations participants:** Local-scale urban flux tower observations are needed to both drive models and evaluate outputs. Read the [observations requirements](/static/Urban-PLUMBER_observations_protocol.pdf) for more information
-
-Those who provide modelling or observational data will be invited as authors on relevant papers.
-
-## Project resources
-
-A series of scripts and resources are provided with the aim of making participation easier - especially for the multi-site phase. These include:
-
-- scripts to automate model configuration, convert forcing and create complying output
-- online portal for accessing site files, and for submitting model data
-- immediate compliance checks and simple analysis on submission, with ability to resubmit if required
-
-## More information
-
-Email [met-urban-plumber@lists.reading.ac.uk](mailto:met-urban-plumber@lists.reading.ac.uk) to register your interest.
-
-Read the [modelling](static/Urban-PLUMBER_protocol_v1.pdf) or [observations](static/Urban-PLUMBER_observations_protocol.pdf) protocols for detailed information.
-
-View the [available scripts and resources](https://bitbucket.org/matlipson/urban-plumber/src/master/) to help automate the multi-site phase.
-
-Visit [modelevaluation.org](https://modelevaluation.org/), a website used for distributing, submitting and evaluating project data.
-
-Check the [Q&A page](qanda/) for questions and clarifications on the project.
-
-See the [changelog](changelog/) listing any changes to project documents or resources.
+- Paper: [*Harmonized gap-filled datasets from 20 urban flux tower sites*](https://doi.org/10.5194/essd-14-5157-2022), ESSD, 2022
+- Dataset: [*Data for "Harmonized gap-filled dataset from 20 urban flux tower sites" for the Urban-PLUMBER project*](https://doi.org/10.5281/zenodo.7104984), Zenodo, 2022
+- Paper: *Evaluation of 30 urban land surface models in the Urban-PLUMBER project: Phase 1 results (in review)*
+- Paper: *Phase 2 results (in prep.)*
 
 ## Observations
 
