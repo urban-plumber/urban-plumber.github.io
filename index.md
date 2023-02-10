@@ -28,6 +28,8 @@ The project has two phases:
 - Dataset: [*Data for "Harmonized gap-filled dataset from 20 urban flux tower sites" for the Urban-PLUMBER project*](https://doi.org/10.5281/zenodo.7104984), Zenodo, 2022
 - Paper: *Evaluation of 30 urban land surface models in the Urban-PLUMBER project: Phase 1 results (in review)*
 - Paper: *Phase 2 results (in prep.)*
+- [Modelling protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_protocol_v1.pdf)
+- [Observational protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_observations_protocol_v1.pdf)
 
 ## Observations
 
