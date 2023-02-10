@@ -17,21 +17,23 @@ Building on these methods, Urban-PLUMBER will ask:
 
 ## Scope
 
-The project has two model evaluation phases:
+A preliminary phase to collect, harmonise and gap fill urban flux tower data has concluded. 
+
+[Observational and site information can be accessed here](sites.md).
+
+The model evaluation has two phases:
 
 - Phase 1. a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
 - Phase 2. a multi-site evaluation across a range of increasingly urbanised sites.
 
-A preliminary phase to collect, harmonise and gap fill urban flux tower data has concluded. [Observational and site information can be accessed here](sites.md).
-
 ## Outputs
 
+- [Modelling protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_protocol_v1.pdf)
+- [Observational protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_observations_protocol_v1.pdf)
 - Paper: [*Harmonized gap-filled datasets from 20 urban flux tower sites*](https://doi.org/10.5194/essd-14-5157-2022), ESSD, 2022
 - Dataset: [*Data for "Harmonized gap-filled dataset from 20 urban flux tower sites" for the Urban-PLUMBER project*](https://doi.org/10.5281/zenodo.7104984), Zenodo, 2022
 - Paper: *Evaluation of 30 urban land surface models in the Urban-PLUMBER project: Phase 1 results (in review)*
 - Paper: *Phase 2 results (in prep.)*
-- [Modelling protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_protocol_v1.pdf)
-- [Observational protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_observations_protocol_v1.pdf)
 
 ## Phase 1
 
