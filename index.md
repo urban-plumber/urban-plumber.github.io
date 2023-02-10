@@ -17,10 +17,12 @@ Building on these methods, Urban-PLUMBER will ask:
 
 ## Scope
 
-The project has two phases:
+The project has two model evaluation phases:
 
 - Phase 1. a single site evaluation to ensure participants are comfortable with the configuration, submission and evaluation process. Initial submissions are due 31 August 2020.
 - Phase 2. a multi-site evaluation across a range of increasingly urbanised sites.
+
+A preliminary phase to collect, harmonise and gap fill urban flux tower data has concluded. [Observational and site information can be accessed here](sites.md).
 
 ## Outputs
 
@@ -30,11 +32,6 @@ The project has two phases:
 - Paper: *Phase 2 results (in prep.)*
 - [Modelling protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_protocol_v1.pdf)
 - [Observational protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_observations_protocol_v1.pdf)
-
-## Observations
-
-Observational scientists have contributed 20 flux tower datasets from around the world. This has been synthesised, quality controlled and gap filled.
-More [details here](sites.md).
 
 ## Phase 1
 
