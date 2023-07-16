@@ -1,0 +1,2 @@
+VUCM SWnet min value of -0.0010 is less than expected 0.0 [W/m2]
+VUCM Albedo max value of 1.3574 is greater than expected 1.0 [1]

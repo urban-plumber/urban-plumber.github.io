@@ -1,0 +1,2 @@
+ASLUMv3.1 Qstor min value of -827.1765 is less than expected -800.0 [W/m2]
+ASLUMv3.1 Qh max value of 1084.1715 is greater than expected 600.0 [W/m2]

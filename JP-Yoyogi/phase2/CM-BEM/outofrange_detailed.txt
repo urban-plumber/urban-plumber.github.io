@@ -1,0 +1,4 @@
+CM-BEM SWnet min value of -23.7893 is less than expected 0.0 [W/m2]
+CM-BEM SWup min value of -58.8805 is less than expected 0.0 [W/m2]
+CM-BEM Albedo min value of -0.1406 is less than expected 0.0 [1]
+CM-BEM alb min value of -0.1404 is less than expected 0.0 [1]

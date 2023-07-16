@@ -1,0 +1,8 @@
+CHTESSEL_U Qh max value of 640.3898 is greater than expected 600.0 [W/m2]
+JULES_MORUS Qh max value of 636.7230 is greater than expected 600.0 [W/m2]
+TEB-CNRM Qh max value of 607.6433 is greater than expected 600.0 [W/m2]
+TEB-READING Qanth min value of -2.6508 is less than expected 0.0 [W/m2]
+TEB-SPARTCS Qh max value of 604.0351 is greater than expected 600.0 [W/m2]
+TERRA_4.11 Qh max value of 726.9598 is greater than expected 600.0 [W/m2]
+TERRA_4.11 SWup min value of -0.0009 is less than expected 0.0 [W/m2]
+TERRA_4.11 Albedo min value of -0.0503 is less than expected 0.0 [1]

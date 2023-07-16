@@ -1,0 +1,2 @@
+SNUUCM TairSurf max value of 334.4068 is greater than expected 333.0 [K]
+SNUUCM Qh max value of 823.0309 is greater than expected 600.0 [W/m2]

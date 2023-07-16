@@ -1,0 +1,7 @@
+Lodz-SUEB Qle max value of 816.6284 is greater than expected 700.0 [W/m2]
+TEB-READING Qanth min value of -101.4482 is less than expected 0.0 [W/m2]
+TERRA_4.11 SWup min value of -0.0018 is less than expected 0.0 [W/m2]
+TERRA_4.11 Qh max value of 681.5639 is greater than expected 600.0 [W/m2]
+TERRA_4.11 Albedo min value of -0.1084 is less than expected 0.0 [1]
+UCLEM Qstor min value of -1281.1068 is less than expected -800.0 [W/m2]
+UCLEM Qle max value of 1677.5171 is greater than expected 700.0 [W/m2]

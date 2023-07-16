@@ -1,0 +1,2 @@
+CM SWnet min value of -0.0050 is less than expected 0.0 [W/m2]
+CM Albedo max value of 1.0001 is greater than expected 1.0 [1]

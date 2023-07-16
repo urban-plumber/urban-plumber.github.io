@@ -1,0 +1,1 @@
+Lodz-SUEB Qle max value of 816.6284 is greater than expected 700.0 [W/m2]

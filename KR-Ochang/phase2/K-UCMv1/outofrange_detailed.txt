@@ -1,0 +1,4 @@
+K-UCMv1 Qstor min value of -2656.2139 is less than expected -800.0 [W/m2]
+K-UCMv1 Qh max value of 671.4017 is greater than expected 600.0 [W/m2]
+K-UCMv1 SWnet min value of -3.5336 is less than expected 0.0 [W/m2]
+K-UCMv1 Qle max value of 1613.1257 is greater than expected 700.0 [W/m2]

@@ -1,0 +1,2 @@
+CABLE SoilTemp max value of 337.8172 is greater than expected 333.0 [K]
+CABLE Qle max value of 845.5939 is greater than expected 700.0 [W/m2]

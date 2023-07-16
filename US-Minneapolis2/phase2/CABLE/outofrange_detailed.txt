@@ -1,0 +1,4 @@
+CABLE Qstor min value of -840.8791 is less than expected -800.0 [W/m2]
+CABLE Qg max value of 771.5851 is greater than expected 500.0 [W/m2]
+CABLE Qg min value of -840.8791 is less than expected -500.0 [W/m2]
+CABLE Qle max value of 800.0970 is greater than expected 700.0 [W/m2]

@@ -1,0 +1,1 @@
+ASLUMv2.0 SWup min value of -3.9804 is less than expected 0.0 [W/m2]

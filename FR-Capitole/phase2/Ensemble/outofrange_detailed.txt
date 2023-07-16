@@ -1,0 +1,1 @@
+Ensemble SWnet min value of -0.0000 is less than expected 0.0 [W/m2]

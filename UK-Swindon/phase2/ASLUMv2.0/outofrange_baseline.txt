@@ -1,0 +1,3 @@
+ASLUMv2.0 SWup min value of -11.5294 is less than expected 0.0 [W/m2]
+ASLUMv2.0 alb min value of -0.0251 is less than expected 0.0 [1]
+ASLUMv2.0 Albedo min value of -0.0251 is less than expected 0.0 [1]

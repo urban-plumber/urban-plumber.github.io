@@ -1,0 +1,4 @@
+CM Qstor max value of 1393.4600 is greater than expected 800.0 [W/m2]
+CM Qstor min value of -1172.0100 is less than expected -800.0 [W/m2]
+CM Qh max value of 709.7500 is greater than expected 600.0 [W/m2]
+CM Qle min value of -1731.9800 is less than expected -700.0 [W/m2]

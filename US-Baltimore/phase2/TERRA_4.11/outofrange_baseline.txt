@@ -1,0 +1,3 @@
+TERRA_4.11 SWup min value of -270.0607 is less than expected 0.0 [W/m2]
+TERRA_4.11 alb min value of -0.9991 is less than expected 0.0 [1]
+TERRA_4.11 Albedo min value of -7182.1952 is less than expected 0.0 [1]

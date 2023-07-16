@@ -1,0 +1,3 @@
+Ensemble SWup min value of -10.8688 is less than expected 0.0 [W/m2]
+Ensemble alb min value of -0.1004 is less than expected 0.0 [1]
+Ensemble Albedo min value of -448.6694 is less than expected 0.0 [1]

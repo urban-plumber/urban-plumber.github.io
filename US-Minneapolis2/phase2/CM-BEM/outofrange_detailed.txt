@@ -1,0 +1,6 @@
+CM-BEM Qstor min value of -1880.1644 is less than expected -800.0 [W/m2]
+CM-BEM Qanth max value of 7591.7500 is greater than expected 1000.0 [W/m2]
+CM-BEM Qanth min value of -2014.1100 is less than expected 0.0 [W/m2]
+CM-BEM Qg min value of -1880.1644 is less than expected -500.0 [W/m2]
+CM-BEM SWnet min value of -93.5659 is less than expected 0.0 [W/m2]
+CM-BEM Qle max value of 1023.9537 is greater than expected 700.0 [W/m2]

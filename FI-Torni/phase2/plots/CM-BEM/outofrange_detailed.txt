@@ -1,0 +1,8 @@
+CM-BEM SWnet min value of -29.5888 is less than expected 0.0 [W/m2]
+CM-BEM SWup min value of -41.5817 is less than expected 0.0 [W/m2]
+CM-BEM Albedo min value of -0.1190 is less than expected 0.0 [1]
+CM-BEM alb min value of -0.1189 is less than expected 0.0 [1]
+CM-BEM Qle max value of 1487.4686 is greater than expected 700.0 [W/m2]
+CM-BEM Qle min value of -1480.9513 is less than expected -700.0 [W/m2]
+CM-BEM Qanth max value of 41447.5300 is greater than expected 1000.0 [W/m2]
+CM-BEM Qanth min value of -7868.8500 is less than expected 0.0 [W/m2]

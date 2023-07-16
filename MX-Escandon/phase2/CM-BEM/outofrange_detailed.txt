@@ -1,0 +1,2 @@
+CM-BEM SWnet min value of -25.5216 is less than expected 0.0 [W/m2]
+CM-BEM Qh max value of 663.2677 is greater than expected 600.0 [W/m2]

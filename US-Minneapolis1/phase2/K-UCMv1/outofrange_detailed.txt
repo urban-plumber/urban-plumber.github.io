@@ -1,0 +1,2 @@
+K-UCMv1 Qstor min value of -1187.5895 is less than expected -800.0 [W/m2]
+K-UCMv1 SWnet min value of -195.7570 is less than expected 0.0 [W/m2]

@@ -1,0 +1,4 @@
+CHTESSEL Qh max value of 1068.7351 is greater than expected 600.0 [W/m2]
+CHTESSEL Qh min value of -1036.5759 is less than expected -600.0 [W/m2]
+CHTESSEL Qg max value of 572.3824 is greater than expected 500.0 [W/m2]
+CHTESSEL Qle max value of 1068.9667 is greater than expected 700.0 [W/m2]

@@ -1,0 +1,1 @@
+UT&C Qle max value of 764.4910 is greater than expected 700.0 [W/m2]

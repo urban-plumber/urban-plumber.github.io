@@ -1,0 +1,3 @@
+TEB-SPARTCS Qh max value of 880.4586 is greater than expected 600.0 [W/m2]
+TEB-SPARTCS Qh min value of -864.5627 is less than expected -600.0 [W/m2]
+TEB-SPARTCS Qle max value of 1086.8230 is greater than expected 700.0 [W/m2]

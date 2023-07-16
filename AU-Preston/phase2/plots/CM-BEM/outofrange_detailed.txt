@@ -1,0 +1,1 @@
+CM-BEM SWnet min value of -28.9866 is less than expected 0.0 [W/m2]

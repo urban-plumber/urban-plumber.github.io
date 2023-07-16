@@ -1,0 +1,4 @@
+TEB-READING Qanth min value of -5.0283 is less than expected 0.0 [W/m2]
+TERRA_4.11 SWup min value of -0.0016 is less than expected 0.0 [W/m2]
+TERRA_4.11 Albedo min value of -0.1025 is less than expected 0.0 [1]
+UCLEM Qle min value of -843.5098 is less than expected -700.0 [W/m2]

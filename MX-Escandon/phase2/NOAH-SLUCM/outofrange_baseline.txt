@@ -1,0 +1,2 @@
+NOAH-SLUCM TairSurf max value of 5352.0742 is greater than expected 333.0 [K]
+NOAH-SLUCM TairSurf min value of -224.6140 is less than expected 213.0 [K]

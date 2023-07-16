@@ -2,7 +2,7 @@ Mathew Lipson
 Sue Grimmond
 Martin Best
 Gab Abramowitz
-Andrew Pitman
+Andy J. Pitman
 
 Jong-Jin Baik
 Meiring Beyers
@@ -23,7 +23,7 @@ Simone Fatichi
 Krzysztof Fortuniak
 Beom-Soon Han
 Bert G. Heusinkveld
-Maggie Hendry
+Magaret A. Hendry
 Je-Woo Hong
 Jinkyu Hong
 Leena Järvi

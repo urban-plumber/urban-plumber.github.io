@@ -1,0 +1,1 @@
+CABLE Qle max value of 740.6254 is greater than expected 700.0 [W/m2]

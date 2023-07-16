@@ -1,0 +1,3 @@
+CABLE Qstor max value of 1039.5103 is greater than expected 800.0 [W/m2]
+CABLE Qstor min value of -937.5334 is less than expected -800.0 [W/m2]
+CABLE Qh max value of 619.3665 is greater than expected 600.0 [W/m2]

@@ -1,0 +1,4 @@
+VTUF-3D alb min value of -0.0095 is less than expected 0.0 [1]
+VTUF-3D SWup min value of -4.5799 is less than expected 0.0 [W/m2]
+VTUF-3D Albedo min value of -0.0096 is less than expected 0.0 [1]
+VTUF-3D SWnet min value of -0.0414 is less than expected 0.0 [W/m2]

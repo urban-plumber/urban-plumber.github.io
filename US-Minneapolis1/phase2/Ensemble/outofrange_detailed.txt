@@ -1,0 +1,2 @@
+Ensemble Qanth min value of -54.9949 is less than expected 0.0 [W/m2]
+Ensemble SWnet min value of -1.1496 is less than expected 0.0 [W/m2]

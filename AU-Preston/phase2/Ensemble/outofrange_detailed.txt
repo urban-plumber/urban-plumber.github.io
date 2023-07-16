@@ -1,0 +1,2 @@
+Ensemble Qstor min value of -66138.0573 is less than expected -800.0 [W/m2]
+Ensemble Qle max value of 66202.2494 is greater than expected 700.0 [W/m2]

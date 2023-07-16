@@ -1,0 +1,6 @@
+CM-BEM TairSurf min value of -0.0372 is less than expected 213.0 [K]
+CM-BEM SWnet min value of -71.6957 is less than expected 0.0 [W/m2]
+CM-BEM LWup min value of -42.5282 is less than expected 0.0 [W/m2]
+CM-BEM Qle max value of 4436.5957 is greater than expected 700.0 [W/m2]
+CM-BEM Qanth max value of 5837.7800 is greater than expected 1000.0 [W/m2]
+CM-BEM Qanth min value of -6021.6100 is less than expected 0.0 [W/m2]

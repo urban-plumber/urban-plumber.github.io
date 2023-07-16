@@ -1,0 +1,2 @@
+SNUUCM Qstor min value of -4363.0371 is less than expected -800.0 [W/m2]
+SNUUCM Qle max value of 4302.1919 is greater than expected 700.0 [W/m2]

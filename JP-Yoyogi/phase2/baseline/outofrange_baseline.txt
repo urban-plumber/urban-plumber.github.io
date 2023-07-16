@@ -1,0 +1,7 @@
+NOAH-SLUCM TairSurf max value of 855.3789 is greater than expected 333.0 [K]
+SNUUCM TairSurf max value of 334.4068 is greater than expected 333.0 [K]
+SNUUCM Qh max value of 823.0309 is greater than expected 600.0 [W/m2]
+TEB-READING Qanth min value of -7.0370 is less than expected 0.0 [W/m2]
+TERRA_4.11 Qh max value of 693.7244 is greater than expected 600.0 [W/m2]
+UCLEM Qle min value of -916.8510 is less than expected -700.0 [W/m2]
+Ensemble TairSurf max value of 345.8474 is greater than expected 333.0 [K]

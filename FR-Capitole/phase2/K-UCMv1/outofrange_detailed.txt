@@ -1,0 +1,1 @@
+K-UCMv1 SWnet min value of -0.3291 is less than expected 0.0 [W/m2]

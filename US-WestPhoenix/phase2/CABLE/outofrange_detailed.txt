@@ -1,0 +1,4 @@
+CABLE Qstor min value of -972.8366 is less than expected -800.0 [W/m2]
+CABLE LWnet min value of -532.2761 is less than expected -500.0 [W/m2]
+CABLE SoilTemp max value of 357.2813 is greater than expected 333.0 [K]
+CABLE Qle max value of 885.8264 is greater than expected 700.0 [W/m2]

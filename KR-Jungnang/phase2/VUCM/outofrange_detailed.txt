@@ -1,0 +1,1 @@
+VUCM SWnet min value of -0.0010 is less than expected 0.0 [W/m2]
