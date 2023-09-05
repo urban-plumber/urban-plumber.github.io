@@ -8,7 +8,7 @@ Nigel Tapper
 Jong-Jin Baik
 Meiring Beyers
 Lewis Blunn
-Souhail Boussetta
+Souhail R. Boussetta
 Elie Bou-Zeid
 Martin G. De Kauwe
 Cécile de Munck
@@ -16,7 +16,7 @@ Matthias Demuzere
 Simone Fatichi
 Krzysztof Fortuniak
 Beom-Soon Han
-Maggie Hendry
+Magaret Hendry
 Yukihiro Kikegawa
 Hiroaki Kondo
 Doo-Il Lee
