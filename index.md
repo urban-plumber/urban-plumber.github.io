@@ -30,9 +30,9 @@ The model evaluation has two phases:
 
 - [Modelling protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_protocol_v1.pdf)
 - [Observational protocol](https://urban-plumber.github.io/static/Urban-PLUMBER_observations_protocol_v1.pdf)
-- Paper: [*Harmonized gap-filled datasets from 20 urban flux tower sites*](https://doi.org/10.5194/essd-14-5157-2022), ESSD, 2022
+- Paper: [*Harmonized gap-filled datasets from 20 urban flux tower sites*](https://doi.org/10.5194/essd-14-5157-2022), ESSD, 
 - Dataset: [*Data for "Harmonized gap-filled dataset from 20 urban flux tower sites" for the Urban-PLUMBER project*](https://doi.org/10.5281/zenodo.7104984), Zenodo, 2022
-- Paper: *Evaluation of 30 urban land surface models in the Urban-PLUMBER project: Phase 1 results (in review)*
+- Paper: [*Evaluation of 30 urban land surface models in the Urban-PLUMBER project: Phase 1 results*](https://doi.org/10.1002/qj.4589)
 - Paper: *Phase 2 results (in prep.)*
 
 ## Phase 1
@@ -40,6 +40,8 @@ The model evaluation has two phases:
 Phase 1 has been completed. 30 models participated, from non-urbanised LSMs and simple slab schemes, through to multi-layer canopy and building resolving models.
 
 The evaluation was undertaken at one suburban site in Melbourne, Australia, the same used in the first evaluation project 10 years ago (Grimmond et al., 2011), allowing an assessment of how model development has affected performance.
+
+[The paper is now published](https://doi.org/10.1002/qj.4589) and openly available.
 
 ![Models](img/UP_classification_2021-05-19.jpg)
 
